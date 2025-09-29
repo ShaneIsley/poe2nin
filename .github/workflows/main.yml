@@ -1,23 +1,24 @@
 # .github/workflows/main.yml
 
-name: Fetch PoE Economy Data Weekly
+name: Fetch PoE Economy Data
 
-# --- Triggers ---
-# This workflow will run on a schedule and can also be run manually.
 on:
   workflow_dispatch: # Allows you to run the job manually from the Actions tab
   schedule:
     # Runs at the top of every hour (minute 0).
-    # Format is a CRON expression: min hour day(month) month day(week)
-    - cron: "0 * * * *"
+    - cron: "0/20 * * * *"
 
-# --- Job Definition ---
 jobs:
   fetch-and-commit:
-    runs-on: ubuntu-latest # Use a standard Linux runner
+    runs-on: ubuntu-latest
+
+    # --- FIX: Add this permissions block ---
+    # This grants the GITHUB_TOKEN the permissions to write to the repository.
+    permissions:
+      contents: write
 
     steps:
-      # Step 1: Check out your repository's code so the job can access it
+      # Step 1: Check out your repository's code
       - name: Checkout Repo
         uses: actions/checkout@v4
 
@@ -27,21 +28,20 @@ jobs:
         with:
           python-version: '3.10'
 
-      # Step 3: Install the Python libraries from requirements.txt
+      # Step 3: Install the Python libraries
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Step 4: Run the Python script to fetch data and update the DB
+      # Step 4: Run the Python script to update the DB
       - name: Run Fetch Data Script
         run: python fetch_data.py
 
-      # Step 5: Commit the updated database file back to the repository
+      # Step 5: Commit the updated database file
       - name: Commit and push if changed
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add poe_economy.db
-          # The following command checks if the db file has changed.
-          # If it has, it commits. If not, it does nothing. This prevents empty commits.
+          # This command checks if the db file has changed before committing.
           git diff --staged --quiet || git commit -m "Update economy data"
           git push
