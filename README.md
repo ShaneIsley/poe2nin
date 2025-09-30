@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 17:46:39.586337` |
-| Total Price Entries in DB | `7,310` |
+| Last Successful Run (UTC) | `2025-09-30 18:26:58.004409` |
+| Total Price Entries in DB | `7,717` |
 
 <!-- END_MAINTENANCE -->
 
@@ -20,17 +20,17 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- | :--- |
 | Currency | Scroll of Wisdom | 1000.0 |
 | Distilled Emotions | Diluted Liquid Ire | 199.6 |
-| Catalysts | Breach Splinter | 91.9 |
+| Catalysts | Breach Splinter | 92.6 |
 | Essences | Greater Essence of the Infinite | 60.0 |
-| Omens | Petition Splinter | 52.8 |
-| Expedition | Sun Artifact | 40.6 |
+| Omens | Petition Splinter | 53.6 |
+| Expedition | Sun Artifact | 50.0 |
 | Runes | Greater Glacial Rune | 30.0 |
-| Abyssal Bones | Preserved Jawbone | 21.1 |
-| Uncut Gems | Uncut Skill Gem (Level 18) | 17.2 |
+| Abyssal Bones | Preserved Jawbone | 19.4 |
 | Lineage Gems | Kurgal's Leash | 15.0 |
-| Fragments | Runic Splinter | 4.4 |
+| Uncut Gems | Uncut Skill Gem (Level 18) | 13.7 |
+| Fragments | Runic Splinter | 4.5 |
 | Soul Cores | Citaqualotl's Soul Core of Foulness | 1.0 |
-| Talismans | Boar Talisman | 1.0 |
+| Talismans | Stag Talisman | 1.0 |
 
 
 ![Category Analysis Chart](charts/category_analysis.png)
@@ -44,42 +44,42 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- |
 | Scroll of Wisdom | 1000.0 |
 | Greater Orb of Transmutation | 394.7 |
-| Orb of Transmutation | 294.2 |
-| Orb of Augmentation | 259.4 |
+| Orb of Augmentation | 258.6 |
+| Orb of Transmutation | 251.4 |
 | Diluted Liquid Ire | 199.6 |
-| Lesser Jeweller's Orb | 111.6 |
-| Breach Splinter | 91.9 |
-| Orb of Alchemy | 82.3 |
-| Greater Orb of Augmentation | 76.7 |
+| Lesser Jeweller's Orb | 104.3 |
+| Breach Splinter | 92.6 |
+| Orb of Alchemy | 79.7 |
+| Greater Orb of Augmentation | 70.2 |
 | Greater Essence of the Infinite | 60.0 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Greater Orb of Augmentation | 76.67391304347827 | 38.3% |
-| Gemcutter's Prism | 16.836024844720498 | 17.4% |
-| Regal Orb | 28.50661853188929 | 8.1% |
-| Glassblower's Bauble | 13.345070422535212 | 5.6% |
-| Artificer's Orb | 14.966666666666667 | 4.7% |
-| Vaal Orb | 11.304519891689232 | 4.4% |
-| Exalted Orb | 14.693319621666237 | 1.5% |
-| Perfect Orb of Augmentation | 10.408759124087592 | 1.2% |
-| Greater Jeweller's Orb | 22.9527027027027 | 1.0% |
-| Arcanist's Etcher | 21.618233618233617 | 0.6% |
+| Omen of Resurgence | 26.012931034482758 | 99.3% |
+| Uncut Skill Gem (Level 17) | 11.4 | 75.4% |
+| Omen of Dextral Necromancy | 18.57857142857143 | 57.6% |
+| Liquid Disgust | 36.824561403508774 | 24.2% |
+| Sun Artifact | 50.0 | 23.1% |
+| Exotic Coinage | 16.738317757009344 | 8.7% |
+| Regal Orb | 30.387483355525966 | 6.6% |
+| Glassblower's Bauble | 14.215384615384615 | 6.5% |
+| Omen of the Ancients | 12.748091603053435 | 5.7% |
+| Xoph's Catalyst | 10.181818181818182 | 5.6% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Lesser Jeweller's Orb | 111.6 | -44.6% |
-| Greater Orb of Transmutation | 394.7142857142857 | -42.7% |
-| Orb of Alchemy | 82.33333333333333 | -19.4% |
-| Scroll of Wisdom | 1000.0 | -15.8% |
-| Orb of Transmutation | 294.2307692307692 | -8.8% |
-| Perfect Orb of Transmutation | 33.65586034912718 | -8.3% |
-| Armourer's Scrap | 56.61331220285261 | -4.0% |
-| Blacksmith's Whetstone | 47.83596214511041 | -0.7% |
-| Orb of Augmentation | 259.4433962264151 | -0.2% |
-| Greater Regal Orb | 16.526470588235295 | -0.1% |
+| Perfect Orb of Transmutation | 23.29268292682927 | -30.8% |
+| Liquid Envy | 42.06349206349206 | -29.0% |
+| Uncut Skill Gem (Level 18) | 13.652173913043478 | -20.7% |
+| Orb of Transmutation | 251.42 | -14.6% |
+| Neural Catalyst | 20.302325581395348 | -9.2% |
+| Greater Orb of Augmentation | 70.16030534351145 | -8.5% |
+| Preserved Jawbone | 19.4 | -8.2% |
+| Lesser Jeweller's Orb | 104.33333333333333 | -6.5% |
+| Armourer's Scrap | 53.076360682372055 | -6.2% |
+| Artificer's Orb | 14.34862385321101 | -4.1% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
