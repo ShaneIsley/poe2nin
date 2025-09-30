@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows you to run the job manually from the Actions tab
   schedule:
     # Runs regularly.
-    - cron: "0/20 * * * *"
+    - cron: "1 * * * *"
 
 jobs:
   fetch-and-commit:
