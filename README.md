@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 11:30:48.840244` |
-| Total Price Entries in DB | `1,216` |
+| Last Successful Run (UTC) | `2025-09-30 11:46:06.258276` |
+| Total Price Entries in DB | `1,622` |
 
 <!-- END_MAINTENANCE -->
 
@@ -23,7 +23,7 @@ This repository tracks Path of Exile 2 data.
 | Essences | Greater Essence of Electricity | 70.0 |
 | Distilled Emotions | Diluted Liquid Ire | 63.3 |
 | Omens | Petition Splinter | 50.8 |
-| Abyssal Bones | Preserved Jawbone | 39.8 |
+| Abyssal Bones | Preserved Jawbone | 44.4 |
 | Expedition | Broken Circle Artifact | 36.5 |
 | Runes | Greater Glacial Rune | 31.1 |
 | Uncut Gems | Uncut Support Gem (Level 5) | 11.3 |
@@ -56,30 +56,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Greater Orb of Transmutation | 976.0 | 174.2% |
-| Omen of Putrefaction | 14.770833333333334 | 63.1% |
-| Scroll of Wisdom | 514.4054054054054 | 31.5% |
-| Chayula's Catalyst | 10.551724137931034 | 26.8% |
-| Greater Desert Rune | 14.666666666666666 | 15.0% |
-| Greater Glacial Rune | 31.142857142857142 | 14.6% |
-| Sun Artifact | 24.5 | 14.0% |
-| Neural Catalyst | 22.23611111111111 | 13.0% |
-| Orb of Alchemy | 133.11009174311926 | 8.4% |
-| Omen of Greater Exaltation | 25.289473684210527 | 8.0% |
+| Preserved Jawbone | 44.35 | 11.4% |
+| Exalted Orb | 13.572758097490437 | 0.0% |
+| Artificer's Orb | 11.24390243902439 | 0.0% |
+| Orb of Augmentation | 258.8904109589041 | 0.0% |
+| Glassblower's Bauble | 15.291139240506329 | 0.0% |
+| Arcanist's Etcher | 20.655172413793103 | 0.0% |
+| Greater Regal Orb | 12.860103626943005 | 0.0% |
+| Regal Orb | 26.925389755011135 | 0.0% |
+| Armourer's Scrap | 41.85114503816794 | 0.0% |
+| Lesser Jeweller's Orb | 650.0 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Greater Jeweller's Orb | 15.725806451612904 | -38.2% |
-| Vaal Orb | 10.502025462962964 | -14.4% |
-| Regal Orb | 26.925389755011135 | -7.8% |
-| Greater Orb of Augmentation | 242.0 | -6.4% |
-| Diluted Liquid Ire | 63.32091690544413 | -3.7% |
-| Glassblower's Bauble | 15.291139240506329 | -3.6% |
-| Gemcutter's Prism | 12.85685884691849 | -3.5% |
-| Black Scythe Artifact | 20.948559670781894 | -2.6% |
-| Greater Storm Rune | 11.625 | -2.6% |
-| Carapace Catalyst | 24.423076923076923 | -2.4% |
+| Preserved Rib | 10.561643835616438 | -10.1% |
+| Diluted Liquid Ire | 63.32091690544413 | 0.0% |
+| Carapace Catalyst | 24.423076923076923 | 0.0% |
+| Liquid Envy | 24.017241379310345 | 0.0% |
+| Adaptive Catalyst | 18.54054054054054 | 0.0% |
+| Breach Splinter | 77.85286103542235 | 0.0% |
+| Chayula's Catalyst | 10.551724137931034 | 0.0% |
+| Simulacrum Splinter | 20.337506890306322 | 0.0% |
+| Flesh Catalyst | 10.70460704607046 | 0.0% |
+| Neural Catalyst | 22.23611111111111 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
