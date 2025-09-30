@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 15:19:20.690862` |
-| Total Price Entries in DB | `4,463` |
+| Last Successful Run (UTC) | `2025-09-30 15:34:46.804253` |
+| Total Price Entries in DB | `4,869` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,14 +18,14 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
-| Currency | Greater Orb of Transmutation | 976.2 |
+| Currency | Scroll of Wisdom | 831.4 |
 | Catalysts | Breach Splinter | 87.3 |
 | Distilled Emotions | Diluted Liquid Ire | 71.8 |
 | Essences | Greater Essence of the Infinite | 60.0 |
 | Omens | Petition Splinter | 52.0 |
-| Abyssal Bones | Preserved Jawbone | 48.0 |
 | Expedition | Broken Circle Artifact | 35.3 |
 | Runes | Greater Glacial Rune | 30.2 |
+| Abyssal Bones | Preserved Jawbone | 21.3 |
 | Uncut Gems | Uncut Skill Gem (Level 18) | 13.5 |
 | Lineage Gems | Arakaali's Lust | 5.0 |
 | Fragments | Runic Splinter | 4.4 |
@@ -42,13 +42,13 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Chaos Value |
 | :--- | :--- |
-| Greater Orb of Transmutation | 976.2 |
-| Scroll of Wisdom | 699.3 |
-| Orb of Augmentation | 261.6 |
-| Orb of Transmutation | 253.5 |
-| Greater Orb of Augmentation | 228.4 |
+| Scroll of Wisdom | 831.4 |
+| Greater Orb of Transmutation | 688.6 |
+| Orb of Transmutation | 410.8 |
+| Orb of Augmentation | 261.5 |
 | Lesser Jeweller's Orb | 201.3 |
-| Orb of Alchemy | 119.1 |
+| Greater Orb of Augmentation | 121.3 |
+| Orb of Alchemy | 100.1 |
 | Breach Splinter | 87.3 |
 | Diluted Liquid Ire | 71.8 |
 | Greater Essence of the Infinite | 60.0 |
@@ -56,30 +56,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Chayula's Catalyst | 18.178217821782177 | 15.6% |
-| Order Artifact | 30.963636363636365 | 13.0% |
-| Omen of Putrefaction | 14.93939393939394 | 8.0% |
-| Broken Circle Artifact | 35.27927927927928 | 7.3% |
-| Exotic Coinage | 13.6 | 5.7% |
-| Simulacrum Splinter | 20.787345957318905 | 5.4% |
-| Breach Splinter | 87.34228187919463 | 2.7% |
-| Petition Splinter | 52.01870772773061 | 1.0% |
-| Orb of Alchemy | 119.07438016528926 | 0.0% |
-| Exalted Orb | 14.024389790723456 | 0.0% |
+| Orb of Transmutation | 410.78125 | 62.0% |
+| Greater Jeweller's Orb | 20.236363636363638 | 41.3% |
+| Scroll of Wisdom | 831.3513513513514 | 18.9% |
+| Blacksmith's Whetstone | 54.37117903930131 | 7.1% |
+| Perfect Orb of Augmentation | 10.089345172031077 | 4.8% |
+| Armourer's Scrap | 52.60608943862988 | 3.4% |
+| Regal Orb | 25.647505422993493 | 1.7% |
+| Exalted Orb | 14.238055902640061 | 1.5% |
+| Artificer's Orb | 12.968421052631578 | 0.9% |
+| Greater Essence of the Infinite | 60.0 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Omen of Resurgence | 11.404109589041095 | -31.5% |
-| Uncut Skill Gem (Level 18) | 13.5 | -12.2% |
-| Neural Catalyst | 25.384615384615383 | -9.7% |
-| Liquid Envy | 35.604651162790695 | -6.7% |
-| Liquid Disgust | 44.166666666666664 | -6.2% |
-| Black Scythe Artifact | 19.251107828655833 | -5.5% |
-| Carapace Catalyst | 19.88617886178862 | -5.2% |
-| Diluted Liquid Ire | 71.8058608058608 | -5.0% |
-| Omen of the Ancients | 12.43458980044346 | -4.9% |
-| Greater Desert Rune | 15.285714285714286 | -2.9% |
+| Preserved Jawbone | 21.27659574468085 | -55.7% |
+| Greater Orb of Augmentation | 121.32926829268293 | -46.9% |
+| Greater Orb of Transmutation | 688.5833333333334 | -29.5% |
+| Perfect Orb of Transmutation | 36.344729344729345 | -20.7% |
+| Orb of Alchemy | 100.09701492537313 | -15.9% |
+| Gemcutter's Prism | 11.48871181938911 | -6.7% |
+| Glassblower's Bauble | 12.947368421052632 | -4.9% |
+| Greater Regal Orb | 16.448051948051948 | -2.1% |
+| Arcanist's Etcher | 23.80622837370242 | -1.2% |
+| Vaal Orb | 10.37683380775126 | -0.8% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
