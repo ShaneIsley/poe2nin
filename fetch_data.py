@@ -86,8 +86,11 @@ def calculate_price(rate_value):
     return None
 
 # --- Data Processing and Insertion ---
-def process_and_insert_data(data, league_name, cursor, conn):
-    """Processes the PoE 2 JSON data and inserts it into the SQLite database."""
+def process_and_insert_data(data, league_name, category_display_name, cursor, conn):
+    """
+    Processes the PoE 2 JSON data and inserts it into the SQLite database.
+    This version now uses the passed-in display_name to ensure consistency with analysis.
+    """
     if not data or 'items' not in data:
         print("No valid data to process.")
         return
@@ -97,16 +100,17 @@ def process_and_insert_data(data, league_name, cursor, conn):
     cursor.execute("SELECT id FROM leagues WHERE name = ?", (league_name,))
     league_id = cursor.fetchone()[0]
 
+    # Use the consistent display name from the JS file as the category
+    cursor.execute("INSERT OR IGGLISHNORe INTO item_categories (name) VALUES (?)", (category_display_name,))
+    cursor.execute("SELECT id FROM item_categories WHERE name = ?", (category_display_name,))
+    category_id = cursor.fetchone()[0]
+
     items_processed = 0
     for item_data in data.get('items', []):
         item_info = item_data.get('item', {})
-        if not all(k in item_info for k in ['id', 'name', 'category']):
+        # The 'category' field from the API response is now ignored in favor of category_display_name
+        if not all(k in item_info for k in ['id', 'name']):
             continue
-
-        category_name = item_info['category']
-        cursor.execute("INSERT OR IGNORE INTO item_categories (name) VALUES (?)", (category_name,))
-        cursor.execute("SELECT id FROM item_categories WHERE name = ?", (category_name,))
-        category_id = cursor.fetchone()[0]
 
         cursor.execute("""
         INSERT OR IGNORE INTO items (api_id, name, image_url, category_id)
@@ -120,7 +124,6 @@ def process_and_insert_data(data, league_name, cursor, conn):
 
         rate_info = item_data.get('rate', {})
         
-        # --- FIX: Calculate the reciprocal (1 / rate) to get the true price ---
         chaos_price = calculate_price(rate_info.get('chaos'))
         divine_price = calculate_price(rate_info.get('divine'))
         exalted_price = calculate_price(rate_info.get('exalted'))
@@ -132,7 +135,7 @@ def process_and_insert_data(data, league_name, cursor, conn):
         items_processed += 1
     
     conn.commit()
-    print(f"Successfully processed and inserted/updated data for {items_processed} items in this category.")
+    print(f"Successfully processed and inserted/updated data for {items_processed} items in the '{category_display_name}' category.")
     
 # --- Main Execution ---
 def main():
@@ -152,13 +155,12 @@ def main():
     print(f"\nFound {len(overviews_to_fetch)} categories to process.")
     print("-" * 40)
 
-    # The loop correctly unpacks the tuple from fetch_all_item_overviews
     for display_name, api_name in overviews_to_fetch:
         print(f"Processing Category: '{display_name}' (using API endpoint: '{api_name}')")
         api_data = fetch_poe_ninja_data(LEAGUE_NAME, api_name)
         if api_data:
-            # The PoE 2 process_and_insert_data function gets the category from the API response itself.
-            process_and_insert_data(api_data, LEAGUE_NAME, cursor, conn)
+            # --- FIX: We are now passing 'display_name' again ---
+            process_and_insert_data(api_data, LEAGUE_NAME, display_name, cursor, conn)
         else:
             print(f"Skipping category '{display_name}' due to fetch error or no data.")
         print("-" * 40)
