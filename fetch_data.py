@@ -137,7 +137,7 @@ def process_and_insert_data(data, league_name, cursor, conn):
 # --- Main Execution ---
 def main():
     """The main function to run the entire update process."""
-    print(f"--- Starting PoE 2 Economy Data Fetch for {LEAGUE_NAME} League ---")
+    print(f"--- Starting PoE 2 Economy Data Fetch for {LEAGUE} League ---")
     
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
@@ -152,13 +152,14 @@ def main():
     print(f"\nFound {len(overviews_to_fetch)} categories to process.")
     print("-" * 40)
 
-    # The loop correctly unpacks display_name and api_name
+    # The loop correctly unpacks the tuple from fetch_all_item_overviews
     for display_name, api_name in overviews_to_fetch:
         print(f"Processing Category: '{display_name}' (using API endpoint: '{api_name}')")
-        api_data = fetch_poe_ninja_data(LEAGUE_NAME, api_name)
+        api_data = fetch_poe_ninja_data(LEAGUE, api_name)
         if api_data:
-            # FIX: Pass the 'display_name' as the third argument
-            process_and_insert_data(api_data, LEAGUE_NAME, display_name, cursor, conn)
+            # --- FIX: Removed the extra 'display_name' argument ---
+            # The PoE 2 process_and_insert_data function gets the category from the API response itself.
+            process_and_insert_data(api_data, LEAGUE, cursor, conn)
         else:
             print(f"Skipping category '{display_name}' due to fetch error or no data.")
         print("-" * 40)
