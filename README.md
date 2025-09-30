@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 14:20:01.064215` |
-| Total Price Entries in DB | `3,245` |
+| Last Successful Run (UTC) | `2025-09-30 14:38:30.196292` |
+| Total Price Entries in DB | `3,651` |
 
 <!-- END_MAINTENANCE -->
 
@@ -28,7 +28,7 @@ This repository tracks Path of Exile 2 data.
 | Runes | Greater Glacial Rune | 30.4 |
 | Uncut Gems | Uncut Skill Gem (Level 18) | 15.4 |
 | Lineage Gems | Arakaali's Lust | 5.0 |
-| Fragments | Runic Splinter | 4.2 |
+| Fragments | Runic Splinter | 4.3 |
 | Soul Cores | Citaqualotl's Soul Core of Foulness | 1.0 |
 | Talismans | Fox Talisman | 1.0 |
 
@@ -56,30 +56,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Liquid Disgust | 47.09090909090909 | 69.9% |
-| Arcanist's Etcher | 24.104477611940297 | 45.7% |
-| Orb of Transmutation | 253.51111111111112 | 17.4% |
-| Preserved Jawbone | 48.05 | 11.3% |
-| Exotic Coinage | 12.863636363636363 | 11.3% |
-| Orb of Alchemy | 119.07438016528926 | 8.6% |
-| Chayula's Catalyst | 15.718446601941748 | 7.5% |
-| Diluted Liquid Ire | 75.61946902654867 | 7.2% |
-| Omen of the Ancients | 13.068796068796068 | 6.9% |
-| Artificer's Orb | 12.855555555555556 | 5.9% |
+| Orb of Alchemy | 119.07438016528926 | 0.0% |
+| Exalted Orb | 14.024389790723456 | 0.0% |
+| Artificer's Orb | 12.855555555555556 | 0.0% |
+| Orb of Augmentation | 261.5959595959596 | 0.0% |
+| Glassblower's Bauble | 13.617391304347827 | 0.0% |
+| Arcanist's Etcher | 24.104477611940297 | 0.0% |
+| Greater Regal Orb | 16.807692307692307 | 0.0% |
+| Regal Orb | 25.209375 | 0.0% |
+| Armourer's Scrap | 50.88877445932029 | 0.0% |
+| Lesser Jeweller's Orb | 201.33333333333334 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Omen of Resurgence | 16.64566929133858 | -28.3% |
-| Lesser Jeweller's Orb | 201.33333333333334 | -17.7% |
-| Perfect Orb of Transmutation | 45.85342019543974 | -16.4% |
-| Greater Essence of Seeking | 12.833333333333334 | -14.4% |
-| Regal Orb | 25.209375 | -14.0% |
-| Greater Orb of Augmentation | 228.44615384615383 | -13.2% |
-| Omen of Greater Exaltation | 25.02857142857143 | -11.4% |
-| Uncut Skill Gem (Level 18) | 15.375 | -10.1% |
-| Omen of Putrefaction | 13.830769230769231 | -9.5% |
-| Carapace Catalyst | 20.976470588235294 | -6.1% |
+| Order Artifact | 27.405405405405407 | 0.0% |
+| Diluted Liquid Ire | 75.61946902654867 | 0.0% |
+| Liquid Envy | 38.142857142857146 | 0.0% |
+| Liquid Disgust | 47.09090909090909 | 0.0% |
+| Simulacrum Splinter | 19.718327082993643 | 0.0% |
+| Adaptive Catalyst | 18.92 | 0.0% |
+| Breach Splinter | 85.0606884057971 | 0.0% |
+| Carapace Catalyst | 20.976470588235294 | 0.0% |
+| Chayula's Catalyst | 15.718446601941748 | 0.0% |
+| Neural Catalyst | 28.11842105263158 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
