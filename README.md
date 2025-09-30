@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 11:04:54.136551` |
-| Total Price Entries in DB | `405` |
+| Last Successful Run (UTC) | `2025-09-30 11:17:06.176393` |
+| Total Price Entries in DB | `810` |
 
 <!-- END_MAINTENANCE -->
 
@@ -52,6 +52,34 @@ This repository tracks Path of Exile 2 data.
 | Breach Splinter | 74.7 |
 | Greater Essence of Electricity | 70.0 |
 | Diluted Liquid Ire | 65.7 |
+
+### Top 10 Gainers (24h)
+| Item | Chaos Value | % Change |
+| :--- | :--- | :--- |
+| Orb of Alchemy | 122.8452380952381 | 0.0% |
+| Exalted Orb | 13.536360088461038 | 0.0% |
+| Artificer's Orb | 11.235294117647058 | 0.0% |
+| Orb of Augmentation | 258.9718309859155 | 0.0% |
+| Glassblower's Bauble | 15.855072463768115 | 0.0% |
+| Arcanist's Etcher | 20.904458598726116 | 0.0% |
+| Greater Regal Orb | 12.03755868544601 | 0.0% |
+| Regal Orb | 29.21130551816958 | 0.0% |
+| Armourer's Scrap | 38.923177083333336 | 0.0% |
+| Lesser Jeweller's Orb | 650.0 | 0.0% |
+
+### Top 10 Losers (24h)
+| Item | Chaos Value | % Change |
+| :--- | :--- | :--- |
+| Order Artifact | 21.265822784810126 | 0.0% |
+| Diluted Liquid Ire | 65.74635568513119 | 0.0% |
+| Liquid Envy | 24.125 | 0.0% |
+| Liquid Disgust | 11.96875 | 0.0% |
+| Simulacrum Splinter | 20.621912187115306 | 0.0% |
+| Adaptive Catalyst | 17.846153846153847 | 0.0% |
+| Breach Splinter | 74.69562841530055 | 0.0% |
+| Carapace Catalyst | 25.020833333333332 | 0.0% |
+| Flesh Catalyst | 10.248730964467006 | 0.0% |
+| Neural Catalyst | 19.68354430379747 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
