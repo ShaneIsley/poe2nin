@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 15:34:46.804253` |
-| Total Price Entries in DB | `4,869` |
+| Last Successful Run (UTC) | `2025-09-30 15:46:44.338179` |
+| Total Price Entries in DB | `5,275` |
 
 <!-- END_MAINTENANCE -->
 
@@ -56,30 +56,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Orb of Transmutation | 410.78125 | 62.0% |
-| Greater Jeweller's Orb | 20.236363636363638 | 41.3% |
-| Scroll of Wisdom | 831.3513513513514 | 18.9% |
-| Blacksmith's Whetstone | 54.37117903930131 | 7.1% |
-| Perfect Orb of Augmentation | 10.089345172031077 | 4.8% |
-| Armourer's Scrap | 52.60608943862988 | 3.4% |
-| Regal Orb | 25.647505422993493 | 1.7% |
-| Exalted Orb | 14.238055902640061 | 1.5% |
-| Artificer's Orb | 12.968421052631578 | 0.9% |
-| Greater Essence of the Infinite | 60.0 | 0.0% |
+| Orb of Alchemy | 100.09701492537313 | 0.0% |
+| Exalted Orb | 14.238055902640061 | 0.0% |
+| Artificer's Orb | 12.968421052631578 | 0.0% |
+| Orb of Augmentation | 261.48514851485146 | 0.0% |
+| Glassblower's Bauble | 12.947368421052632 | 0.0% |
+| Arcanist's Etcher | 23.80622837370242 | 0.0% |
+| Greater Regal Orb | 16.448051948051948 | 0.0% |
+| Regal Orb | 25.647505422993493 | 0.0% |
+| Armourer's Scrap | 52.60608943862988 | 0.0% |
+| Lesser Jeweller's Orb | 201.33333333333334 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Preserved Jawbone | 21.27659574468085 | -55.7% |
-| Greater Orb of Augmentation | 121.32926829268293 | -46.9% |
-| Greater Orb of Transmutation | 688.5833333333334 | -29.5% |
-| Perfect Orb of Transmutation | 36.344729344729345 | -20.7% |
-| Orb of Alchemy | 100.09701492537313 | -15.9% |
-| Gemcutter's Prism | 11.48871181938911 | -6.7% |
-| Glassblower's Bauble | 12.947368421052632 | -4.9% |
-| Greater Regal Orb | 16.448051948051948 | -2.1% |
-| Arcanist's Etcher | 23.80622837370242 | -1.2% |
-| Vaal Orb | 10.37683380775126 | -0.8% |
+| Order Artifact | 30.963636363636365 | 0.0% |
+| Diluted Liquid Ire | 71.8058608058608 | 0.0% |
+| Liquid Envy | 35.604651162790695 | 0.0% |
+| Liquid Disgust | 44.166666666666664 | 0.0% |
+| Simulacrum Splinter | 20.787345957318905 | 0.0% |
+| Adaptive Catalyst | 18.571428571428573 | 0.0% |
+| Breach Splinter | 87.34228187919463 | 0.0% |
+| Carapace Catalyst | 19.88617886178862 | 0.0% |
+| Chayula's Catalyst | 18.178217821782177 | 0.0% |
+| Neural Catalyst | 25.384615384615383 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
