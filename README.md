@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 20:46:17.279473` |
-| Total Price Entries in DB | `9,720` |
+| Last Successful Run (UTC) | `2025-09-30 21:17:46.770567` |
+| Total Price Entries in DB | `10,126` |
 
 <!-- END_MAINTENANCE -->
 
@@ -56,10 +56,10 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Uncut Support Gem (Level 1) | 12.0 | 5900.0% |
-| Uncut Skill Gem (Level 17) | 43.6 | 282.5% |
-| Uncut Skill Gem (Level 18) | 20.72222222222222 | 79.4% |
 | Orb of Alchemy | 68.01986754966887 | 0.0% |
+| Exalted Orb | 15.0842633008257 | 0.0% |
+| Artificer's Orb | 13.333333333333334 | 0.0% |
+| Orb of Augmentation | 256.14285714285717 | 0.0% |
 | Glassblower's Bauble | 15.079646017699115 | 0.0% |
 | Arcanist's Etcher | 19.220183486238533 | 0.0% |
 | Greater Regal Orb | 14.383386581469649 | 0.0% |
@@ -70,16 +70,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Preserved Jawbone | 15.582089552238806 | -8.0% |
-| Greater Desert Rune | 14.333333333333334 | -1.5% |
 | Liquid Envy | 46.54 | 0.0% |
 | Diluted Liquid Guilt | 11.292401872524307 | 0.0% |
+| Liquid Disgust | 32.160714285714285 | 0.0% |
+| Simulacrum Splinter | 22.895204795204794 | 0.0% |
 | Adaptive Catalyst | 17.5 | 0.0% |
 | Breach Splinter | 91.08907922912205 | 0.0% |
 | Carapace Catalyst | 19.08888888888889 | 0.0% |
 | Xoph's Catalyst | 11.231707317073171 | 0.0% |
-| Neural Catalyst | 15.921875 | 0.0% |
 | Chayula's Catalyst | 31.176470588235293 | 0.0% |
+| Neural Catalyst | 15.921875 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
