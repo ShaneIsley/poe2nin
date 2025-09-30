@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 13:29:29.629297` |
-| Total Price Entries in DB | `2,433` |
+| Last Successful Run (UTC) | `2025-09-30 13:51:04.601749` |
+| Total Price Entries in DB | `2,839` |
 
 <!-- END_MAINTENANCE -->
 
@@ -56,30 +56,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Liquid Disgust | 27.714285714285715 | 83.0% |
-| Chayula's Catalyst | 14.62 | 38.6% |
-| Greater Regal Orb | 17.044117647058822 | 33.7% |
-| Neural Catalyst | 27.28358208955224 | 22.7% |
-| Scroll of Wisdom | 670.7380952380952 | 16.1% |
-| Exotic Coinage | 11.557971014492754 | 15.6% |
-| Regal Orb | 29.31588785046729 | 14.2% |
-| Orb of Transmutation | 215.9777777777778 | 10.9% |
-| Breach Splinter | 84.72335386072952 | 8.8% |
-| Order Artifact | 26.669565217391305 | 8.3% |
+| Orb of Alchemy | 109.6076923076923 | 0.0% |
+| Exalted Orb | 13.88412995017047 | 0.0% |
+| Artificer's Orb | 12.136986301369863 | 0.0% |
+| Orb of Augmentation | 259.8095238095238 | 0.0% |
+| Glassblower's Bauble | 14.206185567010309 | 0.0% |
+| Arcanist's Etcher | 16.541484716157207 | 0.0% |
+| Greater Regal Orb | 17.044117647058822 | 0.0% |
+| Regal Orb | 29.31588785046729 | 0.0% |
+| Armourer's Scrap | 50.172413793103445 | 0.0% |
+| Lesser Jeweller's Orb | 244.5 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Lesser Jeweller's Orb | 244.5 | -62.4% |
-| Greater Essence of Electricity | 25.333333333333332 | -46.9% |
-| Greater Essence of Seeking | 15.0 | -17.8% |
-| Arcanist's Etcher | 16.541484716157207 | -11.5% |
-| Greater Orb of Transmutation | 976.1666666666666 | -11.3% |
-| Orb of Alchemy | 109.6076923076923 | -11.1% |
-| Liquid Envy | 37.36486486486486 | -9.9% |
-| Greater Orb of Augmentation | 263.1111111111111 | -8.6% |
-| Carapace Catalyst | 22.333333333333332 | -8.6% |
-| Greater Storm Rune | 10.571428571428571 | -6.3% |
+| Order Artifact | 26.669565217391305 | 0.0% |
+| Diluted Liquid Ire | 70.53614457831326 | 0.0% |
+| Liquid Envy | 37.36486486486486 | 0.0% |
+| Liquid Disgust | 27.714285714285715 | 0.0% |
+| Simulacrum Splinter | 19.879028773870214 | 0.0% |
+| Adaptive Catalyst | 18.92156862745098 | 0.0% |
+| Breach Splinter | 84.72335386072952 | 0.0% |
+| Carapace Catalyst | 22.333333333333332 | 0.0% |
+| Chayula's Catalyst | 14.62 | 0.0% |
+| Neural Catalyst | 27.28358208955224 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
