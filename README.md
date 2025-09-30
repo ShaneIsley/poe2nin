@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 06:53:50.617425` |
-| Total Price Entries in DB | `17,838` |
+| Last Successful Run (UTC) | `2025-09-30 07:20:32.676951` |
+| Total Price Entries in DB | `18,243` |
 
 <!-- END_MAINTENANCE -->
 
@@ -19,16 +19,16 @@ This repository tracks Path of Exile 2 data.
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
 | Currency | Lesser Jeweller's Orb | 650.0 |
-| Delirium | Diluted Liquid Ire | 159.1 |
+| Delirium | Diluted Liquid Ire | 120.9 |
 | Essences | Greater Essence of Electricity | 70.0 |
-| Breach | Breach Splinter | 68.8 |
-| Ritual | Petition Splinter | 50.8 |
-| Expedition | Broken Circle Artifact | 37.8 |
+| Breach | Breach Splinter | 68.7 |
+| Ritual | Petition Splinter | 51.0 |
+| Expedition | Sun Artifact | 37.6 |
 | Runes | Greater Glacial Rune | 23.0 |
-| UncutGems | Uncut Skill Gem (Level 17) | 18.3 |
-| Abyss | Preserved Rib | 17.2 |
+| UncutGems | Uncut Skill Gem (Level 17) | 21.2 |
+| Abyss | Preserved Jawbone | 15.9 |
 | LineageSupportGems | Arakaali's Lust | 7.0 |
-| Fragments | Twilight Reliquary Key | 4.3 |
+| Fragments | Runic Splinter | 3.9 |
 | Talismans | Talisman of Eeshta | 1.0 |
 | Ultimatum | Citaqualotl's Soul Core of Foulness | 1.0 |
 
@@ -43,43 +43,43 @@ This repository tracks Path of Exile 2 data.
 | Item | Chaos Value |
 | :--- | :--- |
 | Lesser Jeweller's Orb | 650.0 |
-| Scroll of Wisdom | 411.7 |
+| Scroll of Wisdom | 443.4 |
 | Greater Orb of Transmutation | 355.7 |
-| Orb of Augmentation | 264.3 |
-| Diluted Liquid Ire | 159.1 |
-| Orb of Alchemy | 111.5 |
-| Greater Orb of Augmentation | 94.1 |
+| Orb of Augmentation | 261.4 |
+| Orb of Alchemy | 123.2 |
+| Diluted Liquid Ire | 120.9 |
+| Greater Orb of Augmentation | 92.6 |
 | Orb of Transmutation | 90.4 |
 | Greater Essence of Electricity | 70.0 |
-| Breach Splinter | 68.8 |
+| Breach Splinter | 68.7 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Orb of Alchemy | 111.45744680851064 | 0.0% |
-| Exalted Orb | 13.497088758576837 | 0.0% |
-| Artificer's Orb | 11.857142857142858 | 0.0% |
-| Orb of Augmentation | 264.275 | 0.0% |
-| Glassblower's Bauble | 16.03076923076923 | 0.0% |
-| Arcanist's Etcher | 29.80808080808081 | 0.0% |
-| Greater Regal Orb | 14.928571428571429 | 0.0% |
-| Regal Orb | 22.384615384615383 | 0.0% |
-| Armourer's Scrap | 42.84542211652794 | 0.0% |
-| Lesser Jeweller's Orb | 650.0 | 0.0% |
+| Uncut Skill Gem (Level 14) | 11.0 | 175.0% |
+| Omen of Greater Exaltation | 18.352941176470587 | 16.3% |
+| Uncut Skill Gem (Level 17) | 21.166666666666668 | 15.8% |
+| Xoph's Catalyst | 12.793103448275861 | 10.9% |
+| Orb of Alchemy | 123.24285714285715 | 10.6% |
+| Scroll of Wisdom | 443.3939393939394 | 7.7% |
+| Omen of the Ancients | 11.42643923240938 | 4.7% |
+| Vaal Orb | 16.0120156203064 | 4.5% |
+| Greater Jeweller's Orb | 26.54639175257732 | 4.1% |
+| Preserved Jawbone | 15.882352941176471 | 3.4% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Diluted Liquid Ire | 159.0857142857143 | 0.0% |
-| Liquid Envy | 24.736842105263158 | 0.0% |
-| Liquid Disgust | 12.25 | 0.0% |
-| Simulacrum Splinter | 21.21178010471204 | 0.0% |
-| Adaptive Catalyst | 17.46031746031746 | 0.0% |
-| Breach Splinter | 68.84083212385099 | 0.0% |
-| Carapace Catalyst | 22.086021505376344 | 0.0% |
-| Xoph's Catalyst | 11.53061224489796 | 0.0% |
-| Chayula's Catalyst | 13.946153846153846 | 0.0% |
-| Neural Catalyst | 16.70175438596491 | 0.0% |
+| Preserved Rib | 10.743119266055047 | -37.7% |
+| Exotic Coinage | 10.510416666666666 | -26.1% |
+| Diluted Liquid Ire | 120.91764705882353 | -24.0% |
+| Chayula's Catalyst | 12.063063063063064 | -13.5% |
+| Omen of Resurgence | 24.03960396039604 | -11.1% |
+| Greater Regal Orb | 13.528497409326425 | -9.4% |
+| Perfect Orb of Transmutation | 31.36 | -9.4% |
+| Black Scythe Artifact | 23.557142857142857 | -7.7% |
+| Gemcutter's Prism | 17.5651376146789 | -5.9% |
+| Order Artifact | 22.733333333333334 | -5.9% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
