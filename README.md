@@ -5,28 +5,19 @@ This repository tracks Path of Exile 2 data.
 ## Maintenance Status
 
 <!-- START_MAINTENANCE -->
-| Metric | Value |
-|:---|:---|
-| Last Successful Run (UTC) | `None` |
-| Total Price Entries in DB | `0` |
-
+*Analysis data will be populated here on the next successful run.*
 <!-- END_MAINTENANCE -->
 
 ## Category Analysis
 
 <!-- START_CATEGORY_ANALYSIS -->
-Requires at least two runs.
-
-
+*Category analysis will be generated here once there is enough historical data.*
 <!-- END_CATEGORY_ANALYSIS -->
 
 ## Market Movers & Overall Value
 
 <!-- START_ANALYSIS -->
-Not enough historical data.
-
-
+*Market analysis will be generated here once there is enough historical data (after ~24 hours of runs).*
 <!-- END_ANALYSIS -->
-
 
 ---
