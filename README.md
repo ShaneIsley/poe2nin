@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 06:22:51.545928` |
-| Total Price Entries in DB | `17,026` |
+| Last Successful Run (UTC) | `2025-09-30 06:30:34.798881` |
+| Total Price Entries in DB | `17,432` |
 
 <!-- END_MAINTENANCE -->
 
@@ -32,30 +32,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Omen of Resurgence | 27.1 | 44.5% |
-| Omen of Chaotic Monsters | 12.1 | 38.1% |
-| Greater Glacial Rune | 23.0 | 27.8% |
-| Uncut Skill Gem (Level 17) | 18.3 | 15.9% |
-| Omen of Greater Exaltation | 15.8 | 15.4% |
-| Xoph's Catalyst | 11.5 | 8.9% |
-| Preserved Jawbone | 15.4 | 8.0% |
-| Neural Catalyst | 16.7 | 6.8% |
-| Arcanist's Etcher | 29.8 | 5.4% |
-| Vaal Orb | 15.3 | 4.6% |
+| Orb of Alchemy | 111.5 | 0.0% |
+| Exalted Orb | 13.5 | 0.0% |
+| Artificer's Orb | 11.9 | 0.0% |
+| Orb of Augmentation | 264.3 | 0.0% |
+| Glassblower's Bauble | 16.0 | 0.0% |
+| Arcanist's Etcher | 29.8 | 0.0% |
+| Greater Regal Orb | 14.9 | 0.0% |
+| Regal Orb | 22.4 | 0.0% |
+| Armourer's Scrap | 42.8 | 0.0% |
+| Lesser Jeweller's Orb | 650.0 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Artificer's Orb | 11.9 | -22.0% |
-| Liquid Envy | 24.7 | -17.5% |
-| Order Artifact | 24.2 | -12.7% |
-| Gemcutter's Prism | 18.7 | -6.4% |
-| Exotic Coinage | 14.2 | -4.8% |
-| Greater Orb of Augmentation | 94.1 | -4.6% |
-| Omen of the Ancients | 10.9 | -4.1% |
-| Perfect Orb of Transmutation | 34.6 | -3.2% |
-| Greater Regal Orb | 14.9 | -2.9% |
-| Breach Splinter | 68.8 | -2.9% |
+| Diluted Liquid Ire | 159.1 | 0.0% |
+| Liquid Envy | 24.7 | 0.0% |
+| Liquid Disgust | 12.2 | 0.0% |
+| Simulacrum Splinter | 21.2 | 0.0% |
+| Adaptive Catalyst | 17.5 | 0.0% |
+| Breach Splinter | 68.8 | 0.0% |
+| Carapace Catalyst | 22.1 | 0.0% |
+| Xoph's Catalyst | 11.5 | 0.0% |
+| Chayula's Catalyst | 13.9 | 0.0% |
+| Neural Catalyst | 16.7 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
