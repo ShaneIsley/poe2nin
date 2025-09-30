@@ -7,7 +7,7 @@ import os
 
 # --- Configuration ---
 DB_FILE = "poe2_economy.db"
-LEAGUE = "Rise of the Abyssal"
+LEAGUE_NAME = "Rise of the Abyssal"
 
 # --- Database Schema ---
 def create_database_schema(cursor, conn):
