@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 12:42:52.614002` |
-| Total Price Entries in DB | `2,027` |
+| Last Successful Run (UTC) | `2025-09-30 13:29:29.629297` |
+| Total Price Entries in DB | `2,433` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,16 +18,16 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
-| Currency | Greater Orb of Transmutation | 1100.0 |
-| Catalysts | Breach Splinter | 77.9 |
-| Distilled Emotions | Diluted Liquid Ire | 72.7 |
+| Currency | Greater Orb of Transmutation | 976.2 |
+| Catalysts | Breach Splinter | 84.7 |
+| Distilled Emotions | Diluted Liquid Ire | 70.5 |
 | Essences | Greater Essence of the Infinite | 60.0 |
-| Omens | Petition Splinter | 50.8 |
-| Abyssal Bones | Preserved Jawbone | 44.4 |
-| Expedition | Broken Circle Artifact | 35.9 |
+| Omens | Petition Splinter | 51.1 |
+| Abyssal Bones | Preserved Jawbone | 43.2 |
+| Expedition | Broken Circle Artifact | 34.1 |
 | Runes | Greater Glacial Rune | 30.8 |
-| Uncut Gems | Uncut Skill Gem (Level 18) | 17.6 |
-| Fragments | Runic Splinter | 4.1 |
+| Uncut Gems | Uncut Skill Gem (Level 18) | 17.1 |
+| Fragments | Runic Splinter | 4.2 |
 | Lineage Gems | Daresso's Passion | 3.0 |
 | Soul Cores | Citaqualotl's Soul Core of Foulness | 1.0 |
 | Talismans | Fox Talisman | 1.0 |
@@ -42,44 +42,44 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Chaos Value |
 | :--- | :--- |
-| Greater Orb of Transmutation | 1100.0 |
-| Lesser Jeweller's Orb | 650.0 |
-| Scroll of Wisdom | 577.6 |
-| Greater Orb of Augmentation | 287.8 |
-| Orb of Augmentation | 259.6 |
-| Orb of Transmutation | 194.7 |
-| Orb of Alchemy | 123.4 |
-| Breach Splinter | 77.9 |
-| Diluted Liquid Ire | 72.7 |
+| Greater Orb of Transmutation | 976.2 |
+| Scroll of Wisdom | 670.7 |
+| Greater Orb of Augmentation | 263.1 |
+| Orb of Augmentation | 259.8 |
+| Lesser Jeweller's Orb | 244.5 |
+| Orb of Transmutation | 216.0 |
+| Orb of Alchemy | 109.6 |
+| Breach Splinter | 84.7 |
+| Diluted Liquid Ire | 70.5 |
 | Greater Essence of the Infinite | 60.0 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Greater Essence of Seeking | 18.25 | 356.2% |
-| Uncut Skill Gem (Level 18) | 17.571428571428573 | 85.5% |
-| Liquid Envy | 41.482142857142854 | 72.7% |
-| Liquid Disgust | 15.142857142857142 | 26.5% |
-| Perfect Orb of Transmutation | 57.38289962825279 | 25.1% |
-| Armourer's Scrap | 51.814772727272725 | 23.8% |
-| Greater Orb of Augmentation | 287.8333333333333 | 18.9% |
-| Diluted Liquid Ire | 72.6639344262295 | 14.8% |
-| Greater Orb of Transmutation | 1100.0 | 12.7% |
-| Scroll of Wisdom | 577.5833333333334 | 12.3% |
+| Liquid Disgust | 27.714285714285715 | 83.0% |
+| Chayula's Catalyst | 14.62 | 38.6% |
+| Greater Regal Orb | 17.044117647058822 | 33.7% |
+| Neural Catalyst | 27.28358208955224 | 22.7% |
+| Scroll of Wisdom | 670.7380952380952 | 16.1% |
+| Exotic Coinage | 11.557971014492754 | 15.6% |
+| Regal Orb | 29.31588785046729 | 14.2% |
+| Orb of Transmutation | 215.9777777777778 | 10.9% |
+| Breach Splinter | 84.72335386072952 | 8.8% |
+| Order Artifact | 26.669565217391305 | 8.3% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Greater Essence of Electricity | 47.666666666666664 | -31.9% |
-| Omen of Resurgence | 24.025974025974026 | -16.3% |
-| Blacksmith's Whetstone | 53.82183908045977 | -10.9% |
-| Arcanist's Etcher | 18.6875 | -9.5% |
-| Greater Jeweller's Orb | 14.256756756756756 | -9.3% |
-| Orb of Alchemy | 123.35922330097087 | -7.3% |
-| Gemcutter's Prism | 11.939453125 | -7.1% |
-| Black Scythe Artifact | 19.918762088974855 | -4.9% |
-| Glassblower's Bauble | 14.568181818181818 | -4.7% |
-| Regal Orb | 25.67635270541082 | -4.6% |
+| Lesser Jeweller's Orb | 244.5 | -62.4% |
+| Greater Essence of Electricity | 25.333333333333332 | -46.9% |
+| Greater Essence of Seeking | 15.0 | -17.8% |
+| Arcanist's Etcher | 16.541484716157207 | -11.5% |
+| Greater Orb of Transmutation | 976.1666666666666 | -11.3% |
+| Orb of Alchemy | 109.6076923076923 | -11.1% |
+| Liquid Envy | 37.36486486486486 | -9.9% |
+| Greater Orb of Augmentation | 263.1111111111111 | -8.6% |
+| Carapace Catalyst | 22.333333333333332 | -8.6% |
+| Greater Storm Rune | 10.571428571428571 | -6.3% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
