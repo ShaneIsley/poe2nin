@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 17:17:32.919527` |
-| Total Price Entries in DB | `6,496` |
+| Last Successful Run (UTC) | `2025-09-30 17:34:15.372398` |
+| Total Price Entries in DB | `6,903` |
 
 <!-- END_MAINTENANCE -->
 
@@ -22,8 +22,8 @@ This repository tracks Path of Exile 2 data.
 | Distilled Emotions | Diluted Liquid Ire | 199.6 |
 | Catalysts | Breach Splinter | 91.9 |
 | Essences | Greater Essence of the Infinite | 60.0 |
-| Omens | Petition Splinter | 52.3 |
-| Expedition | Order Artifact | 32.7 |
+| Omens | Petition Splinter | 52.8 |
+| Expedition | Sun Artifact | 40.6 |
 | Runes | Greater Glacial Rune | 30.0 |
 | Abyssal Bones | Preserved Jawbone | 21.1 |
 | Uncut Gems | Uncut Skill Gem (Level 18) | 17.2 |
@@ -56,13 +56,13 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Liquid Envy | 59.28333333333333 | 73.6% |
-| Chayula's Catalyst | 30.88235294117647 | 30.8% |
-| Uncut Skill Gem (Level 18) | 17.217391304347824 | 23.3% |
-| Diluted Liquid Ire | 199.61654135338347 | 8.1% |
-| Simulacrum Splinter | 22.107550200803214 | 2.8% |
-| Breach Splinter | 91.89292692457991 | 2.4% |
-| Greater Glacial Rune | 30.0 | 2.3% |
+| Omen of Greater Exaltation | 38.08184143222506 | 69.2% |
+| Sun Artifact | 40.625 | 37.5% |
+| Omen of Resurgence | 13.05232558139535 | 18.9% |
+| Exotic Coinage | 15.405405405405405 | 5.7% |
+| Petition Splinter | 52.78021760633037 | 1.0% |
+| Orb of Alchemy | 102.20661157024793 | 0.0% |
+| Artificer's Orb | 14.3 | 0.0% |
 | Exalted Orb | 14.472666757080535 | 0.0% |
 | Armourer's Scrap | 58.957591178965224 | 0.0% |
 | Lesser Jeweller's Orb | 201.33333333333334 | 0.0% |
@@ -70,16 +70,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Liquid Disgust | 29.65909090909091 | -35.4% |
-| Neural Catalyst | 22.359550561797754 | -5.0% |
-| Preserved Jawbone | 21.12280701754386 | -3.8% |
-| Adaptive Catalyst | 17.863636363636363 | -2.1% |
-| Carapace Catalyst | 19.096 | -1.2% |
-| Greater Desert Rune | 15.0 | -1.1% |
-| Broken Circle Artifact | 31.343065693430656 | 0.0% |
-| Sun Artifact | 29.545454545454547 | 0.0% |
-| Black Scythe Artifact | 16.32409638554217 | 0.0% |
-| Omen of the Ancients | 12.279022403258656 | 0.0% |
+| Omen of Putrefaction | 13.13978494623656 | -11.2% |
+| Order Artifact | 29.355072463768117 | -10.3% |
+| Omen of Dextral Necromancy | 11.79020979020979 | -6.2% |
+| Black Scythe Artifact | 15.400208986415883 | -5.7% |
+| Broken Circle Artifact | 30.17241379310345 | -3.7% |
+| Omen of the Ancients | 12.063231850117097 | -1.8% |
+| Neural Catalyst | 22.359550561797754 | 0.0% |
+| Chayula's Catalyst | 30.88235294117647 | 0.0% |
+| Liquid Disgust | 29.65909090909091 | 0.0% |
+| Liquid Envy | 59.28333333333333 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
