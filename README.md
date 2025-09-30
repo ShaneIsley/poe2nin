@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 07:46:47.277352` |
-| Total Price Entries in DB | `18,648` |
+| Last Successful Run (UTC) | `2025-09-30 08:28:06.647679` |
+| Total Price Entries in DB | `19,054` |
 
 <!-- END_MAINTENANCE -->
 
@@ -19,16 +19,16 @@ This repository tracks Path of Exile 2 data.
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
 | Currency | Lesser Jeweller's Orb | 650.0 |
-| Delirium | Diluted Liquid Ire | 120.9 |
+| Delirium | Diluted Liquid Ire | 113.0 |
+| Breach | Breach Splinter | 72.2 |
 | Essences | Greater Essence of Electricity | 70.0 |
-| Breach | Breach Splinter | 68.7 |
-| Ritual | Petition Splinter | 51.0 |
-| Expedition | Sun Artifact | 37.6 |
-| Runes | Greater Glacial Rune | 23.0 |
-| UncutGems | Uncut Skill Gem (Level 17) | 21.2 |
-| Abyss | Preserved Jawbone | 15.9 |
+| Ritual | Petition Splinter | 50.6 |
+| Expedition | Broken Circle Artifact | 37.2 |
+| Runes | Greater Glacial Rune | 25.5 |
+| Abyss | Preserved Jawbone | 15.5 |
+| UncutGems | Uncut Skill Gem (Level 14) | 11.0 |
 | LineageSupportGems | Arakaali's Lust | 7.0 |
-| Fragments | Runic Splinter | 3.9 |
+| Fragments | Twilight Reliquary Key | 4.1 |
 | Talismans | Talisman of Eeshta | 1.0 |
 | Ultimatum | Citaqualotl's Soul Core of Foulness | 1.0 |
 
@@ -43,43 +43,43 @@ This repository tracks Path of Exile 2 data.
 | Item | Chaos Value |
 | :--- | :--- |
 | Lesser Jeweller's Orb | 650.0 |
-| Scroll of Wisdom | 443.4 |
-| Greater Orb of Transmutation | 355.7 |
-| Orb of Augmentation | 261.4 |
-| Orb of Alchemy | 123.2 |
-| Diluted Liquid Ire | 120.9 |
-| Greater Orb of Augmentation | 92.6 |
+| Scroll of Wisdom | 464.9 |
+| Greater Orb of Transmutation | 356.0 |
+| Orb of Augmentation | 259.3 |
+| Diluted Liquid Ire | 113.0 |
+| Orb of Alchemy | 107.1 |
 | Orb of Transmutation | 90.4 |
+| Breach Splinter | 72.2 |
 | Greater Essence of Electricity | 70.0 |
-| Breach Splinter | 68.7 |
+| Greater Essence of the Infinite | 60.0 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Orb of Alchemy | 123.24285714285715 | 0.0% |
-| Exalted Orb | 13.388510476799233 | 0.0% |
-| Artificer's Orb | 11.175675675675675 | 0.0% |
-| Orb of Augmentation | 261.40816326530614 | 0.0% |
-| Glassblower's Bauble | 16.017857142857142 | 0.0% |
-| Arcanist's Etcher | 29.194174757281555 | 0.0% |
-| Greater Regal Orb | 13.528497409326425 | 0.0% |
-| Regal Orb | 21.304878048780488 | 0.0% |
-| Armourer's Scrap | 43.195090439276484 | 0.0% |
-| Lesser Jeweller's Orb | 650.0 | 0.0% |
+| Flesh Catalyst | 10.498533724340176 | 61.6% |
+| Regal Orb | 30.645454545454545 | 43.8% |
+| Uncut Support Gem (Level 5) | 10.259130434782609 | 21.0% |
+| Omen of Greater Exaltation | 21.325688073394495 | 16.2% |
+| Perfect Orb of Transmutation | 36.138728323699425 | 15.2% |
+| Greater Glacial Rune | 25.5 | 10.9% |
+| Neural Catalyst | 17.907692307692308 | 8.3% |
+| Diluted Liquid Guilt | 10.077922077922079 | 6.9% |
+| Uncut Skill Gem (Level 18) | 10.3 | 5.9% |
+| Omen of Resurgence | 25.412844036697248 | 5.7% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Diluted Liquid Ire | 120.91764705882353 | 0.0% |
-| Liquid Envy | 24.63157894736842 | 0.0% |
-| Liquid Disgust | 12.131578947368421 | 0.0% |
-| Simulacrum Splinter | 21.346153846153847 | 0.0% |
-| Adaptive Catalyst | 17.431372549019606 | 0.0% |
-| Breach Splinter | 68.65486725663717 | 0.0% |
-| Carapace Catalyst | 22.135593220338983 | 0.0% |
-| Xoph's Catalyst | 12.793103448275861 | 0.0% |
-| Chayula's Catalyst | 12.063063063063064 | 0.0% |
-| Neural Catalyst | 16.536231884057973 | 0.0% |
+| Greater Orb of Augmentation | 46.95652173913044 | -49.3% |
+| Arcanist's Etcher | 23.114035087719298 | -20.8% |
+| Sun Artifact | 29.91304347826087 | -20.4% |
+| Xoph's Catalyst | 10.411290322580646 | -18.6% |
+| Gemcutter's Prism | 14.654716981132076 | -16.6% |
+| Black Scythe Artifact | 20.447552447552447 | -13.2% |
+| Orb of Alchemy | 107.14864864864865 | -13.1% |
+| Vaal Orb | 14.529073288915809 | -9.3% |
+| Artificer's Orb | 10.360655737704919 | -7.3% |
+| Diluted Liquid Ire | 112.95238095238095 | -6.6% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
