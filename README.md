@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 19:27:25.485506` |
-| Total Price Entries in DB | `8,908` |
+| Last Successful Run (UTC) | `2025-09-30 20:21:44.975105` |
+| Total Price Entries in DB | `9,314` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,12 +18,12 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
-| Currency | Scroll of Wisdom | 1000.0 |
-| Distilled Emotions | Diluted Liquid Ire | 157.5 |
-| Catalysts | Breach Splinter | 90.6 |
-| Essences | Greater Essence of the Infinite | 60.0 |
-| Omens | Petition Splinter | 55.8 |
-| Expedition | Sun Artifact | 50.0 |
+| Currency | Scroll of Wisdom | 768.2 |
+| Distilled Emotions | Diluted Liquid Ire | 152.2 |
+| Catalysts | Breach Splinter | 91.1 |
+| Omens | Petition Splinter | 58.2 |
+| Essences | Greater Essence of the Infinite | 50.0 |
+| Expedition | Sun Artifact | 46.9 |
 | Runes | Greater Glacial Rune | 30.0 |
 | Abyssal Bones | Preserved Jawbone | 16.9 |
 | Lineage Gems | Kurgal's Leash | 15.0 |
@@ -42,44 +42,44 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Chaos Value |
 | :--- | :--- |
-| Scroll of Wisdom | 1000.0 |
+| Scroll of Wisdom | 768.2 |
 | Greater Orb of Transmutation | 433.1 |
-| Orb of Augmentation | 258.5 |
-| Orb of Transmutation | 257.8 |
-| Diluted Liquid Ire | 157.5 |
-| Lesser Jeweller's Orb | 99.3 |
-| Breach Splinter | 90.6 |
-| Orb of Alchemy | 76.0 |
-| Greater Orb of Augmentation | 71.3 |
-| Greater Essence of the Infinite | 60.0 |
+| Orb of Transmutation | 263.8 |
+| Orb of Augmentation | 256.1 |
+| Diluted Liquid Ire | 152.2 |
+| Breach Splinter | 91.1 |
+| Greater Orb of Augmentation | 75.2 |
+| Orb of Alchemy | 68.0 |
+| Lesser Jeweller's Orb | 68.0 |
+| Petition Splinter | 58.2 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Arcanist's Etcher | 25.639880952380953 | 13.7% |
-| Liquid Envy | 46.56 | 10.7% |
-| Greater Orb of Transmutation | 433.14285714285717 | 9.7% |
-| Xoph's Catalyst | 11.142857142857142 | 9.4% |
-| Omen of Putrefaction | 14.59375 | 9.4% |
-| Diluted Liquid Guilt | 10.43859071452091 | 8.1% |
-| Armourer's Scrap | 56.53442340791739 | 6.5% |
-| Petition Splinter | 55.77822331893893 | 4.1% |
-| Orb of Transmutation | 257.83720930232556 | 2.6% |
-| Glassblower's Bauble | 14.49618320610687 | 2.0% |
+| Omen of Resurgence | 30.869565217391305 | 17.7% |
+| Diluted Liquid Guilt | 11.292401872524307 | 8.2% |
+| Greater Orb of Augmentation | 75.24528301886792 | 5.5% |
+| Petition Splinter | 58.23901337502171 | 4.4% |
+| Perfect Orb of Transmutation | 24.123249299719888 | 4.1% |
+| Glassblower's Bauble | 15.079646017699115 | 4.0% |
+| Perfect Orb of Augmentation | 11.217598097502973 | 3.8% |
+| Order Artifact | 28.02 | 3.1% |
+| Regal Orb | 26.89755351681957 | 2.8% |
+| Simulacrum Splinter | 22.895204795204794 | 2.4% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Diluted Liquid Ire | 157.46783625730995 | -21.1% |
-| Uncut Skill Gem (Level 18) | 11.55 | -15.4% |
-| Regal Orb | 26.155844155844157 | -13.9% |
-| Preserved Jawbone | 16.940298507462686 | -12.7% |
-| Neural Catalyst | 17.78723404255319 | -12.4% |
-| Greater Regal Orb | 14.330623306233063 | -12.0% |
-| Omen of Greater Exaltation | 34.59779614325069 | -7.9% |
-| Omen of the Ancients | 12.067796610169491 | -5.3% |
-| Order Artifact | 27.176470588235293 | -5.3% |
-| Lesser Jeweller's Orb | 99.33333333333333 | -4.8% |
+| Lesser Jeweller's Orb | 68.0 | -31.5% |
+| Arcanist's Etcher | 19.220183486238533 | -25.0% |
+| Scroll of Wisdom | 768.1818181818181 | -23.2% |
+| Greater Essence of the Infinite | 50.0 | -16.7% |
+| Liquid Disgust | 32.160714285714285 | -10.6% |
+| Orb of Alchemy | 68.01986754966887 | -10.5% |
+| Neural Catalyst | 15.921875 | -10.5% |
+| Black Scythe Artifact | 13.670319634703196 | -7.4% |
+| Sun Artifact | 46.94117647058823 | -6.1% |
+| Blacksmith's Whetstone | 44.65578635014837 | -5.9% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
