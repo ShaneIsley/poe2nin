@@ -55,12 +55,23 @@ def fetch_all_item_overviews():
         return []
 
 def fetch_poe_ninja_data(league_name, overview_name):
-    """Fetches economic data for a specific league and item overview."""
-    encoded_overview = requests.utils.quote(overview_name)
-    url = f"https://poe.ninja/poe2/api/economy/temp/overview?leagueName={league_name}&overviewName={encoded_overview}"
-    print(f"Fetching data for '{overview_name}' from: {url}")
+    """
+    Fetches economic data for a specific league and item overview,
+    correctly URL-encoding the parameters.
+    """
+    base_url = "https://poe.ninja/poe2/api/economy/temp/overview"
+    
+    # --- FIX: Use a params dictionary for robust URL encoding ---
+    params = {
+        'leagueName': league_name,
+        'overviewName': overview_name
+    }
+    
+    print(f"Fetching data for '{overview_name}' from: {base_url}")
+    
     try:
-        response = requests.get(url)
+        # Pass the params dictionary to the requests.get() call
+        response = requests.get(base_url, params=params, timeout=30)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
