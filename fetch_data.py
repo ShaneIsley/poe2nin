@@ -81,11 +81,12 @@ def fetch_poe_ninja_data(league_name, overview_name):
 # --- Data Processing and Insertion ---
 def process_and_insert_data(data, league_name, category_display_name, cursor, conn):
     """
-    Processes the JSON data from the PoE 2 API and inserts it into the SQLite database.
+    Processes the JSON data from the PoE 2 API, normalizes currency rates, 
+    and inserts it into the SQLite database.
     """
     current_timestamp = datetime.datetime.now()
     
-    # --- Database housekeeping (get league and category IDs) ---
+    # --- Database housekeeping ---
     cursor.execute("INSERT OR IGNORE INTO leagues (name) VALUES (?)", (league_name,))
     cursor.execute("SELECT id FROM leagues WHERE name = ?", (league_name,))
     league_id_tuple = cursor.fetchone()
@@ -99,7 +100,6 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
     category_id = category_id_tuple[0]
     
     # --- Core Logic for PoE 2 API ---
-    # The key is "items", not "lines".
     item_list = data.get('items', [])
     if not item_list:
         print("No 'items' array found in the response.")
@@ -107,7 +107,6 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
 
     items_processed = 0
     for item_data in item_list:
-        # Item details are nested under the "item" key.
         item_details = item_data.get('item', {})
         api_id = item_details.get('id')
         item_name = item_details.get('name')
@@ -115,31 +114,35 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
         if not api_id or not item_name:
             continue
 
-        # Rates are under the "rate" key.
         rate_details = item_data.get('rate', {})
         chaos_value = rate_details.get('chaos')
+        
+        # --- FIX: Normalize the chaos value for rates ---
+        # The 'primaryValue' field is a good indicator. If it's > 1, the item is worth less than 1 Chaos,
+        # and the 'chaos' field is likely the rate (e.g., 650 items per 1c).
+        primary_value = item_data.get('primaryValue', 0)
+        if chaos_value is not None and primary_value > 1 and chaos_value > 1:
+            # This is a rate, so we convert it to a per-item value.
+            chaos_value = 1 / chaos_value
+        
         divine_value = rate_details.get('divine')
         exalted_value = rate_details.get('exalted')
 
-        # Volumes are under the "volumes" key.
         volume_details = item_data.get('volumes', {})
         volume_chaos = volume_details.get('chaos')
         volume_divine = volume_details.get('divine')
         volume_exalted = volume_details.get('exalted')
         
-        # Insert static item info (name, image, etc.)
         cursor.execute("""
         INSERT OR IGNORE INTO items (api_id, name, image_url, category_id)
         VALUES (?, ?, ?, ?)
         """, (api_id, item_name, item_details.get('image'), category_id))
         
-        # Get the database ID for the item we just inserted/found
         cursor.execute("SELECT id FROM items WHERE api_id = ?", (api_id,))
         db_item_id_tuple = cursor.fetchone()
         if not db_item_id_tuple: continue
         db_item_id = db_item_id_tuple[0]
 
-        # Insert the dynamic price and volume data for this run
         cursor.execute("""
         INSERT INTO price_entries (
             item_id, league_id, timestamp, chaos_value, divine_value, exalted_value,
