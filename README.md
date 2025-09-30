@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 14:50:35.569578` |
-| Total Price Entries in DB | `4,057` |
+| Last Successful Run (UTC) | `2025-09-30 15:19:20.690862` |
+| Total Price Entries in DB | `4,463` |
 
 <!-- END_MAINTENANCE -->
 
@@ -19,18 +19,18 @@ This repository tracks Path of Exile 2 data.
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
 | Currency | Greater Orb of Transmutation | 976.2 |
-| Catalysts | Breach Splinter | 85.1 |
-| Distilled Emotions | Diluted Liquid Ire | 75.6 |
+| Catalysts | Breach Splinter | 87.3 |
+| Distilled Emotions | Diluted Liquid Ire | 71.8 |
 | Essences | Greater Essence of the Infinite | 60.0 |
-| Omens | Petition Splinter | 51.5 |
+| Omens | Petition Splinter | 52.0 |
 | Abyssal Bones | Preserved Jawbone | 48.0 |
-| Expedition | Broken Circle Artifact | 32.9 |
-| Runes | Greater Glacial Rune | 30.4 |
-| Uncut Gems | Uncut Skill Gem (Level 18) | 15.4 |
+| Expedition | Broken Circle Artifact | 35.3 |
+| Runes | Greater Glacial Rune | 30.2 |
+| Uncut Gems | Uncut Skill Gem (Level 18) | 13.5 |
 | Lineage Gems | Arakaali's Lust | 5.0 |
-| Fragments | Runic Splinter | 4.3 |
+| Fragments | Runic Splinter | 4.4 |
 | Soul Cores | Citaqualotl's Soul Core of Foulness | 1.0 |
-| Talismans | Fox Talisman | 1.0 |
+| Talismans | Boar Talisman | 1.0 |
 
 
 ![Category Analysis Chart](charts/category_analysis.png)
@@ -49,37 +49,37 @@ This repository tracks Path of Exile 2 data.
 | Greater Orb of Augmentation | 228.4 |
 | Lesser Jeweller's Orb | 201.3 |
 | Orb of Alchemy | 119.1 |
-| Breach Splinter | 85.1 |
-| Diluted Liquid Ire | 75.6 |
+| Breach Splinter | 87.3 |
+| Diluted Liquid Ire | 71.8 |
 | Greater Essence of the Infinite | 60.0 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
+| Chayula's Catalyst | 18.178217821782177 | 15.6% |
+| Order Artifact | 30.963636363636365 | 13.0% |
+| Omen of Putrefaction | 14.93939393939394 | 8.0% |
+| Broken Circle Artifact | 35.27927927927928 | 7.3% |
+| Exotic Coinage | 13.6 | 5.7% |
+| Simulacrum Splinter | 20.787345957318905 | 5.4% |
+| Breach Splinter | 87.34228187919463 | 2.7% |
+| Petition Splinter | 52.01870772773061 | 1.0% |
 | Orb of Alchemy | 119.07438016528926 | 0.0% |
 | Exalted Orb | 14.024389790723456 | 0.0% |
-| Artificer's Orb | 12.855555555555556 | 0.0% |
-| Orb of Augmentation | 261.5959595959596 | 0.0% |
-| Glassblower's Bauble | 13.617391304347827 | 0.0% |
-| Arcanist's Etcher | 24.104477611940297 | 0.0% |
-| Greater Regal Orb | 16.807692307692307 | 0.0% |
-| Regal Orb | 25.209375 | 0.0% |
-| Armourer's Scrap | 50.88877445932029 | 0.0% |
-| Lesser Jeweller's Orb | 201.33333333333334 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Order Artifact | 27.405405405405407 | 0.0% |
-| Diluted Liquid Ire | 75.61946902654867 | 0.0% |
-| Liquid Envy | 38.142857142857146 | 0.0% |
-| Liquid Disgust | 47.09090909090909 | 0.0% |
-| Simulacrum Splinter | 19.718327082993643 | 0.0% |
-| Adaptive Catalyst | 18.92 | 0.0% |
-| Breach Splinter | 85.0606884057971 | 0.0% |
-| Carapace Catalyst | 20.976470588235294 | 0.0% |
-| Chayula's Catalyst | 15.718446601941748 | 0.0% |
-| Neural Catalyst | 28.11842105263158 | 0.0% |
+| Omen of Resurgence | 11.404109589041095 | -31.5% |
+| Uncut Skill Gem (Level 18) | 13.5 | -12.2% |
+| Neural Catalyst | 25.384615384615383 | -9.7% |
+| Liquid Envy | 35.604651162790695 | -6.7% |
+| Liquid Disgust | 44.166666666666664 | -6.2% |
+| Black Scythe Artifact | 19.251107828655833 | -5.5% |
+| Carapace Catalyst | 19.88617886178862 | -5.2% |
+| Diluted Liquid Ire | 71.8058608058608 | -5.0% |
+| Omen of the Ancients | 12.43458980044346 | -4.9% |
+| Greater Desert Rune | 15.285714285714286 | -2.9% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
