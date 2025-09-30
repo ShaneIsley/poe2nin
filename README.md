@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-09-30 20:21:44.975105` |
-| Total Price Entries in DB | `9,314` |
+| Last Successful Run (UTC) | `2025-09-30 20:46:17.279473` |
+| Total Price Entries in DB | `9,720` |
 
 <!-- END_MAINTENANCE -->
 
@@ -24,11 +24,11 @@ This repository tracks Path of Exile 2 data.
 | Omens | Petition Splinter | 58.2 |
 | Essences | Greater Essence of the Infinite | 50.0 |
 | Expedition | Sun Artifact | 46.9 |
+| Uncut Gems | Uncut Skill Gem (Level 17) | 43.6 |
 | Runes | Greater Glacial Rune | 30.0 |
-| Abyssal Bones | Preserved Jawbone | 16.9 |
+| Abyssal Bones | Preserved Jawbone | 15.6 |
 | Lineage Gems | Kurgal's Leash | 15.0 |
-| Uncut Gems | Uncut Skill Gem (Level 18) | 11.6 |
-| Fragments | Runic Splinter | 4.5 |
+| Fragments | Runic Splinter | 4.6 |
 | Soul Cores | Citaqualotl's Soul Core of Foulness | 1.0 |
 | Talismans | Stag Talisman | 1.0 |
 
@@ -56,30 +56,30 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Omen of Resurgence | 30.869565217391305 | 17.7% |
-| Diluted Liquid Guilt | 11.292401872524307 | 8.2% |
-| Greater Orb of Augmentation | 75.24528301886792 | 5.5% |
-| Petition Splinter | 58.23901337502171 | 4.4% |
-| Perfect Orb of Transmutation | 24.123249299719888 | 4.1% |
-| Glassblower's Bauble | 15.079646017699115 | 4.0% |
-| Perfect Orb of Augmentation | 11.217598097502973 | 3.8% |
-| Order Artifact | 28.02 | 3.1% |
-| Regal Orb | 26.89755351681957 | 2.8% |
-| Simulacrum Splinter | 22.895204795204794 | 2.4% |
+| Uncut Support Gem (Level 1) | 12.0 | 5900.0% |
+| Uncut Skill Gem (Level 17) | 43.6 | 282.5% |
+| Uncut Skill Gem (Level 18) | 20.72222222222222 | 79.4% |
+| Orb of Alchemy | 68.01986754966887 | 0.0% |
+| Glassblower's Bauble | 15.079646017699115 | 0.0% |
+| Arcanist's Etcher | 19.220183486238533 | 0.0% |
+| Greater Regal Orb | 14.383386581469649 | 0.0% |
+| Regal Orb | 26.89755351681957 | 0.0% |
+| Armourer's Scrap | 56.18244406196214 | 0.0% |
+| Lesser Jeweller's Orb | 68.0 | 0.0% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Lesser Jeweller's Orb | 68.0 | -31.5% |
-| Arcanist's Etcher | 19.220183486238533 | -25.0% |
-| Scroll of Wisdom | 768.1818181818181 | -23.2% |
-| Greater Essence of the Infinite | 50.0 | -16.7% |
-| Liquid Disgust | 32.160714285714285 | -10.6% |
-| Orb of Alchemy | 68.01986754966887 | -10.5% |
-| Neural Catalyst | 15.921875 | -10.5% |
-| Black Scythe Artifact | 13.670319634703196 | -7.4% |
-| Sun Artifact | 46.94117647058823 | -6.1% |
-| Blacksmith's Whetstone | 44.65578635014837 | -5.9% |
+| Preserved Jawbone | 15.582089552238806 | -8.0% |
+| Greater Desert Rune | 14.333333333333334 | -1.5% |
+| Liquid Envy | 46.54 | 0.0% |
+| Diluted Liquid Guilt | 11.292401872524307 | 0.0% |
+| Adaptive Catalyst | 17.5 | 0.0% |
+| Breach Splinter | 91.08907922912205 | 0.0% |
+| Carapace Catalyst | 19.08888888888889 | 0.0% |
+| Xoph's Catalyst | 11.231707317073171 | 0.0% |
+| Neural Catalyst | 15.921875 | 0.0% |
+| Chayula's Catalyst | 31.176470588235293 | 0.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
