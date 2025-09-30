@@ -6,7 +6,7 @@ import re
 import os
 
 # --- Configuration ---
-DB_FILE = "poe_economy.db"
+DB_FILE = "poe2_economy.db"
 LEAGUE = "Rise of the Abyssal"
 
 # --- Database Schema ---
