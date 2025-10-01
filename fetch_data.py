@@ -101,7 +101,7 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
     league_id = cursor.fetchone()[0]
 
     # Use the consistent display name from the JS file as the category
-    cursor.execute("INSERT OR IGGLISHNORe INTO item_categories (name) VALUES (?)", (category_display_name,))
+    cursor.execute("INSERT OR IGNORE INTO item_categories (name) VALUES (?)", (category_display_name,))
     cursor.execute("SELECT id FROM item_categories WHERE name = ?", (category_display_name,))
     category_id = cursor.fetchone()[0]
 
