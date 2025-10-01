@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-01 05:20:22.967906` |
-| Total Price Entries in DB | `12,556` |
+| Last Successful Run (UTC) | `2025-10-01 05:38:41.796123` |
+| Total Price Entries in DB | `12,962` |
 
 <!-- END_MAINTENANCE -->
 
@@ -19,16 +19,16 @@ This repository tracks Path of Exile 2 data.
 | Category | Top Item | Chaos Value |
 | :--- | :--- | :--- |
 | Lineage Gems | Arjun's Medal | 800.0 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 488.0 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 496.0 |
 | Fragments | Zarokh's Reliquary Key: Against the Darkness | 205.0 |
-| Abyssal Bones | Ancient Collarbone | 159.8 |
-| Talismans | Talisman of Sirrius | 152.9 |
-| Omens | Omen of Chance | 142.2 |
-| Essences | Essence of Horror | 86.2 |
-| Uncut Gems | Uncut Spirit Gem (Level 20) | 84.7 |
-| Soul Cores | Soul Core of Jiquani | 79.5 |
-| Currency | Perfect Exalted Orb | 63.3 |
-| Distilled Emotions | Concentrated Liquid Isolation | 6.5 |
+| Abyssal Bones | Ancient Collarbone | 158.9 |
+| Talismans | Talisman of Sirrius | 147.9 |
+| Omens | Omen of Chance | 141.2 |
+| Essences | Essence of Horror | 84.7 |
+| Soul Cores | Soul Core of Jiquani | 80.4 |
+| Uncut Gems | Uncut Spirit Gem (Level 20) | 80.0 |
+| Currency | Perfect Exalted Orb | 62.9 |
+| Distilled Emotions | Concentrated Liquid Isolation | 6.6 |
 | Catalysts | Reaver Catalyst | 0.9 |
 | Expedition | Exotic Coinage | 0.1 |
 
@@ -45,41 +45,41 @@ This repository tracks Path of Exile 2 data.
 | Arjun's Medal | 800.0 |
 | Dialla's Desire | 700.0 |
 | Uhtred's Augury | 535.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 488.0 |
-| Rakiata's Flow | 421.9 |
-| Farrul's Rune of the Chase | 354.0 |
-| Countess Seske's Rune of Archery | 261.7 |
+| Hedgewitch Assandra's Rune of Wisdom | 496.0 |
+| Rakiata's Flow | 416.3 |
+| Farrul's Rune of the Chase | 356.9 |
+| Countess Seske's Rune of Archery | 214.8 |
 | Zarokh's Reliquary Key: Against the Darkness | 205.0 |
-| Uhtred's Omen | 169.2 |
-| Ancient Collarbone | 159.8 |
+| Uhtred's Omen | 170.4 |
+| Ancient Collarbone | 158.9 |
 
 ### Top 10 Gainers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Omen of Sanctification | 12.119741100323624 | 7.5% |
-| Omen of Chance | 142.1509433962264 | 1.0% |
-| Omen of Sinistral Annulment | 104.30158730158729 | 0.3% |
-| Ancient Collarbone | 159.83838383838383 | 0.2% |
-| Omen of Sinistral Erasure | 74.21052631578947 | 0.0% |
-| Primary Calamity Fragment | 30.165079365079368 | 0.0% |
-| Tangmazu's Reliquary Key | 60.0 | 0.0% |
-| Zarokh's Reliquary Key: Against the Darkness | 205.0 | 0.0% |
-| Perfect Chaos Orb | 54.77116704805491 | 0.0% |
-| Perfect Exalted Orb | 63.2852798053528 | 0.0% |
+| Uncut Spirit Gem (Level 8) | 19.916666666666668 | 12.7% |
+| Omen of Sanctification | 13.003215434083602 | 7.3% |
+| Secondary Calamity Fragment | 39.146214099216714 | 3.3% |
+| Atalui's Bloodletting | 106.06349206349206 | 3.2% |
+| Uul-Netol's Embrace | 139.6 | 2.2% |
+| Uncut Spirit Gem (Level 9) | 12.250000000000002 | 2.1% |
+| Hedgewitch Assandra's Rune of Wisdom | 496.0 | 1.6% |
+| Omen of Sinistral Erasure | 75.40802675585284 | 1.6% |
+| Essence of Hysteria | 33.7603550295858 | 1.5% |
+| Soul Core of Jiquani | 80.37931034482759 | 1.2% |
 
 ### Top 10 Losers (24h)
 | Item | Chaos Value | % Change |
 | :--- | :--- | :--- |
-| Uncut Spirit Gem (Level 20) | 84.67073170731707 | -7.4% |
-| Omen of Dextral Erasure | 47.968888888888884 | -3.3% |
-| Uncut Spirit Gem (Level 8) | 17.666666666666668 | -3.2% |
-| Ancient Rib | 55.45522388059702 | -3.1% |
-| Omen of Whittling | 46.886182902584494 | -2.4% |
-| Ancient Jawbone | 88.26573426573427 | -2.1% |
-| Omen of Light | 105.08232628398791 | -1.6% |
-| Divine Orb | 27.60145595574912 | -1.0% |
-| Omen of Dextral Annulment | 86.14626865671642 | -0.3% |
-| Essence of Hysteria | 33.25449101796407 | 0.0% |
+| Tangmazu's Reliquary Key | 20.0 | -66.7% |
+| Countess Seske's Rune of Archery | 214.79999999999998 | -17.9% |
+| Kalisa's Crescendo | 18.181818181818183 | -8.4% |
+| Uncut Spirit Gem (Level 20) | 79.98850574712644 | -5.5% |
+| Faded Crisis Fragment | 12.422818791946307 | -5.3% |
+| Omen of Whittling | 44.41899736147757 | -5.3% |
+| Ixchel's Torment | 12.0 | -4.0% |
+| Talisman of Sirrius | 147.93975903614458 | -3.3% |
+| Ancient Rib | 53.7093023255814 | -3.1% |
+| Ratha's Assault | 107.66666666666667 | -3.0% |
 
 
 ![Market Movers Chart](charts/market_movers.png)
