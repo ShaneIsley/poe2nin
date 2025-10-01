@@ -18,18 +18,18 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
-| Lineage Gems | Dialla's Desire | 700.0 |
-| Currency | Chaos Orb | 555.5 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 496.0 |
 | Essences | Essence of Haste | 235.7 |
 | Soul Cores | Tzamoto's Soul Core of Ferocity | 235.7 |
 | Uncut Gems | Uncut Skill Gem (Level 10) | 235.7 |
-| Abyssal Bones | Ancient Collarbone | 158.9 |
-| Talismans | Talisman of Sirrius | 147.9 |
-| Omens | Omen of Chance | 141.2 |
-| Fragments | Tertiary Calamity Fragment | 39.9 |
-| Distilled Emotions | Concentrated Liquid Isolation | 6.6 |
-| Catalysts | Reaver Catalyst | 0.9 |
+| Runes | Greater Vision Rune | 90.6 |
+| Lineage Gems | Arbiter's Ignition | 70.7 |
+| Currency | Divine Orb | 23.6 |
+| Omens | Omen of Chaotic Quantity | 13.9 |
+| Distilled Emotions | Liquid Disgust | 9.9 |
+| Catalysts | Flesh Catalyst | 7.3 |
+| Abyssal Bones | Preserved Vertebrae | 5.1 |
+| Fragments | Runic Splinter | 4.9 |
+| Talismans | Fox Talisman | 1.0 |
 | Expedition | Exotic Coinage | 0.1 |
 
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Dialla's Desire | 700.0 |
-| Chaos Orb | 555.5 |
-| Uhtred's Augury | 535.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 496.0 |
-| Rakiata's Flow | 416.3 |
-| Farrul's Rune of the Chase | 356.9 |
+| Tzamoto's Soul Core of Ferocity | 235.7 |
 | Uncut Skill Gem (Level 10) | 235.7 |
 | Essence of Haste | 235.7 |
-| Tzamoto's Soul Core of Ferocity | 235.7 |
-| Countess Seske's Rune of Archery | 214.8 |
+| Uncut Skill Gem (Level 13) | 94.3 |
+| Greater Vision Rune | 90.6 |
+| Arbiter's Ignition | 70.7 |
+| Divine Orb | 23.6 |
+| Omen of Chaotic Quantity | 13.9 |
+| Omen of the Ancients | 11.9 |
+| Omen of Putrefaction | 10.0 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
