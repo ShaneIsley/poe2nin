@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-01 11:30:39.198023` |
-| Total Price Entries in DB | `17,017` |
+| Last Successful Run (UTC) | `2025-10-01 12:43:46.328804` |
+| Total Price Entries in DB | `17,423` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,17 +18,17 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
-| Essences | Perfect Essence of Grounding | 780.1 |
-| Talismans | Boar Talisman | 709.2 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 495.3 |
-| Lineage Gems | Rakiata's Flow | 381.2 |
-| Soul Cores | Cholotl's Soul Core of War | 260.0 |
-| Abyssal Bones | Ancient Collarbone | 154.6 |
-| Omens | Omen of Chance | 135.5 |
-| Uncut Gems | Uncut Spirit Gem (Level 20) | 77.5 |
-| Fragments | Secondary Calamity Fragment | 39.1 |
-| Currency | Divine Orb | 23.6 |
-| Distilled Emotions | Concentrated Liquid Isolation | 7.8 |
+| Essences | Perfect Essence of Grounding | 766.0 |
+| Talismans | Boar Talisman | 696.4 |
+| Lineage Gems | Dialla's Desire | 681.5 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 491.6 |
+| Uncut Gems | Uncut Skill Gem (Level 12) | 464.2 |
+| Abyssal Bones | Ancient Collarbone | 150.1 |
+| Omens | Omen of Chance | 134.9 |
+| Soul Cores | Soul Core of Jiquani | 79.2 |
+| Fragments | Tertiary Calamity Fragment | 37.6 |
+| Currency | Divine Orb | 23.2 |
+| Distilled Emotions | Concentrated Liquid Isolation | 8.7 |
 | Catalysts | Reaver Catalyst | 0.8 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Perfect Essence of Grounding | 780.1 |
-| Boar Talisman | 709.2 |
-| Hedgewitch Assandra's Rune of Wisdom | 495.3 |
-| Farrul's Rune of the Chase | 393.0 |
-| Rakiata's Flow | 381.2 |
-| Talisman of Maxarius | 307.3 |
-| Cholotl's Soul Core of War | 260.0 |
-| Uhtred's Augury | 253.0 |
-| Wolf Talisman | 236.4 |
-| Ox Talisman | 236.4 |
+| Perfect Essence of Grounding | 766.0 |
+| Boar Talisman | 696.4 |
+| Dialla's Desire | 681.5 |
+| Hedgewitch Assandra's Rune of Wisdom | 491.6 |
+| Uncut Skill Gem (Level 12) | 464.2 |
+| Rakiata's Flow | 414.1 |
+| Farrul's Rune of the Chase | 395.9 |
+| Talisman of Maxarius | 301.8 |
+| Countess Seske's Rune of Archery | 247.4 |
+| Wolf Talisman | 232.1 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
