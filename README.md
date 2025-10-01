@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-01 14:20:55.782718` |
-| Total Price Entries in DB | `18,637` |
+| Last Successful Run (UTC) | `2025-10-01 15:20:23.722326` |
+| Total Price Entries in DB | `19,044` |
 
 <!-- END_MAINTENANCE -->
 
@@ -19,18 +19,18 @@ This repository tracks Path of Exile 2 data.
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
 | Lineage Gems | Dialla's Desire | 681.5 |
-| Talismans | Boar Talisman | 662.1 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 483.2 |
-| Abyssal Bones | Gnawed Collarbone | 375.2 |
-| Soul Cores | Uromoti's Soul Core of Attenuation | 176.6 |
-| Omens | Omen of Chance | 132.7 |
-| Uncut Gems | Uncut Skill Gem (Level 8) | 110.3 |
-| Essences | Essence of Horror | 89.5 |
-| Fragments | Secondary Calamity Fragment | 36.5 |
-| Currency | Divine Orb | 22.1 |
-| Distilled Emotions | Concentrated Liquid Isolation | 9.5 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 455.8 |
+| Talismans | Cat Talisman | 386.6 |
+| Abyssal Bones | Gnawed Collarbone | 365.1 |
+| Soul Cores | Citaqualotl's Soul Core of Foulness | 236.2 |
+| Omens | Omen of Chance | 130.1 |
+| Uncut Gems | Uncut Skill Gem (Level 8) | 107.4 |
+| Essences | Essence of Horror | 87.4 |
+| Fragments | Secondary Calamity Fragment | 35.2 |
+| Currency | Divine Orb | 21.5 |
+| Distilled Emotions | Concentrated Liquid Isolation | 9.6 |
 | Catalysts | Reaver Catalyst | 0.8 |
-| Expedition | Exotic Coinage | 0.1 |
+| Expedition | Exotic Coinage | 0.0 |
 
 
 ![Category Analysis Chart](charts/category_analysis.png)
@@ -43,15 +43,15 @@ This repository tracks Path of Exile 2 data.
 | Item | Imputed Chaos Value |
 | :--- | :--- |
 | Dialla's Desire | 681.5 |
-| Boar Talisman | 662.1 |
-| Hedgewitch Assandra's Rune of Wisdom | 483.2 |
-| Rakiata's Flow | 415.6 |
-| Farrul's Rune of the Chase | 385.0 |
-| Gnawed Collarbone | 375.2 |
-| Cat Talisman | 375.2 |
-| Countess Seske's Rune of Archery | 242.6 |
-| Craiceann's Rune of Recovery | 220.7 |
-| Wolf Talisman | 220.7 |
+| Hedgewitch Assandra's Rune of Wisdom | 455.8 |
+| Rakiata's Flow | 394.8 |
+| Cat Talisman | 386.6 |
+| Farrul's Rune of the Chase | 370.0 |
+| Gnawed Collarbone | 365.1 |
+| Kurgal's Leash | 322.2 |
+| Countess Seske's Rune of Archery | 236.8 |
+| Citaqualotl's Soul Core of Foulness | 236.2 |
+| Varashta's Blessing | 214.8 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
