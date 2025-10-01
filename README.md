@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-01 10:21:42.780251` |
-| Total Price Entries in DB | `15,802` |
+| Last Successful Run (UTC) | `2025-10-01 10:48:38.473446` |
+| Total Price Entries in DB | `16,207` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,17 +18,17 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
-| Talismans | Boar Talisman | 709.3 |
-| Lineage Gems | Dialla's Desire | 700.0 |
+| Essences | Perfect Essence of Grounding | 780.1 |
+| Talismans | Boar Talisman | 709.2 |
 | Runes | Hedgewitch Assandra's Rune of Wisdom | 495.3 |
-| Soul Cores | Tzamoto's Soul Core of Ferocity | 236.4 |
-| Abyssal Bones | Ancient Collarbone | 155.8 |
-| Omens | Omen of Chance | 136.6 |
-| Essences | Essence of Horror | 86.7 |
-| Uncut Gems | Uncut Spirit Gem (Level 20) | 76.0 |
-| Fragments | Secondary Calamity Fragment | 39.5 |
+| Lineage Gems | Rakiata's Flow | 381.2 |
+| Soul Cores | Cholotl's Soul Core of War | 260.0 |
+| Abyssal Bones | Ancient Collarbone | 154.6 |
+| Omens | Omen of Chance | 135.5 |
+| Uncut Gems | Uncut Spirit Gem (Level 20) | 77.5 |
+| Fragments | Secondary Calamity Fragment | 39.1 |
 | Currency | Divine Orb | 23.6 |
-| Distilled Emotions | Concentrated Liquid Isolation | 7.5 |
+| Distilled Emotions | Concentrated Liquid Isolation | 7.8 |
 | Catalysts | Reaver Catalyst | 0.8 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Boar Talisman | 709.3 |
-| Dialla's Desire | 700.0 |
+| Perfect Essence of Grounding | 780.1 |
+| Boar Talisman | 709.2 |
 | Hedgewitch Assandra's Rune of Wisdom | 495.3 |
-| Farrul's Rune of the Chase | 390.8 |
-| Rakiata's Flow | 388.4 |
-| Talisman of Maxarius | 307.4 |
+| Farrul's Rune of the Chase | 393.0 |
+| Rakiata's Flow | 381.2 |
+| Talisman of Maxarius | 307.3 |
+| Cholotl's Soul Core of War | 260.0 |
 | Uhtred's Augury | 253.0 |
 | Wolf Talisman | 236.4 |
 | Ox Talisman | 236.4 |
-| Tzamoto's Soul Core of Ferocity | 236.4 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
