@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-01 17:35:23.009048` |
-| Total Price Entries in DB | `20,672` |
+| Last Successful Run (UTC) | `2025-10-01 18:29:40.922597` |
+| Total Price Entries in DB | `21,079` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,17 +18,17 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
-| Lineage Gems | Dialla's Desire | 616.8 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 418.4 |
-| Soul Cores | Soul Core of Tzamoto | 185.8 |
-| Abyssal Bones | Ancient Collarbone | 142.5 |
-| Talismans | Talisman of Sirrius | 127.6 |
-| Uncut Gems | Uncut Skill Gem (Level 13) | 123.9 |
-| Omens | Omen of Chance | 123.8 |
-| Essences | Essence of Horror | 83.2 |
-| Fragments | Tertiary Calamity Fragment | 33.2 |
-| Currency | Divine Orb | 20.6 |
-| Distilled Emotions | Concentrated Liquid Isolation | 9.6 |
+| Omens | Omen of the Liege | 14,245.3 |
+| Lineage Gems | Dialla's Desire | 573.7 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 390.5 |
+| Soul Cores | Soul Core of Tzamoto | 183.2 |
+| Abyssal Bones | Ancient Collarbone | 141.7 |
+| Talismans | Talisman of Sirrius | 131.7 |
+| Uncut Gems | Uncut Skill Gem (Level 13) | 122.1 |
+| Essences | Essence of Horror | 82.4 |
+| Fragments | Tertiary Calamity Fragment | 33.5 |
+| Currency | Divine Orb | 20.4 |
+| Distilled Emotions | Concentrated Liquid Isolation | 9.8 |
 | Catalysts | Reaver Catalyst | 0.9 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Dialla's Desire | 616.8 |
-| Hedgewitch Assandra's Rune of Wisdom | 418.4 |
-| Rakiata's Flow | 385.3 |
-| Farrul's Rune of the Chase | 349.2 |
-| Countess Seske's Rune of Archery | 227.7 |
-| Varashta's Blessing | 206.4 |
-| Soul Core of Tzamoto | 185.8 |
-| Uhtred's Omen | 158.6 |
-| Ancient Collarbone | 142.5 |
-| Atalui's Bloodletting | 138.6 |
+| Omen of the Liege | 14,245.3 |
+| Dialla's Desire | 573.7 |
+| Hedgewitch Assandra's Rune of Wisdom | 390.5 |
+| Rakiata's Flow | 385.2 |
+| Farrul's Rune of the Chase | 345.1 |
+| Omen of Refreshment | 223.9 |
+| Countess Seske's Rune of Archery | 220.7 |
+| Varashta's Blessing | 203.5 |
+| Soul Core of Tzamoto | 183.2 |
+| Uhtred's Omen | 160.6 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
