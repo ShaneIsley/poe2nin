@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-01 22:35:20.216985` |
-| Total Price Entries in DB | `24,755` |
+| Last Successful Run (UTC) | `2025-10-01 23:17:17.285307` |
+| Total Price Entries in DB | `25,164` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,17 +18,17 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
-| Essences | Perfect Essence of Grounding | 644.3 |
-| Lineage Gems | Dialla's Desire | 606.5 |
-| Runes | Farrul's Rune of the Chase | 340.3 |
-| Soul Cores | Tzamoto's Soul Core of Ferocity | 234.3 |
-| Abyssal Bones | Gnawed Rib | 195.2 |
-| Talismans | Talisman of Sirrius | 138.8 |
-| Omens | Omen of Chance | 108.7 |
-| Uncut Gems | Uncut Spirit Gem (Level 20) | 77.2 |
-| Fragments | Tertiary Calamity Fragment | 33.4 |
-| Currency | Divine Orb | 19.5 |
-| Distilled Emotions | Concentrated Liquid Isolation | 10.0 |
+| Lineage Gems | Dialla's Desire | 643.0 |
+| Essences | Perfect Essence of Grounding | 634.1 |
+| Runes | Farrul's Rune of the Chase | 339.6 |
+| Abyssal Bones | Gnawed Rib | 192.2 |
+| Soul Cores | Soul Core of Tzamoto | 172.9 |
+| Talismans | Talisman of Sirrius | 140.8 |
+| Omens | Omen of Sinistral Annulment | 107.6 |
+| Uncut Gems | Uncut Spirit Gem (Level 20) | 79.3 |
+| Fragments | Tertiary Calamity Fragment | 32.3 |
+| Currency | Divine Orb | 19.2 |
+| Distilled Emotions | Concentrated Liquid Isolation | 10.5 |
 | Catalysts | Reaver Catalyst | 0.8 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Perfect Essence of Grounding | 644.3 |
-| Dialla's Desire | 606.5 |
+| Dialla's Desire | 643.0 |
+| Perfect Essence of Grounding | 634.1 |
 | Rakiata's Flow | 401.7 |
-| Farrul's Rune of the Chase | 340.3 |
-| Hedgewitch Assandra's Rune of Wisdom | 324.6 |
-| Tzamoto's Soul Core of Ferocity | 234.3 |
-| Countess Seske's Rune of Archery | 208.4 |
-| Gnawed Rib | 195.2 |
-| Soul Core of Tzamoto | 175.7 |
-| Atalui's Bloodletting | 171.0 |
+| Farrul's Rune of the Chase | 339.6 |
+| Hedgewitch Assandra's Rune of Wisdom | 320.0 |
+| Countess Seske's Rune of Archery | 206.9 |
+| Gnawed Rib | 192.2 |
+| Soul Core of Tzamoto | 172.9 |
+| Atalui's Bloodletting | 164.6 |
+| Talisman of Sirrius | 140.8 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
