@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-02 02:46:11.897255` |
-| Total Price Entries in DB | `26,393` |
+| Last Successful Run (UTC) | `2025-10-02 03:50:30.245406` |
+| Total Price Entries in DB | `26,803` |
 
 <!-- END_MAINTENANCE -->
 
@@ -20,15 +20,15 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- | :--- |
 | Lineage Gems | Dialla's Desire | 664.5 |
 | Runes | Hedgewitch Assandra's Rune of Wisdom | 485.0 |
-| Soul Cores | Tzamoto's Soul Core of Ferocity | 229.7 |
-| Uncut Gems | Uncut Skill Gem (Level 10) | 229.7 |
-| Talismans | Talisman of Sirrius | 156.1 |
-| Abyssal Bones | Ancient Collarbone | 121.7 |
-| Omens | Omen of Chance | 115.2 |
-| Essences | Essence of Horror | 109.3 |
-| Fragments | Primary Calamity Fragment | 31.2 |
-| Currency | Divine Orb | 19.1 |
-| Distilled Emotions | Concentrated Liquid Isolation | 13.6 |
+| Soul Cores | Tzamoto's Soul Core of Ferocity | 231.6 |
+| Talismans | Ox Talisman | 231.6 |
+| Abyssal Bones | Ancient Collarbone | 121.9 |
+| Omens | Omen of Chance | 115.9 |
+| Essences | Essence of Horror | 110.5 |
+| Uncut Gems | Uncut Spirit Gem (Level 20) | 79.4 |
+| Fragments | Primary Calamity Fragment | 30.9 |
+| Currency | Divine Orb | 19.3 |
+| Distilled Emotions | Concentrated Liquid Isolation | 15.0 |
 | Catalysts | Reaver Catalyst | 0.8 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -44,14 +44,14 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- |
 | Dialla's Desire | 664.5 |
 | Hedgewitch Assandra's Rune of Wisdom | 485.0 |
-| Rakiata's Flow | 398.3 |
-| Farrul's Rune of the Chase | 329.9 |
-| Tzamoto's Soul Core of Ferocity | 229.7 |
-| Uncut Skill Gem (Level 10) | 229.7 |
-| Countess Seske's Rune of Archery | 184.9 |
-| Soul Core of Tzamoto | 172.2 |
+| Rakiata's Flow | 405.6 |
+| Farrul's Rune of the Chase | 330.0 |
+| Ox Talisman | 231.6 |
+| Tzamoto's Soul Core of Ferocity | 231.6 |
+| Countess Seske's Rune of Archery | 182.1 |
+| Soul Core of Tzamoto | 173.7 |
+| Talisman of Sirrius | 165.9 |
 | Uul-Netol's Embrace | 158.5 |
-| Talisman of Sirrius | 156.1 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
