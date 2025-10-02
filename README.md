@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-02 13:50:21.386290` |
-| Total Price Entries in DB | `34,157` |
+| Last Successful Run (UTC) | `2025-10-02 15:20:56.409225` |
+| Total Price Entries in DB | `34,566` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,18 +18,18 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
-| Omens | Omen of Refreshment | 2,430.4 |
-| Essences | Perfect Essence of Grounding | 789.9 |
-| Lineage Gems | Dialla's Desire | 665.7 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 446.3 |
-| Soul Cores | Tzamoto's Soul Core of Ferocity | 291.7 |
-| Talismans | Talisman of Sirrius | 190.3 |
-| Abyssal Bones | Ancient Collarbone | 156.0 |
+| Essences | Perfect Essence of Grounding | 807.6 |
+| Lineage Gems | Dialla's Desire | 669.5 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 425.8 |
+| Soul Cores | Tzamoto's Soul Core of Ferocity | 299.7 |
+| Talismans | Talisman of Sirrius | 196.5 |
+| Abyssal Bones | Ancient Collarbone | 159.2 |
+| Omens | Omen of Chance | 157.3 |
 | Fragments | Olroth's Reliquary Key | 112.0 |
-| Uncut Gems | Uncut Spirit Gem (Level 20) | 78.2 |
+| Uncut Gems | Uncut Spirit Gem (Level 20) | 79.9 |
 | Distilled Emotions | Concentrated Liquid Isolation | 12.8 |
-| Currency | Fracturing Orb | 10.2 |
-| Catalysts | Reaver Catalyst | 0.8 |
+| Currency | Fracturing Orb | 10.3 |
+| Catalysts | Reaver Catalyst | 0.9 |
 | Expedition | Exotic Coinage | 0.0 |
 
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Omen of Refreshment | 2,430.4 |
-| Perfect Essence of Grounding | 789.9 |
-| Dialla's Desire | 665.7 |
-| Rakiata's Flow | 468.3 |
-| Hedgewitch Assandra's Rune of Wisdom | 446.3 |
-| Farrul's Rune of the Chase | 404.6 |
-| Perfect Essence of Ice | 388.9 |
-| Tzamoto's Soul Core of Ferocity | 291.7 |
-| Countess Seske's Rune of Archery | 246.4 |
-| Perfect Essence of Command | 194.4 |
+| Perfect Essence of Grounding | 807.6 |
+| Dialla's Desire | 669.5 |
+| Rakiata's Flow | 487.5 |
+| Hedgewitch Assandra's Rune of Wisdom | 425.8 |
+| Farrul's Rune of the Chase | 422.9 |
+| Tzamoto's Soul Core of Ferocity | 299.7 |
+| Countess Seske's Rune of Archery | 264.7 |
+| Perfect Essence of Command | 199.8 |
+| Talisman of Sirrius | 196.5 |
+| Atalui's Bloodletting | 191.8 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
