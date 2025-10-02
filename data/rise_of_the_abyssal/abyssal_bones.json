@@ -1,0 +1,284 @@
+{
+    "coreCurrencyItems": [
+        {
+            "id": "divine",
+            "name": "Divine Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+            "category": "Currency"
+        },
+        {
+            "id": "exalted",
+            "name": "Exalted Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+            "category": "Currency"
+        },
+        {
+            "id": "chaos",
+            "name": "Chaos Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+            "category": "Currency"
+        }
+    ],
+    "items": [
+        {
+            "item": {
+                "id": "abyss-key",
+                "name": "Kulemak's Invitation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvS3VsZW1ha3NJbnZpdGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c7e6e86681/KulemaksInvitation.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 34.54615384615385,
+                "exalted": 0.1475346568279354,
+                "chaos": 2.6811279826464207
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 748.5,
+                "exalted": 3185.6666666666665,
+                "chaos": 206
+            },
+            "primaryValue": 0.017173911895140608,
+            "volumePrimaryValue": 54.71035866061959,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "ancient-collarbone",
+                "name": "Ancient Collarbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvQW5jaWVudENsYXZpY2xlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/86b2c7a29a/AncientClavicle.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 0.14793882978723405,
+                "exalted": 0.0004211702781161978,
+                "chaos": 0.007442154165351134
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 148.33333333333334,
+                "exalted": 34.166666666666664,
+                "chaos": 27.5
+            },
+            "primaryValue": 6.759550561797753,
+            "volumePrimaryValue": 1002.6666666666666,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "ancient-jawbone",
+                "name": "Ancient Jawbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvQW5jaWVudEphd2JvbmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bff68187a6/AncientJawbone.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 0.2548517226341038,
+                "exalted": 0.0007273602809602416,
+                "chaos": 0.012356730381057694
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 779.1666666666666,
+                "exalted": 192.33333333333334,
+                "chaos": 117.33333333333333
+            },
+            "primaryValue": 3.923850267379679,
+            "volumePrimaryValue": 3057.3333333333335,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "ancient-rib",
+                "name": "Ancient Rib",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvQW5jaWVudFJpYnMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0c779c5d3f/AncientRibs.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 0.379492727491285,
+                "exalted": 0.0011530113264045614,
+                "chaos": 0.01833878958194513
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 526.1666666666666,
+                "exalted": 191.5,
+                "chaos": 105.5
+            },
+            "primaryValue": 2.6350966107063667,
+            "volumePrimaryValue": 1386.5,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "preserved-cranium",
+                "name": "Preserved Cranium",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkQ3Jhbml1bSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/791fdae503/PreservedCranium.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 14.847014925373134,
+                "exalted": 0.04650597134726242,
+                "chaos": 0.7435719249478805
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 663.1666666666666,
+                "exalted": 1593.3333333333333,
+                "chaos": 178.33333333333334
+            },
+            "primaryValue": 0.054482190661563644,
+            "volumePrimaryValue": 86.8082904540914,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "preserved-jawbone",
+                "name": "Preserved Jawbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2bb7939b21/PreservedJawbone.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 351,
+                "exalted": 8.484408372490389,
+                "chaos": 20.61904761904762
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 175.5,
+                "exalted": 3310.3333333333335,
+                "chaos": 144.33333333333334
+            },
+            "primaryValue": 0.0002986356958085751,
+            "volumePrimaryValue": 0.9885836983583197,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "preserved-vertebrae",
+                "name": "Preserved Vertebrae",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkU3BpbmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6605f295c5/PreservedSpine.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 82.2455172413793,
+                "exalted": 0.1808327967374973,
+                "chaos": 4.010367810417181
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 9938,
+                "exalted": 21624.166666666668,
+                "chaos": 2707.6666666666665
+            },
+            "primaryValue": 0.014011546818693713,
+            "volumePrimaryValue": 302.98802366523597,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "gnawed-jawbone",
+                "name": "Gnawed Jawbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6d343a5e8d/GnawedJawbone.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 29,
+                "exalted": 2.2735849056603774
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 9.666666666666666,
+                "exalted": 40.166666666666664
+            },
+            "primaryValue": 0.0011144282280968188,
+            "volumePrimaryValue": 0.04476286716188889,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "gnawed-collarbone",
+                "name": "Gnawed Collarbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkQ2xhdmljbGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ff42f1ab47/GnawedClavicle.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 18,
+                "exalted": 0.3145009416195857,
+                "chaos": 1.95
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 6,
+                "exalted": 55.666666666666664,
+                "chaos": 6.5
+            },
+            "primaryValue": 0.008056405760805446,
+            "volumePrimaryValue": 0.4484732540181698,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "gnawed-rib",
+                "name": "Gnawed Rib",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkUmlicyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b0581454e6/GnawedRibs.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "exalted": 1.0419847328244274,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 45.5,
+                "chaos": 0.6666666666666666
+            },
+            "primaryValue": 0.002431654819907711,
+            "volumePrimaryValue": 0.11064029430580084,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "preserved-collarbone",
+                "name": "Preserved Collarbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkQ2FsdmljbGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6f63f7462d/PreservedCalvicle.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 59.35294117647059,
+                "exalted": 0.15942902086784813,
+                "chaos": 2.314745972738538
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 672.6666666666666,
+                "exalted": 3175.6666666666665,
+                "chaos": 311.3333333333333
+            },
+            "primaryValue": 0.015892634754013882,
+            "volumePrimaryValue": 50.46971043383008,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "preserved-rib",
+                "name": "Preserved Rib",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkUmlicyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3676729ba0/PreservedRibs.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 502.7142857142857,
+                "exalted": 5.38023035427905,
+                "chaos": 15.419354838709678
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 586.5,
+                "exalted": 6150.5,
+                "chaos": 239
+            },
+            "primaryValue": 0.00047093656423606594,
+            "volumePrimaryValue": 2.8964953383339234,
+            "maxVolumeCurrency": "exalted"
+        }
+    ]
+}

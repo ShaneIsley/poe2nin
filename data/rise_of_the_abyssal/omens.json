@@ -1,0 +1,900 @@
+{
+    "coreCurrencyItems": [
+        {
+            "id": "divine",
+            "name": "Divine Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+            "category": "Currency"
+        },
+        {
+            "id": "exalted",
+            "name": "Exalted Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+            "category": "Currency"
+        },
+        {
+            "id": "chaos",
+            "name": "Chaos Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+            "category": "Currency"
+        }
+    ],
+    "items": [
+        {
+            "item": {
+                "id": "omen-of-abyssal-favours",
+                "name": "Omen of Abyssal Echoes",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NSZXJvbGxPcHRpb25zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690f99016/OmenOnAbyssRerollOptions.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 2.8153548029897575,
+                "exalted": 0.008375514657551202,
+                "chaos": 0.130953550034371
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 5085,
+                "exalted": 3485,
+                "chaos": 889
+            },
+            "primaryValue": 0.3551950180268764,
+            "volumePrimaryValue": 1806.1666666666667,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-answered-prayers",
+                "name": "Omen of Answered Prayers",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0Qmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ba21c85554/VoodooOmens4Blue.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 11.545454545454545,
+                "exalted": 0.13920962758172062,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 21.166666666666668,
+                "exalted": 142.66666666666666,
+                "chaos": 2.6666666666666665
+            },
+            "primaryValue": 0.018305373116253246,
+            "volumePrimaryValue": 2.611566564585463,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-chance",
+                "name": "Omen of Chance",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhbmNlTm90RGVzdHJveSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/461b794959/OmenOnChanceNotDestroy.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.15192437542201215,
+                "exalted": 0.0004637965842745676,
+                "chaos": 0.007781587971511475
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 112.5,
+                "exalted": 8.5,
+                "chaos": 9.833333333333334
+            },
+            "primaryValue": 6.582222222222223,
+            "volumePrimaryValue": 740.5,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-chaotic-quantity",
+                "name": "Omen of Chaotic Quantity",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBQYWNrU2l6ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9ea6c86009/OmenOnChaosMapPackSize.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 127.5925925925926,
+                "exalted": 0.2481277519224256,
+                "chaos": 8.25
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1722.5,
+                "exalted": 3296.6666666666665,
+                "chaos": 352
+            },
+            "primaryValue": 0.01027004901513293,
+            "volumePrimaryValue": 33.85692825322156,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-dextral-annulment",
+                "name": "Omen of Dextral Annulment",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.23407933042212517,
+                "exalted": 0.0006724498303884505,
+                "chaos": 0.011267905073214807
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 428.8333333333333,
+                "exalted": 78.5,
+                "chaos": 70.66666666666667
+            },
+            "primaryValue": 4.272055965798678,
+            "volumePrimaryValue": 1832.0,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-dextral-crystallisation",
+                "name": "Omen of Dextral Crystallisation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uUGVyZmVjdEVzc2VuY2VTdWZmaXgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7ec019819e/OmenOnPerfectEssenceSuffix.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 11.861723446893787,
+                "exalted": 0.03345750499108871,
+                "chaos": 0.4741717135732098
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 986.5,
+                "exalted": 1458,
+                "chaos": 221.83333333333334
+            },
+            "primaryValue": 0.07616479994359357,
+            "volumePrimaryValue": 111.04827831775943,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-dextral-erasure",
+                "name": "Omen of Dextral Erasure",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.35244409776391056,
+                "exalted": 0.0010609877108617664,
+                "chaos": 0.017909150184742446
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 451.8333333333333,
+                "exalted": 92.66666666666667,
+                "chaos": 68.66666666666667
+            },
+            "primaryValue": 2.83732939874585,
+            "volumePrimaryValue": 1282.0,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-gambling",
+                "name": "Omen of Gambling",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbkdhbWJsZU5vR29sZENvc3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/90225aff24/OmenGambleNoGoldCost.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 813.5,
+                "exalted": 13.688865764828304,
+                "chaos": 36
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 542.3333333333334,
+                "exalted": 2192.5,
+                "chaos": 30
+            },
+            "primaryValue": 0.0001861574375873805,
+            "volumePrimaryValue": 0.40815018191033176,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-greater-exaltation",
+                "name": "Omen of Greater Exaltation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/22d9b6478d/VoodooOmens1Yellow.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 379.3333333333333,
+                "exalted": 0.9569641721433114,
+                "chaos": 22.690217391304348
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 758.6666666666666,
+                "exalted": 6771,
+                "chaos": 695.8333333333334
+            },
+            "primaryValue": 0.0026628835733219416,
+            "volumePrimaryValue": 18.030384674962868,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-homogenising-exaltation",
+                "name": "Omen of Homogenising Exaltation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRXhhbHRBZGRFeGlzdGluZ01vZFR5cGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/298d666008/OmenOnExaltAddExistingModType.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 3.569760653823701,
+                "exalted": 0.00920756792476398,
+                "chaos": 0.1550229599980355
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 4076.6666666666665,
+                "exalted": 3046.8333333333335,
+                "chaos": 1052.1666666666667
+            },
+            "primaryValue": 0.280130825838103,
+            "volumePrimaryValue": 1142.0,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-light",
+                "name": "Omen of Light",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQW5udWxSZW1vdmVBYnlzc01vZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/eb39bcb3d7/OmenOnAnnulRemoveAbyssMod.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.18975894365115922,
+                "exalted": 0.0005236350351753864,
+                "chaos": 0.009087192266882125
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2059.8333333333335,
+                "exalted": 516,
+                "chaos": 311.1666666666667
+            },
+            "primaryValue": 5.26984383849826,
+            "volumePrimaryValue": 10855.0,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-reinforcements",
+                "name": "Omen of Reinforcements",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0UHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bed352248c/VoodooOmens4Purple.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 5.417910447761194,
+                "exalted": 0.016623418747972754,
+                "chaos": 0.18294849023090587
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 60.5,
+                "exalted": 170.83333333333334,
+                "chaos": 34.333333333333336
+            },
+            "primaryValue": 0.15329483139975772,
+            "volumePrimaryValue": 26.187867030791942,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-secret-compartments",
+                "name": "Omen of Secret Compartments",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0RGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/a152f2714f/VoodooOmens4Dark.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 9.333333333333334,
+                "exalted": 0.04000168605631428,
+                "chaos": 0.4088050314465409
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 42,
+                "exalted": 158.16666666666666,
+                "chaos": 10.833333333333334
+            },
+            "primaryValue": 0.06370441912549851,
+            "volumePrimaryValue": 10.075915625016348,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-sinistral-annulment",
+                "name": "Omen of Sinistral Annulment",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.18309407844142528,
+                "exalted": 0.0005273487655453245,
+                "chaos": 0.008778074515126308
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 476.1666666666667,
+                "exalted": 76.66666666666667,
+                "chaos": 66.83333333333333
+            },
+            "primaryValue": 5.4616730836541825,
+            "volumePrimaryValue": 2600.6666666666665,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-sinistral-crystallisation",
+                "name": "Omen of Sinistral Crystallisation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uUGVyZmVjdEVzc2VuY2VQcmVmaXgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/75263d6201/OmenOnPerfectEssencePrefix.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 4.1548586914440575,
+                "exalted": 0.012164304511874188,
+                "chaos": 0.1896551724137931
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1788.6666666666667,
+                "exalted": 1278.8333333333333,
+                "chaos": 304.3333333333333
+            },
+            "primaryValue": 0.2406820723071189,
+            "volumePrimaryValue": 430.5,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-sinistral-exaltation",
+                "name": "Omen of Sinistral Exaltation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d316b47ee/VoodooOmens2Yellow.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 64.18867924528301,
+                "exalted": 0.31531161334507385,
+                "chaos": 7.674418604651163
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 567,
+                "exalted": 2685.6666666666665,
+                "chaos": 275
+            },
+            "primaryValue": 0.008081796122964993,
+            "volumePrimaryValue": 21.70501045424298,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-sinistral-necromancy",
+                "name": "Omen of Sinistral Necromancy",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NBZGRQcmVmaXhlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1c0a646414/OmenOnAbyssAddPrefixes.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 16.11519845111326,
+                "exalted": 0.03959628791527535,
+                "chaos": 0.5717020023557126
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2774.5,
+                "exalted": 4905.333333333333,
+                "chaos": 647.1666666666666
+            },
+            "primaryValue": 0.06435664322147189,
+            "volumePrimaryValue": 315.6907872157268,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-the-hunt",
+                "name": "Omen of the Hunt",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0R3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4800eedd0e/VoodooOmens4Green.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 11.62962962962963,
+                "exalted": 0.04297214969538729,
+                "chaos": 0.3333333333333333
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 52.333333333333336,
+                "exalted": 131.66666666666666,
+                "chaos": 11
+            },
+            "primaryValue": 0.0593008307083039,
+            "volumePrimaryValue": 7.80794270992668,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-the-liege",
+                "name": "Omen of the Liege",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NHdWFyZW50ZWVkTGljaFR5cGVNb2QyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/675e1d439a/OmenOnAbyssGuarenteedLichTypeMod2.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "exalted": 33.205479452054796,
+                "chaos": 133
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 404,
+                "chaos": 22.166666666666668
+            },
+            "primaryValue": 7.674288148549422e-05,
+            "volumePrimaryValue": 0.031004124120139667,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "petition-splinter",
+                "name": "Petition Splinter",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL05ld1JpdHVhbFNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e88f32bf38/NewRitualSplinter.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 937.3371539792388,
+                "exalted": 3.1880680640247983,
+                "chaos": 49.24040083341601
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1444749,
+                "exalted": 694563.6666666666,
+                "chaos": 82715.66666666667
+            },
+            "primaryValue": 0.0010668519814399132,
+            "volumePrimaryValue": 1541.3333333333333,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-refreshment",
+                "name": "Omen of Refreshment",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 75,
+                "exalted": 8.791322314049587
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 50,
+                "exalted": 709.1666666666666
+            },
+            "primaryValue": 0.0002898635817487423,
+            "volumePrimaryValue": 0.20556159005681643,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-amelioration",
+                "name": "Omen of Amelioration",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b5ee965352/VoodooOmens3Blue.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 25.012106537530265,
+                "exalted": 0.05471810067417039,
+                "chaos": 0.7761522730847884
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1721.6666666666667,
+                "exalted": 5010.5,
+                "chaos": 822.3333333333334
+            },
+            "primaryValue": 0.046571137208001975,
+            "volumePrimaryValue": 233.3446829806939,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-bartering",
+                "name": "Omen of Bartering",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lblNlbGxWZW5kb3JSYW5kb21pc2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/12ef99da8b/OmenSellVendorRandomise.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 46.3719512195122,
+                "exalted": 0.14534928598996527,
+                "chaos": 2.494195688225539
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 5070,
+                "exalted": 5335.166666666667,
+                "chaos": 501.3333333333333
+            },
+            "primaryValue": 0.017532140986464738,
+            "volumePrimaryValue": 93.53689418628711,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-catalysing-exaltation",
+                "name": "Omen of Catalysing Exaltation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRXhhbHRDb25zdW1lUXVhbGl0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ca4d0db767/OmenOnExaltConsumeQuality.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 50.515625,
+                "exalted": 0.11893628959583766,
+                "chaos": 2.3902439024390243
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 538.8333333333334,
+                "exalted": 1165.8333333333333,
+                "chaos": 114.33333333333333
+            },
+            "primaryValue": 0.021425623608382984,
+            "volumePrimaryValue": 24.978706190106497,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-chaotic-monsters",
+                "name": "Omen of Chaotic Monsters",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBJdGVtUXVhbnRpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dcd21d0252/OmenOnChaosMapItemQuantity.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 16.30835734870317,
+                "exalted": 0.05841283693992106,
+                "chaos": 0.5724907063197026
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 943.1666666666666,
+                "exalted": 1963.3333333333333,
+                "chaos": 128.33333333333334
+            },
+            "primaryValue": 0.043625413654861916,
+            "volumePrimaryValue": 85.65122880904556,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-chaotic-rarity",
+                "name": "Omen of Chaotic Rarity",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBJdGVtUmFyaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e7d9f8657d/OmenOnChaosMapItemRarity.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 14.204394333622433,
+                "exalted": 0.032885210712756914,
+                "chaos": 0.4957344090999273
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 8188.833333333333,
+                "exalted": 8834.666666666666,
+                "chaos": 1249.3333333333333
+            },
+            "primaryValue": 0.07749027964322934,
+            "volumePrimaryValue": 684.6007905547168,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-corruption",
+                "name": "Omen of Corruption",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9cfdcc9e1a/VoodooOmens3Red.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 22.268948655256725,
+                "exalted": 0.05737634216234694,
+                "chaos": 0.7971119133574007
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3036,
+                "exalted": 5986.666666666667,
+                "chaos": 1104
+            },
+            "primaryValue": 0.04441350002842041,
+            "volumePrimaryValue": 265.8888201701435,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-dextral-exaltation",
+                "name": "Omen of Dextral Exaltation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ed7cf06fa4/VoodooOmens3Yellow.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 52.509803921568626,
+                "exalted": 0.16940997973708113,
+                "chaos": 3.166908563134978
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 892.6666666666666,
+                "exalted": 2828.6666666666665,
+                "chaos": 363.6666666666667
+            },
+            "primaryValue": 0.015042113683107159,
+            "volumePrimaryValue": 42.54912557161578,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-dextral-necromancy",
+                "name": "Omen of Dextral Necromancy",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NBZGRTdWZmaXhlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/93e1dd20ce/OmenOnAbyssAddSuffixes.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 129,
+                "exalted": 1.641310089804543,
+                "chaos": 6.739130434782608
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 215,
+                "exalted": 3107,
+                "chaos": 77.5
+            },
+            "primaryValue": 0.0015525915487191817,
+            "volumePrimaryValue": 4.823901941870497,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-homogenising-coronation",
+                "name": "Omen of Homogenising Coronation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uUmVnYWxBZGRFeGlzdGluZ01vZFR5cGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/314f84e4dd/OmenOnRegalAddExistingModType.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 55.645833333333336,
+                "exalted": 0.12757507794978393,
+                "chaos": 4.00836820083682
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 445.1666666666667,
+                "exalted": 1943.5,
+                "chaos": 159.66666666666666
+            },
+            "primaryValue": 0.01997478046034281,
+            "volumePrimaryValue": 38.82098582467625,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-putrefaction",
+                "name": "Omen of Putrefaction",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NWZWlsQWxsQW5kQ29ycnVwdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c706ec466/OmenOnAbyssVeilAllAndCorrupt.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 204.66666666666666,
+                "exalted": 0.6932025454987637,
+                "chaos": 5.911111111111111
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 204.66666666666666,
+                "exalted": 2850.3333333333335,
+                "chaos": 88.66666666666667
+            },
+            "primaryValue": 0.0036761033132452618,
+            "volumePrimaryValue": 10.478119810520079,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-recombination",
+                "name": "Omen of Recombination",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lblJlY29tYmluYXRpb24iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e1a3cca5ee/OmenRecombination.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 11.180246913580246,
+                "exalted": 0.02730562803891068,
+                "chaos": 0.5049148099606815
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 754.6666666666666,
+                "exalted": 1442.3333333333333,
+                "chaos": 256.8333333333333
+            },
+            "primaryValue": 0.09332450330850238,
+            "volumePrimaryValue": 134.60504193862994,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-resurgence",
+                "name": "Omen of Resurgence",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/044d5086da/VoodooOmens2Blue.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 188.23529411764707,
+                "exalted": 0.5385878489326765,
+                "chaos": 24.27840909090909
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 533.3333333333334,
+                "exalted": 7981.333333333333,
+                "chaos": 712.1666666666666
+            },
+            "primaryValue": 0.004731417872326693,
+            "volumePrimaryValue": 37.763023178330116,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-sanctification",
+                "name": "Omen of Sanctification",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRGl2aW5lU2FuY3RpZnkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/895416b2b9/OmenOnDivineSanctify.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 1.221881390593047,
+                "exalted": 0.0032768008188448034,
+                "chaos": 0.057227506627163575
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 199.16666666666666,
+                "exalted": 153.66666666666666,
+                "chaos": 61.166666666666664
+            },
+            "primaryValue": 0.8184100418410042,
+            "volumePrimaryValue": 163.0,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-sinistral-erasure",
+                "name": "Omen of Sinistral Erasure",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0cfa6959be/VoodooOmens2Dark.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.2514353126228864,
+                "exalted": 0.0007554625755462575,
+                "chaos": 0.012559413264503131
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 532.8333333333334,
+                "exalted": 80.16666666666667,
+                "chaos": 66.5
+            },
+            "primaryValue": 3.9771660932123867,
+            "volumePrimaryValue": 2119.1666666666665,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "omen-of-the-ancients",
+                "name": "Omen of the Ancients",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhbmNlQW5jaWVudE9yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6392c12c6d/OmenOnChanceAncientOrb.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 207.34782608695653,
+                "exalted": 0.5895905649270243,
+                "chaos": 11.980861244019138
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1589.6666666666667,
+                "exalted": 4840.833333333333,
+                "chaos": 417.3333333333333
+            },
+            "primaryValue": 0.004322125091288502,
+            "volumePrimaryValue": 20.92268721274576,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-the-blackblooded",
+                "name": "Omen of the Blackblooded",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NHdWFyZW50ZWVkTGljaFR5cGVNb2QzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7fe7335409/OmenOnAbyssGuarenteedLichTypeMod3.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 13,
+                "exalted": 0.390185387131952,
+                "chaos": 5.75
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 6.5,
+                "exalted": 298.1666666666667,
+                "chaos": 19.166666666666668
+            },
+            "primaryValue": 0.006530957484054321,
+            "volumePrimaryValue": 1.947313823162197,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-the-blessed",
+                "name": "Omen of the Blessed",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRGl2aW5lUmVyb2xsSW1wbGljaXRzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d910191d85/OmenOnDivineRerollImplicits.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 70,
+                "exalted": 0.16720594665500657,
+                "chaos": 1.8412698412698412
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 81.66666666666667,
+                "exalted": 318.6666666666667,
+                "chaos": 19.333333333333332
+            },
+            "primaryValue": 0.015240392014979528,
+            "volumePrimaryValue": 4.8566049221068095,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-the-sovereign",
+                "name": "Omen of the Sovereign",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NHdWFyZW50ZWVkTGljaFR5cGVNb2QxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a4962e6d7b/OmenOnAbyssGuarenteedLichTypeMod1.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 62.5,
+                "exalted": 0.7511074197120708,
+                "chaos": 2.0526315789473686
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 20.833333333333332,
+                "exalted": 452.1666666666667,
+                "chaos": 6.5
+            },
+            "primaryValue": 0.003392702704541133,
+            "volumePrimaryValue": 1.534067072903349,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "omen-of-whittling",
+                "name": "Omen of Whittling",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2dea0999d5/VoodooOmens1Dark.png",
+                "category": "Ritual"
+            },
+            "rate": {
+                "divine": 0.38746160098081084,
+                "exalted": 0.0011339991157033544,
+                "chaos": 0.01937295698645774
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 4687.833333333333,
+                "exalted": 831.8333333333334,
+                "chaos": 497.8333333333333
+            },
+            "primaryValue": 2.5809009137128025,
+            "volumePrimaryValue": 12098.833333333334,
+            "maxVolumeCurrency": "divine"
+        }
+    ]
+}

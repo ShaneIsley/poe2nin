@@ -1,0 +1,310 @@
+{
+    "coreCurrencyItems": [
+        {
+            "id": "divine",
+            "name": "Divine Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+            "category": "Currency"
+        },
+        {
+            "id": "exalted",
+            "name": "Exalted Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+            "category": "Currency"
+        },
+        {
+            "id": "chaos",
+            "name": "Chaos Orb",
+            "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+            "category": "Currency"
+        }
+    ],
+    "items": [
+        {
+            "item": {
+                "id": "adaptive-catalyst",
+                "name": "Adaptive Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0QXR0cmlidXRlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/015f6c9ac8/BreachCatalystAttribute.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 300.3333333333333,
+                "exalted": 6.501185600344902,
+                "chaos": 20.846153846153847
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 300.3333333333333,
+                "exalted": 5026.5,
+                "chaos": 135.5
+            },
+            "primaryValue": 0.0003897361733078881,
+            "volumePrimaryValue": 1.9590088751320995,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "breach-splinter",
+                "name": "Breach Splinter",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lU3BsaW50ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4abb17ea8e/BreachstoneSplinter.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 2430.2101910828023,
+                "exalted": 8.22586987535816,
+                "chaos": 127.26977848101266
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 190771.5,
+                "exalted": 343069.5,
+                "chaos": 26811.5
+            },
+            "primaryValue": 0.00030802179419747337,
+            "volumePrimaryValue": 105.6728829244301,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "carapace-catalyst",
+                "name": "Carapace Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RGVmZW5jZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/568ca70b04/BreachCatalystDefences.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 387.8,
+                "exalted": 3.2165820642978002,
+                "chaos": 25.20408163265306
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 323.1666666666667,
+                "exalted": 5703,
+                "chaos": 205.83333333333334
+            },
+            "primaryValue": 0.0007877141472514863,
+            "volumePrimaryValue": 4.492333781775226,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "eshs-catalyst",
+                "name": "Esh's Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlnaHRuaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/299e62fc33/BreachCatalystLightning.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 43.945330296127565,
+                "exalted": 0.15964467744284258,
+                "chaos": 2.5973837209302326
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3215.3333333333335,
+                "exalted": 9135.666666666666,
+                "chaos": 1191.3333333333333
+            },
+            "primaryValue": 0.01587116613236243,
+            "volumePrimaryValue": 144.99368339655237,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "flesh-catalyst",
+                "name": "Flesh Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TGlmZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/06ec489870/BreachCatalystLife.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 212.8108108108108,
+                "exalted": 0.83243170862346,
+                "chaos": 13.93041237113402
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1312.3333333333333,
+                "exalted": 10361,
+                "chaos": 900.8333333333334
+            },
+            "primaryValue": 0.0030437898647958346,
+            "volumePrimaryValue": 31.536706789149644,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "reaver-catalyst",
+                "name": "Reaver Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0QXR0YWNrIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ccc363f502/BreachCatalystAttack.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 26.83312101910828,
+                "exalted": 0.08510097226712507,
+                "chaos": 1.179201485608171
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3510.6666666666665,
+                "exalted": 7194.833333333333,
+                "chaos": 846.6666666666666
+            },
+            "primaryValue": 0.02977342244562776,
+            "volumePrimaryValue": 214.21481225921747,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "sibilant-catalyst",
+                "name": "Sibilant Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q2FzdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/51dc6bc317/BreachCatalystCaster.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 183,
+                "exalted": 2.493633692458374,
+                "chaos": 8.552941176470588
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 152.5,
+                "exalted": 3394.6666666666665,
+                "chaos": 121.16666666666667
+            },
+            "primaryValue": 0.0010160863664561922,
+            "volumePrimaryValue": 3.4492745186632874,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uul-netols-catalyst",
+                "name": "Uul-Netol's Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0UGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bc9406c106/BreachCatalystPhysical.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 116.71428571428571,
+                "exalted": 4.630300897413338,
+                "chaos": 7.954545454545454
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 136.16666666666666,
+                "exalted": 4385.666666666667,
+                "chaos": 87.5
+            },
+            "primaryValue": 0.0005472100526465169,
+            "volumePrimaryValue": 2.399880887556741,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "xophs-catalyst",
+                "name": "Xoph's Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0RmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/05b1999374/BreachCatalystFire.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 304,
+                "exalted": 3.2594212985979913,
+                "chaos": 15.132075471698114
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 50.666666666666664,
+                "exalted": 5463.333333333333,
+                "chaos": 133.66666666666666
+            },
+            "primaryValue": 0.000777361060668234,
+            "volumePrimaryValue": 4.246982594784119,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "chayulas-catalyst",
+                "name": "Chayula's Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q2hhb3MiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c80d8d7b1b/BreachCatalystChaos.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 200,
+                "exalted": 1.983036753700316,
+                "chaos": 8.34862385321101
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 33.333333333333336,
+                "exalted": 3974.6666666666665,
+                "chaos": 151.66666666666666
+            },
+            "primaryValue": 0.0012777106592274873,
+            "volumePrimaryValue": 5.078473966876187,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "neural-catalyst",
+                "name": "Neural Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0TWFuYSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/61d3a7a832/BreachCatalystMana.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 206.72727272727272,
+                "exalted": 3.02428177532687,
+                "chaos": 20.548387096774192
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 379,
+                "exalted": 5667,
+                "chaos": 318.5
+            },
+            "primaryValue": 0.0008378012983161647,
+            "volumePrimaryValue": 4.747819957557706,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "skittering-catalyst",
+                "name": "Skittering Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0U3BlZWQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/14b5db3c3c/BreachCatalystSpeed.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 255,
+                "exalted": 5.0574831693423095,
+                "chaos": 13.818181818181818
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 42.5,
+                "exalted": 1627.6666666666667,
+                "chaos": 76
+            },
+            "primaryValue": 0.0005009897439109547,
+            "volumePrimaryValue": 0.8154443065057306,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "tuls-catalyst",
+                "name": "Tul's Catalyst",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaENhdGFseXN0Q29sZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c3bc9abf43/BreachCatalystCold.png",
+                "category": "Breach"
+            },
+            "rate": {
+                "divine": 177.8,
+                "exalted": 2.1902866242038215,
+                "chaos": 12.732558139534884
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 296.3333333333333,
+                "exalted": 5502,
+                "chaos": 182.5
+            },
+            "primaryValue": 0.0011568107889823758,
+            "volumePrimaryValue": 6.364772960981031,
+            "maxVolumeCurrency": "exalted"
+        }
+    ]
+}

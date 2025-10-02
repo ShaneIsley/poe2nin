@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-02 08:35:51.708476` |
-| Total Price Entries in DB | `30,484` |
+| Last Successful Run (UTC) | `2025-10-02 08:51:11.654208` |
+| Total Price Entries in DB | `30,892` |
 
 <!-- END_MAINTENANCE -->
 
@@ -22,13 +22,13 @@ This repository tracks Path of Exile 2 data.
 | Abyssal Bones | Gnawed Jawbone | 607.3 |
 | Essences | Perfect Essence of the Infinite | 586.4 |
 | Lineage Gems | Rakiata's Flow | 446.4 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 410.8 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 433.8 |
 | Soul Cores | Soul Core of Xopec | 314.1 |
 | Talismans | Talisman of Sirrius | 189.6 |
 | Fragments | Olroth's Reliquary Key | 130.0 |
 | Uncut Gems | Uncut Spirit Gem (Level 20) | 74.3 |
 | Currency | Divine Orb | 20.9 |
-| Distilled Emotions | Concentrated Liquid Isolation | 13.7 |
+| Distilled Emotions | Concentrated Liquid Isolation | 14.3 |
 | Catalysts | Reaver Catalyst | 0.8 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -47,11 +47,11 @@ This repository tracks Path of Exile 2 data.
 | Perfect Essence of the Infinite | 586.4 |
 | Perfect Essence of Flames | 534.0 |
 | Rakiata's Flow | 446.4 |
-| Hedgewitch Assandra's Rune of Wisdom | 410.8 |
-| Farrul's Rune of the Chase | 345.9 |
+| Hedgewitch Assandra's Rune of Wisdom | 433.8 |
+| Farrul's Rune of the Chase | 353.9 |
 | Soul Core of Xopec | 314.1 |
 | Tzamoto's Soul Core of Ferocity | 251.3 |
-| Countess Seske's Rune of Archery | 221.6 |
+| Countess Seske's Rune of Archery | 225.9 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
