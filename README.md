@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-02 07:31:40.209331` |
-| Total Price Entries in DB | `29,259` |
+| Last Successful Run (UTC) | `2025-10-02 07:46:46.704809` |
+| Total Price Entries in DB | `29,668` |
 
 <!-- END_MAINTENANCE -->
 
