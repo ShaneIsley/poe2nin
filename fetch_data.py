@@ -4,10 +4,24 @@ import sqlite3
 import datetime
 import re
 import os
+import logging
+import time
+import json  # --- FIX: Import the json module ---
 
 # --- Configuration ---
 DB_FILE = "poe2_economy.db"
 LEAGUE_NAME = "Rise of the Abyssal"
+REQUEST_DELAY = 1.5
+# --- FIX: Define a base directory for saving raw data ---
+DATA_DIR = "data"
+
+# --- Helper function for filenames ---
+def sanitize_filename(name):
+    """Converts a string into a safe filename."""
+    name = name.lower()
+    name = re.sub(r'\s+', '_', name)  # Replace spaces with underscores
+    name = re.sub(r'[^a-z0-9_.-]', '', name) # Remove invalid characters
+    return f"{name}.json"
 
 # --- Database Schema ---
 def create_database_schema(cursor, conn):
@@ -39,19 +53,19 @@ def create_database_schema(cursor, conn):
 def fetch_all_item_overviews():
     """Fetches and parses the JS file to get all item category API endpoints."""
     url = 'https://poe.ninja/chunk.DXfiI3y6.mjs'
-    print(f"Fetching item category list from: {url}")
+    logging.info(f"Fetching item category list from: {url}")
     try:
         response = requests.get(url)
         response.raise_for_status()
         js_content = response.text
         overview_pairs = re.findall(r'name:"([^"]+)",gggCategory:"([^"]+)"', js_content)
         if not overview_pairs:
-            print("Could not find any 'name'/'gggCategory' pairs.")
+            logging.warning("Could not find any 'name'/'gggCategory' pairs in the JS file.")
             return []
-        print(f"Successfully extracted {len(overview_pairs)} item overview pairs.")
+        logging.info(f"Successfully extracted {len(overview_pairs)} item overview pairs.")
         return overview_pairs
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching JavaScript file: {e}")
+        logging.error(f"Error fetching JavaScript file: {e}")
         return []
 
 def fetch_poe_ninja_data(league_name, overview_name):
@@ -61,21 +75,19 @@ def fetch_poe_ninja_data(league_name, overview_name):
     """
     base_url = "https://poe.ninja/poe2/api/economy/temp/overview"
     
-    # --- FIX: Use a params dictionary for robust URL encoding ---
     params = {
         'leagueName': league_name,
         'overviewName': overview_name
     }
     
-    print(f"Fetching data for '{overview_name}' from: {base_url}")
+    logging.info(f"Fetching data for '{overview_name}' from: {base_url}")
     
     try:
-        # Pass the params dictionary to the requests.get() call
         response = requests.get(base_url, params=params, timeout=30)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
-        print(f"An error occurred while fetching data for {overview_name}: {e}")
+        logging.error(f"An error occurred while fetching data for {overview_name}: {e}")
         return None
 
 # --- Helper function for price calculation ---
@@ -89,10 +101,9 @@ def calculate_price(rate_value):
 def process_and_insert_data(data, league_name, category_display_name, cursor, conn):
     """
     Processes the PoE 2 JSON data and inserts it into the SQLite database.
-    This version now uses the passed-in display_name to ensure consistency with analysis.
     """
     if not data or 'items' not in data:
-        print("No valid data to process.")
+        logging.warning("No valid data to process.")
         return
 
     current_timestamp = datetime.datetime.now()
@@ -100,7 +111,6 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
     cursor.execute("SELECT id FROM leagues WHERE name = ?", (league_name,))
     league_id = cursor.fetchone()[0]
 
-    # Use the consistent display name from the JS file as the category
     cursor.execute("INSERT OR IGNORE INTO item_categories (name) VALUES (?)", (category_display_name,))
     cursor.execute("SELECT id FROM item_categories WHERE name = ?", (category_display_name,))
     category_id = cursor.fetchone()[0]
@@ -108,7 +118,6 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
     items_processed = 0
     for item_data in data.get('items', []):
         item_info = item_data.get('item', {})
-        # The 'category' field from the API response is now ignored in favor of category_display_name
         if not all(k in item_info for k in ['id', 'name']):
             continue
 
@@ -135,12 +144,28 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
         items_processed += 1
     
     conn.commit()
-    print(f"Successfully processed and inserted/updated data for {items_processed} items in the '{category_display_name}' category.")
+    logging.info(f"Successfully processed and inserted/updated data for {items_processed} items in the '{category_display_name}' category.")
     
 # --- Main Execution ---
 def main():
     """The main function to run the entire update process."""
-    print(f"--- Starting PoE 2 Economy Data Fetch for {LEAGUE_NAME} League ---")
+    
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    
+    logging.info(f"--- Starting PoE 2 Economy Data Fetch for {LEAGUE_NAME} League ---")
+
+    # --- FIX: Create the directory for storing raw JSON data ---
+    league_data_dir = os.path.join(DATA_DIR, LEAGUE_NAME.lower().replace(" ", "_"))
+    try:
+        os.makedirs(league_data_dir, exist_ok=True)
+        logging.info(f"Data will be saved in '{league_data_dir}'")
+    except OSError as e:
+        logging.critical(f"Failed to create data directory '{league_data_dir}': {e}")
+        return
     
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
@@ -148,25 +173,38 @@ def main():
 
     overviews_to_fetch = fetch_all_item_overviews()
     if not overviews_to_fetch:
-        print("Halting execution: Could not retrieve item categories.")
+        logging.critical("Halting execution: Could not retrieve item categories.")
         conn.close()
         return
 
-    print(f"\nFound {len(overviews_to_fetch)} categories to process.")
-    print("-" * 40)
+    logging.info(f"\nFound {len(overviews_to_fetch)} categories to process.")
+    logging.info("-" * 40)
 
     for display_name, api_name in overviews_to_fetch:
-        print(f"Processing Category: '{display_name}' (using API endpoint: '{api_name}')")
+        logging.info(f"Processing Category: '{display_name}' (using API endpoint: '{api_name}')")
         api_data = fetch_poe_ninja_data(LEAGUE_NAME, api_name)
+        
         if api_data:
-            # --- FIX: We are now passing 'display_name' again ---
+            # --- FIX: Save the raw (prettified) JSON to a file ---
+            filename = sanitize_filename(display_name)
+            filepath = os.path.join(league_data_dir, filename)
+            try:
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    json.dump(api_data, f, indent=4)
+                logging.info(f"Successfully saved raw data to '{filepath}'")
+            except IOError as e:
+                logging.error(f"Could not write to file '{filepath}': {e}")
+
             process_and_insert_data(api_data, LEAGUE_NAME, display_name, cursor, conn)
         else:
-            print(f"Skipping category '{display_name}' due to fetch error or no data.")
-        print("-" * 40)
+            logging.warning(f"Skipping category '{display_name}' due to fetch error or no data.")
+        
+        logging.info(f"Waiting for {REQUEST_DELAY} seconds before next request...")
+        time.sleep(REQUEST_DELAY)
+        logging.info("-" * 40)
     
     conn.close()
-    print("--- Full Process Complete ---")
+    logging.info("--- Full Process Complete ---")
 
 if __name__ == "__main__":
     main()
