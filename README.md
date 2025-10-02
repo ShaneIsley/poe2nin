@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-02 01:26:37.998580` |
-| Total Price Entries in DB | `25,983` |
+| Last Successful Run (UTC) | `2025-10-02 02:46:11.897255` |
+| Total Price Entries in DB | `26,393` |
 
 <!-- END_MAINTENANCE -->
 
@@ -19,16 +19,16 @@ This repository tracks Path of Exile 2 data.
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
 | Lineage Gems | Dialla's Desire | 664.5 |
-| Runes | Farrul's Rune of the Chase | 333.5 |
-| Soul Cores | Tzamoto's Soul Core of Ferocity | 229.4 |
-| Uncut Gems | Uncut Skill Gem (Level 10) | 229.4 |
-| Abyssal Bones | Gnawed Rib | 191.1 |
-| Talismans | Talisman of Sirrius | 149.4 |
-| Omens | Omen of Chance | 113.5 |
-| Essences | Essence of Horror | 105.6 |
-| Fragments | Primary Calamity Fragment | 30.5 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 485.0 |
+| Soul Cores | Tzamoto's Soul Core of Ferocity | 229.7 |
+| Uncut Gems | Uncut Skill Gem (Level 10) | 229.7 |
+| Talismans | Talisman of Sirrius | 156.1 |
+| Abyssal Bones | Ancient Collarbone | 121.7 |
+| Omens | Omen of Chance | 115.2 |
+| Essences | Essence of Horror | 109.3 |
+| Fragments | Primary Calamity Fragment | 31.2 |
 | Currency | Divine Orb | 19.1 |
-| Distilled Emotions | Concentrated Liquid Isolation | 12.3 |
+| Distilled Emotions | Concentrated Liquid Isolation | 13.6 |
 | Catalysts | Reaver Catalyst | 0.8 |
 | Expedition | Exotic Coinage | 0.0 |
 
@@ -43,15 +43,15 @@ This repository tracks Path of Exile 2 data.
 | Item | Imputed Chaos Value |
 | :--- | :--- |
 | Dialla's Desire | 664.5 |
-| Rakiata's Flow | 398.2 |
-| Farrul's Rune of the Chase | 333.5 |
-| Hedgewitch Assandra's Rune of Wisdom | 328.3 |
-| Tzamoto's Soul Core of Ferocity | 229.4 |
-| Uncut Skill Gem (Level 10) | 229.4 |
-| Gnawed Rib | 191.1 |
-| Countess Seske's Rune of Archery | 189.8 |
-| Soul Core of Tzamoto | 172.0 |
-| Atalui's Bloodletting | 154.3 |
+| Hedgewitch Assandra's Rune of Wisdom | 485.0 |
+| Rakiata's Flow | 398.3 |
+| Farrul's Rune of the Chase | 329.9 |
+| Tzamoto's Soul Core of Ferocity | 229.7 |
+| Uncut Skill Gem (Level 10) | 229.7 |
+| Countess Seske's Rune of Archery | 184.9 |
+| Soul Core of Tzamoto | 172.2 |
+| Uul-Netol's Embrace | 158.5 |
+| Talisman of Sirrius | 156.1 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
