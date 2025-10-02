@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-02 07:18:46.222264` |
-| Total Price Entries in DB | `28,850` |
+| Last Successful Run (UTC) | `2025-10-02 07:31:40.209331` |
+| Total Price Entries in DB | `29,259` |
 
 <!-- END_MAINTENANCE -->
 
@@ -20,7 +20,7 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- | :--- |
 | Abyssal Bones | Gnawed Jawbone | 594.6 |
 | Essences | Perfect Essence of the Infinite | 574.1 |
-| Lineage Gems | Rakiata's Flow | 439.5 |
+| Lineage Gems | Rakiata's Flow | 452.7 |
 | Runes | Hedgewitch Assandra's Rune of Wisdom | 397.2 |
 | Soul Cores | Soul Core of Xopec | 307.5 |
 | Talismans | Talisman of Sirrius | 190.2 |
@@ -45,7 +45,7 @@ This repository tracks Path of Exile 2 data.
 | Gnawed Jawbone | 594.6 |
 | Perfect Essence of the Infinite | 574.1 |
 | Perfect Essence of Flames | 533.1 |
-| Rakiata's Flow | 439.5 |
+| Rakiata's Flow | 452.7 |
 | Hedgewitch Assandra's Rune of Wisdom | 397.2 |
 | Farrul's Rune of the Chase | 340.7 |
 | Soul Core of Xopec | 307.5 |
