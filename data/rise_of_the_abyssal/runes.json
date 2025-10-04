@@ -28,14 +28,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.28431372549019607
+                "exalted": 0.2830188679245283
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.833333333333333
+                "exalted": 5
             },
-            "primaryValue": 0.00738099819213646,
-            "volumePrimaryValue": 0.03567482459532623,
+            "primaryValue": 0.0073525113489211445,
+            "volumePrimaryValue": 0.036762556744605726,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -46,14 +46,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.2111111111111111
+                "exalted": 0.1520912547528517
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6.333333333333333
+                "exalted": 6.666666666666667
             },
-            "primaryValue": 0.00994035360241288,
-            "volumePrimaryValue": 0.06295557281528158,
+            "primaryValue": 0.013681913807308451,
+            "volumePrimaryValue": 0.09121275871538967,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -64,18 +64,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 0.09487144232091296,
-                "exalted": 0.0002449479485609308,
-                "chaos": 0.002931937172774869
+                "divine": 0.09496662958843159,
+                "exalted": 0.0002464408257663362,
+                "chaos": 0.0030200420975565116
             },
             "sparklines": {},
             "volumes": {
-                "divine": 115,
-                "exalted": 5.666666666666667,
-                "chaos": 4.666666666666667
+                "divine": 113.83333333333333,
+                "exalted": 6.5,
+                "chaos": 5.5
             },
-            "primaryValue": 10.540579710144927,
-            "volumePrimaryValue": 1212.1666666666667,
+            "primaryValue": 10.530014641288433,
+            "volumePrimaryValue": 1198.6666666666667,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -87,17 +87,17 @@
             },
             "rate": {
                 "divine": 11,
-                "exalted": 0.046020175244827335,
-                "chaos": 0.39766081871345027
+                "exalted": 0.046266294928792105,
+                "chaos": 0.4142857142857143
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.8333333333333333,
-                "exalted": 104.16666666666667,
-                "chaos": 11.333333333333334
+                "exalted": 102.33333333333333,
+                "chaos": 14.5
             },
-            "primaryValue": 0.045599980501564746,
-            "volumePrimaryValue": 4.749997968912995,
+            "primaryValue": 0.0449765740173618,
+            "volumePrimaryValue": 4.602602741110024,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -109,417 +109,17 @@
             },
             "rate": {
                 "divine": 15.5,
-                "exalted": 0.9263157894736842,
+                "exalted": 0.9155313351498637,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
                 "divine": 5.166666666666667,
-                "exalted": 58.666666666666664,
-                "chaos": 2.3333333333333335
-            },
-            "primaryValue": 0.0022654467490347534,
-            "volumePrimaryValue": 0.13290620927670554,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "farruls-rune-of-the-chase",
-                "name": "Farrul's Rune of the Chase",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5029b70d64/NewRune5.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 0.08759819998474563,
-                "exalted": 0.00020794724461582994,
-                "chaos": 0.002549149701435206
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 382.8333333333333,
-                "exalted": 20.833333333333332,
-                "chaos": 12.166666666666666
-            },
-            "primaryValue": 11.415759686547672,
-            "volumePrimaryValue": 4370.333333333333,
-            "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "farruls-rune-of-the-hunt",
-                "name": "Farrul's Rune of the Hunt",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8040a2785b/NewRune9.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.4580498866213152,
-                "chaos": 0.4
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 168.33333333333334,
-                "chaos": 6.333333333333333
-            },
-            "primaryValue": 0.004581420397943758,
-            "volumePrimaryValue": 0.7712057669871992,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "fenumus-rune-of-agony",
-                "name": "Fenumus' Rune of Agony",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8711ef6c2/NewRune3.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 14,
-                "exalted": 0.23334038502221283,
-                "chaos": 0.34615384615384615
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 4.666666666666667,
-                "exalted": 183.83333333333334,
-                "chaos": 3
-            },
-            "primaryValue": 0.00899338146563421,
-            "volumePrimaryValue": 1.6532832927657555,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "fenumus-rune-of-draining",
-                "name": "Fenumus' Rune of Draining",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4753a65a2a/NewRune16.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.424597364568082,
-                "chaos": 1.25
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 48.333333333333336,
-                "chaos": 1.6666666666666667
-            },
-            "primaryValue": 0.004942374279636473,
-            "volumePrimaryValue": 0.23888142351576286,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "fenumus-rune-of-spinning",
-                "name": "Fenumus' Rune of Spinning",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 25.5,
-                "exalted": 0.07315209404849375,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 25.5,
-                "exalted": 414.8333333333333,
-                "chaos": 27.5
-            },
-            "primaryValue": 0.028687067966250913,
-            "volumePrimaryValue": 11.900352027999753,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-adept-rune",
-                "name": "Greater Adept Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 56.791666666666664,
-                "chaos": 11
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 227.16666666666666,
-                "chaos": 3.6666666666666665
-            },
-            "primaryValue": 3.6951179935601804e-05,
-            "volumePrimaryValue": 0.008394076375370877,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-desert-rune",
-                "name": "Greater Desert Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c6986b94c/FireRuneTier2.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 3.4536082474226806,
-                "chaos": 5.153846153846154
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 335,
-                "chaos": 11.166666666666666
-            },
-            "primaryValue": 0.0006076309017992351,
-            "volumePrimaryValue": 0.20355635210274375,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-inspiration-rune",
-                "name": "Greater Inspiration Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9c6cc572d8/ManaRecoveryRuneTier2.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 11.76595744680851,
-                "chaos": 2
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 92.16666666666667,
-                "chaos": 1.6666666666666667
-            },
-            "primaryValue": 0.00017835514902460724,
-            "volumePrimaryValue": 0.016438399568434632,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-resolve-rune",
-                "name": "Greater Resolve Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/badef31810/IntRuneTier3.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 30,
-                "exalted": 12.403846153846153,
-                "chaos": 8
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 5,
-                "exalted": 215,
+                "exalted": 56,
                 "chaos": 1.3333333333333333
             },
-            "primaryValue": 0.0001691829346973975,
-            "volumePrimaryValue": 0.036374330959940464,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-rune-of-leadership",
-                "name": "Greater Rune of Leadership",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81a3fe75a5/LightningRuneSpecial1.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.34615384615384615,
-                "chaos": 2
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 10.5,
-                "chaos": 0.6666666666666666
-            },
-            "primaryValue": 0.006062388493323411,
-            "volumePrimaryValue": 0.06365507917989581,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-vision-rune",
-                "name": "Greater Vision Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lVGllcjIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/88ab9b96b4/AccuracyRuneTier2.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 4.112903225806452,
-                "chaos": 11.666666666666666
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 127.5,
-                "chaos": 11.666666666666666
-            },
-            "primaryValue": 0.000510228171836269,
-            "volumePrimaryValue": 0.0650540919091243,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "iron-rune",
-                "name": "Iron Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 3.5,
-                "exalted": 0.030451085103965457,
-                "chaos": 0.22388059701492538
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2.3333333333333335,
-                "exalted": 44.666666666666664,
-                "chaos": 2.5
-            },
-            "primaryValue": 0.06891442740637974,
-            "volumePrimaryValue": 3.078177757484962,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "lesser-desert-rune",
-                "name": "Lesser Desert Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.2943786982248521,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 33.166666666666664,
-                "chaos": 1.3333333333333333
-            },
-            "primaryValue": 0.007128637725817478,
-            "volumePrimaryValue": 0.23643315123961303,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "saqawals-rune-of-the-sky",
-                "name": "Saqawal's Rune of the Sky",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c3f68cf1c/NewRune2.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 4.711267605633803,
-                "exalted": 0.011592942287817357,
-                "chaos": 0.1314900153609831
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 111.5,
-                "exalted": 413.1666666666667,
-                "chaos": 71.33333333333333
-            },
-            "primaryValue": 0.18101695339654922,
-            "volumePrimaryValue": 74.79017124500758,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "storm-rune",
-                "name": "Storm Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.03442294863242162,
-                "chaos": 0.21428571428571427
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 43,
-                "chaos": 1
-            },
-            "primaryValue": 0.06096279305562473,
-            "volumePrimaryValue": 2.6214001013918633,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "thane-girts-rune-of-wildness",
-                "name": "Thane Girt's Rune of Wildness",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 9,
-                "exalted": 0.08353381448810479,
-                "chaos": 0.5625
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 4.5,
-                "exalted": 104.16666666666667,
-                "chaos": 6
-            },
-            "primaryValue": 0.02512179177620996,
-            "volumePrimaryValue": 2.6168533100218707,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "thane-grannells-rune-of-mastery",
-                "name": "Thane Grannell's Rune of Mastery",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8fddac42a1/NewRune12.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 17,
-                "exalted": 0.1767076365101753,
-                "chaos": 0.6415094339622641
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2.8333333333333335,
-                "exalted": 146.16666666666666,
-                "chaos": 5.666666666666667
-            },
-            "primaryValue": 0.011875655943832856,
-            "volumePrimaryValue": 1.7358250437902358,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "thane-lelds-rune-of-spring",
-                "name": "Thane Leld's Rune of Spring",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 11.0561797752809,
-                "exalted": 0.024689943574026867,
-                "chaos": 0.27950575202386024
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 164,
-                "exalted": 574.6666666666666,
-                "chaos": 109.33333333333333
-            },
-            "primaryValue": 0.08499489225444415,
-            "volumePrimaryValue": 48.843731415553904,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "the-greatwolfs-rune-of-willpower",
-                "name": "The Greatwolf's Rune of Willpower",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6228f14146/NewRune21.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "divine": 13,
-                "exalted": 0.05449380165289256,
-                "chaos": 0.5825688073394495
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2.1666666666666665,
-                "exalted": 105.5,
-                "chaos": 21.166666666666668
-            },
-            "primaryValue": 0.03850931721023227,
-            "volumePrimaryValue": 4.062732965679504,
+            "primaryValue": 0.0022728871841762636,
+            "volumePrimaryValue": 0.12728168231387077,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -531,15 +131,439 @@
             },
             "rate": {
                 "divine": 1,
-                "exalted": 0.6897435897435897
+                "exalted": 0.6085972850678733,
+                "chaos": 0.14285714285714285
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.3333333333333333,
-                "exalted": 44.833333333333336
+                "divine": 0.5,
+                "exalted": 44.833333333333336,
+                "chaos": 0.5
             },
-            "primaryValue": 0.0030424626267608196,
-            "volumePrimaryValue": 0.13640374109977674,
+            "primaryValue": 0.003419173054874601,
+            "volumePrimaryValue": 0.15329292529354463,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "farruls-rune-of-the-chase",
+                "name": "Farrul's Rune of the Chase",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5029b70d64/NewRune5.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 0.08974149214659685,
+                "exalted": 0.00020979222110746606,
+                "chaos": 0.0026176107031193195
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 365.6666666666667,
+                "exalted": 20.666666666666668,
+                "chaos": 12
+            },
+            "primaryValue": 11.143117593436646,
+            "volumePrimaryValue": 4074.6666666666665,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "farruls-rune-of-the-hunt",
+                "name": "Farrul's Rune of the Hunt",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8040a2785b/NewRune9.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.4499582985821518,
+                "chaos": 0.40425531914893614
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 179.83333333333334,
+                "chaos": 6.333333333333333
+            },
+            "primaryValue": 0.004624649539592802,
+            "volumePrimaryValue": 0.8316661422034389,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "fenumus-rune-of-agony",
+                "name": "Fenumus' Rune of Agony",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8711ef6c2/NewRune3.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 14,
+                "exalted": 0.23546915294584408,
+                "chaos": 0.34782608695652173
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 4.666666666666667,
+                "exalted": 197.83333333333334,
+                "chaos": 2.6666666666666665
+            },
+            "primaryValue": 0.008837248583692397,
+            "volumePrimaryValue": 1.7483023448071457,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "fenumus-rune-of-draining",
+                "name": "Fenumus' Rune of Draining",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4753a65a2a/NewRune16.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.4008207934336525,
+                "chaos": 1.25
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 48.833333333333336,
+                "chaos": 1.6666666666666667
+            },
+            "primaryValue": 0.005191595527137636,
+            "volumePrimaryValue": 0.25352291490855455,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "fenumus-rune-of-spinning",
+                "name": "Fenumus' Rune of Spinning",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 25,
+                "exalted": 0.0723223152220173,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 29.166666666666668,
+                "exalted": 424.8333333333333,
+                "chaos": 30
+            },
+            "primaryValue": 0.028772577758135902,
+            "volumePrimaryValue": 12.223550117581404,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-adept-rune",
+                "name": "Greater Adept Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 54.916666666666664,
+                "chaos": 11
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 219.66666666666666,
+                "chaos": 1.8333333333333333
+            },
+            "primaryValue": 3.7891947284502135e-05,
+            "volumePrimaryValue": 0.008323597753495636,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-desert-rune",
+                "name": "Greater Desert Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c6986b94c/FireRuneTier2.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 102,
+                "exalted": 4.844638949671772,
+                "chaos": 5.076923076923077
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 17,
+                "exalted": 369,
+                "chaos": 11
+            },
+            "primaryValue": 0.0004295262165026542,
+            "volumePrimaryValue": 0.1584951738894794,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-inspiration-rune",
+                "name": "Greater Inspiration Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9c6cc572d8/ManaRecoveryRuneTier2.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 14.01923076923077,
+                "chaos": 2
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 121.5,
+                "chaos": 1.3333333333333333
+            },
+            "primaryValue": 0.00014843178435588924,
+            "volumePrimaryValue": 0.018034461799240543,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-resolve-rune",
+                "name": "Greater Resolve Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/badef31810/IntRuneTier3.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 30,
+                "exalted": 12.153846153846153,
+                "chaos": 8
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 5,
+                "exalted": 210.66666666666666,
+                "chaos": 1.3333333333333333
+            },
+            "primaryValue": 0.00017121324492949883,
+            "volumePrimaryValue": 0.03606892359848109,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-rune-of-leadership",
+                "name": "Greater Rune of Leadership",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81a3fe75a5/LightningRuneSpecial1.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.4140127388535032,
+                "chaos": 2
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 10.833333333333334,
+                "chaos": 0.6666666666666666
+            },
+            "primaryValue": 0.005026172489610826,
+            "volumePrimaryValue": 0.05445020197078395,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-vision-rune",
+                "name": "Greater Vision Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lVGllcjIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/88ab9b96b4/AccuracyRuneTier2.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 4.777777777777778,
+                "chaos": 10.857142857142858
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 150.5,
+                "chaos": 12.666666666666666
+            },
+            "primaryValue": 0.0004355370917526786,
+            "volumePrimaryValue": 0.06554833230877813,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "iron-rune",
+                "name": "Iron Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 3.5,
+                "exalted": 0.030326768128916742,
+                "chaos": 0.23170731707317074
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2.3333333333333335,
+                "exalted": 45.166666666666664,
+                "chaos": 3.1666666666666665
+            },
+            "primaryValue": 0.0686159312963441,
+            "volumePrimaryValue": 3.099152896884875,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "lesser-desert-rune",
+                "name": "Lesser Desert Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.2834890965732087,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 30.333333333333332,
+                "chaos": 1.3333333333333333
+            },
+            "primaryValue": 0.007340315601296975,
+            "volumePrimaryValue": 0.22265623990600825,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "saqawals-rune-of-erosion",
+                "name": "Saqawal's Rune of Erosion",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/63347aa4f1/NewRune8.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.9782608695652174,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 7.5,
+                "chaos": 0.16666666666666666
+            },
+            "primaryValue": 0.002127141648115551,
+            "volumePrimaryValue": 0.015953562360866633,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "saqawals-rune-of-the-sky",
+                "name": "Saqawal's Rune of the Sky",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c3f68cf1c/NewRune2.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 4.762962962962963,
+                "exalted": 0.011687220641543938,
+                "chaos": 0.13427881713940856
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 107.16666666666667,
+                "exalted": 419.6666666666667,
+                "chaos": 74.16666666666667
+            },
+            "primaryValue": 0.17804912752113594,
+            "volumePrimaryValue": 74.72128384970338,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "storm-rune",
+                "name": "Storm Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.03601223581757508,
+                "chaos": 0.2
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 43.166666666666664,
+                "chaos": 0.8333333333333334
+            },
+            "primaryValue": 0.0577831226285141,
+            "volumePrimaryValue": 2.494304793464192,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "thane-girts-rune-of-wildness",
+                "name": "Thane Girt's Rune of Wildness",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 8.75,
+                "exalted": 0.08251623583343945,
+                "chaos": 0.5873015873015873
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 5.833333333333333,
+                "exalted": 108,
+                "chaos": 6.166666666666667
+            },
+            "primaryValue": 0.025218060632022078,
+            "volumePrimaryValue": 2.7235505482583844,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "thane-grannells-rune-of-mastery",
+                "name": "Thane Grannell's Rune of Mastery",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8fddac42a1/NewRune12.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 17,
+                "exalted": 0.17905692438402718,
+                "chaos": 0.6415094339622641
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2.8333333333333335,
+                "exalted": 140.5,
+                "chaos": 5.666666666666667
+            },
+            "primaryValue": 0.0116214407542875,
+            "volumePrimaryValue": 1.6328124259773937,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "thane-lelds-rune-of-spring",
+                "name": "Thane Leld's Rune of Spring",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 11.152941176470588,
+                "exalted": 0.024578627578867872,
+                "chaos": 0.2775831873905429
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 158,
+                "exalted": 596.6666666666666,
+                "chaos": 105.66666666666667
+            },
+            "primaryValue": 0.08466296304367366,
+            "volumePrimaryValue": 50.51556794939195,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "the-greatwolfs-rune-of-willpower",
+                "name": "The Greatwolf's Rune of Willpower",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6228f14146/NewRune21.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "divine": 8.333333333333334,
+                "exalted": 0.05523600839952524,
+                "chaos": 0.5825688073394495
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 4.166666666666667,
+                "exalted": 100.83333333333333,
+                "chaos": 21.166666666666668
+            },
+            "primaryValue": 0.037672878592577556,
+            "volumePrimaryValue": 3.7986819247515706,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -550,14 +574,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.13844515441959532
+                "exalted": 0.16899441340782123
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 21.666666666666668
+                "exalted": 20.166666666666668
             },
-            "primaryValue": 0.01515776483937164,
-            "volumePrimaryValue": 0.32841823818638555,
+            "primaryValue": 0.012313421470047263,
+            "volumePrimaryValue": 0.2483206663126198,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -569,15 +593,33 @@
             },
             "rate": {
                 "divine": 60,
-                "exalted": 24.875
+                "exalted": 22.06
             },
             "sparklines": {},
             "volumes": {
                 "divine": 10,
-                "exalted": 165.83333333333334
+                "exalted": 183.83333333333334
             },
-            "primaryValue": 8.436257663689323e-05,
-            "volumePrimaryValue": 0.013990127292284793,
+            "primaryValue": 9.432907698884446e-05,
+            "volumePrimaryValue": 0.017340828653115908,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "glacial-rune",
+                "name": "Glacial Rune",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
+                "category": "Runes"
+            },
+            "rate": {
+                "exalted": 0.16123019571295433
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 28.833333333333332
+            },
+            "primaryValue": 0.012906387846099446,
+            "volumePrimaryValue": 0.37213418289586736,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -589,34 +631,16 @@
             },
             "rate": {
                 "divine": 6.5,
-                "exalted": 0.6666666666666666
+                "exalted": 1.1666666666666667
             },
             "sparklines": {},
             "volumes": {
                 "divine": 21.666666666666668,
-                "exalted": 3
+                "exalted": 7
             },
             "primaryValue": 0.15384615384615385,
             "volumePrimaryValue": 3.3333333333333335,
             "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "glacial-rune",
-                "name": "Glacial Rune",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.16183816183816183
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 27
-            },
-            "primaryValue": 0.012966775388497295,
-            "volumePrimaryValue": 0.35010293548942695,
-            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
@@ -632,8 +656,8 @@
             "volumes": {
                 "exalted": 5.166666666666667
             },
-            "primaryValue": 0.009883347990356032,
-            "volumePrimaryValue": 0.0510639646168395,
+            "primaryValue": 0.009800365096857765,
+            "volumePrimaryValue": 0.05063521966709845,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -644,14 +668,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.09523809523809523
+                "exalted": 0.11612903225806452
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4
+                "exalted": 3
             },
-            "primaryValue": 0.02203445048534855,
-            "volumePrimaryValue": 0.0881378019413942,
+            "primaryValue": 0.017918856274886437,
+            "volumePrimaryValue": 0.05375656882465931,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -662,18 +686,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 8.214285714285714,
-                "exalted": 0.0406432080429567,
-                "chaos": 0.49061032863849763
+                "divine": 8.625,
+                "exalted": 0.04289868424840929,
+                "chaos": 0.4678492239467849
             },
             "sparklines": {},
             "volumes": {
-                "divine": 19.166666666666668,
-                "exalted": 237.16666666666666,
-                "chaos": 34.833333333333336
+                "divine": 23,
+                "exalted": 248.33333333333334,
+                "chaos": 35.166666666666664
             },
-            "primaryValue": 0.0516327129400009,
-            "volumePrimaryValue": 12.24555841893688,
+            "primaryValue": 0.04850730214298052,
+            "volumePrimaryValue": 12.045980032173496,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -684,18 +708,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 30,
-                "exalted": 0.25036791758646065,
-                "chaos": 0.3488372093023256
+                "divine": 30.6,
+                "exalted": 0.23591993419248697,
+                "chaos": 1.25
             },
             "sparklines": {},
             "volumes": {
-                "divine": 10,
-                "exalted": 680.5,
-                "chaos": 2.5
+                "divine": 25.5,
+                "exalted": 717,
+                "chaos": 6.666666666666667
             },
-            "primaryValue": 0.008381741215377679,
-            "volumePrimaryValue": 5.703774897064511,
+            "primaryValue": 0.008820362914632318,
+            "volumePrimaryValue": 6.324200209791371,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -706,16 +730,16 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 4.118343195266272,
-                "chaos": 10.636363636363637
+                "exalted": 5.7994428969359335,
+                "chaos": 10.7
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 348,
-                "chaos": 19.5
+                "exalted": 347,
+                "chaos": 17.833333333333332
             },
-            "primaryValue": 0.0005095542052577866,
-            "volumePrimaryValue": 0.17732486342970977,
+            "primaryValue": 0.00035881022976764327,
+            "volumePrimaryValue": 0.12450714972937221,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -726,18 +750,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 120.72727272727273,
-                "exalted": 1.2379063318440917,
-                "chaos": 7.601694915254237
+                "divine": 119.14285714285714,
+                "exalted": 1.2705844879757924,
+                "chaos": 8.840816326530613
             },
             "sparklines": {},
             "volumes": {
-                "divine": 442.6666666666667,
-                "exalted": 5356.833333333333,
-                "chaos": 299
+                "divine": 417,
+                "exalted": 5318.666666666667,
+                "chaos": 361
             },
-            "primaryValue": 0.001695216382580889,
-            "volumePrimaryValue": 9.08099162542206,
+            "primaryValue": 0.0016377497585296783,
+            "volumePrimaryValue": 8.710645049033182,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -748,14 +772,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 17.032258064516128
+                "exalted": 15.974358974358974
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 88
+                "exalted": 103.83333333333333
             },
-            "primaryValue": 0.0001232085074036445,
-            "volumePrimaryValue": 0.010842348651520716,
+            "primaryValue": 0.0001302649728677086,
+            "volumePrimaryValue": 0.013525846349430408,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -766,14 +790,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 10.61111111111111
+                "exalted": 13.166666666666666
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 31.833333333333332
+                "exalted": 39.5
             },
-            "primaryValue": 0.00019776619732549185,
-            "volumePrimaryValue": 0.006295557281528158,
+            "primaryValue": 0.00015804299531953738,
+            "volumePrimaryValue": 0.006242698315121726,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -785,17 +809,17 @@
             },
             "rate": {
                 "divine": 7,
-                "exalted": 0.036780688708385766,
+                "exalted": 0.03514514138541611,
                 "chaos": 0.3333333333333333
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.3333333333333335,
-                "exalted": 107.16666666666667,
-                "chaos": 9
+                "exalted": 109.16666666666667,
+                "chaos": 10.5
             },
-            "primaryValue": 0.057054915705378566,
-            "volumePrimaryValue": 6.114385133093069,
+            "primaryValue": 0.05920873714957945,
+            "volumePrimaryValue": 6.4636204721624235,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -806,18 +830,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 9.5625,
-                "exalted": 0.03486473880597015,
-                "chaos": 0.33170731707317075
+                "divine": 9.571428571428571,
+                "exalted": 0.03503626279863481,
+                "chaos": 0.3181818181818182
             },
             "sparklines": {},
             "volumes": {
-                "divine": 51,
-                "exalted": 99.66666666666667,
-                "chaos": 11.333333333333334
+                "divine": 33.5,
+                "exalted": 109.5,
+                "chaos": 11.666666666666666
             },
-            "primaryValue": 0.060190300163194516,
-            "volumePrimaryValue": 5.99896658293172,
+            "primaryValue": 0.05939273404625196,
+            "volumePrimaryValue": 6.50350437806459,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -834,8 +858,8 @@
             "volumes": {
                 "exalted": 11.166666666666666
             },
-            "primaryValue": 9.396354151534563e-05,
-            "volumePrimaryValue": 0.0010492595469213596,
+            "primaryValue": 9.317460171823473e-05,
+            "volumePrimaryValue": 0.0010404497191869545,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -846,16 +870,16 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 6.925311203319502,
+                "exalted": 5.53099730458221,
                 "chaos": 7.25
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 834.5,
-                "chaos": 19.333333333333332
+                "exalted": 684,
+                "chaos": 24.166666666666668
             },
-            "primaryValue": 0.0003030216306866958,
-            "volumePrimaryValue": 0.25287155080804763,
+            "primaryValue": 0.0003762249959243276,
+            "volumePrimaryValue": 0.25733789721224004,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -866,18 +890,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 0.04618834080717489,
-                "exalted": 0.00012711472681889617,
-                "chaos": 0.0013833650354487291
+                "divine": 0.046517555598037344,
+                "exalted": 0.00012614745667320046,
+                "chaos": 0.001397624039133473
             },
             "sparklines": {},
             "volumes": {
-                "divine": 120.16666666666667,
-                "exalted": 1.8333333333333333,
+                "divine": 121.66666666666667,
+                "exalted": 2.1666666666666665,
                 "chaos": 1.3333333333333333
             },
-            "primaryValue": 21.650485436893202,
-            "volumePrimaryValue": 2601.6666666666665,
+            "primaryValue": 21.497260273972604,
+            "volumePrimaryValue": 2615.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -888,14 +912,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 1.5
+                "exalted": 1.3333333333333333
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.5
+                "exalted": 0.6666666666666666
             },
-            "primaryValue": 0.0013990127292284795,
-            "volumePrimaryValue": 0.0006995063646142398,
+            "primaryValue": 0.0015606745787804315,
+            "volumePrimaryValue": 0.0010404497191869545,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -906,18 +930,16 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 24,
-                "exalted": 0.7847866419294991,
+                "exalted": 0.7272727272727273,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "divine": 4,
-                "exalted": 70.5,
-                "chaos": 1.5
+                "exalted": 76,
+                "chaos": 1
             },
-            "primaryValue": 0.0026739995072842214,
-            "volumePrimaryValue": 0.1885169652635376,
+            "primaryValue": 0.0028612367277641246,
+            "volumePrimaryValue": 0.21745399131007348,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -928,14 +950,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.5321637426900585
+                "exalted": 0.5172413793103449
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 15.166666666666666
+                "exalted": 20
             },
-            "primaryValue": 0.003943371044473681,
-            "volumePrimaryValue": 0.059807794174517495,
+            "primaryValue": 0.00402307224752289,
+            "volumePrimaryValue": 0.0804614449504578,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -946,14 +968,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.19759450171821305
+                "exalted": 0.225
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 19.166666666666668
+                "exalted": 16.5
             },
-            "primaryValue": 0.010620331414056196,
-            "volumePrimaryValue": 0.20355635210274375,
+            "primaryValue": 0.009248441948328483,
+            "volumePrimaryValue": 0.15259929214742,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -964,14 +986,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.18671152228763668
+                "exalted": 0.16967509025270758
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 37
+                "exalted": 39.166666666666664
             },
-            "primaryValue": 0.011239365777382852,
-            "volumePrimaryValue": 0.4158565337631655,
+            "primaryValue": 0.012264024349565377,
+            "volumePrimaryValue": 0.48034095369131063,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -982,14 +1004,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.172
+                "exalted": 0.16115702479338842
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 7.166666666666667
+                "exalted": 6.5
             },
-            "primaryValue": 0.01220069240606232,
-            "volumePrimaryValue": 0.08743829557677997,
+            "primaryValue": 0.012912247797089382,
+            "volumePrimaryValue": 0.08392961068108098,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1001,15 +1023,15 @@
             },
             "rate": {
                 "divine": 3,
-                "exalted": 0.06867042371112503
+                "exalted": 0.06827225130890052
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.5,
-                "exalted": 54.833333333333336
+                "exalted": 54.333333333333336
             },
-            "primaryValue": 0.03055928564924154,
-            "volumePrimaryValue": 1.6756674964334113,
+            "primaryValue": 0.030479431957777345,
+            "volumePrimaryValue": 1.6560491363725691,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1020,14 +1042,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 1.375
+                "exalted": 1.2727272727272727
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.8333333333333333
+                "exalted": 2.3333333333333335
             },
-            "primaryValue": 0.0015261957046128866,
-            "volumePrimaryValue": 0.002798025458456959,
+            "primaryValue": 0.001634992415865214,
+            "volumePrimaryValue": 0.0038149823036854997,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1038,14 +1060,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.2233502538071066
+                "exalted": 0.2722222222222222
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 7.333333333333333
+                "exalted": 8.166666666666666
             },
-            "primaryValue": 0.009395642306523084,
-            "volumePrimaryValue": 0.06890137691450261,
+            "primaryValue": 0.007644120385863339,
+            "volumePrimaryValue": 0.062426983151217266,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1056,14 +1078,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.3838383838383838
+                "exalted": 0.7384615384615385
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6.333333333333333
+                "exalted": 8
             },
-            "primaryValue": 0.005467194481327084,
-            "volumePrimaryValue": 0.03462556504840487,
+            "primaryValue": 0.0028178846561313347,
+            "volumePrimaryValue": 0.022543077249050678,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1074,14 +1096,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.37362637362637363
+                "exalted": 0.33707865168539325
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 5.666666666666667
+                "exalted": 5
             },
-            "primaryValue": 0.005616624633520219,
-            "volumePrimaryValue": 0.031827539589947905,
+            "primaryValue": 0.006173335000509263,
+            "volumePrimaryValue": 0.030866675002546314,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1093,17 +1115,17 @@
             },
             "rate": {
                 "divine": 8,
-                "exalted": 0.03703965006349654,
-                "chaos": 0.3942307692307692
+                "exalted": 0.036910360552942854,
+                "chaos": 0.39473684210526316
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.6666666666666665,
-                "exalted": 87.5,
-                "chaos": 6.833333333333333
+                "divine": 1.3333333333333333,
+                "exalted": 86.33333333333333,
+                "chaos": 5
             },
-            "primaryValue": 0.05665601835452705,
-            "volumePrimaryValue": 4.957401606021117,
+            "primaryValue": 0.056377109494477676,
+            "volumePrimaryValue": 4.867223786356573,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1114,14 +1136,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 1.0476190476190477
+                "exalted": 1.6153846153846154
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 3.6666666666666665
+                "exalted": 3.5
             },
-            "primaryValue": 0.0020031318623044136,
-            "volumePrimaryValue": 0.007344816828449517,
+            "primaryValue": 0.001288175842802896,
+            "volumePrimaryValue": 0.004508615449810136,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1132,14 +1154,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.6666666666666666
+                "exalted": 0.9
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1
+                "exalted": 1.5
             },
-            "primaryValue": 0.003147778640764079,
-            "volumePrimaryValue": 0.003147778640764079,
+            "primaryValue": 0.0023121104870821208,
+            "volumePrimaryValue": 0.0034681657306231814,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1156,8 +1178,8 @@
             "volumes": {
                 "exalted": 0.5
             },
-            "primaryValue": 0.0076945700107566364,
-            "volumePrimaryValue": 0.0038472850053783182,
+            "primaryValue": 0.007629964607370999,
+            "volumePrimaryValue": 0.0038149823036854997,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1168,32 +1190,14 @@
                 "category": "Runes"
             },
             "rate": {
-                "exalted": 0.24647887323943662
+                "exalted": 0.22535211267605634
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 5.833333333333333
+                "exalted": 5.333333333333333
             },
-            "primaryValue": 0.008513991752161889,
-            "volumePrimaryValue": 0.04966495188761102,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "saqawals-rune-of-erosion",
-                "name": "Saqawal's Rune of Erosion",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/63347aa4f1/NewRune8.png",
-                "category": "Runes"
-            },
-            "rate": {
-                "exalted": 0.9714285714285714
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 5.666666666666667
-            },
-            "primaryValue": 0.0021602402436616225,
-            "volumePrimaryValue": 0.012241361380749195,
+            "primaryValue": 0.00923399125778422,
+            "volumePrimaryValue": 0.04924795337484918,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1204,18 +1208,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 6.5,
-                "exalted": 0.029591709327007117,
-                "chaos": 0.2916666666666667
+                "divine": 6,
+                "exalted": 0.029908515130190008,
+                "chaos": 0.2826086956521739
             },
             "sparklines": {},
             "volumes": {
-                "divine": 8.666666666666666,
-                "exalted": 39.5,
-                "chaos": 1.1666666666666667
+                "divine": 9,
+                "exalted": 42.5,
+                "chaos": 2.1666666666666665
             },
-            "primaryValue": 0.07091577815437274,
-            "volumePrimaryValue": 2.8011732370977227,
+            "primaryValue": 0.06957548475127823,
+            "volumePrimaryValue": 2.9569581019293243,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1232,8 +1236,8 @@
             "volumes": {
                 "exalted": 0.16666666666666666
             },
-            "primaryValue": 0.0020985190938427193,
-            "volumePrimaryValue": 0.0003497531823071199,
+            "primaryValue": 0.002080899438373909,
+            "volumePrimaryValue": 0.00034681657306231815,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1244,18 +1248,16 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 50,
-                "exalted": 0.5897435897435898,
+                "exalted": 0.48074534161490684,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 8.333333333333334,
-                "exalted": 161,
+                "exalted": 193.5,
                 "chaos": 1.8333333333333333
             },
-            "primaryValue": 0.003558358463472437,
-            "volumePrimaryValue": 0.5728957126190624,
+            "primaryValue": 0.00432848591186304,
+            "volumePrimaryValue": 0.8375620239454983,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1266,18 +1268,18 @@
                 "category": "Runes"
             },
             "rate": {
-                "divine": 27.75,
-                "exalted": 0.1476194092186195,
-                "chaos": 0.6504854368932039
+                "divine": 27,
+                "exalted": 0.13480228997470375,
+                "chaos": 0.7272727272727273
             },
             "sparklines": {},
             "volumes": {
-                "divine": 18.5,
-                "exalted": 324,
-                "chaos": 11.166666666666666
+                "divine": 18,
+                "exalted": 337.5,
+                "chaos": 12
             },
-            "primaryValue": 0.014215739684575499,
-            "volumePrimaryValue": 4.605899657802461,
+            "primaryValue": 0.015436677216421165,
+            "volumePrimaryValue": 5.209878560542143,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1294,8 +1296,8 @@
             "volumes": {
                 "exalted": 1.1666666666666667
             },
-            "primaryValue": 0.0035974613037303756,
-            "volumePrimaryValue": 0.0041970381876854385,
+            "primaryValue": 0.003567256180069558,
+            "volumePrimaryValue": 0.004161798876747818,
             "maxVolumeCurrency": "exalted"
         }
     ]
