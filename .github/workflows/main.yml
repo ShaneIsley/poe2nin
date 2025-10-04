@@ -36,6 +36,25 @@ jobs:
       - name: Run Fetch Data Script
         run: python fetch_data.py
 
+      - name: Debug Database State Before Analysis
+        run: |
+          DB_FILE="poe2_economy.db"
+          echo "--- Verifying Database File ---"
+          ls -lh $DB_FILE
+
+          echo "--- Checking Overall Most Recent Timestamp in DB ---"
+          sqlite3 $DB_FILE "SELECT MAX(timestamp) FROM price_entries;"
+
+          echo "--- Checking Most Recent Timestamps for Key Currencies (ALL TIME) ---"
+          sqlite3 $DB_FILE "SELECT i.name, MAX(p.timestamp) AS most_recent_update FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name IN ('Divine Orb', 'Exalted Orb', 'Chaos Orb') GROUP BY i.name;"
+
+          echo "--- Checking for Key Currencies in the LAST 2 DAYS ---"
+          echo "(This is the exact data the Python script should be receiving)"
+          sqlite3 $DB_FILE "SELECT i.name, COUNT(*) as entry_count, MAX(p.timestamp) AS latest_update FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name IN ('Divine Orb', 'Exalted Orb', 'Chaos Orb') AND p.timestamp >= DATETIME('now', '-2 days') GROUP BY i.name;"
+
+          echo "--- Verifying Script Content ---"
+          cat analysis.py
+
       - name: Run Analysis Script
         run: python analysis.py
 
