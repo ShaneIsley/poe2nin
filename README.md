@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 09:04:25.194183` |
-| Total Price Entries in DB | `49,123` |
+| Last Successful Run (UTC) | `2025-10-04 09:42:55.880866` |
+| Total Price Entries in DB | `49,528` |
 
 <!-- END_MAINTENANCE -->
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
+| Mirror of Kalandra | 36,517.7 |
+| Zarokh's Reliquary Key: Temporalis | 13,733.4 |
+| Hinekora's Lock | 10,218.5 |
+| Arjun's Medal | 1,318.3 |
 | Uhtred's Augury | 1,240.0 |
-| Dialla's Desire | 881.5 |
-| Hedgewitch Assandra's Rune of Wisdom | 726.0 |
-| Rakiata's Flow | 693.5 |
-| Arjun's Medal | 601.0 |
-| Talisman of Sirrius | 401.3 |
-| Farrul's Rune of the Chase | 396.1 |
-| Countess Seske's Rune of Archery | 370.5 |
-| Atalui's Bloodletting | 358.6 |
-| Uul-Netol's Embrace | 296.5 |
+| Dialla's Desire | 888.0 |
+| Zarokh's Reliquary Key: Against the Darkness | 775.0 |
+| Hedgewitch Assandra's Rune of Wisdom | 749.5 |
+| Rakiata's Flow | 701.3 |
+| The Trialmaster's Reliquary Key | 626.6 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
