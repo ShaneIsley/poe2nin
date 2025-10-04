@@ -1,4 +1,4 @@
-# analysis.py (v19 - Final Selection Logic Fix)
+# analysis.py (v20 - Instrumented Debugging)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -13,10 +13,6 @@ CHARTS_DIR = "charts"
 README_FILE = "README.md"
 
 def get_latest_data_df(conn) -> pd.DataFrame:
-    """
-    Gets the most recent and second-most-recent price entries for every unique item.
-    Uses a parameterized query to prevent SQL injection.
-    """
     query = """
     WITH PriceHistory AS (
         SELECT
@@ -44,44 +40,30 @@ def get_latest_data_df(conn) -> pd.DataFrame:
     return pd.read_sql(query, conn, params=(LEAGUE_NAME,))
 
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
-    Calculates the Divine rate via the inverse of the Chaos Orb's divine_value.
-    """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
-    
     try:
         chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
         if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
             divine_to_chaos_rate = 1 / chaos_orb_entry['divine_value']
-
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']):
             exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
-            
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
-
     except IndexError as e:
         print(f"Warning: Could not find 'Chaos Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
 
     def impute_price(row, chaos_rate_col, divine_rate_col, exalted_rate_col):
         if row['name'] == 'Exalted Orb': return exalted_to_chaos_rate
         if row['name'] == 'Chaos Orb': return 1.0
-
-        chaos_val = row[chaos_rate_col]
-        divine_val = row[divine_rate_col]
-        exalted_val = row[exalted_rate_col]
-
+        chaos_val, divine_val, exalted_val = row[chaos_rate_col], row[divine_rate_col], row[exalted_rate_col]
         if pd.notna(chaos_val): return chaos_val
         if pd.notna(divine_val) and pd.notna(divine_to_chaos_rate): return divine_val * divine_to_chaos_rate
         if pd.notna(exalted_val) and pd.notna(exalted_to_chaos_rate): return exalted_val * exalted_to_chaos_rate
-            
         return None
 
     df['imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'chaos_value', 'divine_value', 'exalted_value'), axis=1)
     df['prev_imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'prev_chaos_value', 'prev_divine_value', 'prev_exalted_value'), axis=1)
-    
     return df
 
 def generate_maintenance_table() -> str:
@@ -111,81 +93,39 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     charts_path = Path(CHARTS_DIR); charts_path.mkdir(exist_ok=True)
     df_analysis = df.dropna(subset=['imputed_chaos_value']).copy()
 
+    # --- START OF DEBUG BLOCK ---
+    print("\n--- DETAILED DEBUG FOR generate_analysis_content ---")
+    
+    # Step 1: Verify the initial state of df_analysis
+    print("\n[DEBUG STEP 1] Initial state of the filtered df_analysis DataFrame:")
+    print(f"  - Total rows: {len(df_analysis)}")
+    print(f"  - Data types:\n{df_analysis.dtypes.to_string()}")
+    
+    # Step 2: Explicitly check for Mirror of Kalandra
+    print("\n[DEBUG STEP 2] Checking for 'Mirror of Kalandra' in df_analysis:")
+    mirror_row = df_analysis[df_analysis['name'] == 'Mirror of Kalandra']
+    if not mirror_row.empty:
+        print("  - SUCCESS: 'Mirror of Kalandra' FOUND in the dataset.")
+        print(f"  - Details:\n{mirror_row.to_string()}")
+    else:
+        print("  - CRITICAL FAILURE: 'Mirror of Kalandra' IS MISSING from df_analysis. This is the root cause.")
+
+    # Step 3: This is the MOST IMPORTANT debug step.
+    print("\n[DEBUG STEP 3] Creating 'top_item_per_category' DataFrame...")
+    intermediate_df = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).drop_duplicates(subset=['category'], keep='first')
+    
+    print("\n--- !!! CRITICAL DEBUG OUTPUT !!! ---")
+    print("State of the DataFrame AFTER sorting and dropping duplicates:")
+    print("This table MUST contain 'Mirror of Kalandra' for the 'Currency' category.")
+    print(intermediate_df[['category', 'name', 'imputed_chaos_value']].to_string())
+    print("--- END OF CRITICAL DEBUG OUTPUT ---\n")
+
+    # Now we continue with the rest of the original function's logic, using the intermediate_df
+    top_item_per_category_base = intermediate_df
+    # --- END OF DEBUG BLOCK ---
+    
     df_movers = df_analysis[df_analysis['prev_imputed_chaos_value'].notna() & (df_analysis['imputed_chaos_value'] > 10)].copy()
     if not df_movers.empty:
         df_movers = df_movers[df_movers['prev_imputed_chaos_value'] > 0]
         df_movers['change'] = ((df_movers['imputed_chaos_value'] - df_movers['prev_imputed_chaos_value']) / df_movers['prev_imputed_chaos_value']) * 100
-        df_movers = df_movers.sort_values(by='change', ascending=False).dropna(subset=['change'])
-        top_gainers = df_movers.head(10); top_losers = df_movers.tail(10).sort_values(by='change', ascending=True)
-    else:
-        top_gainers, top_losers = pd.DataFrame(), pd.DataFrame()
-    
-    movers_chart_df = pd.concat([top_gainers, top_losers])
-    movers_chart_path_str = ""
-    if not movers_chart_df.empty:
-        fig_movers = px.bar(movers_chart_df, x='name', y='change', color='change', color_continuous_scale='RdYlGn', title='Top Market Movers (Last ~24 Hours)', labels={'name': 'Item', 'change': '% Change in Chaos Value'})
-        movers_chart_path = charts_path / "market_movers.png"; fig_movers.write_image(movers_chart_path, width=1000, height=600)
-        movers_chart_path_str = str(movers_chart_path)
-
-    top_valuable = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).head(10)[['name', 'imputed_chaos_value']]
-    top_valuable['imputed_chaos_value'] = top_valuable['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
-    market_movers_md = "### Top 10 Most Valuable Items (Overall)\n"
-    market_movers_md += df_to_markdown(top_valuable, ['Item', 'Imputed Chaos Value'])
-    
-    # --- THIS IS THE CORRECTED LOGIC FOR THE CATEGORY TABLE ---
-    top_item_per_category = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).drop_duplicates(subset=['category'], keep='first')
-    
-    top_item_per_category = top_item_per_category.sort_values(by='imputed_chaos_value', ascending=False)[['category', 'name', 'imputed_chaos_value']].head(15)
-    top_item_per_category['imputed_chaos_value'] = top_item_per_category['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
-    
-    median_by_category = df_analysis.groupby('category')['imputed_chaos_value'].median().sort_values(ascending=False).reset_index()
-    fig_category = px.bar(median_by_category.head(20), x='category', y='imputed_chaos_value', title='Median Item Value by Category (Top 20)', log_y=True, labels={'category': 'Item Category', 'imputed_chaos_value': 'Median Chaos Value (Log Scale)'})
-    category_chart_path = charts_path / "category_analysis.png"; fig_category.write_image(category_chart_path, width=1000, height=600)
-    
-    category_md = "### Most Valuable Item by Category\n"
-    category_md += df_to_markdown(top_item_per_category, ['Category', 'Top Item', 'Imputed Chaos Value'])
-    
-    return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path)
-
-def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart):
-    try:
-        with open(README_FILE, 'r', encoding='utf-8') as f: readme_content = f.read()
-    except FileNotFoundError:
-        readme_content = f"""# PoE Economy Tracker for {LEAGUE_NAME}
-
-<!-- START_MAINTENANCE -->
-<!-- END_MAINTENANCE -->
-
-<!-- START_CATEGORY_ANALYSIS -->
-<!-- END_CATEGORY_ANALYSIS -->
-
-<!-- START_ANALYSIS -->
-<!-- END_ANALYSIS -->"""
-    
-    new_content = re.sub(r"<!-- START_MAINTENANCE -->.*<!-- END_MAINTENANCE -->", f"<!-- START_MAINTENANCE -->\n{maintenance_md}\n<!-- END_MAINTENANCE -->", readme_content, flags=re.DOTALL)
-    full_market_content = f"{market_md}\n\n![Market Movers Chart]({movers_chart})" if movers_chart else market_md
-    new_content = re.sub(r"<!-- START_ANALYSIS -->.*<!-- END_ANALYSIS -->", f"<!-- START_ANALYSIS -->\n{full_market_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
-    full_category_content = f"{category_md}\n\n![Category Analysis Chart]({category_chart})" if category_chart else category_md
-    new_content = re.sub(r"<!-- START_CATEGORY_ANALYSIS -->.*<!-- END_CATEGORY_ANALYSIS -->", f"<!-- START_CATEGORY_ANALYSIS -->\n{full_category_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
-    
-    with open(README_FILE, 'w', encoding='utf-8') as f: f.write(new_content)
-    print(f"Successfully updated {README_FILE}")
-
-if __name__ == "__main__":
-    print("--- Starting Analysis ---")
-    maintenance_table = generate_maintenance_table()
-    try:
-        conn = sqlite3.connect(DB_FILE)
-        df_raw = get_latest_data_df(conn)
-        conn.close()
-        
-        if not df_raw.empty:
-            df_imputed = calculate_imputed_values_poe2(df_raw)
-            market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
-            update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
-        else:
-            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
-    except Exception as e:
-        print(f"An error occurred during analysis: {e}")
-        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "")
-    print("--- Analysis Complete ---")
+        df_movers = df_movers.sort_values(b
