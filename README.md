@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 08:09:43.957734` |
-| Total Price Entries in DB | `45,490` |
+| Last Successful Run (UTC) | `2025-10-04 08:18:08.940885` |
+| Total Price Entries in DB | `45,892` |
 
 <!-- END_MAINTENANCE -->
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Greater Essence of Seeking | 3,351.8 |
+| Lesser Jeweller's Orb | 4,406.5 |
 | Scroll of Wisdom | 801.0 |
-| Boar Talisman | 703.9 |
-| Arakaali's Lust | 670.4 |
-| Gnawed Rib | 670.4 |
-| Perfect Essence of Flames | 469.3 |
+| Greater Essence of the Mind | 683.2 |
 | Greater Orb of Transmutation | 376.5 |
-| Uncut Skill Gem (Level 13) | 368.7 |
 | Orb of Transmutation | 336.2 |
-| Greater Rune of Nobility | 217.9 |
+| Greater Stone Rune | 214.2 |
+| Orb of Augmentation | 200.0 |
+| Regal Orb | 165.2 |
+| Greater Orb of Augmentation | 143.3 |
+| Greater Robust Rune | 142.5 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
