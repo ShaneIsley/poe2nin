@@ -1,4 +1,4 @@
-# analysis.py (v14 - Final Confirmed Logic)
+# analysis.py (v15 - Added Currency Debug Table)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -61,7 +61,7 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
         # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' from the Exalted Orb entry.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
-            exalted_to_chaos_rate = 1 / chaos_orb_entry['exalted_value']
+            exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
             
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
 
@@ -108,13 +108,14 @@ def df_to_markdown(dataframe, headers):
         md += f"| {' | '.join(map(str, row))} |\n"
     return md
 
-def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
+def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str, str]:
     if df.empty or 'imputed_chaos_value' not in df.columns or df['imputed_chaos_value'].isna().all():
-        return "Not enough data for analysis.", "Please wait for another run.", "", ""
+        return "Not enough data for analysis.", "Please wait for another run.", "", "", ""
         
     charts_path = Path(CHARTS_DIR); charts_path.mkdir(exist_ok=True)
     df_analysis = df.dropna(subset=['imputed_chaos_value']).copy()
 
+    # --- Standard Analysis (Unchanged) ---
     df_movers = df_analysis[df_analysis['prev_imputed_chaos_value'].notna() & (df_analysis['imputed_chaos_value'] > 10)].copy()
     if not df_movers.empty:
         df_movers = df_movers[df_movers['prev_imputed_chaos_value'] > 0]
@@ -146,18 +147,48 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     
     category_md = "### Most Valuable Item by Category\n"
     category_md += df_to_markdown(top_item_per_category, ['Category', 'Top Item', 'Imputed Chaos Value'])
-    
-    return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path)
 
-def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart):
+    # --- NEW DEBUG TABLE LOGIC ---
+    df_currency_debug = df_analysis[df_analysis['category'] == 'Currency'].sort_values(
+        by='imputed_chaos_value', ascending=False
+    ).copy()
+    
+    df_currency_debug = df_currency_debug[['name', 'imputed_chaos_value']]
+    df_currency_debug['imputed_chaos_value'] = df_currency_debug['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
+
+    currency_debug_md = "### Currency Debug Table (Sorted by Value)\n"
+    currency_debug_md += df_to_markdown(df_currency_debug, ['Currency Item', 'Imputed Chaos Value'])
+    
+    # --- Return the new debug table string ---
+    return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path), currency_debug_md
+
+def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart, currency_debug_table):
     try:
         with open(README_FILE, 'r', encoding='utf-8') as f: readme_content = f.read()
     except FileNotFoundError:
-        readme_content = f"# PoE Economy Tracker for {LEAGUE_NAME}\n\n<!-- START_MAINTENANCE -->\n<!-- END_MAINTENANCE -->\n\n<!-- START_CATEGORY_ANALYSIS -->\n<!-- END_CATEGORY_ANALYSIS -->\n\n<!-- START_ANALYSIS -->\n<!-- END_ANALYSIS -->"
+        # Added a new placeholder for the debug table
+        readme_content = f"""# PoE Economy Tracker for {LEAGUE_NAME}
+
+<!-- START_MAINTENANCE -->
+<!-- END_MAINTENANCE -->
+
+<!-- START_CURRENCY_DEBUG -->
+<!-- END_CURRENCY_DEBUG -->
+
+<!-- START_CATEGORY_ANALYSIS -->
+<!-- END_CATEGORY_ANALYSIS -->
+
+<!-- START_ANALYSIS -->
+<!-- END_ANALYSIS -->"""
     
     new_content = re.sub(r"<!-- START_MAINTENANCE -->.*<!-- END_MAINTENANCE -->", f"<!-- START_MAINTENANCE -->\n{maintenance_md}\n<!-- END_MAINTENANCE -->", readme_content, flags=re.DOTALL)
+    
+    # Inject the new debug table
+    new_content = re.sub(r"<!-- START_CURRENCY_DEBUG -->.*<!-- END_CURRENCY_DEBUG -->", f"<!-- START_CURRENCY_DEBUG -->\n{currency_debug_table}\n<!-- END_CURRENCY_DEBUG -->", new_content, flags=re.DOTALL)
+    
     full_market_content = f"{market_md}\n\n![Market Movers Chart]({movers_chart})" if movers_chart else market_md
     new_content = re.sub(r"<!-- START_ANALYSIS -->.*<!-- END_ANALYSIS -->", f"<!-- START_ANALYSIS -->\n{full_market_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
+    
     full_category_content = f"{category_md}\n\n![Category Analysis Chart]({category_chart})" if category_chart else category_md
     new_content = re.sub(r"<!-- START_CATEGORY_ANALYSIS -->.*<!-- END_CATEGORY_ANALYSIS -->", f"<!-- START_CATEGORY_ANALYSIS -->\n{full_category_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
     
@@ -165,7 +196,7 @@ def update_readme(maintenance_md, market_md, category_md, movers_chart, category
     print(f"Successfully updated {README_FILE}")
 
 if __name__ == "__main__":
-    print("--- Starting Analysis (v14) ---")
+    print("--- Starting Analysis ---")
     maintenance_table = generate_maintenance_table()
     try:
         conn = sqlite3.connect(DB_FILE)
@@ -174,11 +205,15 @@ if __name__ == "__main__":
         
         if not df_raw.empty:
             df_imputed = calculate_imputed_values_poe2(df_raw)
-            market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
-            update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
+            # Unpack the new debug table from the return values
+            market_movers_markdown, category_markdown, movers_chart, category_chart, currency_debug_table = generate_analysis_content(df_imputed)
+            # Pass the new debug table to the update function
+            update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart, currency_debug_table)
         else:
-            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
+            # Update the call to pass an empty string for the new argument
+            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "", "")
     except Exception as e:
         print(f"An error occurred during analysis: {e}")
-        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "")
+        # Update the call to pass an empty string for the new argument
+        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "", "")
     print("--- Analysis Complete ---")
