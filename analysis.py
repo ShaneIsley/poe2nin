@@ -46,19 +46,21 @@ def get_latest_data_df(conn) -> pd.DataFrame:
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     """
     Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
-    [FINAL VERSION] Correctly discovers exchange rates and interprets all values as rates.
+    [FINAL CORRECTED VERSION] Correctly discovers and applies exchange rates.
     """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
     
-    # --- Step 1: Correctly find master exchange rates ---
+    # --- Step 1: [CORRECTED] Find master exchange rates ---
     try:
-        # The Divine Orb price in Chaos is the 'divine_value' on the Chaos Orb entry.
+        # The Divine Orb price in Chaos is the DIRECT 'divine_value' from the Chaos Orb entry.
+        # This value represents "Chaos per Divine".
         chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
         if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
             divine_to_chaos_rate = chaos_orb_entry['divine_value']
 
-        # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' on the Exalted Orb entry.
+        # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' from the Exalted Orb entry.
+        # The data gives "Exalts per Chaos", so we invert it.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
             exalted_to_chaos_rate = 1 / exalted_orb_entry['chaos_value']
