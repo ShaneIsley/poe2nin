@@ -1,4 +1,4 @@
-# analysis.py (v21 - SyntaxError Fix)
+# analysis.py (v22 - DataFrame Debug Table)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -67,6 +67,7 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def generate_maintenance_table() -> str:
+    # This function is unchanged
     if not Path(DB_FILE).exists(): return "No database file found."
     with sqlite3.connect(DB_FILE) as conn:
         try:
@@ -80,23 +81,51 @@ def generate_maintenance_table() -> str:
     return table
 
 def df_to_markdown(dataframe, headers):
+    # This function is unchanged
     md = f"| {' | '.join(headers)} |\n"
     md += f"|{' :--- |' * len(headers)}\n"
     for _, row in dataframe.iterrows():
         md += f"| {' | '.join(map(str, row))} |\n"
     return md
 
-def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
+# --- NEW DEBUG FUNCTION ---
+def generate_currency_debug_table(df_analysis: pd.DataFrame) -> str:
+    """Creates a detailed markdown table of all currency items for debugging."""
+    
+    # 1. Filter for only currency items
+    df_currency = df_analysis[df_analysis['category'] == 'Currency'].copy()
+    
+    # 2. Select and format the relevant columns
+    debug_cols = ['name', 'chaos_value', 'divine_value', 'imputed_chaos_value']
+    df_debug = df_currency[debug_cols].sort_values(by='imputed_chaos_value', ascending=False)
+    
+    # 3. Format numbers for readability
+    df_debug['chaos_value'] = df_debug['chaos_value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "N/A")
+    df_debug['divine_value'] = df_debug['divine_value'].apply(lambda x: f"{x:,.2f}" if pd.notna(x) else "N/A")
+    df_debug['imputed_chaos_value'] = df_debug['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}" if pd.notna(x) else "N/A")
+    
+    # 4. Create the markdown table
+    headers = ["Item Name", "Raw Chaos Value", "Raw Divine Value", "Final Imputed Chaos Value"]
+    debug_md = "### Currency DataFrame Debug Table\n"
+    debug_md += "This table shows the raw data and final calculation for all currency items, sorted by value.\n\n"
+    debug_md += df_to_markdown(df_debug, headers)
+    
+    return debug_md
+
+def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str, str]:
     if df.empty or 'imputed_chaos_value' not in df.columns or df['imputed_chaos_value'].isna().all():
-        return "Not enough data for analysis.", "Please wait for another run.", "", ""
+        return "Not enough data for analysis.", "Please wait for another run.", "", "", ""
         
     charts_path = Path(CHARTS_DIR); charts_path.mkdir(exist_ok=True)
     df_analysis = df.dropna(subset=['imputed_chaos_value']).copy()
+
+    # --- Call the new debug function ---
+    currency_debug_table = generate_currency_debug_table(df_analysis)
     
+    # --- The rest of the standard analysis ---
     df_movers = df_analysis[df_analysis['prev_imputed_chaos_value'].notna() & (df_analysis['imputed_chaos_value'] > 10)].copy()
     if not df_movers.empty:
         df_movers = df_movers[df_movers['prev_imputed_chaos_value'] > 0]
-        # [SYNTAX FIX] This line is now complete
         df_movers['change'] = ((df_movers['imputed_chaos_value'] - df_movers['prev_imputed_chaos_value']) / df_movers['prev_imputed_chaos_value']) * 100
         df_movers = df_movers.sort_values(by='change', ascending=False).dropna(subset=['change'])
         top_gainers = df_movers.head(10); top_losers = df_movers.tail(10).sort_values(by='change', ascending=True)
@@ -116,7 +145,6 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     market_movers_md += df_to_markdown(top_valuable, ['Item', 'Imputed Chaos Value'])
     
     top_item_per_category = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).drop_duplicates(subset=['category'], keep='first')
-    
     top_item_per_category = top_item_per_category.sort_values(by='imputed_chaos_value', ascending=False)[['category', 'name', 'imputed_chaos_value']].head(15)
     top_item_per_category['imputed_chaos_value'] = top_item_per_category['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
     
@@ -127,9 +155,9 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     category_md = "### Most Valuable Item by Category\n"
     category_md += df_to_markdown(top_item_per_category, ['Category', 'Top Item', 'Imputed Chaos Value'])
     
-    return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path)
+    return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path), currency_debug_table
 
-def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart):
+def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart, currency_debug_table):
     try:
         with open(README_FILE, 'r', encoding='utf-8') as f: readme_content = f.read()
     except FileNotFoundError:
@@ -138,6 +166,9 @@ def update_readme(maintenance_md, market_md, category_md, movers_chart, category
 <!-- START_MAINTENANCE -->
 <!-- END_MAINTENANCE -->
 
+<!-- START_DATAFRAME_DEBUG -->
+<!-- END_DATAFRAME_DEBUG -->
+
 <!-- START_CATEGORY_ANALYSIS -->
 <!-- END_CATEGORY_ANALYSIS -->
 
@@ -145,8 +176,13 @@ def update_readme(maintenance_md, market_md, category_md, movers_chart, category
 <!-- END_ANALYSIS -->"""
     
     new_content = re.sub(r"<!-- START_MAINTENANCE -->.*<!-- END_MAINTENANCE -->", f"<!-- START_MAINTENANCE -->\n{maintenance_md}\n<!-- END_MAINTENANCE -->", readme_content, flags=re.DOTALL)
+    
+    # Inject the new debug table
+    new_content = re.sub(r"<!-- START_DATAFRAME_DEBUG -->.*<!-- END_DATAFRAME_DEBUG -->", f"<!-- START_DATAFRAME_DEBUG -->\n{currency_debug_table}\n<!-- END_DATAFRAME_DEBUG -->", new_content, flags=re.DOTALL)
+
     full_market_content = f"{market_md}\n\n![Market Movers Chart]({movers_chart})" if movers_chart else market_md
     new_content = re.sub(r"<!-- START_ANALYSIS -->.*<!-- END_ANALYSIS -->", f"<!-- START_ANALYSIS -->\n{full_market_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
+    
     full_category_content = f"{category_md}\n\n![Category Analysis Chart]({category_chart})" if category_chart else category_md
     new_content = re.sub(r"<!-- START_CATEGORY_ANALYSIS -->.*<!-- END_CATEGORY_ANALYSIS -->", f"<!-- START_CATEGORY_ANALYSIS -->\n{full_category_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
     
@@ -163,11 +199,11 @@ if __name__ == "__main__":
         
         if not df_raw.empty:
             df_imputed = calculate_imputed_values_poe2(df_raw)
-            market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
-            update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
+            market_movers_markdown, category_markdown, movers_chart, category_chart, currency_debug_table = generate_analysis_content(df_imputed)
+            update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart, currency_debug_table)
         else:
-            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
+            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "", "")
     except Exception as e:
         print(f"An error occurred during analysis: {e}")
-        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "")
+        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "", "")
     print("--- Analysis Complete ---")
