@@ -1,4 +1,4 @@
-# analysis.py (v18 - SyntaxError Fix)
+# analysis.py (v19 - Final Selection Logic Fix)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -46,20 +46,16 @@ def get_latest_data_df(conn) -> pd.DataFrame:
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     """
     Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
-    [FINAL LOGIC] Calculates the Divine rate via the inverse of the Chaos Orb's divine_value,
-    as there is no standalone Divine Orb item in the source data.
+    Calculates the Divine rate via the inverse of the Chaos Orb's divine_value.
     """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
     
-    # --- Step 1: Correctly find master exchange rates ---
     try:
-        # The Divine rate is the INVERSE of the 'divine_value' on the Chaos Orb item.
         chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
         if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
             divine_to_chaos_rate = 1 / chaos_orb_entry['divine_value']
 
-        # The Exalted Orb price is the direct 'chaos_value' from its own row.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']):
             exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
@@ -69,9 +65,7 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     except IndexError as e:
         print(f"Warning: Could not find 'Chaos Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
 
-    # --- Step 2: Define imputation logic ---
     def impute_price(row, chaos_rate_col, divine_rate_col, exalted_rate_col):
-        # Handle base currencies first. Note: 'Divine Orb' is not in the item list.
         if row['name'] == 'Exalted Orb': return exalted_to_chaos_rate
         if row['name'] == 'Chaos Orb': return 1.0
 
@@ -79,21 +73,12 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
         divine_val = row[divine_rate_col]
         exalted_val = row[exalted_rate_col]
 
-        # Priority 1: Use direct chaos value if it exists.
-        if pd.notna(chaos_val):
-            return chaos_val
-
-        # Priority 2: Impute from Divine value (price_in_divines * divine_to_chaos_rate).
-        if pd.notna(divine_val) and pd.notna(divine_to_chaos_rate):
-            return divine_val * divine_to_chaos_rate
-
-        # Priority 3: Impute from Exalted value.
-        if pd.notna(exalted_val) and pd.notna(exalted_to_chaos_rate):
-            return exalted_val * exalted_to_chaos_rate
+        if pd.notna(chaos_val): return chaos_val
+        if pd.notna(divine_val) and pd.notna(divine_to_chaos_rate): return divine_val * divine_to_chaos_rate
+        if pd.notna(exalted_val) and pd.notna(exalted_to_chaos_rate): return exalted_val * exalted_to_chaos_rate
             
         return None
 
-    # --- Step 3: Apply the logic to create the new columns ---
     df['imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'chaos_value', 'divine_value', 'exalted_value'), axis=1)
     df['prev_imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'prev_chaos_value', 'prev_divine_value', 'prev_exalted_value'), axis=1)
     
@@ -147,7 +132,9 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     market_movers_md = "### Top 10 Most Valuable Items (Overall)\n"
     market_movers_md += df_to_markdown(top_valuable, ['Item', 'Imputed Chaos Value'])
     
-    top_item_per_category = df_analysis.loc[df_analysis.groupby('category')['imputed_chaos_value'].idxmax()]
+    # --- THIS IS THE CORRECTED LOGIC FOR THE CATEGORY TABLE ---
+    top_item_per_category = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).drop_duplicates(subset=['category'], keep='first')
+    
     top_item_per_category = top_item_per_category.sort_values(by='imputed_chaos_value', ascending=False)[['category', 'name', 'imputed_chaos_value']].head(15)
     top_item_per_category['imputed_chaos_value'] = top_item_per_category['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
     
@@ -197,7 +184,6 @@ if __name__ == "__main__":
             market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
             update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
         else:
-            # [SYNTAX FIX] Corrected the unterminated string literal
             update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
     except Exception as e:
         print(f"An error occurred during analysis: {e}")
