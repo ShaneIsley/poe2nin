@@ -1,4 +1,4 @@
-# analysis.py (v9 - Final Correction for Rate vs. Price Logic)
+# analysis.py (v10 - Final Production Version)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -15,7 +15,7 @@ README_FILE = "README.md"
 def get_latest_data_df(conn) -> pd.DataFrame:
     """
     Gets the most recent and second-most-recent price entries for every unique item.
-    [FIXED] Uses a parameterized query to prevent SQL injection.
+    Uses a parameterized query to prevent SQL injection.
     """
     query = """
     WITH PriceHistory AS (
@@ -41,31 +41,31 @@ def get_latest_data_df(conn) -> pd.DataFrame:
     JOIN items i ON lp.item_id = i.id
     JOIN item_categories c ON i.category_id = c.id;
     """
-    # Use params argument to safely pass the league name
     return pd.read_sql(query, conn, params=(LEAGUE_NAME,))
 
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Takes a raw PoE 2 dataframe and returns it with a new 'imputed_chaos_value' column.
-    [REVISED] Correctly interprets all input data as 'rates' and calculates their reciprocal
-    to determine the true price of an item.
+    Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
+    [FINAL VERSION] Correctly discovers exchange rates and interprets all values as rates.
     """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
     
-    # --- Step 1: Robustly find master exchange rates (currency prices) ---
+    # --- Step 1: Correctly find master exchange rates ---
     try:
-        divine_orb_entry = df[df['name'] == 'Divine Orb'].iloc[0]
-        if pd.notna(divine_orb_entry['chaos_value']):
-            divine_to_chaos_rate = divine_orb_entry['chaos_value']
+        # The Divine Orb price in Chaos is the 'divine_value' on the Chaos Orb entry.
+        chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
+        if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
+            divine_to_chaos_rate = chaos_orb_entry['divine_value']
 
+        # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' on the Exalted Orb entry.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
-        if pd.notna(exalted_orb_entry['chaos_value']):
-            exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
+        if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
+            exalted_to_chaos_rate = 1 / exalted_orb_entry['chaos_value']
             
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
     except IndexError as e:
-        print(f"Warning: Could not find 'Divine Orb' or 'Exalted Orb' in the dataset to determine exchange rates. Imputation will be limited. Error: {e}")
+        print(f"Warning: Could not find 'Chaos Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
 
     # --- Step 2: Define imputation logic that correctly handles rates vs. prices ---
     def impute_price(row, chaos_rate_col, divine_rate_col, exalted_rate_col):
@@ -145,11 +145,11 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
         top_gainers, top_losers = pd.DataFrame(), pd.DataFrame()
     
     movers_chart_df = pd.concat([top_gainers, top_losers])
+    movers_chart_path_str = ""
     if not movers_chart_df.empty:
         fig_movers = px.bar(movers_chart_df, x='name', y='change', color='change', color_continuous_scale='RdYlGn', title='Top Market Movers (Last ~24 Hours)', labels={'name': 'Item', 'change': '% Change in Chaos Value'})
         movers_chart_path = charts_path / "market_movers.png"; fig_movers.write_image(movers_chart_path, width=1000, height=600)
-    else:
-        movers_chart_path = ""
+        movers_chart_path_str = str(movers_chart_path)
 
     top_valuable = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).head(10)[['name', 'imputed_chaos_value']]
     top_valuable['imputed_chaos_value'] = top_valuable['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
@@ -167,7 +167,7 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     category_md = "### Most Valuable Item by Category\n"
     category_md += df_to_markdown(top_item_per_category, ['Category', 'Top Item', 'Imputed Chaos Value'])
     
-    return market_movers_md, category_md, str(movers_chart_path), str(category_chart_path)
+    return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path)
 
 def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart):
     # This function is unchanged
