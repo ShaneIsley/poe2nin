@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 05:46:51.053055` |
-| Total Price Entries in DB | `38,227` |
+| Last Successful Run (UTC) | `2025-10-04 05:52:57.515611` |
+| Total Price Entries in DB | `38,634` |
 
 <!-- END_MAINTENANCE -->
 
@@ -20,15 +20,15 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- | :--- |
 | Essences | Perfect Essence of the Infinite | 1,200.4 |
 | Abyssal Bones | Gnawed Collarbone | 1,070.7 |
-| Lineage Gems | Dialla's Desire | 920.4 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 672.2 |
-| Talismans | Talisman of Sirrius | 360.4 |
-| Uncut Gems | Uncut Skill Gem (Level 13) | 340.7 |
-| Omens | Omen of Chance | 193.2 |
+| Lineage Gems | Dialla's Desire | 934.8 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 682.3 |
+| Talismans | Boar Talisman | 681.3 |
+| Uncut Gems | Uncut Skill Gem (Level 13) | 324.4 |
+| Omens | Omen of Chance | 196.2 |
 | Soul Cores | Citaqualotl's Soul Core of Foulness | 162.2 |
 | Fragments | Olroth's Reliquary Key | 122.0 |
 | Currency | Fracturing Orb | 14.3 |
-| Distilled Emotions | Concentrated Liquid Isolation | 9.5 |
+| Distilled Emotions | Concentrated Liquid Isolation | 9.4 |
 | Catalysts | Reaver Catalyst | 0.9 |
 | Expedition | Black Scythe Artifact | 0.1 |
 
@@ -44,14 +44,14 @@ This repository tracks Path of Exile 2 data.
 | :--- | :--- |
 | Perfect Essence of the Infinite | 1,200.4 |
 | Gnawed Collarbone | 1,070.7 |
-| Dialla's Desire | 920.4 |
-| Rakiata's Flow | 715.7 |
-| Perfect Essence of Alacrity | 681.3 |
-| Hedgewitch Assandra's Rune of Wisdom | 672.2 |
+| Dialla's Desire | 934.8 |
+| Hedgewitch Assandra's Rune of Wisdom | 682.3 |
+| Boar Talisman | 681.3 |
+| Rakiata's Flow | 675.0 |
 | Gnawed Rib | 648.9 |
+| Arakaali's Lust | 648.9 |
 | Arjun's Medal | 601.0 |
-| Farrul's Rune of the Chase | 368.0 |
-| Talisman of Sirrius | 360.4 |
+| Perfect Essence of Flames | 454.2 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
