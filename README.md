@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 08:29:15.462243` |
-| Total Price Entries in DB | `47,098` |
+| Last Successful Run (UTC) | `2025-10-04 08:45:59.577166` |
+| Total Price Entries in DB | `47,503` |
 
 <!-- END_MAINTENANCE -->
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Lesser Jeweller's Orb | 4,406.5 |
-| Greater Essence of Seeking | 3,351.8 |
-| Scroll of Wisdom | 801.0 |
-| Boar Talisman | 703.9 |
-| Greater Essence of the Mind | 683.2 |
-| Arakaali's Lust | 670.4 |
-| Gnawed Rib | 670.4 |
-| Perfect Essence of Flames | 469.3 |
-| Greater Orb of Transmutation | 376.5 |
-| Uncut Skill Gem (Level 13) | 368.7 |
+| Uhtred's Augury | 1,240.0 |
+| Dialla's Desire | 881.5 |
+| Hedgewitch Assandra's Rune of Wisdom | 726.0 |
+| Rakiata's Flow | 693.5 |
+| Arjun's Medal | 601.0 |
+| Talisman of Sirrius | 401.3 |
+| Farrul's Rune of the Chase | 396.1 |
+| Countess Seske's Rune of Archery | 370.5 |
+| Atalui's Bloodletting | 358.6 |
+| Uul-Netol's Embrace | 296.5 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
