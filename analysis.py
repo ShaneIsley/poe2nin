@@ -67,6 +67,7 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
 
     except IndexError as e:
+        # This is the expected error when recent data is missing.
         print(f"Warning: Could not find 'Divine Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
 
     # --- Step 2: Define imputation logic ---
