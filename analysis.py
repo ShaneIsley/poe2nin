@@ -46,43 +46,53 @@ def get_latest_data_df(conn) -> pd.DataFrame:
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     """
     Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
-    [FINAL CONFIRMED LOGIC] Correctly discovers and applies exchange rates based on JSON data structure.
+    [FINAL CORRECTED LOGIC] Discovers exchange rates directly from the currency items themselves.
     """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
     
-    # --- Step 1: Correctly find master exchange rates ---
+    print("\n--- Starting Calculation ---")
     try:
-        # The Divine Orb price in Chaos is the DIRECT 'divine_value' from the Chaos Orb entry.
-        chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
-        if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
-            divine_to_chaos_rate = 1 / chaos_orb_entry['divine_value']
+        # CORRECTED: The Divine Orb price is read directly from the 'Divine Orb' item's own 'chaos_value'.
+        divine_orb_entry = df[df['name'] == 'Divine Orb'].iloc[0]
+        if pd.notna(divine_orb_entry['chaos_value']):
+            divine_to_chaos_rate = divine_orb_entry['chaos_value']
 
-        # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' from the Exalted Orb entry.
+        # CORRECTED: The Exalted Orb price is read directly from the 'Exalted Orb' item's own 'chaos_value'.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
-        if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
-            exalted_to_chaos_rate = 1 / exalted_orb_entry['chaos_value']
+        if pd.notna(exalted_orb_entry['chaos_value']):
+            exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
             
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
 
     except IndexError as e:
-        print(f"Warning: Could not find 'Chaos Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
+        print(f"Warning: Could not find 'Divine Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
 
-    # --- Step 2: Define imputation logic ---
+    # --- The imputation logic below does not need to change. ---
+    # It now relies on the correctly discovered rates.
     def impute_price(row, chaos_rate_col, divine_rate_col, exalted_rate_col):
         if row['name'] == 'Divine Orb': return divine_to_chaos_rate
         if row['name'] == 'Exalted Orb': return exalted_to_chaos_rate
         if row['name'] == 'Chaos Orb': return 1.0
 
-        chaos_rate, divine_rate, exalted_rate = row[chaos_rate_col], row[divine_rate_col], row[exalted_rate_col]
+        chaos_val = row[chaos_rate_col]
+        divine_val = row[divine_rate_col]
+        exalted_val = row[exalted_rate_col]
 
-        if pd.notna(chaos_rate) and chaos_rate > 0: return 1 / chaos_rate
-        if pd.notna(divine_rate) and divine_rate > 0 and pd.notna(divine_to_chaos_rate): return (1 / divine_rate) * divine_to_chaos_rate
-        if pd.notna(exalted_rate) and exalted_rate > 0 and pd.notna(exalted_to_chaos_rate): return (1 / exalted_rate) * exalted_to_chaos_rate
+        # Priority 1: Use direct chaos value if it exists.
+        if pd.notna(chaos_val):
+            return chaos_val
+
+        # Priority 2: Impute from Divine value. (This is now price * rate)
+        if pd.notna(divine_val) and pd.notna(divine_to_chaos_rate):
+            return divine_val * divine_to_chaos_rate
+
+        # Priority 3: Impute from Exalted value. (This is now price * rate)
+        if pd.notna(exalted_val) and pd.notna(exalted_to_chaos_rate):
+            return exalted_val * exalted_to_chaos_rate
             
         return None
 
-    # --- Step 3: Apply the logic to create the new columns ---
     df['imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'chaos_value', 'divine_value', 'exalted_value'), axis=1)
     df['prev_imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'prev_chaos_value', 'prev_divine_value', 'prev_exalted_value'), axis=1)
     
