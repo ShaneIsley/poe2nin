@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 07:48:32.350922` |
-| Total Price Entries in DB | `44,284` |
+| Last Successful Run (UTC) | `2025-10-04 07:55:39.007558` |
+| Total Price Entries in DB | `44,686` |
 
 <!-- END_MAINTENANCE -->
 
@@ -43,15 +43,15 @@ This repository tracks Path of Exile 2 data.
 | Item | Imputed Chaos Value |
 | :--- | :--- |
 | Lesser Jeweller's Orb | 4,406.5 |
+| Greater Essence of Seeking | 3,351.8 |
 | Scroll of Wisdom | 801.0 |
+| Boar Talisman | 703.9 |
 | Greater Essence of the Mind | 683.2 |
+| Arakaali's Lust | 670.4 |
+| Gnawed Rib | 670.4 |
+| Perfect Essence of Flames | 469.3 |
 | Greater Orb of Transmutation | 376.5 |
-| Orb of Transmutation | 336.2 |
-| Greater Stone Rune | 214.2 |
-| Orb of Augmentation | 200.0 |
-| Regal Orb | 165.2 |
-| Greater Orb of Augmentation | 143.3 |
-| Greater Robust Rune | 142.5 |
+| Uncut Skill Gem (Level 13) | 368.7 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
