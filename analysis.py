@@ -1,4 +1,4 @@
-# analysis.py (v12 - ENVIRONMENT_DEBUG)
+# analysis.py (v13 - SyntaxError Fix)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -6,8 +6,11 @@ from pathlib import Path
 import re
 from datetime import datetime
 
-# --- SCRIPT METADATA FOR DEBUGGING ---
-SCRIPT_VERSION = "v12-ENVIRONMENT_DEBUG"
+# --- CONFIGURATION ---
+DB_FILE = "poe2_economy.db"
+LEAGUE_NAME = "Rise of the Abyssal"
+CHARTS_DIR = "charts"
+README_FILE = "README.md"
 
 def get_latest_data_df(conn) -> pd.DataFrame:
     """
@@ -50,24 +53,17 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     
     # --- Step 1: Correctly find master exchange rates ---
     try:
+        # The Divine Orb price in Chaos is the DIRECT 'divine_value' from the Chaos Orb entry.
         chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
         if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
             divine_to_chaos_rate = chaos_orb_entry['divine_value']
 
+        # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' from the Exalted Orb entry.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
             exalted_to_chaos_rate = 1 / exalted_orb_entry['chaos_value']
             
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
-        
-        # --- DEBUG SANITY CHECK ---
-        # This check will cause the script to crash if it's running old logic.
-        if divine_to_chaos_rate is not None and divine_to_chaos_rate < 1:
-            raise ValueError(
-                "FATAL ERROR: The Divine Orb exchange rate is less than 1. "
-                "This proves an old version of the script is being executed. "
-                "Please check your CI/CD cache or file paths."
-            )
 
     except IndexError as e:
         print(f"Warning: Could not find 'Chaos Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
@@ -91,8 +87,6 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     df['prev_imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'prev_chaos_value', 'prev_divine_value', 'prev_exalted_value'), axis=1)
     
     return df
-
-# --- All functions below this line are unchanged ---
 
 def generate_maintenance_table() -> str:
     if not Path(DB_FILE).exists(): return "No database file found."
@@ -171,17 +165,7 @@ def update_readme(maintenance_md, market_md, category_md, movers_chart, category
     print(f"Successfully updated {README_FILE}")
 
 if __name__ == "__main__":
-    # --- ADDED DEBUG INFO ---
     print("--- Starting Analysis ---")
-    print(f"Executing Script Version: {SCRIPT_VERSION}")
-    try:
-        # Using __file__ to get the path of the currently executing script
-        script_path = Path(__file__).resolve()
-        print(f"Full path to this script: {script_path}")
-    except NameError:
-        # __file__ is not defined in some environments (e.g., interactive), so we handle that.
-        print("Could not determine script path (__file__ is not defined).")
-
     maintenance_table = generate_maintenance_table()
     try:
         conn = sqlite3.connect(DB_FILE)
@@ -193,4 +177,9 @@ if __name__ == "__main__":
             market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
             update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
         else:
-            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis
+            # [SYNTAX FIX] Added the missing closing quote and extra empty string arguments
+            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
+    except Exception as e:
+        print(f"An error occurred during analysis: {e}")
+        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "")
+    print("--- Analysis Complete ---")
