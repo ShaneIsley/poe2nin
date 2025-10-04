@@ -165,7 +165,7 @@ def update_readme(maintenance_md, market_md, category_md, movers_chart, category
     print(f"Successfully updated {README_FILE}")
 
 if __name__ == "__main__":
-    print("--- Starting Analysis ---")
+    print("--- Starting Analysis (v14) ---")
     maintenance_table = generate_maintenance_table()
     try:
         conn = sqlite3.connect(DB_FILE)
