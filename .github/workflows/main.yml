@@ -36,43 +36,54 @@ jobs:
       - name: Run Fetch Data Script
         run: python fetch_data.py
 
-      - name: Debug Data Collection for Divine Orb
+      - name: Debug Data Collection (fetch_data.py)
         run: |
-          echo "--- Starting Scraper Debug Step ---"
+          echo "--- Starting Scraper Debug Step for fetch_data.py ---"
           DB_FILE="poe2_economy.db"
+          # Define paths based on the script's configuration
+          LEAGUE_DIR="data/rise_of_the_abyssal"
+          CURRENCY_FILE="$LEAGUE_DIR/currency.json"
 
           echo "[1] Checking Divine Orb timestamp BEFORE running scraper..."
-          TIMESTAMP_BEFORE=$(sqlite3 $DB_FILE "SELECT MAX(p.timestamp) FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name = 'Divine Orb';")
-          echo "Timestamp Before: $TIMESTAMP_BEFORE"
+          # Use || true to prevent the workflow from failing if the timestamp doesn't exist yet
+          TIMESTAMP_BEFORE=$(sqlite3 $DB_FILE "SELECT MAX(p.timestamp) FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name = 'Divine Orb';" || true)
+          echo "Timestamp Before: ${TIMESTAMP_BEFORE:-'Not Found'}"
 
-          echo "[2] Testing connectivity to data source (poe.ninja)..."
-          # This curl command attempts to fetch the raw data for currency.
-          # A 200 OK status means the runner can reach the server.
-          curl -I "https://poe.ninja/api/data/currencyoverview?league=Necropolis&type=Currency"
+          echo "[2] Removing old currency.json to ensure a clean test run..."
+          rm -f "$CURRENCY_FILE"
 
-          echo "[3] Attempting to run scraper for 'Divine Orb' ONLY..."
-          # !!! IMPORTANT !!!
-          # REPLACE the command below with the actual command to run your scraper.
-          # If your scraper has a way to target a single item, use that.
-          # If not, run the full scraper and we will check its output.
-          # Example for a full run: python3 src/scraper.py
-          # Example for a targeted run: python3 src/scraper.py --item "Divine Orb"
-          
-          python your_scraper_script.py
+          echo "[3] Running fetch_data.py to collect new data..."
+          # The script has built-in logging, which will be displayed here.
+          # We expect to see output for the 'Currency' category.
+          python fetch_data.py
 
-          echo "[4] Checking Divine Orb timestamp AFTER running scraper..."
-          TIMESTAMP_AFTER=$(sqlite3 $DB_FILE "SELECT MAX(p.timestamp) FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name = 'Divine Orb';")
-          echo "Timestamp After:  $TIMESTAMP_AFTER"
+          echo "[4] Verifying that 'currency.json' was created and contains data..."
+          if [ -f "$CURRENCY_FILE" ]; then
+            echo "  - SUCCESS: '$CURRENCY_FILE' was created."
+            echo "  - Checking for 'Divine Orb' entry in the file..."
+            if grep -q -i "Divine Orb" "$CURRENCY_FILE"; then
+              echo "    - SUCCESS: Found 'Divine Orb' in the downloaded data."
+            else
+              echo "    - CRITICAL FAILURE: 'Divine Orb' is MISSING from the API response in '$CURRENCY_FILE'."
+            fi
+          else
+            echo "  - CRITICAL FAILURE: '$CURRENCY_FILE' was NOT created. Check the script output in step [3] for API or network errors."
+          fi
 
-          echo "[5] --- CONCLUSION ---"
+          echo "[5] Checking Divine Orb timestamp AFTER running scraper..."
+          TIMESTAMP_AFTER=$(sqlite3 $DB_FILE "SELECT MAX(p.timestamp) FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name = 'Divine Orb';" || true)
+          echo "Timestamp After:  ${TIMESTAMP_AFTER:-'Not Found'}"
+
+          echo "[6] --- CONCLUSION ---"
           if [[ "$TIMESTAMP_BEFORE" == "$TIMESTAMP_AFTER" ]]; then
             echo "RESULT: FAILED. The timestamp for Divine Orb did NOT change."
-            echo "ACTION: Check the output from step [3] for error messages from your scraper."
-            echo "Common issues: silent HTTP errors, incorrect item ID/name, JSON parsing errors."
+            echo "ACTION: The issue is with the scraper (fetch_data.py) or the poe.ninja API."
+            echo "        Review the log from step [3] and [4] above for specific error messages."
+            exit 1 # Explicitly fail the step to make the error obvious
           else
-            echo "RESULT: SUCCESS! The timestamp for Divine Orb was updated."
+            echo "RESULT: SUCCESS! The timestamp for Divine Orb was updated by the scraper."
           fi
-          echo "------------------------"
+          echo "----------------------------------------------------"
 
       - name: Debug Database State Before Analysis
         run: |
