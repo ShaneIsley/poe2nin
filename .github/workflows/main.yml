@@ -36,6 +36,44 @@ jobs:
       - name: Run Fetch Data Script
         run: python fetch_data.py
 
+      - name: Debug Data Collection for Divine Orb
+        run: |
+          echo "--- Starting Scraper Debug Step ---"
+          DB_FILE="poe2_economy.db"
+
+          echo "[1] Checking Divine Orb timestamp BEFORE running scraper..."
+          TIMESTAMP_BEFORE=$(sqlite3 $DB_FILE "SELECT MAX(p.timestamp) FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name = 'Divine Orb';")
+          echo "Timestamp Before: $TIMESTAMP_BEFORE"
+
+          echo "[2] Testing connectivity to data source (poe.ninja)..."
+          # This curl command attempts to fetch the raw data for currency.
+          # A 200 OK status means the runner can reach the server.
+          curl -I "https://poe.ninja/api/data/currencyoverview?league=Necropolis&type=Currency"
+
+          echo "[3] Attempting to run scraper for 'Divine Orb' ONLY..."
+          # !!! IMPORTANT !!!
+          # REPLACE the command below with the actual command to run your scraper.
+          # If your scraper has a way to target a single item, use that.
+          # If not, run the full scraper and we will check its output.
+          # Example for a full run: python3 src/scraper.py
+          # Example for a targeted run: python3 src/scraper.py --item "Divine Orb"
+          
+          python your_scraper_script.py
+
+          echo "[4] Checking Divine Orb timestamp AFTER running scraper..."
+          TIMESTAMP_AFTER=$(sqlite3 $DB_FILE "SELECT MAX(p.timestamp) FROM items i JOIN price_entries p ON i.id = p.item_id WHERE i.name = 'Divine Orb';")
+          echo "Timestamp After:  $TIMESTAMP_AFTER"
+
+          echo "[5] --- CONCLUSION ---"
+          if [[ "$TIMESTAMP_BEFORE" == "$TIMESTAMP_AFTER" ]]; then
+            echo "RESULT: FAILED. The timestamp for Divine Orb did NOT change."
+            echo "ACTION: Check the output from step [3] for error messages from your scraper."
+            echo "Common issues: silent HTTP errors, incorrect item ID/name, JSON parsing errors."
+          else
+            echo "RESULT: SUCCESS! The timestamp for Divine Orb was updated."
+          fi
+          echo "------------------------"
+
       - name: Debug Database State Before Analysis
         run: |
           DB_FILE="poe2_economy.db"
