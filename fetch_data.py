@@ -6,21 +6,39 @@ import re
 import os
 import logging
 import time
-import json  # --- FIX: Import the json module ---
+import json
 
 # --- Configuration ---
 DB_FILE = "poe2_economy.db"
 LEAGUE_NAME = "Rise of the Abyssal"
 REQUEST_DELAY = 1.5
-# --- FIX: Define a base directory for saving raw data ---
 DATA_DIR = "data"
+
+# --- FIX: Hardcoded a dictionary of the item categories ---
+# This removes the need to scrape the JavaScript file, making the script more reliable.
+# Format: { "Display Name": "api_name" }
+ITEM_CATEGORY_MAPPINGS = {
+    "Currency": "Currency",
+    "Fragments": "Fragments",
+    "Abyssal Bones": "Abyss",
+    "Uncut Gems": "UncutGems",
+    "Lineage Gems": "LineageSupportGems",
+    "Essences": "Essences",
+    "Soul Cores": "Ultimatum",
+    "Talismans": "Talismans",
+    "Runes": "Runes",
+    "Omens": "Ritual",
+    "Expedition": "Expedition",
+    "Distilled Emotions": "Delirium",
+    "Catalysts": "Breach"
+}
 
 # --- Helper function for filenames ---
 def sanitize_filename(name):
     """Converts a string into a safe filename."""
     name = name.lower()
-    name = re.sub(r'\s+', '_', name)  # Replace spaces with underscores
-    name = re.sub(r'[^a-z0-9_.-]', '', name) # Remove invalid characters
+    name = re.sub(r'\s+', '_', name)
+    name = re.sub(r'[^a-z0-9_.-]', '', name)
     return f"{name}.json"
 
 # --- Database Schema ---
@@ -50,23 +68,7 @@ def create_database_schema(cursor, conn):
     conn.commit()
 
 # --- API Fetching ---
-def fetch_all_item_overviews():
-    """Fetches and parses the JS file to get all item category API endpoints."""
-    url = 'https://poe.ninja/chunk.DXfiI3y6.mjs'
-    logging.info(f"Fetching item category list from: {url}")
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        js_content = response.text
-        overview_pairs = re.findall(r'name:"([^"]+)",gggCategory:"([^"]+)"', js_content)
-        if not overview_pairs:
-            logging.warning("Could not find any 'name'/'gggCategory' pairs in the JS file.")
-            return []
-        logging.info(f"Successfully extracted {len(overview_pairs)} item overview pairs.")
-        return overview_pairs
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Error fetching JavaScript file: {e}")
-        return []
+# --- FIX: Removed the fetch_all_item_overviews() function as it's no longer needed ---
 
 def fetch_poe_ninja_data(league_name, overview_name):
     """
@@ -158,7 +160,6 @@ def main():
     
     logging.info(f"--- Starting PoE 2 Economy Data Fetch for {LEAGUE_NAME} League ---")
 
-    # --- FIX: Create the directory for storing raw JSON data ---
     league_data_dir = os.path.join(DATA_DIR, LEAGUE_NAME.lower().replace(" ", "_"))
     try:
         os.makedirs(league_data_dir, exist_ok=True)
@@ -171,21 +172,16 @@ def main():
     cursor = conn.cursor()
     create_database_schema(cursor, conn)
 
-    overviews_to_fetch = fetch_all_item_overviews()
-    if not overviews_to_fetch:
-        logging.critical("Halting execution: Could not retrieve item categories.")
-        conn.close()
-        return
-
-    logging.info(f"\nFound {len(overviews_to_fetch)} categories to process.")
+    # --- FIX: Use the hardcoded dictionary directly ---
+    overviews_to_fetch = ITEM_CATEGORY_MAPPINGS
+    logging.info(f"Processing {len(overviews_to_fetch)} hardcoded categories.")
     logging.info("-" * 40)
 
-    for display_name, api_name in overviews_to_fetch:
+    for display_name, api_name in overviews_to_fetch.items():
         logging.info(f"Processing Category: '{display_name}' (using API endpoint: '{api_name}')")
         api_data = fetch_poe_ninja_data(LEAGUE_NAME, api_name)
         
         if api_data:
-            # --- FIX: Save the raw (prettified) JSON to a file ---
             filename = sanitize_filename(display_name)
             filepath = os.path.join(league_data_dir, filename)
             try:
