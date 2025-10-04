@@ -1,4 +1,4 @@
-# analysis.py (v23 - Final Data Type Correction)
+# analysis.py (v24 - Final Robust Selection)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -93,7 +93,6 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     charts_path = Path(CHARTS_DIR); charts_path.mkdir(exist_ok=True)
     df_analysis = df.dropna(subset=['imputed_chaos_value']).copy()
 
-    # --- THE FINAL FIX ---
     # Force the imputed value column to a numeric type to ensure all sorting is accurate.
     df_analysis['imputed_chaos_value'] = pd.to_numeric(df_analysis['imputed_chaos_value'])
     
@@ -118,8 +117,18 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     market_movers_md = "### Top 10 Most Valuable Items (Overall)\n"
     market_movers_md += df_to_markdown(top_valuable, ['Item', 'Imputed Chaos Value'])
     
-    top_item_per_category = df_analysis.sort_values(by='imputed_chaos_value', ascending=False).drop_duplicates(subset=['category'], keep='first')
+    # --- [NEW ROBUST LOGIC] Manually find the top item for each category ---
+    top_items_list = []
+    unique_categories = df_analysis['category'].unique()
     
+    for category in unique_categories:
+        df_category = df_analysis[df_analysis['category'] == category]
+        top_item = df_category.sort_values(by='imputed_chaos_value', ascending=False).iloc[0]
+        top_items_list.append(top_item)
+        
+    top_item_per_category = pd.DataFrame(top_items_list)
+    
+    # --- The rest of the logic remains the same ---
     top_item_per_category = top_item_per_category.sort_values(by='imputed_chaos_value', ascending=False)[['category', 'name', 'imputed_chaos_value']].head(15)
     top_item_per_category['imputed_chaos_value'] = top_item_per_category['imputed_chaos_value'].apply(lambda x: f"{x:,.1f}")
     
