@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 07:43:00.098200` |
-| Total Price Entries in DB | `43,480` |
+| Last Successful Run (UTC) | `2025-10-04 07:45:44.703128` |
+| Total Price Entries in DB | `43,882` |
 
 <!-- END_MAINTENANCE -->
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Scroll of Wisdom | 825.9 |
-| Greater Essence of the Mind | 686.0 |
+| Lesser Jeweller's Orb | 4,406.5 |
+| Scroll of Wisdom | 801.0 |
+| Greater Essence of the Mind | 683.2 |
 | Greater Orb of Transmutation | 376.5 |
 | Orb of Transmutation | 336.2 |
-| Greater Stone Rune | 278.1 |
+| Greater Stone Rune | 214.2 |
 | Orb of Augmentation | 200.0 |
-| Greater Robust Rune | 163.1 |
-| Greater Orb of Augmentation | 161.0 |
-| Regal Orb | 157.8 |
-| Breach Splinter | 139.6 |
+| Regal Orb | 165.2 |
+| Greater Orb of Augmentation | 143.3 |
+| Greater Robust Rune | 142.5 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
