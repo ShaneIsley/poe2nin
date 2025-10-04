@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 06:49:27.316073` |
-| Total Price Entries in DB | `40,657` |
+| Last Successful Run (UTC) | `2025-10-04 07:03:02.311084` |
+| Total Price Entries in DB | `41,061` |
 
 <!-- END_MAINTENANCE -->
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Dialla's Desire | 924.6 |
-| Hedgewitch Assandra's Rune of Wisdom | 693.6 |
-| Rakiata's Flow | 681.4 |
-| Arjun's Medal | 601.0 |
-| Talisman of Sirrius | 384.5 |
-| Farrul's Rune of the Chase | 381.4 |
-| Countess Seske's Rune of Archery | 370.1 |
-| Atalui's Bloodletting | 337.7 |
-| Uul-Netol's Embrace | 296.5 |
-| Essence of Horror | 248.1 |
+| Scroll of Wisdom | 825.9 |
+| Greater Orb of Transmutation | 376.5 |
+| Orb of Transmutation | 336.2 |
+| Orb of Augmentation | 200.0 |
+| Greater Orb of Augmentation | 161.0 |
+| Regal Orb | 157.8 |
+| Breach Splinter | 139.6 |
+| Orb of Alchemy | 131.5 |
+| Diluted Liquid Ire | 88.1 |
+| Omen of the Liege | 83.0 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
