@@ -61,7 +61,7 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
         # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' from the Exalted Orb entry.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
-            exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
+            exalted_to_chaos_rate = 1 / exalted_orb_entry['chaos_value']
             
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
 
