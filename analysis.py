@@ -1,4 +1,4 @@
-# analysis.py (v13 - SyntaxError Fix)
+# analysis.py (v14 - Final Confirmed Logic)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -177,7 +177,6 @@ if __name__ == "__main__":
             market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
             update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
         else:
-            # [SYNTAX FIX] Added the missing closing quote and extra empty string arguments
             update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
     except Exception as e:
         print(f"An error occurred during analysis: {e}")
