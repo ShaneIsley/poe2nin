@@ -1,4 +1,4 @@
-# analysis.py (v17 - Final Logic Confirmed)
+# analysis.py (v18 - SyntaxError Fix)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -54,7 +54,7 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     
     # --- Step 1: Correctly find master exchange rates ---
     try:
-        # CORRECTED: The Divine rate is the INVERSE of the 'divine_value' on the Chaos Orb item.
+        # The Divine rate is the INVERSE of the 'divine_value' on the Chaos Orb item.
         chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
         if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
             divine_to_chaos_rate = 1 / chaos_orb_entry['divine_value']
@@ -197,4 +197,9 @@ if __name__ == "__main__":
             market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
             update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
         else:
-            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skippi
+            # [SYNTAX FIX] Corrected the unterminated string literal
+            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
+    except Exception as e:
+        print(f"An error occurred during analysis: {e}")
+        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "")
+    print("--- Analysis Complete ---")
