@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 03:49:27.269601` |
-| Total Price Entries in DB | `36,197` |
+| Last Successful Run (UTC) | `2025-10-04 04:22:54.650735` |
+| Total Price Entries in DB | `36,603` |
 
 <!-- END_MAINTENANCE -->
 
@@ -18,17 +18,17 @@ This repository tracks Path of Exile 2 data.
 ### Most Valuable Item by Category
 | Category | Top Item | Imputed Chaos Value |
 | :--- | :--- | :--- |
+| Essences | Perfect Essence of the Infinite | 1,170.8 |
 | Abyssal Bones | Gnawed Collarbone | 1,044.2 |
 | Lineage Gems | Dialla's Desire | 920.4 |
-| Essences | Perfect Essence of Alacrity | 664.5 |
-| Runes | Hedgewitch Assandra's Rune of Wisdom | 654.4 |
+| Runes | Hedgewitch Assandra's Rune of Wisdom | 672.2 |
 | Soul Cores | Topotante's Soul Core of Dampening | 632.9 |
-| Talismans | Talisman of Sirrius | 349.4 |
+| Talismans | Talisman of Sirrius | 360.4 |
 | Uncut Gems | Uncut Skill Gem (Level 13) | 332.3 |
-| Omens | Omen of Chance | 189.9 |
+| Omens | Omen of Chance | 193.2 |
 | Fragments | Olroth's Reliquary Key | 122.0 |
 | Currency | Fracturing Orb | 13.8 |
-| Distilled Emotions | Concentrated Liquid Isolation | 9.6 |
+| Distilled Emotions | Concentrated Liquid Isolation | 9.5 |
 | Catalysts | Reaver Catalyst | 0.9 |
 | Expedition | Black Scythe Artifact | 0.1 |
 
@@ -42,16 +42,16 @@ This repository tracks Path of Exile 2 data.
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
+| Perfect Essence of the Infinite | 1,170.8 |
 | Gnawed Collarbone | 1,044.2 |
 | Dialla's Desire | 920.4 |
-| Rakiata's Flow | 719.4 |
+| Rakiata's Flow | 715.7 |
+| Hedgewitch Assandra's Rune of Wisdom | 672.2 |
 | Perfect Essence of Alacrity | 664.5 |
-| Hedgewitch Assandra's Rune of Wisdom | 654.4 |
 | Gnawed Rib | 632.9 |
 | Topotante's Soul Core of Dampening | 632.9 |
 | Arjun's Medal | 601.0 |
-| Farrul's Rune of the Chase | 367.7 |
-| Countess Seske's Rune of Archery | 355.6 |
+| Farrul's Rune of the Chase | 368.0 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
