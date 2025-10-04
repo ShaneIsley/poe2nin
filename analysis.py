@@ -1,4 +1,4 @@
-# analysis.py (v16 - Final Confirmed Logic from Colab)
+# analysis.py (v17 - Final Logic Confirmed)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -46,20 +46,20 @@ def get_latest_data_df(conn) -> pd.DataFrame:
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     """
     Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
-    [FINAL LOGIC] Discovers exchange rates directly from the currency items themselves,
-    as confirmed during debugging in the Colab notebook.
+    [FINAL LOGIC] Calculates the Divine rate via the inverse of the Chaos Orb's divine_value,
+    as there is no standalone Divine Orb item in the source data.
     """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
     
-    # --- Step 1: Correctly find master exchange rates from the live data structure ---
+    # --- Step 1: Correctly find master exchange rates ---
     try:
-        # The Divine Orb price is the direct 'chaos_value' from the 'Divine Orb' item's own row.
-        divine_orb_entry = df[df['name'] == 'Divine Orb'].iloc[0]
-        if pd.notna(divine_orb_entry['chaos_value']):
-            divine_to_chaos_rate = divine_orb_entry['chaos_value']
+        # CORRECTED: The Divine rate is the INVERSE of the 'divine_value' on the Chaos Orb item.
+        chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
+        if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
+            divine_to_chaos_rate = 1 / chaos_orb_entry['divine_value']
 
-        # The Exalted Orb price is the direct 'chaos_value' from the 'Exalted Orb' item's own row.
+        # The Exalted Orb price is the direct 'chaos_value' from its own row.
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']):
             exalted_to_chaos_rate = exalted_orb_entry['chaos_value']
@@ -67,12 +67,11 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
         print(f"Rates for analysis: 1 Divine = {divine_to_chaos_rate or 'N/A'}, 1 Exalted = {exalted_to_chaos_rate or 'N/A'}")
 
     except IndexError as e:
-        # This is the expected error when recent data is missing.
-        print(f"Warning: Could not find 'Divine Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
+        print(f"Warning: Could not find 'Chaos Orb' or 'Exalted Orb' in the dataset. Imputation will be limited. Error: {e}")
 
     # --- Step 2: Define imputation logic ---
     def impute_price(row, chaos_rate_col, divine_rate_col, exalted_rate_col):
-        if row['name'] == 'Divine Orb': return divine_to_chaos_rate
+        # Handle base currencies first. Note: 'Divine Orb' is not in the item list.
         if row['name'] == 'Exalted Orb': return exalted_to_chaos_rate
         if row['name'] == 'Chaos Orb': return 1.0
 
@@ -198,8 +197,4 @@ if __name__ == "__main__":
             market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
             update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
         else:
-            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skipping analysis", "", "")
-    except Exception as e:
-        print(f"An error occurred during analysis: {e}")
-        update_readme(maintenance_table, f"An error occurred during analysis: {e}", "", "", "")
-    print("--- Analysis Complete ---")
+            update_readme(maintenance_table, "Database is empty or has no recent data.", "Skippi
