@@ -36,9 +36,6 @@ jobs:
       - name: Run Fetch Data Script
         run: python fetch_data.py
 
-      - name: Debug analysis
-        run: python debug_final_table.py
-
       - name: Run Analysis Script
         run: python analysis.py
 
