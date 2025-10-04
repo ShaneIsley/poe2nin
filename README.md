@@ -7,8 +7,8 @@ This repository tracks Path of Exile 2 data.
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-04 07:03:02.311084` |
-| Total Price Entries in DB | `41,061` |
+| Last Successful Run (UTC) | `2025-10-04 07:10:53.941917` |
+| Total Price Entries in DB | `41,465` |
 
 <!-- END_MAINTENANCE -->
 
@@ -43,15 +43,15 @@ This repository tracks Path of Exile 2 data.
 | Item | Imputed Chaos Value |
 | :--- | :--- |
 | Scroll of Wisdom | 825.9 |
+| Greater Essence of the Mind | 730.0 |
 | Greater Orb of Transmutation | 376.5 |
 | Orb of Transmutation | 336.2 |
+| Greater Stone Rune | 278.1 |
 | Orb of Augmentation | 200.0 |
+| Greater Robust Rune | 163.1 |
 | Greater Orb of Augmentation | 161.0 |
 | Regal Orb | 157.8 |
 | Breach Splinter | 139.6 |
-| Orb of Alchemy | 131.5 |
-| Diluted Liquid Ire | 88.1 |
-| Omen of the Liege | 83.0 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
