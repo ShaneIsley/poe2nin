@@ -1,4 +1,4 @@
-# analysis.py (v10 - Final Production Version)
+# analysis.py (v11 - Final Confirmed Logic)
 import sqlite3
 import pandas as pd
 import plotly.express as px
@@ -46,21 +46,21 @@ def get_latest_data_df(conn) -> pd.DataFrame:
 def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     """
     Takes a raw dataframe and returns it with an 'imputed_chaos_value' column.
-    [FINAL CORRECTED VERSION] Correctly discovers and applies exchange rates.
+    [FINAL CONFIRMED LOGIC] Correctly discovers and applies exchange rates based on JSON data structure.
     """
     divine_to_chaos_rate = None
     exalted_to_chaos_rate = None
     
-    # --- Step 1: [CORRECTED] Find master exchange rates ---
+    # --- Step 1: Correctly find master exchange rates ---
     try:
         # The Divine Orb price in Chaos is the DIRECT 'divine_value' from the Chaos Orb entry.
-        # This value represents "Chaos per Divine".
+        # This value from the JSON means "Chaos per Divine".
         chaos_orb_entry = df[df['name'] == 'Chaos Orb'].iloc[0]
         if pd.notna(chaos_orb_entry['divine_value']) and chaos_orb_entry['divine_value'] > 0:
             divine_to_chaos_rate = chaos_orb_entry['divine_value']
 
         # The Exalted Orb price in Chaos is the RECIPROCAL of the 'chaos_value' from the Exalted Orb entry.
-        # The data gives "Exalts per Chaos", so we invert it.
+        # The JSON data gives "Exalts per Chaos", so we must invert it to get "Chaos per Exalt".
         exalted_orb_entry = df[df['name'] == 'Exalted Orb'].iloc[0]
         if pd.notna(exalted_orb_entry['chaos_value']) and exalted_orb_entry['chaos_value'] > 0:
             exalted_to_chaos_rate = 1 / exalted_orb_entry['chaos_value']
@@ -72,42 +72,36 @@ def calculate_imputed_values_poe2(df: pd.DataFrame) -> pd.DataFrame:
     # --- Step 2: Define imputation logic that correctly handles rates vs. prices ---
     def impute_price(row, chaos_rate_col, divine_rate_col, exalted_rate_col):
         # Base currencies are a special case. Their value IS the exchange rate.
-        if row['name'] == 'Divine Orb':
-            return divine_to_chaos_rate
-        if row['name'] == 'Exalted Orb':
-            return exalted_to_chaos_rate
-        if row['name'] == 'Chaos Orb':
-            return 1.0
+        if row['name'] == 'Divine Orb': return divine_to_chaos_rate
+        if row['name'] == 'Exalted Orb': return exalted_to_chaos_rate
+        if row['name'] == 'Chaos Orb': return 1.0
 
         chaos_rate = row[chaos_rate_col]
         divine_rate = row[divine_rate_col]
         exalted_rate = row[exalted_rate_col]
 
-        # Priority 1: Calculate price from the CHAOS RATE if available.
-        # Price = 1 / (items per chaos)
+        # All values from JSON are rates (items per currency), so they must be inverted.
+        # Priority 1: Calculate price from the CHAOS RATE. Price = 1 / (items per chaos)
         if pd.notna(chaos_rate) and chaos_rate > 0:
             return 1 / chaos_rate
 
-        # Priority 2: Calculate from the DIVINE RATE if available.
-        # Price = (1 / (items per divine)) * (chaos per divine)
+        # Priority 2: Calculate from the DIVINE RATE. Price = (1 / (items per divine)) * (chaos per divine)
         if pd.notna(divine_rate) and divine_rate > 0 and pd.notna(divine_to_chaos_rate):
             return (1 / divine_rate) * divine_to_chaos_rate
 
-        # Priority 3: Calculate from the EXALTED RATE if available.
-        # Price = (1 / (items per exalted)) * (chaos per exalted)
+        # Priority 3: Calculate from the EXALTED RATE. Price = (1 / (items per exalted)) * (chaos per exalted)
         if pd.notna(exalted_rate) and exalted_rate > 0 and pd.notna(exalted_to_chaos_rate):
             return (1 / exalted_rate) * exalted_to_chaos_rate
             
         return None
 
-    # --- Step 3: Apply the corrected logic to create the new columns ---
+    # --- Step 3: Apply the logic to create the new columns ---
     df['imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'chaos_value', 'divine_value', 'exalted_value'), axis=1)
     df['prev_imputed_chaos_value'] = df.apply(lambda r: impute_price(r, 'prev_chaos_value', 'prev_divine_value', 'prev_exalted_value'), axis=1)
     
     return df
 
 def generate_maintenance_table() -> str:
-    # This function is unchanged
     if not Path(DB_FILE).exists(): return "No database file found."
     with sqlite3.connect(DB_FILE) as conn:
         try:
@@ -121,7 +115,6 @@ def generate_maintenance_table() -> str:
     return table
 
 def df_to_markdown(dataframe, headers):
-    # This function is unchanged
     md = f"| {' | '.join(headers)} |\n"
     md += f"|{' :--- |' * len(headers)}\n"
     for _, row in dataframe.iterrows():
@@ -129,7 +122,6 @@ def df_to_markdown(dataframe, headers):
     return md
 
 def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
-    # This function is unchanged, it just works with the corrected data.
     if df.empty or 'imputed_chaos_value' not in df.columns or df['imputed_chaos_value'].isna().all():
         return "Not enough data for analysis.", "Please wait for another run.", "", ""
         
@@ -138,7 +130,6 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
 
     df_movers = df_analysis[df_analysis['prev_imputed_chaos_value'].notna() & (df_analysis['imputed_chaos_value'] > 10)].copy()
     if not df_movers.empty:
-        # Prevent division by zero for new items
         df_movers = df_movers[df_movers['prev_imputed_chaos_value'] > 0]
         df_movers['change'] = ((df_movers['imputed_chaos_value'] - df_movers['prev_imputed_chaos_value']) / df_movers['prev_imputed_chaos_value']) * 100
         df_movers = df_movers.sort_values(by='change', ascending=False).dropna(subset=['change'])
@@ -172,17 +163,14 @@ def generate_analysis_content(df: pd.DataFrame) -> tuple[str, str, str, str]:
     return market_movers_md, category_md, movers_chart_path_str, str(category_chart_path)
 
 def update_readme(maintenance_md, market_md, category_md, movers_chart, category_chart):
-    # This function is unchanged
     try:
         with open(README_FILE, 'r', encoding='utf-8') as f: readme_content = f.read()
     except FileNotFoundError:
         readme_content = f"# PoE Economy Tracker for {LEAGUE_NAME}\n\n<!-- START_MAINTENANCE -->\n<!-- END_MAINTENANCE -->\n\n<!-- START_CATEGORY_ANALYSIS -->\n<!-- END_CATEGORY_ANALYSIS -->\n\n<!-- START_ANALYSIS -->\n<!-- END_ANALYSIS -->"
     
     new_content = re.sub(r"<!-- START_MAINTENANCE -->.*<!-- END_MAINTENANCE -->", f"<!-- START_MAINTENANCE -->\n{maintenance_md}\n<!-- END_MAINTENANCE -->", readme_content, flags=re.DOTALL)
-    
     full_market_content = f"{market_md}\n\n![Market Movers Chart]({movers_chart})" if movers_chart else market_md
     new_content = re.sub(r"<!-- START_ANALYSIS -->.*<!-- END_ANALYSIS -->", f"<!-- START_ANALYSIS -->\n{full_market_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
-    
     full_category_content = f"{category_md}\n\n![Category Analysis Chart]({category_chart})" if category_chart else category_md
     new_content = re.sub(r"<!-- START_CATEGORY_ANALYSIS -->.*<!-- END_CATEGORY_ANALYSIS -->", f"<!-- START_CATEGORY_ANALYSIS -->\n{full_category_content}\n<!-- END_ANALYSIS -->", new_content, flags=re.DOTALL)
     
@@ -198,7 +186,7 @@ if __name__ == "__main__":
         conn.close()
         
         if not df_raw.empty:
-            df_imputed = calculate_imputed_values_poe2(df_raw) # Call the corrected function
+            df_imputed = calculate_imputed_values_poe2(df_raw)
             market_movers_markdown, category_markdown, movers_chart, category_chart = generate_analysis_content(df_imputed)
             update_readme(maintenance_table, market_movers_markdown, category_markdown, movers_chart, category_chart)
         else:
