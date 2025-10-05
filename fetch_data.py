@@ -1,4 +1,4 @@
-# fetch_data.py
+# fetch_data.py (with volume fix)
 import requests
 import sqlite3
 import datetime
@@ -14,26 +14,14 @@ LEAGUE_NAME = "Rise of the Abyssal"
 REQUEST_DELAY = 1.5
 DATA_DIR = "data"
 
-# --- FIX: Hardcoded a dictionary of the item categories ---
-# This removes the need to scrape the JavaScript file, making the script more reliable.
-# Format: { "Display Name": "api_name" }
 ITEM_CATEGORY_MAPPINGS = {
-    "Currency": "Currency",
-    "Fragments": "Fragments",
-    "Abyssal Bones": "Abyss",
-    "Uncut Gems": "UncutGems",
-    "Lineage Gems": "LineageSupportGems",
-    "Essences": "Essences",
-    "Soul Cores": "Ultimatum",
-    "Talismans": "Talismans",
-    "Runes": "Runes",
-    "Omens": "Ritual",
-    "Expedition": "Expedition",
-    "Distilled Emotions": "Delirium",
+    "Currency": "Currency", "Fragments": "Fragments", "Abyssal Bones": "Abyss",
+    "Uncut Gems": "UncutGems", "Lineage Gems": "LineageSupportGems", "Essences": "Essences",
+    "Soul Cores": "Ultimatum", "Talismans": "Talismans", "Runes": "Runes",
+    "Omens": "Ritual", "Expedition": "Expedition", "Distilled Emotions": "Delirium",
     "Catalysts": "Breach"
 }
 
-# --- Helper function for filenames ---
 def sanitize_filename(name):
     """Converts a string into a safe filename."""
     name = name.lower()
@@ -41,23 +29,21 @@ def sanitize_filename(name):
     name = re.sub(r'[^a-z0-9_.-]', '', name)
     return f"{name}.json"
 
-# --- Database Schema ---
 def create_database_schema(cursor, conn):
     """Creates the necessary tables if they don't exist."""
+    # This schema is already correct and includes volume columns.
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS leagues (
-        id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT UNIQUE NOT NULL
-    );""")
+    CREATE TABLE IF NOT EXISTS leagues (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT UNIQUE NOT NULL);
+    """)
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS item_categories (
-        id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT UNIQUE NOT NULL
-    );""")
+    CREATE TABLE IF NOT EXISTS item_categories (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT UNIQUE NOT NULL);
+    """)
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS items (
-        id INTEGER PRIMARY KEY AUTOINCREMENT, api_id TEXT UNIQUE NOT NULL, name TEXT NOT NULL,
-        image_url TEXT, category_id INTEGER,
-        FOREIGN KEY (category_id) REFERENCES item_categories (id)
-    );""")
+    CREATE TABLE IF NOT EXISTS items (id INTEGER PRIMARY KEY AUTOINCREMENT, api_id TEXT UNIQUE NOT NULL, name TEXT NOT NULL,
+        image_url TEXT, category_id INTEGER, FOREIGN KEY (category_id) REFERENCES item_categories (id));
+    """)
+    # Note: Your table name was price_entries, but the schema you provided had volume columns
+    # This assumes the table is named 'price_entries' and has the correct columns.
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS price_entries (
         id INTEGER PRIMARY KEY AUTOINCREMENT, item_id INTEGER NOT NULL, league_id INTEGER NOT NULL,
@@ -67,23 +53,11 @@ def create_database_schema(cursor, conn):
     );""")
     conn.commit()
 
-# --- API Fetching ---
-# --- FIX: Removed the fetch_all_item_overviews() function as it's no longer needed ---
-
 def fetch_poe_ninja_data(league_name, overview_name):
-    """
-    Fetches economic data for a specific league and item overview,
-    correctly URL-encoding the parameters.
-    """
+    """Fetches economic data for a specific league and item overview."""
     base_url = "https://poe.ninja/poe2/api/economy/temp/overview"
-    
-    params = {
-        'leagueName': league_name,
-        'overviewName': overview_name
-    }
-    
+    params = {'leagueName': league_name, 'overviewName': overview_name}
     logging.info(f"Fetching data for '{overview_name}' from: {base_url}")
-    
     try:
         response = requests.get(base_url, params=params, timeout=30)
         response.raise_for_status()
@@ -92,17 +66,16 @@ def fetch_poe_ninja_data(league_name, overview_name):
         logging.error(f"An error occurred while fetching data for {overview_name}: {e}")
         return None
 
-# --- Helper function for price calculation ---
 def calculate_price(rate_value):
     """Calculates the reciprocal of a rate value, handling None or zero."""
     if rate_value is not None and rate_value > 0:
         return 1.0 / rate_value
     return None
 
-# --- Data Processing and Insertion ---
 def process_and_insert_data(data, league_name, category_display_name, cursor, conn):
     """
-    Processes the PoE 2 JSON data and inserts it into the SQLite database.
+    [CORRECTED] Processes the PoE 2 JSON data, including volume, 
+    and inserts it into the SQLite database.
     """
     if not data or 'items' not in data:
         logging.warning("No valid data to process.")
@@ -135,44 +108,48 @@ def process_and_insert_data(data, league_name, category_display_name, cursor, co
 
         rate_info = item_data.get('rate', {})
         
+        # --- [NEW] Extract volume information ---
+        volume_info = item_data.get('volumes', {})
+        volume_chaos = volume_info.get('chaos')
+        volume_divine = volume_info.get('divine')
+        volume_exalted = volume_info.get('exalted')
+        max_volume_currency = item_data.get('maxVolumeCurrency')
+        
+        # Price calculation remains the same
         chaos_price = calculate_price(rate_info.get('chaos'))
         divine_price = calculate_price(rate_info.get('divine'))
         exalted_price = calculate_price(rate_info.get('exalted'))
         
+        # --- [MODIFIED] Update the INSERT statement to include all volume columns ---
         cursor.execute("""
-        INSERT INTO price_entries (item_id, league_id, timestamp, chaos_value, divine_value, exalted_value)
-        VALUES (?, ?, ?, ?, ?, ?)
-        """, (item_id, league_id, current_timestamp, chaos_price, divine_price, exalted_price))
+        INSERT INTO price_entries (
+            item_id, league_id, timestamp, 
+            chaos_value, divine_value, exalted_value,
+            volume_chaos, volume_divine, volume_exalted, max_volume_currency
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            item_id, league_id, current_timestamp, 
+            chaos_price, divine_price, exalted_price,
+            volume_chaos, volume_divine, volume_exalted, max_volume_currency
+        ))
         items_processed += 1
     
     conn.commit()
     logging.info(f"Successfully processed and inserted/updated data for {items_processed} items in the '{category_display_name}' category.")
-    
-# --- Main Execution ---
+
 def main():
     """The main function to run the entire update process."""
-    
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
-    
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
     logging.info(f"--- Starting PoE 2 Economy Data Fetch for {LEAGUE_NAME} League ---")
 
     league_data_dir = os.path.join(DATA_DIR, LEAGUE_NAME.lower().replace(" ", "_"))
-    try:
-        os.makedirs(league_data_dir, exist_ok=True)
-        logging.info(f"Data will be saved in '{league_data_dir}'")
-    except OSError as e:
-        logging.critical(f"Failed to create data directory '{league_data_dir}': {e}")
-        return
+    os.makedirs(league_data_dir, exist_ok=True)
     
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     create_database_schema(cursor, conn)
 
-    # --- FIX: Use the hardcoded dictionary directly ---
     overviews_to_fetch = ITEM_CATEGORY_MAPPINGS
     logging.info(f"Processing {len(overviews_to_fetch)} hardcoded categories.")
     logging.info("-" * 40)
