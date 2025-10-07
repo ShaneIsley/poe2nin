@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-07 19:18:04.238056` |
-| Total Price Entries in DB | `141,547` |
+| Last Successful Run (UTC) | `2025-10-07 19:30:36.173672` |
+| Total Price Entries in DB | `141,953` |
 
 <!-- END_MAINTENANCE -->
 
@@ -41,12 +41,12 @@
 | Hinekora's Lock | 12,589.3 |
 | Zarokh's Reliquary Key: Temporalis | 6,520.5 |
 | Azmeri Reliquary Key | 4,260.0 |
-| Uhtred's Augury | 1,791.2 |
+| Uhtred's Augury | 1,776.9 |
 | The Trialmaster's Reliquary Key | 997.6 |
 | Dialla's Desire | 957.0 |
 | Zarokh's Reliquary Key: Against the Darkness | 931.1 |
 | Arjun's Medal | 691.0 |
-| Rakiata's Flow | 683.8 |
+| Rakiata's Flow | 681.1 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
