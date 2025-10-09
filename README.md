@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-09 17:21:06.197587` |
-| Total Price Entries in DB | `189,933` |
+| Last Successful Run (UTC) | `2025-10-09 17:39:30.773071` |
+| Total Price Entries in DB | `190,342` |
 
 <!-- END_MAINTENANCE -->
 
@@ -45,8 +45,8 @@
 | Arjun's Medal | 1,438.9 |
 | The Trialmaster's Reliquary Key | 900.9 |
 | Dialla's Desire | 800.0 |
+| Hedgewitch Assandra's Rune of Wisdom | 688.0 |
 | Rakiata's Flow | 679.9 |
-| Hedgewitch Assandra's Rune of Wisdom | 676.4 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
