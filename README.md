@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-10 23:40:48.089760` |
-| Total Price Entries in DB | `224,528` |
+| Last Successful Run (UTC) | `2025-10-10 23:53:46.987798` |
+| Total Price Entries in DB | `224,935` |
 
 <!-- END_MAINTENANCE -->
 
@@ -40,13 +40,13 @@
 | Mirror of Kalandra | 49,835.7 |
 | Hinekora's Lock | 17,204.5 |
 | Zarokh's Reliquary Key: Temporalis | 11,378.2 |
-| Azmeri Reliquary Key | 4,644.6 |
-| Uhtred's Augury | 2,091.7 |
-| The Trialmaster's Reliquary Key | 1,671.7 |
-| Arjun's Medal | 1,450.7 |
-| Zarokh's Reliquary Key: Against the Darkness | 1,070.3 |
+| Azmeri Reliquary Key | 5,263.1 |
+| Uhtred's Augury | 1,941.8 |
+| The Trialmaster's Reliquary Key | 1,575.4 |
+| Arjun's Medal | 1,475.4 |
+| Zarokh's Reliquary Key: Against the Darkness | 1,083.4 |
 | Dialla's Desire | 874.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 780.3 |
+| Hedgewitch Assandra's Rune of Wisdom | 779.5 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
