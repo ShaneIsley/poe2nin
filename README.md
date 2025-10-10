@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-10 18:37:05.949223` |
-| Total Price Entries in DB | `217,189` |
+| Last Successful Run (UTC) | `2025-10-10 18:52:49.153144` |
+| Total Price Entries in DB | `217,597` |
 
 <!-- END_MAINTENANCE -->
 
@@ -41,9 +41,9 @@
 | Hinekora's Lock | 16,635.0 |
 | Zarokh's Reliquary Key: Temporalis | 11,328.6 |
 | Azmeri Reliquary Key | 4,430.7 |
-| Uhtred's Augury | 2,361.6 |
+| Uhtred's Augury | 2,371.4 |
 | The Trialmaster's Reliquary Key | 1,668.2 |
-| Arjun's Medal | 1,416.2 |
+| Arjun's Medal | 1,420.2 |
 | Zarokh's Reliquary Key: Against the Darkness | 985.4 |
 | Dialla's Desire | 844.0 |
 | Hedgewitch Assandra's Rune of Wisdom | 750.8 |
