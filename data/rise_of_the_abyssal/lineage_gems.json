@@ -28,14 +28,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.6590909090909091
+                "divine": 4,
+                "exalted": 0.5135135135135135
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.833333333333333
+                "divine": 0.6666666666666666,
+                "exalted": 3.1666666666666665
             },
-            "primaryValue": 0.0017861379543350332,
-            "volumePrimaryValue": 0.008633000112619327,
+            "primaryValue": 0.002300525132386111,
+            "volumePrimaryValue": 0.007284996252556019,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -46,16 +48,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.0934289127837515,
+                "exalted": 0.09065796082370668,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 65.16666666666667,
-                "chaos": 1.8333333333333333
+                "exalted": 60.166666666666664,
+                "chaos": 2.1666666666666665
             },
-            "primaryValue": 0.012600246037425674,
-            "volumePrimaryValue": 0.8211160334389064,
+            "primaryValue": 0.013030855017299423,
+            "volumePrimaryValue": 0.7840231102075153,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -66,7 +68,7 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.06456692913385827,
+                "exalted": 0.061933534743202415,
                 "chaos": 0.1111111111111111
             },
             "sparklines": {},
@@ -74,8 +76,8 @@
                 "exalted": 6.833333333333333,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.018232666534966538,
-            "volumePrimaryValue": 0.12458988798893801,
+            "primaryValue": 0.019074492495156564,
+            "volumePrimaryValue": 0.13034236538356983,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -86,14 +88,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.02262443438914027
+                "divine": 0.022082018927444796
             },
             "sparklines": {},
             "volumes": {
                 "divine": 5.833333333333333
             },
-            "primaryValue": 44.2,
-            "volumePrimaryValue": 257.8333333333333,
+            "primaryValue": 45.285714285714285,
+            "volumePrimaryValue": 264.1666666666667,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -104,18 +106,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.06173372474529442,
-                "exalted": 0.00012475633528265107,
-                "chaos": 0.0019835647492207425
+                "divine": 0.06177051535284611,
+                "exalted": 0.00013150756990449263,
+                "chaos": 0.001987083954297069
             },
             "sparklines": {},
             "volumes": {
-                "divine": 119.16666666666667,
+                "divine": 114.66666666666667,
                 "exalted": 1.3333333333333333,
-                "chaos": 2.3333333333333335
+                "chaos": 2
             },
-            "primaryValue": 16.198601398601397,
-            "volumePrimaryValue": 1930.3333333333333,
+            "primaryValue": 16.188953488372093,
+            "volumePrimaryValue": 1856.3333333333333,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -127,17 +129,17 @@
             },
             "rate": {
                 "divine": 1.3333333333333333,
-                "exalted": 0.03316749585406302,
+                "exalted": 0.02564102564102564,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.6666666666666666,
-                "exalted": 6.666666666666667,
+                "exalted": 5,
                 "chaos": 0.5
             },
-            "primaryValue": 0.03549340273574628,
-            "volumePrimaryValue": 0.23662268490497518,
+            "primaryValue": 0.04607267900265158,
+            "volumePrimaryValue": 0.2303633950132579,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -148,18 +150,38 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 11.5,
-                "exalted": 0.24987354577642892,
-                "chaos": 1.0869565217391304
+                "divine": 22,
+                "exalted": 0.24590583418628453,
+                "chaos": 1.1428571428571428
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.8333333333333335,
-                "exalted": 164.66666666666666,
-                "chaos": 4.166666666666667
+                "divine": 3.6666666666666665,
+                "exalted": 160.16666666666666,
+                "chaos": 4
             },
-            "primaryValue": 0.004711292203528269,
-            "volumePrimaryValue": 0.775792782847655,
+            "primaryValue": 0.004804077737996274,
+            "volumePrimaryValue": 0.7694531177024032,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "daressos-passion",
+                "name": "Daresso's Passion",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEYXJlc3NvIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/31805870df/LineageDaresso.png",
+                "category": "LineageSupportGems"
+            },
+            "rate": {
+                "exalted": 5.565217391304348,
+                "chaos": 6
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 21.333333333333332,
+                "chaos": 1
+            },
+            "primaryValue": 0.00021227396175099885,
+            "volumePrimaryValue": 0.004528511184021308,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -171,17 +193,17 @@
             },
             "rate": {
                 "divine": 3,
-                "exalted": 0.029292107404393815,
-                "chaos": 0.4117647058823529
+                "exalted": 0.027764005949429845,
+                "chaos": 0.38636363636363635
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.5,
-                "exalted": 18,
-                "chaos": 2.3333333333333335
+                "exalted": 18.666666666666668,
+                "chaos": 2.8333333333333335
             },
-            "primaryValue": 0.040189231584883155,
-            "volumePrimaryValue": 0.7234061685278967,
+            "primaryValue": 0.042549722320672265,
+            "volumePrimaryValue": 0.7942614833192156,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -192,18 +214,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.6551724137931034,
-                "exalted": 0.002673388328750382,
-                "chaos": 0.05970149253731343
+                "divine": 0.6666666666666666,
+                "exalted": 0.0028326251770390736,
+                "chaos": 0.044642857142857144
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.1666666666666665,
-                "exalted": 5.833333333333333,
-                "chaos": 0.6666666666666666
+                "divine": 3,
+                "exalted": 5.666666666666667,
+                "chaos": 0.8333333333333334
             },
-            "primaryValue": 0.44035027587433334,
-            "volumePrimaryValue": 2.568709942600278,
+            "primaryValue": 0.41705155812128725,
+            "volumePrimaryValue": 2.3632921626872943,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -214,16 +236,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.23786407766990292,
-                "chaos": 0.5555555555555556
+                "divine": 10,
+                "exalted": 0.26420454545454547,
+                "chaos": 0.6666666666666666
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 16.333333333333332,
-                "chaos": 0.8333333333333334
+                "divine": 1.6666666666666667,
+                "exalted": 15.5,
+                "chaos": 0.6666666666666666
             },
-            "primaryValue": 0.004949159619293825,
-            "volumePrimaryValue": 0.08083627378179915,
+            "primaryValue": 0.004471349051263677,
+            "volumePrimaryValue": 0.06930591029458699,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -235,17 +259,17 @@
             },
             "rate": {
                 "divine": 10,
-                "exalted": 0.7916666666666666,
+                "exalted": 0.7692307692307693,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.6666666666666667,
-                "exalted": 3.1666666666666665,
+                "exalted": 3.3333333333333335,
                 "chaos": 0.3333333333333333
             },
-            "primaryValue": 0.0014870239428435203,
-            "volumePrimaryValue": 0.004708909152337815,
+            "primaryValue": 0.0015357559667550525,
+            "volumePrimaryValue": 0.005119186555850175,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -256,18 +280,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 1.5,
-                "exalted": 0.05584260731319555,
+                "exalted": 0.05355731225296443,
                 "chaos": 0.25
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.5,
-                "exalted": 46.833333333333336,
-                "chaos": 1.8333333333333333
+                "exalted": 45.166666666666664,
+                "chaos": 1
             },
-            "primaryValue": 0.0210811662407152,
-            "volumePrimaryValue": 0.9873012856068285,
+            "primaryValue": 0.02205769285205951,
+            "volumePrimaryValue": 0.996272460484688,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -278,18 +300,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.046698564593301434,
-                "exalted": 7.019931204674194e-05,
-                "chaos": 0.0014014014014014013
+                "divine": 0.04702283849918434,
+                "exalted": 7.322673612745636e-05,
+                "chaos": 0.0013956734124214933
             },
             "sparklines": {},
             "volumes": {
-                "divine": 203.33333333333334,
-                "exalted": 2.1666666666666665,
-                "chaos": 1.1666666666666667
+                "divine": 192.16666666666666,
+                "exalted": 2.3333333333333335,
+                "chaos": 1
             },
-            "primaryValue": 21.41393442622951,
-            "volumePrimaryValue": 4354.166666666667,
+            "primaryValue": 21.266261925411968,
+            "volumePrimaryValue": 4086.6666666666665,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -300,18 +322,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 2.5454545454545454,
-                "exalted": 0.008811835529021724,
-                "chaos": 0.14755959137343927
+                "divine": 2.642857142857143,
+                "exalted": 0.008119211415514015,
+                "chaos": 0.14457831325301204
             },
             "sparklines": {},
             "volumes": {
-                "divine": 4.666666666666667,
-                "exalted": 117.83333333333333,
-                "chaos": 21.666666666666668
+                "divine": 6.166666666666667,
+                "exalted": 111.33333333333333,
+                "chaos": 22
             },
-            "primaryValue": 0.13359614852175386,
-            "volumePrimaryValue": 15.742079500813329,
+            "primaryValue": 0.14550067527499447,
+            "volumePrimaryValue": 16.19907518061605,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -322,16 +344,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 4.863636363636363,
+                "exalted": 4.914893617021277,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 71.33333333333333,
-                "chaos": 1
+                "exalted": 77,
+                "chaos": 1.1666666666666667
             },
-            "primaryValue": 0.00024204673212951383,
-            "volumePrimaryValue": 0.017266000225238654,
+            "primaryValue": 0.00024036140671824,
+            "volumePrimaryValue": 0.01850782831730448,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -342,16 +364,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.776173285198556,
+                "exalted": 0.7689530685920578,
                 "chaos": 3
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 35.833333333333336,
-                "chaos": 0.5
+                "exalted": 35.5,
+                "chaos": 1.5
             },
-            "primaryValue": 0.0015167067851134589,
-            "volumePrimaryValue": 0.054348659799898946,
+            "primaryValue": 0.001536310591517333,
+            "volumePrimaryValue": 0.05453902599886533,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -362,18 +384,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 5,
-                "exalted": 0.03384242750454148,
-                "chaos": 0.5046728971962616
+                "divine": 4.833333333333333,
+                "exalted": 0.03207533810097005,
+                "chaos": 0.5048543689320388
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5.833333333333333,
-                "exalted": 83.83333333333333,
-                "chaos": 9
+                "divine": 4.833333333333333,
+                "exalted": 75.5,
+                "chaos": 8.666666666666666
             },
-            "primaryValue": 0.0347855450950283,
-            "volumePrimaryValue": 2.9161881971332058,
+            "primaryValue": 0.03683050011628733,
+            "volumePrimaryValue": 2.780702758779693,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -384,18 +406,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.08631319358816276,
-                "exalted": 0.00018936524768974397,
-                "chaos": 0.003249390739236393
+                "divine": 0.0862279098110908,
+                "exalted": 0.00018516803999629665,
+                "chaos": 0.0032916392363396972
             },
             "sparklines": {},
             "volumes": {
-                "divine": 46.666666666666664,
-                "exalted": 0.8333333333333334,
-                "chaos": 0.6666666666666666
+                "divine": 47.166666666666664,
+                "exalted": 0.3333333333333333,
+                "chaos": 0.8333333333333334
             },
-            "primaryValue": 11.585714285714285,
-            "volumePrimaryValue": 540.6666666666666,
+            "primaryValue": 11.597173144876326,
+            "volumePrimaryValue": 547.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -406,16 +428,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 1.6666666666666667,
+                "exalted": 1.5,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.8333333333333334,
+                "exalted": 1,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.0007063363728506722,
-            "volumePrimaryValue": 0.0005886136440422269,
+            "primaryValue": 0.0007875671624384885,
+            "volumePrimaryValue": 0.0007875671624384885,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -426,34 +448,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.0725681935151827,
+                "divine": 3,
+                "exalted": 0.06611947104423165,
                 "chaos": 0.25
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 23.5,
-                "chaos": 1.6666666666666667
+                "divine": 0.5,
+                "exalted": 24.166666666666668,
+                "chaos": 1.8333333333333333
             },
-            "primaryValue": 0.016222359012397825,
-            "volumePrimaryValue": 0.3812254367913489,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "daressos-passion",
-                "name": "Daresso's Passion",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEYXJlc3NvIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/31805870df/LineageDaresso.png",
-                "category": "LineageSupportGems"
-            },
-            "rate": {
-                "exalted": 5.476190476190476
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 19.166666666666668
-            },
-            "primaryValue": 0.00021497193956324806,
-            "volumePrimaryValue": 0.004120295508295587,
+            "primaryValue": 0.017866911592009708,
+            "volumePrimaryValue": 0.4317836968069013,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -464,18 +470,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.03295554577464789,
+                "divine": 0.03285135216891524,
                 "exalted": 8.993614533681087e-05,
                 "chaos": 0.0011040574109853713
             },
             "sparklines": {},
             "volumes": {
-                "divine": 99.83333333333333,
+                "divine": 90.5,
                 "exalted": 0.16666666666666666,
                 "chaos": 0.6666666666666666
             },
-            "primaryValue": 30.34390651085142,
-            "volumePrimaryValue": 3029.3333333333335,
+            "primaryValue": 30.44014732965009,
+            "volumePrimaryValue": 2754.8333333333335,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -486,14 +492,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.145
+                "divine": 0.14285714285714285
             },
             "sparklines": {},
             "volumes": {
-                "divine": 4.833333333333333
+                "divine": 4.333333333333333
             },
-            "primaryValue": 6.896551724137931,
-            "volumePrimaryValue": 33.333333333333336,
+            "primaryValue": 7,
+            "volumePrimaryValue": 30.333333333333332,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -505,17 +511,17 @@
             },
             "rate": {
                 "divine": 10,
-                "exalted": 0.07624262847514743,
-                "chaos": 1.9
+                "exalted": 0.08424725822532403,
+                "chaos": 1.8181818181818181
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.6666666666666667,
-                "exalted": 30.166666666666668,
-                "chaos": 3.1666666666666665
+                "exalted": 28.166666666666668,
+                "chaos": 3.3333333333333335
             },
-            "primaryValue": 0.01544053912658836,
-            "volumePrimaryValue": 0.4657895969854155,
+            "primaryValue": 0.014022423619984686,
+            "volumePrimaryValue": 0.394964931962902,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -526,16 +532,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.08139534883720931,
+                "exalted": 0.06875,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 3.5,
+                "exalted": 3.6666666666666665,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.01446307811075186,
-            "volumePrimaryValue": 0.050620773387631504,
+            "primaryValue": 0.017183283544112474,
+            "volumePrimaryValue": 0.06300537299507908,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -546,18 +552,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 3,
-                "exalted": 0.011087645195353749,
-                "chaos": 0.17704918032786884
+                "divine": 3.25,
+                "exalted": 0.01080326302638348,
+                "chaos": 0.1721311475409836
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.5,
+                "divine": 2.1666666666666665,
                 "exalted": 49,
-                "chaos": 9
+                "chaos": 7
             },
-            "primaryValue": 0.10617468969675978,
-            "volumePrimaryValue": 5.202559795141229,
+            "primaryValue": 0.10935128958469911,
+            "volumePrimaryValue": 5.3582131896502565,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -568,14 +574,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 1.8253968253968254
+                "exalted": 1.7413793103448276
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 19.166666666666668
+                "exalted": 16.833333333333332
             },
-            "primaryValue": 0.0006449158186897442,
-            "volumePrimaryValue": 0.012360886524886764,
+            "primaryValue": 0.0006783994369519653,
+            "volumePrimaryValue": 0.011419723855358083,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -586,14 +592,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.11293260473588343
+                "exalted": 0.11567164179104478
             },
             "sparklines": {},
             "volumes": {
                 "exalted": 10.333333333333334
             },
-            "primaryValue": 0.010424157760618792,
-            "volumePrimaryValue": 0.10771629685972751,
+            "primaryValue": 0.010212967719363624,
+            "volumePrimaryValue": 0.10553399976675745,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -604,16 +610,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.33070866141732286,
+                "exalted": 0.34074074074074073,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 7,
-                "chaos": 0.16666666666666666
+                "exalted": 7.666666666666667,
+                "chaos": 0.3333333333333333
             },
-            "primaryValue": 0.003559711085398229,
-            "volumePrimaryValue": 0.0249179775977876,
+            "primaryValue": 0.0034670076172563895,
+            "volumePrimaryValue": 0.026580391732298987,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -624,14 +630,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 5.739583333333333
+                "exalted": 5.8478260869565215
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 91.83333333333333
+                "exalted": 89.66666666666667
             },
-            "primaryValue": 0.0002051067507370373,
-            "volumePrimaryValue": 0.01883563660935126,
+            "primaryValue": 0.00020201536880392454,
+            "volumePrimaryValue": 0.018114044736085234,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -642,14 +648,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 8
+                "exalted": 8.046511627906977
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 50.666666666666664
+                "exalted": 57.666666666666664
             },
-            "primaryValue": 0.00014715341101055672,
-            "volumePrimaryValue": 0.007455772824534873,
+            "primaryValue": 0.00014681526583029626,
+            "volumePrimaryValue": 0.008466346996213752,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -660,16 +666,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.6041666666666666,
+                "exalted": 0.5660377358490566,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.833333333333333,
-                "chaos": 0.16666666666666666
+                "exalted": 5,
+                "chaos": 0.3333333333333333
             },
-            "primaryValue": 0.0019485141320018543,
-            "volumePrimaryValue": 0.00941781830467563,
+            "primaryValue": 0.0020870529804619944,
+            "volumePrimaryValue": 0.010435264902309973,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -680,16 +686,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.340632603406326,
-                "chaos": 0.8333333333333334
+                "exalted": 0.371875,
+                "chaos": 0.8
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 23.333333333333332,
-                "chaos": 1.6666666666666667
+                "exalted": 19.833333333333332,
+                "chaos": 1.3333333333333333
             },
-            "primaryValue": 0.0034560029671622176,
-            "volumePrimaryValue": 0.08064006923378507,
+            "primaryValue": 0.0031767414955502058,
+            "volumePrimaryValue": 0.06300537299507908,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -700,16 +706,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.011832392531480678,
-                "chaos": 0.22580645161290322
+                "exalted": 0.01182449953324344,
+                "chaos": 0.23809523809523808
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 36.333333333333336,
-                "chaos": 7
+                "exalted": 38,
+                "chaos": 5.833333333333333
             },
-            "primaryValue": 0.09949190621866043,
-            "volumePrimaryValue": 3.614872592611329,
+            "primaryValue": 0.09990703964565088,
+            "volumePrimaryValue": 3.7964675065347335,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -720,14 +726,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.020368303571428572
+                "divine": 0.019814370633016998
             },
             "sparklines": {},
             "volumes": {
-                "divine": 36.5
+                "divine": 31.666666666666668
             },
-            "primaryValue": 49.0958904109589,
-            "volumePrimaryValue": 1792.0,
+            "primaryValue": 50.46842105263158,
+            "volumePrimaryValue": 1598.1666666666667,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -738,18 +744,18 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "divine": 0.13989387361312108,
-                "exalted": 0.0002791892344631191,
-                "chaos": 0.005637773079633545
+                "divine": 0.13871635610766045,
+                "exalted": 0.00025974025974025974,
+                "chaos": 0.005315379163713678
             },
             "sparklines": {},
             "volumes": {
-                "divine": 48.333333333333336,
-                "exalted": 0.8333333333333334,
-                "chaos": 2.6666666666666665
+                "divine": 44.666666666666664,
+                "exalted": 0.5,
+                "chaos": 2.5
             },
-            "primaryValue": 7.1482758620689655,
-            "volumePrimaryValue": 345.5,
+            "primaryValue": 7.208955223880597,
+            "volumePrimaryValue": 322.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -761,17 +767,17 @@
             },
             "rate": {
                 "divine": 45,
-                "exalted": 1.3611111111111112,
-                "chaos": 1.25
+                "exalted": 1.1986754966887416,
+                "chaos": 1.3333333333333333
             },
             "sparklines": {},
             "volumes": {
                 "divine": 7.5,
-                "exalted": 32.666666666666664,
-                "chaos": 0.8333333333333334
+                "exalted": 30.166666666666668,
+                "chaos": 0.6666666666666666
             },
-            "primaryValue": 0.0008649016810416394,
-            "volumePrimaryValue": 0.028253454914026886,
+            "primaryValue": 0.0009855467529962302,
+            "volumePrimaryValue": 0.02973066038205294,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -782,14 +788,14 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 2.0088105726872247
+                "exalted": 2.0044642857142856
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 76
+                "exalted": 74.83333333333333
             },
-            "primaryValue": 0.0005860320052525679,
-            "volumePrimaryValue": 0.044538432399195166,
+            "primaryValue": 0.0005893598364795816,
+            "volumePrimaryValue": 0.04410376109655535,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -800,16 +806,16 @@
                 "category": "LineageSupportGems"
             },
             "rate": {
-                "exalted": 0.16502463054187191,
+                "exalted": 0.15955983493810177,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 22.333333333333332,
-                "chaos": 1
+                "exalted": 19.333333333333332,
+                "chaos": 1.3333333333333333
             },
-            "primaryValue": 0.007133645954661018,
-            "volumePrimaryValue": 0.15931809298742938,
+            "primaryValue": 0.00740381026413079,
+            "volumePrimaryValue": 0.1431403317731953,
             "maxVolumeCurrency": "exalted"
         }
     ]
