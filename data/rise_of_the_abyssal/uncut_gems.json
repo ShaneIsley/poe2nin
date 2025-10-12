@@ -22,24 +22,44 @@
     "items": [
         {
             "item": {
+                "id": "uncut-skill-gem-12",
+                "name": "Uncut Skill Gem (Level 12)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "exalted": 1.3161764705882353,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 59.666666666666664,
+                "chaos": 0.16666666666666666
+            },
+            "primaryValue": 0.0008511969784016943,
+            "volumePrimaryValue": 0.050788086377967764,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
                 "id": "uncut-skill-gem-14",
                 "name": "Uncut Skill Gem (Level 14)",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 16,
-                "exalted": 1.0807339449541284,
-                "chaos": 4.6923076923076925
+                "divine": 23,
+                "exalted": 1.02989855846236,
+                "chaos": 6.666666666666667
             },
             "sparklines": {},
             "volumes": {
-                "divine": 8,
-                "exalted": 294.5,
-                "chaos": 10.166666666666666
+                "divine": 7.666666666666667,
+                "exalted": 321.5,
+                "chaos": 10
             },
-            "primaryValue": 0.0010347368093133185,
-            "volumePrimaryValue": 0.30472999034277226,
+            "primaryValue": 0.0010878017311537556,
+            "volumePrimaryValue": 0.3497282565659324,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -51,17 +71,17 @@
             },
             "rate": {
                 "divine": 1.2352941176470589,
-                "exalted": 0.523167649536647,
-                "chaos": 1
+                "exalted": 0.5017123287671232,
+                "chaos": 3.25
             },
             "sparklines": {},
             "volumes": {
                 "divine": 3.5,
-                "exalted": 103.5,
-                "chaos": 0.5
+                "exalted": 97.66666666666667,
+                "chaos": 2.1666666666666665
             },
-            "primaryValue": 0.002137508301418964,
-            "volumePrimaryValue": 0.22123210919686281,
+            "primaryValue": 0.0022330035970236782,
+            "volumePrimaryValue": 0.2180900179759792,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -72,18 +92,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 35,
-                "exalted": 3.123919308357349,
-                "chaos": 4.090909090909091
+                "divine": 34,
+                "exalted": 3.5994123408423113,
+                "chaos": 3.85
             },
             "sparklines": {},
             "volumes": {
-                "divine": 11.666666666666666,
-                "exalted": 542,
-                "chaos": 15
+                "divine": 11.333333333333334,
+                "exalted": 612.5,
+                "chaos": 12.833333333333334
             },
-            "primaryValue": 0.0003579718563558075,
-            "volumePrimaryValue": 0.19402074614484768,
+            "primaryValue": 0.00031125231807866197,
+            "volumePrimaryValue": 0.19064204482318048,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -95,235 +115,17 @@
             },
             "rate": {
                 "divine": 124.5,
-                "exalted": 0.4545281582952816,
-                "chaos": 1.8303030303030303
+                "exalted": 0.3933788878416588,
+                "chaos": 1.7040816326530612
             },
             "sparklines": {},
             "volumes": {
                 "divine": 41.5,
-                "exalted": 1194.5,
-                "chaos": 50.333333333333336
+                "exalted": 1113,
+                "chaos": 55.666666666666664
             },
-            "primaryValue": 0.00246029904530568,
-            "volumePrimaryValue": 2.938827209617635,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-skill-gem-7",
-                "name": "Uncut Skill Gem (Level 7)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 22.75,
-                "exalted": 0.032509610104338275,
-                "chaos": 0.15
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 15.166666666666666,
-                "exalted": 49.333333333333336,
-                "chaos": 1
-            },
-            "primaryValue": 0.034398296083200365,
-            "volumePrimaryValue": 1.6969826067712181,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-skill-gem-8",
-                "name": "Uncut Skill Gem (Level 8)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 18,
-                "exalted": 0.07593582887700535,
-                "chaos": 0.25
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 3,
-                "exalted": 35.5,
-                "chaos": 1.1666666666666667
-            },
-            "primaryValue": 0.014726581779066654,
-            "volumePrimaryValue": 0.5227936531568662,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-skill-gem-9",
-                "name": "Uncut Skill Gem (Level 9)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 10,
-                "exalted": 0.05971823962099489,
-                "chaos": 0.5
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 3.3333333333333335,
-                "exalted": 79.83333333333333,
-                "chaos": 0.16666666666666666
-            },
-            "primaryValue": 0.01872585663970716,
-            "volumePrimaryValue": 1.4949475550699551,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-12",
-                "name": "Uncut Spirit Gem (Level 12)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 9,
-                "exalted": 0.07328072153325817,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 3,
-                "exalted": 54.166666666666664,
-                "chaos": 2.8333333333333335
-            },
-            "primaryValue": 0.015260155338548426,
-            "volumePrimaryValue": 0.8265917475047064,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-15",
-                "name": "Uncut Spirit Gem (Level 15)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 1,
-                "exalted": 0.015473330129745316,
-                "chaos": 0.267515923566879
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 0.8333333333333334,
-                "exalted": 53.666666666666664,
-                "chaos": 7
-            },
-            "primaryValue": 0.07227113908522527,
-            "volumePrimaryValue": 3.8785511309070895,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-18",
-                "name": "Uncut Spirit Gem (Level 18)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 15.909090909090908,
-                "exalted": 0.23827812449991997,
-                "chaos": 1.5783132530120483
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 29.166666666666668,
-                "exalted": 992.6666666666666,
-                "chaos": 43.666666666666664
-            },
-            "primaryValue": 0.0046931508977812435,
-            "volumePrimaryValue": 4.658734457864181,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-19",
-                "name": "Uncut Spirit Gem (Level 19)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 20.966666666666665,
-                "exalted": 0.10842821120195614,
-                "chaos": 1.0538461538461539
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 104.83333333333333,
-                "exalted": 946,
-                "chaos": 114.16666666666667
-            },
-            "primaryValue": 0.010313507725729738,
-            "volumePrimaryValue": 9.756578308540332,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-4",
-                "name": "Uncut Spirit Gem (Level 4)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 2,
-                "exalted": 0.008997600639829378,
-                "chaos": 0.11428571428571428
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2,
-                "exalted": 22.5,
-                "chaos": 4
-            },
-            "primaryValue": 0.12428593340408985,
-            "volumePrimaryValue": 2.7964335015920216,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-5",
-                "name": "Uncut Spirit Gem (Level 5)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "divine": 3,
-                "exalted": 0.02409027513630024,
-                "chaos": 0.26744186046511625
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 0.5,
-                "exalted": 31.666666666666668,
-                "chaos": 3.8333333333333335
-            },
-            "primaryValue": 0.04642019186544558,
-            "volumePrimaryValue": 1.4699727424057767,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-6",
-                "name": "Uncut Spirit Gem (Level 6)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "exalted": 0.021019234582589728,
-                "chaos": 0.16666666666666666
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 17.666666666666668,
-                "chaos": 1
-            },
-            "primaryValue": 0.05320246983896834,
-            "volumePrimaryValue": 0.9399103004884407,
+            "primaryValue": 0.0028479551634175678,
+            "volumePrimaryValue": 3.169774096883753,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -335,17 +137,235 @@
             },
             "rate": {
                 "divine": 4,
-                "exalted": 0.13538461538461538,
-                "chaos": 0.2
+                "exalted": 0.1320582877959927,
+                "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.6666666666666666,
-                "exalted": 73.33333333333333,
-                "chaos": 1.6666666666666667
+                "exalted": 72.5,
+                "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.008259987227806588,
-            "volumePrimaryValue": 0.6057323967058165,
+            "primaryValue": 0.008483567775305569,
+            "volumePrimaryValue": 0.6150586637096538,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-skill-gem-7",
+                "name": "Uncut Skill Gem (Level 7)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 18.5,
+                "exalted": 0.03252122147503032,
+                "chaos": 0.15
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 12.333333333333334,
+                "exalted": 49.166666666666664,
+                "chaos": 1
+            },
+            "primaryValue": 0.034449057692014874,
+            "volumePrimaryValue": 1.6937453365240647,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-skill-gem-8",
+                "name": "Uncut Skill Gem (Level 8)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 18,
+                "exalted": 0.07528049221860297,
+                "chaos": 0.27586206896551724
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3,
+                "exalted": 34.666666666666664,
+                "chaos": 1.3333333333333333
+            },
+            "primaryValue": 0.014882015271032762,
+            "volumePrimaryValue": 0.5159098627291357,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-skill-gem-9",
+                "name": "Uncut Skill Gem (Level 9)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 11,
+                "exalted": 0.05223784341545208,
+                "chaos": 3.75
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1.8333333333333333,
+                "exalted": 67.5,
+                "chaos": 2.5
+            },
+            "primaryValue": 0.021446624928561225,
+            "volumePrimaryValue": 1.4476471826778827,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-12",
+                "name": "Uncut Spirit Gem (Level 12)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 9,
+                "exalted": 0.06431123461691148,
+                "chaos": 0.9411764705882353
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3,
+                "exalted": 54,
+                "chaos": 2.6666666666666665
+            },
+            "primaryValue": 0.017420368952355773,
+            "volumePrimaryValue": 0.9406999234272118,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-15",
+                "name": "Uncut Spirit Gem (Level 15)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 1.5454545454545454,
+                "exalted": 0.015284808571288151,
+                "chaos": 0.2708333333333333
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2.8333333333333335,
+                "exalted": 51.833333333333336,
+                "chaos": 6.5
+            },
+            "primaryValue": 0.07329666116411789,
+            "volumePrimaryValue": 3.7992102703401107,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-18",
+                "name": "Uncut Spirit Gem (Level 18)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 16.11111111111111,
+                "exalted": 0.22613174067341815,
+                "chaos": 1.0194174757281553
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 24.166666666666668,
+                "exalted": 870.8333333333334,
+                "chaos": 35
+            },
+            "primaryValue": 0.004954304209890191,
+            "volumePrimaryValue": 4.314373249446041,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-19",
+                "name": "Uncut Spirit Gem (Level 19)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 19,
+                "exalted": 0.10937156339351768,
+                "chaos": 1.0222222222222221
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 88.66666666666667,
+                "exalted": 911.6666666666666,
+                "chaos": 99.66666666666667
+            },
+            "primaryValue": 0.010243297252478634,
+            "volumePrimaryValue": 9.33847266184302,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-4",
+                "name": "Uncut Spirit Gem (Level 4)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 2,
+                "exalted": 0.008754288418313026,
+                "chaos": 0.11494252873563218
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 0.3333333333333333,
+                "exalted": 24.666666666666668,
+                "chaos": 3.3333333333333335
+            },
+            "primaryValue": 0.12797447162747264,
+            "volumePrimaryValue": 3.156703633477658,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-5",
+                "name": "Uncut Spirit Gem (Level 5)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "divine": 3,
+                "exalted": 0.023708952173320617,
+                "chaos": 0.26436781609195403
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 0.5,
+                "exalted": 29,
+                "chaos": 3.8333333333333335
+            },
+            "primaryValue": 0.04725326647159044,
+            "volumePrimaryValue": 1.370344727676123,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-6",
+                "name": "Uncut Spirit Gem (Level 6)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems"
+            },
+            "rate": {
+                "exalted": 0.020174388784407592,
+                "chaos": 0.16666666666666666
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 19.666666666666668,
+                "chaos": 0.5
+            },
+            "primaryValue": 0.055532063289768216,
+            "volumePrimaryValue": 1.0921305780321082,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -357,17 +377,17 @@
             },
             "rate": {
                 "divine": 17.5,
-                "exalted": 0.14983164983164984,
-                "chaos": 1
+                "exalted": 0.13701657458563535,
+                "chaos": 5
             },
             "sparklines": {},
             "volumes": {
                 "divine": 5.833333333333333,
-                "exalted": 44.5,
-                "chaos": 0.16666666666666666
+                "exalted": 41.333333333333336,
+                "chaos": 2.5
             },
-            "primaryValue": 0.0074635445526690745,
-            "volumePrimaryValue": 0.3321277325937738,
+            "primaryValue": 0.008176568697591466,
+            "volumePrimaryValue": 0.33796483950044726,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -379,35 +399,17 @@
             },
             "rate": {
                 "divine": 11,
-                "exalted": 0.12445887445887446,
-                "chaos": 0.2
+                "exalted": 0.11479028697571744,
+                "chaos": 0.2413793103448276
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.8333333333333333,
-                "exalted": 76.66666666666667,
-                "chaos": 1
+                "exalted": 69.33333333333333,
+                "chaos": 1.1666666666666667
             },
-            "primaryValue": 0.008985098079831562,
-            "volumePrimaryValue": 0.6888575194537532,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-skill-gem-12",
-                "name": "Uncut Skill Gem (Level 12)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
-                "category": "UncutGems"
-            },
-            "rate": {
-                "exalted": 1.3086816720257235
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 67.83333333333333
-            },
-            "primaryValue": 0.0008545051236084321,
-            "volumePrimaryValue": 0.057963930884771975,
+            "primaryValue": 0.009759758114770672,
+            "volumePrimaryValue": 0.6766765626240999,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -418,18 +420,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 9.5,
-                "exalted": 0.30214917825537296,
+                "divine": 9.4,
+                "exalted": 0.22786177105831534,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 6.333333333333333,
-                "exalted": 39.833333333333336,
+                "divine": 7.833333333333333,
+                "exalted": 35.166666666666664,
                 "chaos": 0.6666666666666666
             },
-            "primaryValue": 0.0037010697840563953,
-            "volumePrimaryValue": 0.1474259463982464,
+            "primaryValue": 0.004916688875034655,
+            "volumePrimaryValue": 0.17290355877205202,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -440,16 +442,16 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 1.9375,
-                "exalted": 0.37347979599843073
+                "divine": 1.9285714285714286,
+                "exalted": 0.41844246416117786
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5.166666666666667,
-                "exalted": 158.66666666666666
+                "divine": 4.5,
+                "exalted": 180
             },
-            "primaryValue": 0.00299420532489294,
-            "volumePrimaryValue": 0.4750805782163465,
+            "primaryValue": 0.002677370321518276,
+            "volumePrimaryValue": 0.4819266578732897,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -460,18 +462,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 16.583333333333332,
-                "exalted": 2.9767628205128207,
-                "chaos": 3.2096774193548385
+                "divine": 16.7,
+                "exalted": 2.8764211566979734,
+                "chaos": 2.9130434782608696
             },
             "sparklines": {},
             "volumes": {
-                "divine": 33.166666666666664,
-                "exalted": 1857.5,
-                "chaos": 33.166666666666664
+                "divine": 27.833333333333332,
+                "exalted": 1939.6666666666667,
+                "chaos": 33.5
             },
-            "primaryValue": 0.00037566822126788727,
-            "volumePrimaryValue": 0.6978037210051006,
+            "primaryValue": 0.0003894858832474328,
+            "volumePrimaryValue": 0.7554727848722705,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -482,18 +484,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 2,
-                "exalted": 0.025465080817322353,
-                "chaos": 0.16666666666666666
+                "divine": 1.5,
+                "exalted": 0.024971250205355677,
+                "chaos": 0.17708333333333334
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.3333333333333333,
-                "exalted": 27.833333333333332,
-                "chaos": 2
+                "divine": 0.5,
+                "exalted": 25.333333333333332,
+                "chaos": 2.8333333333333335
             },
-            "primaryValue": 0.043914064201898605,
-            "volumePrimaryValue": 1.2222747869528445,
+            "primaryValue": 0.04486461132682224,
+            "volumePrimaryValue": 1.13657015361283,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -504,18 +506,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 9.249343832020998,
-                "exalted": 0.01008832620125111,
-                "chaos": 0.2689450222882615
+                "divine": 9.11111111111111,
+                "exalted": 0.009680347774799118,
+                "chaos": 0.24420214607130494
             },
             "sparklines": {},
             "volumes": {
-                "divine": 587.3333333333334,
-                "exalted": 1024.3333333333333,
-                "chaos": 271.5
+                "divine": 533,
+                "exalted": 908.1666666666666,
+                "chaos": 235.16666666666666
             },
-            "primaryValue": 0.11084843725411524,
-            "volumePrimaryValue": 113.54574922729871,
+            "primaryValue": 0.11573194071856173,
+            "volumePrimaryValue": 105.10389082924047,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -526,16 +528,16 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.22433035714285715,
+                "exalted": 0.2054958183990442,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 33.5,
+                "exalted": 28.666666666666668,
                 "chaos": 0.3333333333333333
             },
-            "primaryValue": 0.004984948128113998,
-            "volumePrimaryValue": 0.16699576229181895,
+            "primaryValue": 0.005451816214734826,
+            "volumePrimaryValue": 0.1562853981557317,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -546,14 +548,16 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.31116389548693585
+                "exalted": 0.30133657351154314,
+                "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 43.666666666666664
+                "exalted": 41.333333333333336,
+                "chaos": 0.5
             },
-            "primaryValue": 0.0035938462338905284,
-            "volumePrimaryValue": 0.15693128554655306,
+            "primaryValue": 0.0037178541647059538,
+            "volumePrimaryValue": 0.15367130547451277,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -564,16 +568,16 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.5299401197604791,
+                "exalted": 0.5518394648829431,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 29.5,
-                "chaos": 2.3333333333333335
+                "exalted": 27.5,
+                "chaos": 2.5
             },
-            "primaryValue": 0.002110191608863027,
-            "volumePrimaryValue": 0.06225065246145929,
+            "primaryValue": 0.002030165484894701,
+            "volumePrimaryValue": 0.05582955083460427,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -584,16 +588,14 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.20914214151534127,
-                "chaos": 0.10909090909090909
+                "exalted": 0.20584652862362973
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 55.666666666666664,
-                "chaos": 1
+                "exalted": 56.333333333333336
             },
-            "primaryValue": 0.00534696252900519,
-            "volumePrimaryValue": 0.2976475807812889,
+            "primaryValue": 0.005442527704008641,
+            "volumePrimaryValue": 0.3065957273258201,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -605,17 +607,15 @@
             },
             "rate": {
                 "divine": 6,
-                "exalted": 0.01984438575201656,
-                "chaos": 0.2608695652173913
+                "exalted": 0.0201885310290652
             },
             "sparklines": {},
             "volumes": {
-                "divine": 6,
-                "exalted": 46.333333333333336,
-                "chaos": 1
+                "divine": 4,
+                "exalted": 42.833333333333336
             },
-            "primaryValue": 0.056352220113680906,
-            "volumePrimaryValue": 2.6109861986005485,
+            "primaryValue": 0.055493162587966036,
+            "volumePrimaryValue": 2.376957130851212,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -627,17 +627,17 @@
             },
             "rate": {
                 "divine": 2,
-                "exalted": 0.045087976539589444,
+                "exalted": 0.046166039231226474,
                 "chaos": 0.2631578947368421
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.3333333333333333,
-                "exalted": 41,
+                "divine": 2,
+                "exalted": 38.833333333333336,
                 "chaos": 0.8333333333333334
             },
-            "primaryValue": 0.02480207096755673,
-            "volumePrimaryValue": 1.016884909669826,
+            "primaryValue": 0.02426730673595083,
+            "volumePrimaryValue": 0.9423804115794239,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -649,17 +649,17 @@
             },
             "rate": {
                 "divine": 4,
-                "exalted": 0.041935483870967745,
+                "exalted": 0.038869835048178994,
                 "chaos": 0.17391304347826086
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.6666666666666666,
-                "exalted": 41.166666666666664,
+                "divine": 6,
+                "exalted": 39.666666666666664,
                 "chaos": 0.6666666666666666
             },
-            "primaryValue": 0.02666656231651642,
-            "volumePrimaryValue": 1.0977734820299259,
+            "primaryValue": 0.02882249007281543,
+            "volumePrimaryValue": 1.1432921062216788,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -670,18 +670,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 6.666666666666667,
-                "exalted": 0.014675580383717203,
-                "chaos": 0.14795918367346939
+                "divine": 6.230769230769231,
+                "exalted": 0.013533217898478082,
+                "chaos": 0.14908256880733944
             },
             "sparklines": {},
             "volumes": {
-                "divine": 23.333333333333332,
-                "exalted": 106.83333333333333,
-                "chaos": 9.666666666666666
+                "divine": 27,
+                "exalted": 99,
+                "chaos": 10.833333333333334
             },
-            "primaryValue": 0.07619972530416412,
-            "volumePrimaryValue": 8.1406706533282,
+            "primaryValue": 0.0827833737114439,
+            "volumePrimaryValue": 8.195553997432945,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -692,18 +692,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 6.0588235294117645,
-                "exalted": 0.018770530267480056,
-                "chaos": 0.11864406779661017
+                "divine": 5.7368421052631575,
+                "exalted": 0.01851955463548369,
+                "chaos": 0.11926605504587157
             },
             "sparklines": {},
             "volumes": {
-                "divine": 17.166666666666668,
-                "exalted": 60,
-                "chaos": 2.3333333333333335
+                "divine": 18.166666666666668,
+                "exalted": 55.166666666666664,
+                "chaos": 2.1666666666666665
             },
-            "primaryValue": 0.05957611095600438,
-            "volumePrimaryValue": 3.5745666573602626,
+            "primaryValue": 0.06049418881065074,
+            "volumePrimaryValue": 3.3372627493875657,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -714,18 +714,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 3.4444444444444446,
-                "exalted": 0.12138511932615817,
-                "chaos": 0.2125
+                "divine": 3,
+                "exalted": 0.11059952038369304,
+                "chaos": 0.216
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5.166666666666667,
-                "exalted": 216.16666666666666,
-                "chaos": 5.666666666666667
+                "divine": 6,
+                "exalted": 192.16666666666666,
+                "chaos": 4.5
             },
-            "primaryValue": 0.009212621778734333,
-            "volumePrimaryValue": 1.9914617411697382,
+            "primaryValue": 0.010129568653837443,
+            "volumePrimaryValue": 1.9465654429790953,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -736,18 +736,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 0.30998129569801053,
-                "exalted": 0.000443492195522897,
-                "chaos": 0.009302325581395349
+                "divine": 0.31113300492610835,
+                "exalted": 0.0004457769373673036,
+                "chaos": 0.009238998298079261
             },
             "sparklines": {},
             "volumes": {
-                "divine": 303.8333333333333,
-                "exalted": 37.5,
-                "chaos": 31.333333333333332
+                "divine": 263.1666666666667,
+                "exalted": 35.833333333333336,
+                "chaos": 25.333333333333332
             },
-            "primaryValue": 3.226001097092704,
-            "volumePrimaryValue": 980.1666666666666,
+            "primaryValue": 3.214059531348955,
+            "volumePrimaryValue": 845.8333333333334,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -759,17 +759,17 @@
             },
             "rate": {
                 "divine": 6,
-                "exalted": 0.021106146972731474,
-                "chaos": 0.22448979591836735
+                "exalted": 0.020741394527802295,
+                "chaos": 0.2692307692307692
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1,
-                "exalted": 22.833333333333332,
-                "chaos": 1.8333333333333333
+                "exalted": 23.5,
+                "chaos": 2.3333333333333335
             },
-            "primaryValue": 0.05298338893229585,
-            "volumePrimaryValue": 1.2097873806207553,
+            "primaryValue": 0.054013987984578356,
+            "volumePrimaryValue": 1.2693287176375914,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -780,18 +780,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 1.1818181818181819,
-                "exalted": 0.002455155827237198,
-                "chaos": 0.03592814371257485
+                "divine": 1.173913043478261,
+                "exalted": 0.002464808018842088,
+                "chaos": 0.04516129032258064
             },
             "sparklines": {},
             "volumes": {
-                "divine": 4.333333333333333,
-                "exalted": 8.166666666666666,
-                "chaos": 1
+                "divine": 4.5,
+                "exalted": 7.5,
+                "chaos": 1.1666666666666667
             },
-            "primaryValue": 0.4554803330657966,
-            "volumePrimaryValue": 3.719756053370672,
+            "primaryValue": 0.45452847696203796,
+            "volumePrimaryValue": 3.408963577215285,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -803,17 +803,17 @@
             },
             "rate": {
                 "divine": 2.1666666666666665,
-                "exalted": 0.004771975489398623,
-                "chaos": 0.10810810810810811
+                "exalted": 0.004932969647727933,
+                "chaos": 0.1111111111111111
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.1666666666666665,
-                "exalted": 14.666666666666666,
-                "chaos": 0.6666666666666666
+                "exalted": 14.166666666666666,
+                "chaos": 0.8333333333333334
             },
-            "primaryValue": 0.234342191489202,
-            "volumePrimaryValue": 3.437018808508296,
+            "primaryValue": 0.22710973608445395,
+            "volumePrimaryValue": 3.2173879278630975,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -824,14 +824,14 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.912718204488778
+                "exalted": 0.8285714285714286
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 61
+                "exalted": 58
             },
-            "primaryValue": 0.0012252140785827613,
-            "volumePrimaryValue": 0.07473805879354843,
+            "primaryValue": 0.0013521169040787563,
+            "volumePrimaryValue": 0.07842278043656788,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -842,14 +842,14 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.8329764453961456
+                "exalted": 0.788235294117647
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 64.83333333333333
+                "exalted": 55.833333333333336
             },
-            "primaryValue": 0.0013425051813879356,
-            "volumePrimaryValue": 0.08703908592665116,
+            "primaryValue": 0.0014213083874431277,
+            "volumePrimaryValue": 0.07935638496557464,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -860,16 +860,16 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "exalted": 0.1954674220963173,
-                "chaos": 1.0833333333333333
+                "exalted": 0.1902144035184167,
+                "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 57.5,
-                "chaos": 2.1666666666666665
+                "exalted": 57.666666666666664,
+                "chaos": 1.8333333333333333
             },
-            "primaryValue": 0.0057210310645392165,
-            "volumePrimaryValue": 0.32895928621100495,
+            "primaryValue": 0.005889803369699296,
+            "volumePrimaryValue": 0.3396453276526594,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -880,18 +880,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 1,
-                "exalted": 0.3657303370786517,
+                "divine": 1.25,
+                "exalted": 0.3504273504273504,
                 "chaos": 0.375
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.16666666666666666,
-                "exalted": 108.5,
+                "divine": 0.8333333333333334,
+                "exalted": 95.66666666666667,
                 "chaos": 0.5
             },
-            "primaryValue": 0.0030576495317585347,
-            "volumePrimaryValue": 0.331754974195801,
+            "primaryValue": 0.0031970262407938817,
+            "volumePrimaryValue": 0.30584884370261467,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -902,18 +902,18 @@
                 "category": "UncutGems"
             },
             "rate": {
-                "divine": 254.75,
-                "exalted": 1.3533457897870769,
-                "chaos": 7.62
+                "divine": 224.45454545454547,
+                "exalted": 1.2330979019522053,
+                "chaos": 7.4128
             },
             "sparklines": {},
             "volumes": {
-                "divine": 509.5,
-                "exalted": 10985.333333333334,
-                "chaos": 825.5
+                "divine": 411.5,
+                "exalted": 9864.166666666666,
+                "chaos": 772.1666666666666
             },
-            "primaryValue": 0.0008263041141128978,
-            "volumePrimaryValue": 9.077226128234885,
+            "primaryValue": 0.0009085454066821825,
+            "volumePrimaryValue": 8.962043315747495,
             "maxVolumeCurrency": "exalted"
         }
     ]
