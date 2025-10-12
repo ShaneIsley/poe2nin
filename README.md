@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-12 22:38:39.962278` |
-| Total Price Entries in DB | `281,609` |
+| Last Successful Run (UTC) | `2025-10-12 22:51:44.383804` |
+| Total Price Entries in DB | `282,017` |
 
 <!-- END_MAINTENANCE -->
 
@@ -44,8 +44,8 @@
 | Uhtred's Augury | 2,008.1 |
 | Dialla's Desire | 991.0 |
 | Zarokh's Reliquary Key: Against the Darkness | 719.3 |
+| Hedgewitch Assandra's Rune of Wisdom | 676.0 |
 | Rakiata's Flow | 670.4 |
-| Hedgewitch Assandra's Rune of Wisdom | 665.7 |
 | Uul-Netol's Embrace | 422.6 |
 
 
