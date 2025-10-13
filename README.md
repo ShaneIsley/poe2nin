@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-13 23:42:02.099437` |
-| Total Price Entries in DB | `308,436` |
+| Last Successful Run (UTC) | `2025-10-13 23:54:53.254167` |
+| Total Price Entries in DB | `308,843` |
 
 <!-- END_MAINTENANCE -->
 
@@ -41,11 +41,11 @@
 | Hinekora's Lock | 16,983.4 |
 | Lesser Resolve Rune | 9,048.2 |
 | Uhtred's Augury | 2,131.9 |
-| The Trialmaster's Reliquary Key | 1,184.1 |
+| The Trialmaster's Reliquary Key | 1,198.6 |
 | Dialla's Desire | 986.3 |
-| Zarokh's Reliquary Key: Against the Darkness | 873.0 |
+| Zarokh's Reliquary Key: Against the Darkness | 866.5 |
 | Arjun's Medal | 800.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 746.0 |
+| Hedgewitch Assandra's Rune of Wisdom | 720.2 |
 | Rakiata's Flow | 651.2 |
 
 
