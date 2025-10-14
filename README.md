@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-14 20:24:12.467019` |
-| Total Price Entries in DB | `329,031` |
+| Last Successful Run (UTC) | `2025-10-14 20:41:52.071137` |
+| Total Price Entries in DB | `329,440` |
 
 <!-- END_MAINTENANCE -->
 
@@ -44,7 +44,7 @@
 | The Trialmaster's Reliquary Key | 1,380.9 |
 | Zarokh's Reliquary Key: Against the Darkness | 966.0 |
 | Arjun's Medal | 900.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 671.3 |
+| Hedgewitch Assandra's Rune of Wisdom | 665.6 |
 | Rakiata's Flow | 608.2 |
 | Dialla's Desire | 421.3 |
 
