@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-17 11:53:48.257548` |
-| Total Price Entries in DB | `393,343` |
+| Last Successful Run (UTC) | `2025-10-17 12:52:41.823290` |
+| Total Price Entries in DB | `393,742` |
 
 <!-- END_MAINTENANCE -->
 
@@ -37,16 +37,16 @@
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Mirror of Kalandra | 54,909.7 |
-| Hinekora's Lock | 15,773.0 |
-| Arjun's Medal | 3,741.1 |
-| Azmeri Reliquary Key | 3,624.3 |
-| Zarokh's Reliquary Key: Against the Darkness | 1,142.2 |
-| Dialla's Desire | 776.8 |
-| Hedgewitch Assandra's Rune of Wisdom | 682.8 |
-| Ratha's Assault | 641.3 |
-| The Trialmaster's Reliquary Key | 638.1 |
-| Atalui's Bloodletting | 459.5 |
+| Mirror of Kalandra | 54,949.1 |
+| Hinekora's Lock | 15,868.6 |
+| Arjun's Medal | 3,805.8 |
+| Azmeri Reliquary Key | 3,637.7 |
+| Zarokh's Reliquary Key: Against the Darkness | 1,126.1 |
+| Dialla's Desire | 746.5 |
+| Hedgewitch Assandra's Rune of Wisdom | 687.7 |
+| The Trialmaster's Reliquary Key | 624.4 |
+| Ratha's Assault | 617.2 |
+| Atalui's Bloodletting | 453.7 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
