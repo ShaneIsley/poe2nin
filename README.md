@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-17 05:53:26.251428` |
-| Total Price Entries in DB | `387,326` |
+| Last Successful Run (UTC) | `2025-10-17 06:36:17.828248` |
+| Total Price Entries in DB | `387,727` |
 
 <!-- END_MAINTENANCE -->
 
@@ -37,16 +37,16 @@
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Mirror of Kalandra | 57,147.5 |
-| Hinekora's Lock | 16,124.8 |
-| Azmeri Reliquary Key | 4,444.2 |
-| Arjun's Medal | 3,827.3 |
-| Uhtred's Augury | 2,518.5 |
-| Zarokh's Reliquary Key: Against the Darkness | 1,212.1 |
+| Mirror of Kalandra | 56,683.7 |
+| Hinekora's Lock | 16,007.0 |
+| Azmeri Reliquary Key | 4,416.2 |
+| Arjun's Medal | 3,840.9 |
+| Uhtred's Augury | 2,509.7 |
+| Zarokh's Reliquary Key: Against the Darkness | 1,145.5 |
 | Dialla's Desire | 852.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 676.8 |
-| Ratha's Assault | 648.9 |
-| Rakiata's Flow | 489.0 |
+| Hedgewitch Assandra's Rune of Wisdom | 681.1 |
+| Ratha's Assault | 625.2 |
+| Rakiata's Flow | 479.3 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
