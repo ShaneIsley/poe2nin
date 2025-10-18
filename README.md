@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-18 06:54:08.100031` |
-| Total Price Entries in DB | `410,714` |
+| Last Successful Run (UTC) | `2025-10-18 07:21:09.823243` |
+| Total Price Entries in DB | `411,118` |
 
 <!-- END_MAINTENANCE -->
 
@@ -40,13 +40,13 @@
 | Mirror of Kalandra | 49,883.2 |
 | Hinekora's Lock | 14,422.6 |
 | Azmeri Reliquary Key | 3,661.4 |
-| Arjun's Medal | 3,597.6 |
-| Uhtred's Augury | 2,274.8 |
-| Zarokh's Reliquary Key: Against the Darkness | 987.5 |
-| The Trialmaster's Reliquary Key | 782.0 |
-| Dialla's Desire | 700.4 |
-| Hedgewitch Assandra's Rune of Wisdom | 565.2 |
-| Ratha's Assault | 406.7 |
+| Arjun's Medal | 3,573.1 |
+| Uhtred's Augury | 2,283.0 |
+| Zarokh's Reliquary Key: Against the Darkness | 992.8 |
+| Dialla's Desire | 733.3 |
+| The Trialmaster's Reliquary Key | 705.4 |
+| Hedgewitch Assandra's Rune of Wisdom | 553.1 |
+| Ratha's Assault | 411.5 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
