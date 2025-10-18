@@ -28,18 +28,18 @@
                 "category": "Talismans"
             },
             "rate": {
-                "divine": 20.666666666666668,
-                "exalted": 0.34011627906976744,
-                "chaos": 1.1428571428571428
+                "divine": 2,
+                "exalted": 0.3333333333333333,
+                "chaos": 1.0526315789473684
             },
             "sparklines": {},
             "volumes": {
-                "divine": 10.333333333333334,
-                "exalted": 39,
-                "chaos": 1.3333333333333333
+                "divine": 0.3333333333333333,
+                "exalted": 39.666666666666664,
+                "chaos": 3.3333333333333335
             },
-            "primaryValue": 0.002650813806516251,
-            "volumePrimaryValue": 0.1033817384541338,
+            "primaryValue": 0.0027144756431718552,
+            "volumePrimaryValue": 0.1076742005124836,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -50,16 +50,36 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.2725225225225225,
-                "chaos": 0.4107142857142857
+                "exalted": 0.3498312710911136,
+                "chaos": 0.375
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 40.333333333333336,
-                "chaos": 3.8333333333333335
+                "exalted": 51.833333333333336,
+                "chaos": 2.5
             },
-            "primaryValue": 0.003308295109093461,
-            "volumePrimaryValue": 0.13343456940010293,
+            "primaryValue": 0.0025864617864735043,
+            "volumePrimaryValue": 0.13406493593220997,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "boar-talisman",
+                "name": "Boar Talisman",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJvYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5e04714fc6/AzmeriSocketableBoar.png",
+                "category": "Talismans"
+            },
+            "rate": {
+                "exalted": 1.162162162162162,
+                "chaos": 35
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 14.333333333333334,
+                "chaos": 5.833333333333333
+            },
+            "primaryValue": 0.0007785705333128578,
+            "volumePrimaryValue": 0.011159510977484294,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -70,16 +90,16 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.22580645161290322,
+                "exalted": 0.21235521235521235,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 7,
+                "exalted": 9.166666666666666,
                 "chaos": 0.3333333333333333
             },
-            "primaryValue": 0.003992733254250184,
-            "volumePrimaryValue": 0.02794913277975129,
+            "primaryValue": 0.004260904191403094,
+            "volumePrimaryValue": 0.03905828842119503,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -90,16 +110,16 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.27416173570019725,
+                "exalted": 0.2995305164319249,
                 "chaos": 5
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 46.333333333333336,
-                "chaos": 6.666666666666667
+                "exalted": 53.166666666666664,
+                "chaos": 5.833333333333333
             },
-            "primaryValue": 0.003288514810706406,
-            "volumePrimaryValue": 0.15236785289606347,
+            "primaryValue": 0.003020811452432629,
+            "volumePrimaryValue": 0.16060647555433477,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -110,16 +130,16 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.3915094339622642,
+                "exalted": 0.4155844155844156,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 13.833333333333334,
-                "chaos": 1
+                "exalted": 10.666666666666666,
+                "chaos": 0.3333333333333333
             },
-            "primaryValue": 0.0023028434315224534,
-            "volumePrimaryValue": 0.031856000802727276,
+            "primaryValue": 0.002177235672127426,
+            "volumePrimaryValue": 0.023223847169359206,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -131,17 +151,17 @@
             },
             "rate": {
                 "divine": 3,
-                "exalted": 0.018732937964793372,
+                "exalted": 0.019866881807180315,
                 "chaos": 0.379746835443038
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1,
-                "exalted": 33.166666666666664,
+                "exalted": 32.833333333333336,
                 "chaos": 5
             },
-            "primaryValue": 0.04812832509633619,
-            "volumePrimaryValue": 1.5962561156951502,
+            "primaryValue": 0.045544400131458745,
+            "volumePrimaryValue": 1.4953744709828953,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -152,16 +172,18 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.06812551610239471,
+                "divine": 14,
+                "exalted": 0.06821163095758635,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 27.5,
+                "divine": 2.3333333333333335,
+                "exalted": 26,
                 "chaos": 3.3333333333333335
             },
-            "primaryValue": 0.013234173918388586,
-            "volumePrimaryValue": 0.3639397827556861,
+            "primaryValue": 0.013264969649431694,
+            "volumePrimaryValue": 0.34488921088522406,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -172,36 +194,18 @@
                 "category": "Talismans"
             },
             "rate": {
-                "divine": 46.4,
-                "exalted": 0.06472122595370068,
-                "chaos": 0.6138613861386139
+                "divine": 34,
+                "exalted": 0.06358285666915361,
+                "chaos": 0.5826086956521739
             },
             "sparklines": {},
             "volumes": {
-                "divine": 38.666666666666664,
-                "exalted": 132.33333333333334,
-                "chaos": 10.333333333333334
+                "divine": 34,
+                "exalted": 127.83333333333333,
+                "chaos": 11.166666666666666
             },
-            "primaryValue": 0.013930281991630324,
-            "volumePrimaryValue": 1.8434406502257463,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "boar-talisman",
-                "name": "Boar Talisman",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUJvYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5e04714fc6/AzmeriSocketableBoar.png",
-                "category": "Talismans"
-            },
-            "rate": {
-                "exalted": 1.1791044776119404
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 13.166666666666666
-            },
-            "primaryValue": 0.0007646353190050373,
-            "volumePrimaryValue": 0.010067698366899658,
+            "primaryValue": 0.014230647407032634,
+            "volumePrimaryValue": 1.8191510935323383,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -212,14 +216,14 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.13636363636363635
+                "exalted": 0.13846153846153847
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1
+                "exalted": 1.5
             },
-            "primaryValue": 0.006611622808113208,
-            "volumePrimaryValue": 0.006611622808113208,
+            "primaryValue": 0.006534848770598911,
+            "volumePrimaryValue": 0.009802273155898366,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -230,16 +234,16 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.09163473818646233,
-                "chaos": 0.9375
+                "exalted": 0.09390503189227498,
+                "chaos": 1.0666666666666667
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 47.833333333333336,
-                "chaos": 2.5
+                "exalted": 44.166666666666664,
+                "chaos": 2.6666666666666665
             },
-            "primaryValue": 0.009838898939662924,
-            "volumePrimaryValue": 0.4706273326138765,
+            "primaryValue": 0.009635534924567264,
+            "volumePrimaryValue": 0.42556945916838756,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -250,16 +254,18 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.15838509316770186,
+                "divine": 60,
+                "exalted": 0.16291161178509533,
                 "chaos": 1.5
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 17,
-                "chaos": 2.5
+                "divine": 10,
+                "exalted": 15.666666666666666,
+                "chaos": 2
             },
-            "primaryValue": 0.005692359743883564,
-            "volumePrimaryValue": 0.09677011564602059,
+            "primaryValue": 0.005554086688333903,
+            "volumePrimaryValue": 0.0870140247838978,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -270,18 +276,18 @@
                 "category": "Talismans"
             },
             "rate": {
-                "divine": 49.5,
-                "exalted": 0.06120020400068,
-                "chaos": 1.0135135135135136
+                "divine": 35.4,
+                "exalted": 0.05865981588524941,
+                "chaos": 1.0134228187919463
             },
             "sparklines": {},
             "volumes": {
-                "divine": 49.5,
-                "exalted": 180,
-                "chaos": 25
+                "divine": 29.5,
+                "exalted": 182.66666666666666,
+                "chaos": 25.166666666666668
             },
-            "primaryValue": 0.014731730769542144,
-            "volumePrimaryValue": 2.651711538517586,
+            "primaryValue": 0.015424958308097002,
+            "volumePrimaryValue": 2.817625717612386,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -293,15 +299,15 @@
             },
             "rate": {
                 "divine": 16,
-                "exalted": 0.5365853658536586
+                "exalted": 0.5390625
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.6666666666666665,
-                "exalted": 22
+                "exalted": 23
             },
-            "primaryValue": 0.0016802264574337284,
-            "volumePrimaryValue": 0.036964982063542026,
+            "primaryValue": 0.0016785163397391183,
+            "volumePrimaryValue": 0.03860587581399972,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -318,8 +324,8 @@
             "volumes": {
                 "exalted": 0.16666666666666666
             },
-            "primaryValue": 0.0009015849283790738,
-            "volumePrimaryValue": 0.00015026415472984563,
+            "primaryValue": 0.0009048252143906185,
+            "volumePrimaryValue": 0.0001508042023984364,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -330,18 +336,18 @@
                 "category": "Talismans"
             },
             "rate": {
-                "divine": 0.5407827359180688,
-                "exalted": 0.0005349739200213989,
-                "chaos": 0.019287137999765506
+                "divine": 0.5379962192816635,
+                "exalted": 0.0005475964261142651,
+                "chaos": 0.019114219114219115
             },
             "sparklines": {},
             "volumes": {
-                "divine": 492.8333333333333,
-                "exalted": 20,
-                "chaos": 54.833333333333336
+                "divine": 474.3333333333333,
+                "exalted": 19.5,
+                "chaos": 47.833333333333336
             },
-            "primaryValue": 1.8491714575583362,
-            "volumePrimaryValue": 911.3333333333334,
+            "primaryValue": 1.8587491215741392,
+            "volumePrimaryValue": 881.6666666666666,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -352,16 +358,16 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.0770065075921909,
+                "exalted": 0.07665847665847667,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 23.666666666666668,
-                "chaos": 3.3333333333333335
+                "exalted": 26,
+                "chaos": 4.333333333333333
             },
-            "primaryValue": 0.011707905689655015,
-            "volumePrimaryValue": 0.27708710132183534,
+            "primaryValue": 0.011803328918493004,
+            "volumePrimaryValue": 0.3068865518808181,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -372,14 +378,14 @@
                 "category": "Talismans"
             },
             "rate": {
-                "exalted": 0.5
+                "exalted": 0.5434782608695652
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 5.166666666666667
+                "exalted": 4.166666666666667
             },
-            "primaryValue": 0.0018031698567581476,
-            "volumePrimaryValue": 0.009316377593250429,
+            "primaryValue": 0.001664878394478738,
+            "volumePrimaryValue": 0.006936993310328075,
             "maxVolumeCurrency": "exalted"
         }
     ]
