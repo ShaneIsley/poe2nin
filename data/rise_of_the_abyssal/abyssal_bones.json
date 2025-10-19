@@ -28,18 +28,18 @@
                 "category": "Abyss"
             },
             "rate": {
-                "divine": 58.52482269503546,
-                "exalted": 0.0717652981829832,
-                "chaos": 4.9773299748110835
+                "divine": 58.76335877862596,
+                "exalted": 0.07290410052203991,
+                "chaos": 4.111475409836066
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1375.3333333333333,
-                "exalted": 2352,
-                "chaos": 329.3333333333333
+                "divine": 1283,
+                "exalted": 2276.3333333333335,
+                "chaos": 209
             },
-            "primaryValue": 0.01138886552178181,
-            "volumePrimaryValue": 26.78661170723082,
+            "primaryValue": 0.011214464680450996,
+            "volumePrimaryValue": 25.52785976759995,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -50,18 +50,18 @@
                 "category": "Abyss"
             },
             "rate": {
-                "divine": 0.15456674473067916,
-                "exalted": 0.00023911280070704747,
-                "chaos": 0.00608866620156022
+                "divine": 0.1553156146179402,
+                "exalted": 0.00021733237935000525,
+                "chaos": 0.006161703722793618
             },
             "sparklines": {},
             "volumes": {
-                "divine": 242,
-                "exalted": 13.166666666666666,
-                "chaos": 48
+                "divine": 249.33333333333334,
+                "exalted": 14.833333333333334,
+                "chaos": 43.833333333333336
             },
-            "primaryValue": 6.46969696969697,
-            "volumePrimaryValue": 1565.6666666666667,
+            "primaryValue": 6.438502673796791,
+            "volumePrimaryValue": 1605.3333333333333,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -72,18 +72,18 @@
                 "category": "Abyss"
             },
             "rate": {
-                "divine": 0.20983966013430178,
-                "exalted": 0.00023157881194221523,
-                "chaos": 0.008098018948047587
+                "divine": 0.21054407423028257,
+                "exalted": 0.0002526069605989907,
+                "chaos": 0.00812470477090222
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1276,
-                "exalted": 66,
-                "chaos": 205
+                "divine": 1248,
+                "exalted": 74.16666666666667,
+                "chaos": 186.33333333333334
             },
-            "primaryValue": 4.765543364681296,
-            "volumePrimaryValue": 6080.833333333333,
+            "primaryValue": 4.749599358974359,
+            "volumePrimaryValue": 5927.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -94,18 +94,84 @@
                 "category": "Abyss"
             },
             "rate": {
-                "divine": 0.5683774306662416,
-                "exalted": 0.0006774917257158089,
-                "chaos": 0.0221326298674365
+                "divine": 0.5675173055067673,
+                "exalted": 0.0006745084166150762,
+                "chaos": 0.02193808009346401
             },
             "sparklines": {},
             "volumes": {
-                "divine": 891.5,
-                "exalted": 101.66666666666667,
-                "chaos": 222.33333333333334
+                "divine": 915.5,
+                "exalted": 95.33333333333333,
+                "chaos": 225.33333333333334
             },
-            "primaryValue": 1.759394279304543,
-            "volumePrimaryValue": 1568.5,
+            "primaryValue": 1.7620608046604769,
+            "volumePrimaryValue": 1613.1666666666667,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "preserved-cranium",
+                "name": "Preserved Cranium",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkQ3Jhbml1bSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/791fdae503/PreservedCranium.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 56.701298701298704,
+                "exalted": 0.05773693011679608,
+                "chaos": 1.8707782672540383
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1455.3333333333333,
+                "exalted": 1484.6666666666667,
+                "chaos": 424.6666666666667
+            },
+            "primaryValue": 0.01416044217644723,
+            "volumePrimaryValue": 21.02353648463199,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "preserved-jawbone",
+                "name": "Preserved Jawbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2bb7939b21/PreservedJawbone.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 312.22222222222223,
+                "exalted": 5.184927983539095,
+                "chaos": 18.123809523809523
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 468.3333333333333,
+                "exalted": 3359.8333333333335,
+                "chaos": 317.1666666666667
+            },
+            "primaryValue": 0.0001576840532713449,
+            "volumePrimaryValue": 0.5297921383161737,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "preserved-vertebrae",
+                "name": "Preserved Vertebrae",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkU3BpbmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6605f295c5/PreservedSpine.png",
+                "category": "Abyss"
+            },
+            "rate": {
+                "divine": 171.78051948051947,
+                "exalted": 0.10044455834951552,
+                "chaos": 3.359557147508955
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 22045.166666666668,
+                "exalted": 18681.666666666668,
+                "chaos": 8597.666666666666
+            },
+            "primaryValue": 0.0058213818599693054,
+            "volumePrimaryValue": 128.33333333333334,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -117,84 +183,18 @@
             },
             "rate": {
                 "divine": 15,
-                "exalted": 1,
+                "exalted": 1.3184466019417476,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 20,
-                "exalted": 94.83333333333333,
+                "exalted": 113.16666666666667,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.0008173253301365682,
-            "volumePrimaryValue": 0.07750968547461788,
+            "primaryValue": 0.0006201088911453605,
+            "volumePrimaryValue": 0.0701756561812833,
             "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "preserved-cranium",
-                "name": "Preserved Cranium",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkQ3Jhbml1bSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/791fdae503/PreservedCranium.png",
-                "category": "Abyss"
-            },
-            "rate": {
-                "divine": 58.338345864661655,
-                "exalted": 0.06202449525232469,
-                "chaos": 2.0574088440651668
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 1293.1666666666667,
-                "exalted": 1577.5,
-                "chaos": 442
-            },
-            "primaryValue": 0.013177460401919751,
-            "volumePrimaryValue": 20.787443784028408,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "preserved-jawbone",
-                "name": "Preserved Jawbone",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2bb7939b21/PreservedJawbone.png",
-                "category": "Abyss"
-            },
-            "rate": {
-                "divine": 320,
-                "exalted": 4.931297709923665,
-                "chaos": 18.234234234234233
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 426.6666666666667,
-                "exalted": 3337.6666666666665,
-                "chaos": 337.3333333333333
-            },
-            "primaryValue": 0.00016574244310818954,
-            "volumePrimaryValue": 0.5531930276141006,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "preserved-vertebrae",
-                "name": "Preserved Vertebrae",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvUHJlc2VydmVkU3BpbmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6605f295c5/PreservedSpine.png",
-                "category": "Abyss"
-            },
-            "rate": {
-                "divine": 166.77659574468086,
-                "exalted": 0.1071800056173647,
-                "chaos": 4.942913385826771
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 20902.666666666668,
-                "exalted": 20797.333333333332,
-                "chaos": 8370
-            },
-            "primaryValue": 0.005996045161701856,
-            "volumePrimaryValue": 125.33333333333333,
-            "maxVolumeCurrency": "divine"
         },
         {
             "item": {
@@ -205,15 +205,15 @@
             },
             "rate": {
                 "divine": 7.083333333333333,
-                "exalted": 0.1497584541062802
+                "exalted": 0.196763202725724
             },
             "sparklines": {},
             "volumes": {
                 "divine": 14.166666666666666,
-                "exalted": 36.166666666666664
+                "exalted": 38.5
             },
-            "primaryValue": 0.0054576239786538585,
-            "volumePrimaryValue": 0.1973840672279812,
+            "primaryValue": 0.004155149179514643,
+            "volumePrimaryValue": 0.15997324341131375,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -225,17 +225,17 @@
             },
             "rate": {
                 "divine": 31,
-                "exalted": 1.5388349514563107,
+                "exalted": 1.685,
                 "chaos": 0.25
             },
             "sparklines": {},
             "volumes": {
                 "divine": 5.166666666666667,
-                "exalted": 52.833333333333336,
+                "exalted": 56.166666666666664,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.0005311325489215554,
-            "volumePrimaryValue": 0.028061503001355508,
+            "primaryValue": 0.0004852109557059143,
+            "volumePrimaryValue": 0.02725268201214885,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -246,18 +246,18 @@
                 "category": "Abyss"
             },
             "rate": {
-                "divine": 181.875,
-                "exalted": 0.4842935026315168,
-                "chaos": 10.714814814814815
+                "divine": 216.44,
+                "exalted": 0.4291975577845617,
+                "chaos": 11.020066889632107
             },
             "sparklines": {},
             "volumes": {
-                "divine": 727.5,
-                "exalted": 3420,
-                "chaos": 964.3333333333334
+                "divine": 901.8333333333334,
+                "exalted": 3280.5,
+                "chaos": 1098.3333333333333
             },
-            "primaryValue": 0.0016876652808585054,
-            "volumePrimaryValue": 5.771815260536089,
+            "primaryValue": 0.001904904735676187,
+            "volumePrimaryValue": 6.249039985385732,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -268,18 +268,18 @@
                 "category": "Abyss"
             },
             "rate": {
-                "divine": 600,
-                "exalted": 3.635788024776325,
-                "chaos": 12.701570680628272
+                "divine": 600.3333333333334,
+                "exalted": 3.1589137540859946,
+                "chaos": 12.525821596244132
             },
             "sparklines": {},
             "volumes": {
-                "divine": 100,
-                "exalted": 4402.333333333333,
-                "chaos": 404.3333333333333
+                "divine": 300.1666666666667,
+                "exalted": 4187.666666666667,
+                "chaos": 444.6666666666667
             },
-            "primaryValue": 0.00022480005010381494,
-            "volumePrimaryValue": 0.989644753907028,
+            "primaryValue": 0.0002588169617821762,
+            "volumePrimaryValue": 1.08383916362316,
             "maxVolumeCurrency": "exalted"
         }
     ]
