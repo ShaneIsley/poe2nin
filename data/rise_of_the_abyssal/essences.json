@@ -36,8 +36,8 @@
                 "exalted": 0.6666666666666666,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.0008453403220514787,
-            "volumePrimaryValue": 0.0005635602147009858,
+            "primaryValue": 0.0008363180379725626,
+            "volumePrimaryValue": 0.000557545358648375,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -48,18 +48,18 @@
                 "category": "Essences"
             },
             "rate": {
-                "divine": 2.4612299465240643,
-                "exalted": 0.004205343863787887,
-                "chaos": 0.20182291666666666
+                "divine": 2.222953904045155,
+                "exalted": 0.004076391097915856,
+                "chaos": 0.1748768472906404
             },
             "sparklines": {},
             "volumes": {
-                "divine": 306.8333333333333,
-                "exalted": 54.666666666666664,
-                "chaos": 103.33333333333333
+                "divine": 393.8333333333333,
+                "exalted": 57.666666666666664,
+                "chaos": 94.66666666666667
             },
-            "primaryValue": 0.40630092341118956,
-            "volumePrimaryValue": 124.66666666666667,
+            "primaryValue": 0.4498518831993229,
+            "volumePrimaryValue": 177.16666666666666,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -70,16 +70,16 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.01932367149758454,
+                "exalted": 0.02090032154340836,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2,
+                "exalted": 2.1666666666666665,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.043746361666164024,
-            "volumePrimaryValue": 0.08749272333232805,
+            "primaryValue": 0.04001460150914876,
+            "volumePrimaryValue": 0.08669830326982231,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -91,357 +91,17 @@
             },
             "rate": {
                 "divine": 10,
-                "exalted": 0.5167597765363129,
+                "exalted": 0.5162162162162162,
                 "chaos": 4
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.6666666666666667,
-                "exalted": 30.833333333333332,
+                "exalted": 31.833333333333332,
                 "chaos": 0.6666666666666666
             },
-            "primaryValue": 0.0016358477583482667,
-            "volumePrimaryValue": 0.050438639215738226,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-enhancement",
-                "name": "Greater Essence of Enhancement",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 5.144927536231884,
-                "chaos": 12.5
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 59.166666666666664,
-                "chaos": 8.333333333333334
-            },
-            "primaryValue": 0.00016430558372268177,
-            "volumePrimaryValue": 0.009721413703592004,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-flames",
-                "name": "Greater Essence of Flames",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 10,
-                "chaos": 9
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 6.666666666666667,
-                "chaos": 4.5
-            },
-            "primaryValue": 8.453403220514786e-05,
-            "volumePrimaryValue": 0.0005635602147009858,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-grounding",
-                "name": "Greater Essence of Grounding",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fd9d91c76a/GreaterLightningResistanceEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 30,
-                "exalted": 0.5822262940907009,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 10,
-                "exalted": 211.83333333333334,
-                "chaos": 1.1666666666666667
-            },
-            "primaryValue": 0.0014519102462929802,
-            "volumePrimaryValue": 0.307562987173063,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-insulation",
-                "name": "Greater Essence of Insulation",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZVJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e5b663f414/GreaterFireResistanceEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 1.703583061889251,
-                "chaos": 3
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 174.33333333333334,
-                "chaos": 1.5
-            },
-            "primaryValue": 0.0004962131527147303,
-            "volumePrimaryValue": 0.08650649295660132,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-opulence",
-                "name": "Greater Essence of Opulence",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 50.125,
-                "exalted": 0.06758780617421131,
-                "chaos": 2
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 66.83333333333333,
-                "exalted": 233.16666666666666,
-                "chaos": 34.333333333333336
-            },
-            "primaryValue": 0.012507290440417124,
-            "volumePrimaryValue": 2.9162832210239262,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-ruin",
-                "name": "Greater Essence of Ruin",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 20,
-                "exalted": 0.22582849333788863,
-                "chaos": 2
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 3.3333333333333335,
-                "exalted": 110.16666666666667,
-                "chaos": 9.333333333333334
-            },
-            "primaryValue": 0.0037432846030933105,
-            "volumePrimaryValue": 0.41238518710744637,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "greater-essence-of-sorcery",
-                "name": "Greater Essence of Sorcery",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2FzdGVyRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14b7e4c8ef/GreaterCasterEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 3.9157894736842107,
-                "chaos": 7
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 62,
-                "chaos": 2.3333333333333335
-            },
-            "primaryValue": 0.00021587992095400664,
-            "volumePrimaryValue": 0.013384555099148413,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-abrasion",
-                "name": "Perfect Essence of Abrasion",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 26.923076923076923,
-                "exalted": 0.1761161748802719,
-                "chaos": 0.5
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 58.333333333333336,
-                "exalted": 190,
-                "chaos": 2.5
-            },
-            "primaryValue": 0.004799901670736159,
-            "volumePrimaryValue": 0.9119813174398702,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-alacrity",
-                "name": "Perfect Essence of Alacrity",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7108cba28f/SpeedCasterEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 1.1348148148148147,
-                "chaos": 0.2
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 127.66666666666667,
-                "chaos": 1
-            },
-            "primaryValue": 0.0007449147746537182,
-            "volumePrimaryValue": 0.09510078623079135,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-battle",
-                "name": "Perfect Essence of Battle",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 31.975609756097562,
-                "exalted": 0.025100063197809143,
-                "chaos": 1.4415823367065317
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 218.5,
-                "exalted": 397.1666666666667,
-                "chaos": 261.1666666666667
-            },
-            "primaryValue": 0.033678812494992605,
-            "volumePrimaryValue": 13.376101695927897,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-command",
-                "name": "Perfect Essence of Command",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 0.4942528735632184,
-                "chaos": 2
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 7.166666666666667,
-                "chaos": 0.3333333333333333
-            },
-            "primaryValue": 0.0017103397213599685,
-            "volumePrimaryValue": 0.01225743466974644,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-electricity",
-                "name": "Perfect Essence of Electricity",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c53c73716/LightningEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 34.583333333333336,
-                "exalted": 0.07953340402969247,
-                "chaos": 0.2543103448275862
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 69.16666666666667,
-                "exalted": 250,
-                "chaos": 9.833333333333334
-            },
-            "primaryValue": 0.010628745649260592,
-            "volumePrimaryValue": 2.657186412315148,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-enhancement",
-                "name": "Perfect Essence of Enhancement",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dd5b00f215/DefencesEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 20.05,
-                "exalted": 0.0879915778034368,
-                "chaos": 0.7048192771084337
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 66.83333333333333,
-                "exalted": 431.8333333333333,
-                "chaos": 58.5
-            },
-            "primaryValue": 0.009607059484032359,
-            "volumePrimaryValue": 4.148648520521307,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-haste",
-                "name": "Perfect Essence of Haste",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/93df0c5b25/SpeedEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 32.56521739130435,
-                "exalted": 0.03602692212403997,
-                "chaos": 0.8736591179976162
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 124.83333333333333,
-                "exalted": 290.8333333333333,
-                "chaos": 122.16666666666667
-            },
-            "primaryValue": 0.023464128274432908,
-            "volumePrimaryValue": 6.824150639814237,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-opulence",
-                "name": "Perfect Essence of Opulence",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/86dd0d0b4d/RarityResistanceEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 17,
-                "exalted": 0.12728398885103748,
-                "chaos": 1.6923076923076923
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 11.333333333333334,
-                "exalted": 68.5,
-                "chaos": 3.6666666666666665
-            },
-            "primaryValue": 0.0066413720192316904,
-            "volumePrimaryValue": 0.4549339833173708,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-the-body",
-                "name": "Perfect Essence of the Body",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/09083af8bb/LifeEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 55,
-                "exalted": 1.011049723756906,
-                "chaos": 3.150537634408602
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 9.166666666666666,
-                "exalted": 91.5,
-                "chaos": 48.833333333333336
-            },
-            "primaryValue": 0.0008361016300072002,
-            "volumePrimaryValue": 0.07650329914565882,
+            "primaryValue": 0.0016200925342923986,
+            "volumePrimaryValue": 0.05157294567497469,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -453,15 +113,399 @@
             },
             "rate": {
                 "divine": 1,
-                "exalted": 5.436781609195402
+                "exalted": 4.4774774774774775,
+                "chaos": 4
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.6666666666666666,
-                "exalted": 78.83333333333333
+                "exalted": 82.83333333333333,
+                "chaos": 0.6666666666666666
             },
-            "primaryValue": 0.0001554854292145426,
-            "volumePrimaryValue": 0.01225743466974644,
+            "primaryValue": 0.00018678330425544152,
+            "volumePrimaryValue": 0.015471883702492407,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-enhancement",
+                "name": "Greater Essence of Enhancement",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 5.166666666666667,
+                "chaos": 12.4
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 51.666666666666664,
+                "chaos": 10.333333333333334
+            },
+            "primaryValue": 0.00016186800734952823,
+            "volumePrimaryValue": 0.008363180379725626,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-flames",
+                "name": "Greater Essence of Flames",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 9.4,
+                "chaos": 9
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 23.5,
+                "chaos": 1.5
+            },
+            "primaryValue": 8.89700040396343e-05,
+            "volumePrimaryValue": 0.0020907950949314064,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-grounding",
+                "name": "Greater Essence of Grounding",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fd9d91c76a/GreaterLightningResistanceEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 30,
+                "exalted": 0.41993404177354343,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 10,
+                "exalted": 191,
+                "chaos": 3.1666666666666665
+            },
+            "primaryValue": 0.0019915461829207006,
+            "volumePrimaryValue": 0.3803853209378539,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-insulation",
+                "name": "Greater Essence of Insulation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZVJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e5b663f414/GreaterFireResistanceEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 1.2372881355932204,
+                "chaos": 3
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 206.83333333333334,
+                "chaos": 2
+            },
+            "primaryValue": 0.0006759282772654957,
+            "volumePrimaryValue": 0.13980449868108002,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-opulence",
+                "name": "Greater Essence of Opulence",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 48.875,
+                "exalted": 0.07359265984899169,
+                "chaos": 5.862068965517241
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 65.16666666666667,
+                "exalted": 256.6666666666667,
+                "chaos": 141.66666666666666
+            },
+            "primaryValue": 0.01136415017052847,
+            "volumePrimaryValue": 2.916798543768974,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-ruin",
+                "name": "Greater Essence of Ruin",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 20,
+                "exalted": 0.2243359655419957,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3.3333333333333335,
+                "exalted": 104.16666666666667,
+                "chaos": 4.666666666666667
+            },
+            "primaryValue": 0.0037279712860664948,
+            "volumePrimaryValue": 0.3883303422985932,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "greater-essence-of-sorcery",
+                "name": "Greater Essence of Sorcery",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2FzdGVyRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14b7e4c8ef/GreaterCasterEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 3.8446601941747574,
+                "chaos": 7
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 66,
+                "chaos": 3.5
+            },
+            "primaryValue": 0.00021752716644235842,
+            "volumePrimaryValue": 0.014356792985195656,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-abrasion",
+                "name": "Perfect Essence of Abrasion",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 26.923076923076923,
+                "exalted": 0.18209118209118208,
+                "chaos": 0.48148148148148145
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 58.333333333333336,
+                "exalted": 222.33333333333334,
+                "chaos": 10.833333333333334
+            },
+            "primaryValue": 0.004592853033123683,
+            "volumePrimaryValue": 1.0211443243644989,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-alacrity",
+                "name": "Perfect Essence of Alacrity",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7108cba28f/SpeedCasterEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 0.7415730337078652,
+                "chaos": 0.2
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 110,
+                "chaos": 1.1666666666666667
+            },
+            "primaryValue": 0.0011277622027205767,
+            "volumePrimaryValue": 0.12405384229926344,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-battle",
+                "name": "Perfect Essence of Battle",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 32.372093023255815,
+                "exalted": 0.024142583945715588,
+                "chaos": 1.287206266318538
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 232,
+                "exalted": 414.5,
+                "chaos": 164.33333333333334
+            },
+            "primaryValue": 0.03464078409556397,
+            "volumePrimaryValue": 14.358605007611263,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-command",
+                "name": "Perfect Essence of Command",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 0.4946236559139785,
+                "chaos": 2
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 7.666666666666667,
+                "chaos": 1.3333333333333333
+            },
+            "primaryValue": 0.001690816902857572,
+            "volumePrimaryValue": 0.012962929588574718,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-electricity",
+                "name": "Perfect Essence of Electricity",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c53c73716/LightningEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 35.81818181818182,
+                "exalted": 0.08617670469620589,
+                "chaos": 0.2544642857142857
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 65.66666666666667,
+                "exalted": 270.6666666666667,
+                "chaos": 9.5
+            },
+            "primaryValue": 0.009704688069946392,
+            "volumePrimaryValue": 2.6267355709321567,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-enhancement",
+                "name": "Perfect Essence of Enhancement",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dd5b00f215/DefencesEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 20.615384615384617,
+                "exalted": 0.09320070854339828,
+                "chaos": 0.6983546617915904
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 89.33333333333333,
+                "exalted": 456,
+                "chaos": 63.666666666666664
+            },
+            "primaryValue": 0.00897330128754479,
+            "volumePrimaryValue": 4.091825387120424,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-haste",
+                "name": "Perfect Essence of Haste",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/93df0c5b25/SpeedEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 32.63636363636363,
+                "exalted": 0.036736354653077834,
+                "chaos": 0.9636075949367089
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 119.66666666666667,
+                "exalted": 316,
+                "chaos": 101.5
+            },
+            "primaryValue": 0.02276540625411494,
+            "volumePrimaryValue": 7.193868376300321,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-opulence",
+                "name": "Perfect Essence of Opulence",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/86dd0d0b4d/RarityResistanceEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 39.714285714285715,
+                "exalted": 0.1321762349799733,
+                "chaos": 0.7073170731707317
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 92.66666666666667,
+                "exalted": 66,
+                "chaos": 4.833333333333333
+            },
+            "primaryValue": 0.025179856115107913,
+            "volumePrimaryValue": 2.3333333333333335,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-thawing",
+                "name": "Perfect Essence of Thawing",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/71b05376d6/ColdResistanceEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 0.09474396571170765,
+                "chaos": 0.3617021276595745
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 70,
+                "chaos": 2.8333333333333335
+            },
+            "primaryValue": 0.008827137767458023,
+            "volumePrimaryValue": 0.6178996437220616,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-the-body",
+                "name": "Perfect Essence of the Body",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/09083af8bb/LifeEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 55,
+                "exalted": 0.9147005444646098,
+                "chaos": 3.150537634408602
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 9.166666666666666,
+                "exalted": 84,
+                "chaos": 48.833333333333336
+            },
+            "primaryValue": 0.0009143080137358769,
+            "volumePrimaryValue": 0.07680187315381366,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-essence-of-the-infinite",
+                "name": "Perfect Essence of the Infinite",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ed201cbcb3/AttributeEssencePerfect.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "divine": 70,
+                "exalted": 0.5868596881959911,
+                "chaos": 2
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 11.666666666666666,
+                "exalted": 87.83333333333333,
+                "chaos": 0.3333333333333333
+            },
+            "primaryValue": 0.0014250732411752584,
+            "volumePrimaryValue": 0.12516893301656018,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -472,14 +516,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.029508196721311476
+                "exalted": 0.02697841726618705
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 3
+                "exalted": 2.5
             },
-            "primaryValue": 0.02864764424730011,
-            "volumePrimaryValue": 0.08594293274190033,
+            "primaryValue": 0.03099952194084965,
+            "volumePrimaryValue": 0.07749880485212413,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -490,18 +534,18 @@
                 "category": "Essences"
             },
             "rate": {
-                "divine": 8.894687791239516,
-                "exalted": 0.009205832626993805,
-                "chaos": 0.35484817368343846
+                "divine": 8.854579792256846,
+                "exalted": 0.00937039996635404,
+                "chaos": 0.34458283112361054
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1590.6666666666667,
-                "exalted": 338.5,
-                "chaos": 403.1666666666667
+                "divine": 1562.8333333333333,
+                "exalted": 371.3333333333333,
+                "chaos": 428.8333333333333
             },
-            "primaryValue": 0.11242665549036043,
-            "volumePrimaryValue": 178.83333333333334,
+            "primaryValue": 0.11293590700650528,
+            "volumePrimaryValue": 176.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -512,14 +556,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.026881720430107527
+                "exalted": 0.05102040816326531
             },
             "sparklines": {},
             "volumes": {
                 "exalted": 0.8333333333333334
             },
-            "primaryValue": 0.031446659980315005,
-            "volumePrimaryValue": 0.02620554998359584,
+            "primaryValue": 0.016391833544262224,
+            "volumePrimaryValue": 0.013659861286885188,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -530,17 +574,15 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 1.5,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.5,
                 "chaos": 0.16666666666666666
             },
-            "primaryValue": 0.0005635602147009858,
-            "volumePrimaryValue": 0.0002817801073504929,
-            "maxVolumeCurrency": "exalted"
+            "primaryValue": 0.04453116781364472,
+            "volumePrimaryValue": 0.00742186130227412,
+            "maxVolumeCurrency": "chaos"
         },
         {
             "item": {
@@ -556,8 +598,8 @@
             "volumes": {
                 "exalted": 0.16666666666666666
             },
-            "primaryValue": 0.0008453403220514787,
-            "volumePrimaryValue": 0.00014089005367524645,
+            "primaryValue": 0.0008363180379725626,
+            "volumePrimaryValue": 0.00013938633966209375,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -574,8 +616,8 @@
             "volumes": {
                 "exalted": 1.1666666666666667
             },
-            "primaryValue": 0.024152580630042247,
-            "volumePrimaryValue": 0.02817801073504929,
+            "primaryValue": 0.023894801084930358,
+            "volumePrimaryValue": 0.02787726793241875,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -586,14 +628,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.04
+                "exalted": 0.037996545768566495
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.6666666666666665
+                "exalted": 3.6666666666666665
             },
-            "primaryValue": 0.021133508051286966,
-            "volumePrimaryValue": 0.05635602147009858,
+            "primaryValue": 0.022010370181186987,
+            "volumePrimaryValue": 0.08070469066435228,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -604,18 +646,18 @@
                 "category": "Essences"
             },
             "rate": {
-                "divine": 0.4148426099645612,
-                "exalted": 0.00037745156661085866,
-                "chaos": 0.01928593647392251
+                "divine": 0.4146928944199117,
+                "exalted": 0.00036490660049693643,
+                "chaos": 0.01937303035329242
             },
             "sparklines": {},
             "volumes": {
-                "divine": 331.6666666666667,
-                "exalted": 16.833333333333332,
-                "chaos": 93
+                "divine": 344.3333333333333,
+                "exalted": 18.333333333333332,
+                "chaos": 97.33333333333333
             },
-            "primaryValue": 2.4105527638190956,
-            "volumePrimaryValue": 799.5,
+            "primaryValue": 2.4114230396902228,
+            "volumePrimaryValue": 830.3333333333334,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -626,18 +668,18 @@
                 "category": "Essences"
             },
             "rate": {
-                "divine": 3.897091722595078,
-                "exalted": 0.002551311163520634,
-                "chaos": 0.15376650271809475
+                "divine": 3.8550724637681157,
+                "exalted": 0.0025614601069390923,
+                "chaos": 0.14837484170536092
             },
             "sparklines": {},
             "volumes": {
-                "divine": 290.3333333333333,
-                "exalted": 48.5,
-                "chaos": 99
+                "divine": 310.3333333333333,
+                "exalted": 57.166666666666664,
+                "chaos": 117.16666666666667
             },
-            "primaryValue": 0.256601607347876,
-            "volumePrimaryValue": 74.5,
+            "primaryValue": 0.2593984962406015,
+            "volumePrimaryValue": 80.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -648,16 +690,16 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.3545706371191136,
-                "chaos": 6.5
+                "exalted": 0.23126614987080105,
+                "chaos": 7.75
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 21.333333333333332,
-                "chaos": 2.1666666666666665
+                "exalted": 89.5,
+                "chaos": 5.166666666666667
             },
-            "primaryValue": 0.002384123877035811,
-            "volumePrimaryValue": 0.05086130937676397,
+            "primaryValue": 0.0036162578848646,
+            "volumePrimaryValue": 0.3236550806953817,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -668,16 +710,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "divine": 1,
                 "exalted": 0.037037037037037035
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.16666666666666666,
                 "exalted": 0.5
             },
-            "primaryValue": 0.022824188695389925,
-            "volumePrimaryValue": 0.011412094347694962,
+            "primaryValue": 0.022580587025259186,
+            "volumePrimaryValue": 0.011290293512629593,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -688,14 +728,16 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.010676156583629894
+                "divine": 3,
+                "exalted": 0.010620915032679739
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2
+                "divine": 0.5,
+                "exalted": 2.1666666666666665
             },
-            "primaryValue": 0.0791802101654885,
-            "volumePrimaryValue": 0.158360420330977,
+            "primaryValue": 0.07874255988295512,
+            "volumePrimaryValue": 0.17060887974640276,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -712,8 +754,8 @@
             "volumes": {
                 "exalted": 0.5
             },
-            "primaryValue": 0.09552345639181709,
-            "volumePrimaryValue": 0.04776172819590854,
+            "primaryValue": 0.09450393829089956,
+            "volumePrimaryValue": 0.04725196914544978,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -724,14 +766,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.07142857142857142
+                "exalted": 0.0625
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.3333333333333333
+                "exalted": 0.5
             },
-            "primaryValue": 0.011834764508720702,
-            "volumePrimaryValue": 0.003944921502906901,
+            "primaryValue": 0.013381088607561,
+            "volumePrimaryValue": 0.0066905443037805,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -742,14 +784,32 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.03347280334728033
+                "exalted": 0.029535864978902954
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.3333333333333333
+                "exalted": 1.1666666666666667
             },
-            "primaryValue": 0.025254542121287925,
-            "volumePrimaryValue": 0.0336727228283839,
+            "primaryValue": 0.028315339285642473,
+            "volumePrimaryValue": 0.033034562499916216,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "essence-of-the-mind",
+                "name": "Essence of the Mind",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c881e6273c/ManaEssence.png",
+                "category": "Essences"
+            },
+            "rate": {
+                "exalted": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 0.5
+            },
+            "primaryValue": 0.0008363180379725626,
+            "volumePrimaryValue": 0.0004181590189862813,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -760,14 +820,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.15384615384615385
+                "exalted": 0.15
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.3333333333333333
+                "exalted": 0.5
             },
-            "primaryValue": 0.005494712093334611,
-            "volumePrimaryValue": 0.0018315706977782037,
+            "primaryValue": 0.00557545358648375,
+            "volumePrimaryValue": 0.002787726793241875,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -778,14 +838,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.6
+                "exalted": 0.6666666666666666
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.5
+                "exalted": 0.3333333333333333
             },
-            "primaryValue": 0.0014089005367524646,
-            "volumePrimaryValue": 0.0007044502683762323,
+            "primaryValue": 0.0012544770569588438,
+            "volumePrimaryValue": 0.0004181590189862813,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -802,8 +862,8 @@
             "volumes": {
                 "exalted": 10.833333333333334
             },
-            "primaryValue": 6.502617861934452e-05,
-            "volumePrimaryValue": 0.0007044502683762323,
+            "primaryValue": 6.433215676712019e-05,
+            "volumePrimaryValue": 0.0006969316983104687,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -820,8 +880,8 @@
             "volumes": {
                 "exalted": 0.5
             },
-            "primaryValue": 0.0005635602147009858,
-            "volumePrimaryValue": 0.0002817801073504929,
+            "primaryValue": 0.000557545358648375,
+            "volumePrimaryValue": 0.0002787726793241875,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -838,8 +898,8 @@
             "volumes": {
                 "exalted": 0.3333333333333333
             },
-            "primaryValue": 0.019442827407184008,
-            "volumePrimaryValue": 0.006480942469061337,
+            "primaryValue": 0.019235314873368936,
+            "volumePrimaryValue": 0.006411771624456312,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -850,16 +910,16 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 2.7142857142857144,
-                "chaos": 6.333333333333333
+                "exalted": 1.9771197846567967,
+                "chaos": 5.888888888888889
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 243.83333333333334,
-                "chaos": 6.333333333333333
+                "exalted": 244.83333333333334,
+                "chaos": 8.833333333333334
             },
-            "primaryValue": 0.0003114411712821237,
-            "volumePrimaryValue": 0.07593973893095783,
+            "primaryValue": 0.0004229981635218611,
+            "volumePrimaryValue": 0.10356405036893566,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -878,8 +938,8 @@
                 "exalted": 16,
                 "chaos": 1
             },
-            "primaryValue": 7.044502683762322e-05,
-            "volumePrimaryValue": 0.0011271204294019716,
+            "primaryValue": 6.969316983104687e-05,
+            "volumePrimaryValue": 0.00111509071729675,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -890,16 +950,16 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 5.653465346534653,
+                "exalted": 4.714285714285714,
                 "chaos": 9
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 95.16666666666667,
+                "exalted": 93.5,
                 "chaos": 1.5
             },
-            "primaryValue": 0.00014952604645744193,
-            "volumePrimaryValue": 0.01422989542119989,
+            "primaryValue": 0.00017740079593357385,
+            "volumePrimaryValue": 0.016586974419789156,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -911,17 +971,17 @@
             },
             "rate": {
                 "divine": 60,
-                "exalted": 0.14260429835651076,
+                "exalted": 0.1406688493919551,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 50,
-                "exalted": 188,
-                "chaos": 7.833333333333333
+                "exalted": 200.5,
+                "chaos": 11
             },
-            "primaryValue": 0.005927874066868082,
-            "volumePrimaryValue": 1.1144403245711993,
+            "primaryValue": 0.005945296642345266,
+            "volumePrimaryValue": 1.1920319767902259,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -932,16 +992,18 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.13527449196239005,
+                "divine": 80,
+                "exalted": 0.1439344262295082,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 74.33333333333333,
-                "chaos": 0.8333333333333334
+                "divine": 13.333333333333334,
+                "exalted": 73.16666666666667,
+                "chaos": 1.6666666666666667
             },
-            "primaryValue": 0.006249074084761715,
-            "volumePrimaryValue": 0.4645145069672875,
+            "primaryValue": 0.0058104100588070974,
+            "volumePrimaryValue": 0.42512833596938593,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -953,17 +1015,17 @@
             },
             "rate": {
                 "divine": 21,
-                "exalted": 1.7318548387096775,
+                "exalted": 1.537391304347826,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.5,
-                "exalted": 143.16666666666666,
-                "chaos": 0.6666666666666666
+                "divine": 10.5,
+                "exalted": 147.33333333333334,
+                "chaos": 2.3333333333333335
             },
-            "primaryValue": 0.00048811268886790854,
-            "volumePrimaryValue": 0.06988146662292223,
+            "primaryValue": 0.0005439851491337369,
+            "volumePrimaryValue": 0.08014714530570391,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -974,14 +1036,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 5
+                "exalted": 6.48
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 23.333333333333332
+                "exalted": 27
             },
-            "primaryValue": 0.00016906806441029573,
-            "volumePrimaryValue": 0.003944921502906901,
+            "primaryValue": 0.00012906142561304977,
+            "volumePrimaryValue": 0.003484658491552344,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -996,10 +1058,10 @@
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 28
+                "exalted": 22
             },
-            "primaryValue": 7.044502683762322e-05,
-            "volumePrimaryValue": 0.0019724607514534503,
+            "primaryValue": 6.969316983104687e-05,
+            "volumePrimaryValue": 0.0015332497362830313,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1010,14 +1072,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 13
+                "exalted": 13.333333333333334
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6.5
+                "exalted": 6.666666666666667
             },
-            "primaryValue": 6.502617861934452e-05,
-            "volumePrimaryValue": 0.00042267016102573934,
+            "primaryValue": 6.272385284794219e-05,
+            "volumePrimaryValue": 0.0004181590189862813,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1034,8 +1096,8 @@
             "volumes": {
                 "exalted": 0.6666666666666666
             },
-            "primaryValue": 0.0612871733487322,
-            "volumePrimaryValue": 0.040858115565821466,
+            "primaryValue": 0.06063305775301078,
+            "volumePrimaryValue": 0.040422038502007186,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1046,14 +1108,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.06578947368421052
+                "exalted": 0.07792207792207792
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.8333333333333334
+                "exalted": 1
             },
-            "primaryValue": 0.012849172895182476,
-            "volumePrimaryValue": 0.01070764407931873,
+            "primaryValue": 0.010732748153981219,
+            "volumePrimaryValue": 0.010732748153981219,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1064,14 +1126,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.14285714285714285
+                "exalted": 0.15384615384615385
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.16666666666666666
+                "exalted": 0.3333333333333333
             },
-            "primaryValue": 0.005917382254360351,
-            "volumePrimaryValue": 0.0009862303757267252,
+            "primaryValue": 0.005436067246821656,
+            "volumePrimaryValue": 0.0018120224156072187,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1082,14 +1144,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.01824817518248175
+                "exalted": 2
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.8333333333333334
+                "exalted": 0.3333333333333333
             },
-            "primaryValue": 0.046324649648421035,
-            "volumePrimaryValue": 0.038603874707017524,
+            "primaryValue": 0.0004181590189862813,
+            "volumePrimaryValue": 0.00013938633966209375,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1100,14 +1162,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.5
+                "exalted": 0.4
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.16666666666666666
+                "exalted": 0.3333333333333333
             },
-            "primaryValue": 0.0016906806441029573,
-            "volumePrimaryValue": 0.0002817801073504929,
+            "primaryValue": 0.0020907950949314064,
+            "volumePrimaryValue": 0.0006969316983104687,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1124,8 +1186,8 @@
             "volumes": {
                 "exalted": 0.16666666666666666
             },
-            "primaryValue": 0.0008453403220514787,
-            "volumePrimaryValue": 0.00014089005367524645,
+            "primaryValue": 0.0008363180379725626,
+            "volumePrimaryValue": 0.00013938633966209375,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1142,8 +1204,8 @@
             "volumes": {
                 "exalted": 0.16666666666666666
             },
-            "primaryValue": 0.0016906806441029573,
-            "volumePrimaryValue": 0.0002817801073504929,
+            "primaryValue": 0.001672636075945125,
+            "volumePrimaryValue": 0.0002787726793241875,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1154,14 +1216,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.01079136690647482
+                "exalted": 0.011450381679389313
             },
             "sparklines": {},
             "volumes": {
                 "exalted": 2.5
             },
-            "primaryValue": 0.07833486984343703,
-            "volumePrimaryValue": 0.19583717460859257,
+            "primaryValue": 0.07303844198293713,
+            "volumePrimaryValue": 0.18259610495734283,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1173,17 +1235,17 @@
             },
             "rate": {
                 "divine": 5,
-                "exalted": 0.4043026706231454,
+                "exalted": 0.41734019103600295,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.8333333333333334,
-                "exalted": 90.83333333333333,
-                "chaos": 2.5
+                "exalted": 94.66666666666667,
+                "chaos": 10.333333333333334
             },
-            "primaryValue": 0.0020908600993126483,
-            "volumePrimaryValue": 0.1899197923542322,
+            "primaryValue": 0.002003924031127918,
+            "volumePrimaryValue": 0.1897048082801096,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1194,14 +1256,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.9139433551198257
+                "exalted": 0.9156769596199525
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 139.83333333333334
+                "exalted": 128.5
             },
-            "primaryValue": 0.0009249373249621661,
-            "volumePrimaryValue": 0.12933706927387623,
+            "primaryValue": 0.0009133330583306065,
+            "volumePrimaryValue": 0.11736329799548294,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1213,17 +1275,17 @@
             },
             "rate": {
                 "divine": 30,
-                "exalted": 0.35924528301886793,
-                "chaos": 0.4
+                "exalted": 0.723196881091618,
+                "chaos": 0.3891891891891892
             },
             "sparklines": {},
             "volumes": {
-                "divine": 15,
-                "exalted": 79.33333333333333,
-                "chaos": 10.333333333333334
+                "divine": 10,
+                "exalted": 61.833333333333336,
+                "chaos": 12
             },
-            "primaryValue": 0.0023531006863827925,
-            "volumePrimaryValue": 0.18667932111970154,
+            "primaryValue": 0.0011564182034499314,
+            "volumePrimaryValue": 0.0715051922466541,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1234,14 +1296,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 2.5051546391752577
+                "exalted": 2.5247524752475248
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 40.5
+                "exalted": 42.5
             },
-            "primaryValue": 0.00033744037546910876,
-            "volumePrimaryValue": 0.013666335206498905,
+            "primaryValue": 0.00033124753660874047,
+            "volumePrimaryValue": 0.014078020305871469,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1252,14 +1314,14 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.6641221374045801
+                "exalted": 0.45454545454545453
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 29
+                "exalted": 20
             },
-            "primaryValue": 0.0012728687607901576,
-            "volumePrimaryValue": 0.036913194062914566,
+            "primaryValue": 0.0018398996835396375,
+            "volumePrimaryValue": 0.03679799367079275,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1271,17 +1333,17 @@
             },
             "rate": {
                 "divine": 20,
-                "exalted": 0.1256899147014551,
+                "exalted": 0.12940330697340044,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.3333333333333335,
-                "exalted": 167,
-                "chaos": 8.5
+                "divine": 6.666666666666667,
+                "exalted": 180,
+                "chaos": 9.333333333333334
             },
-            "primaryValue": 0.006725601843706974,
-            "volumePrimaryValue": 1.1231755078990646,
+            "primaryValue": 0.00646287994899908,
+            "volumePrimaryValue": 1.1633183908198343,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1292,58 +1354,18 @@
                 "category": "Essences"
             },
             "rate": {
-                "divine": 40,
-                "exalted": 0.2701450443190975,
-                "chaos": 1.2258064516129032
+                "divine": 41,
+                "exalted": 0.21422325852521132,
+                "chaos": 1.36
             },
             "sparklines": {},
             "volumes": {
-                "divine": 6.666666666666667,
-                "exalted": 223.5,
-                "chaos": 12.666666666666666
+                "divine": 6.833333333333333,
+                "exalted": 245,
+                "chaos": 11.333333333333334
             },
-            "primaryValue": 0.0031292090668631916,
-            "volumePrimaryValue": 0.6993782264439233,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-thawing",
-                "name": "Perfect Essence of Thawing",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/71b05376d6/ColdResistanceEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 0.19393939393939394
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 69.33333333333333
-            },
-            "primaryValue": 0.004358786035577937,
-            "volumePrimaryValue": 0.3022091651334036,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-essence-of-the-infinite",
-                "name": "Perfect Essence of the Infinite",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ed201cbcb3/AttributeEssencePerfect.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "divine": 70,
-                "exalted": 1.0119176598049837,
-                "chaos": 3
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 11.666666666666666,
-                "exalted": 155.66666666666666,
-                "chaos": 0.5
-            },
-            "primaryValue": 0.0008353844938474462,
-            "volumePrimaryValue": 0.13004151954225246,
+            "primaryValue": 0.003903955358209336,
+            "volumePrimaryValue": 0.9564690627612873,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -1354,70 +1376,16 @@
                 "category": "Essences"
             },
             "rate": {
-                "exalted": 0.4293116210214656,
-                "chaos": 0.9166666666666666
+                "exalted": 0.2638368705784436,
+                "chaos": 0.7
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 96.66666666666667,
-                "chaos": 1.8333333333333333
+                "exalted": 105.66666666666667,
+                "chaos": 2.3333333333333335
             },
-            "primaryValue": 0.0019690599570543928,
-            "volumePrimaryValue": 0.19034246251525794,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "essence-of-seeking",
-                "name": "Essence of Seeking",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/febf231da7/CriticalEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 0.16666666666666666
-            },
-            "primaryValue": 0.0008453403220514787,
-            "volumePrimaryValue": 0.00014089005367524645,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "essence-of-the-infinite",
-                "name": "Essence of the Infinite",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/58f9516082/AttributeEssence.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 0.16666666666666666
-            },
-            "primaryValue": 0.0008453403220514787,
-            "volumePrimaryValue": 0.00014089005367524645,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "lesser-essence-of-electricity",
-                "name": "Lesser Essence of Electricity",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/49193c5226/LightningEssenceLesser.png",
-                "category": "Essences"
-            },
-            "rate": {
-                "exalted": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 0.16666666666666666
-            },
-            "primaryValue": 0.0008453403220514787,
-            "volumePrimaryValue": 0.00014089005367524645,
+            "primaryValue": 0.0031698300398234507,
+            "volumePrimaryValue": 0.3349453742080113,
             "maxVolumeCurrency": "exalted"
         }
     ]
