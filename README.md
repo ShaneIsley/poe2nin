@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-23 17:24:08.040530` |
-| Total Price Entries in DB | `528,378` |
+| Last Successful Run (UTC) | `2025-10-23 17:42:54.828722` |
+| Total Price Entries in DB | `528,777` |
 
 <!-- END_MAINTENANCE -->
 
@@ -45,7 +45,7 @@
 | Zarokh's Reliquary Key: Against the Darkness | 745.8 |
 | Uhtred's Augury | 710.0 |
 | Dialla's Desire | 661.0 |
-| Hedgewitch Assandra's Rune of Wisdom | 595.3 |
+| Hedgewitch Assandra's Rune of Wisdom | 583.4 |
 | Atalui's Bloodletting | 442.4 |
 
 
