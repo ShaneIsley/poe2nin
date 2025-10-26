@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-26 13:55:42.656895` |
-| Total Price Entries in DB | `592,206` |
+| Last Successful Run (UTC) | `2025-10-26 14:21:20.657032` |
+| Total Price Entries in DB | `592,607` |
 
 <!-- END_MAINTENANCE -->
 
@@ -37,16 +37,16 @@
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Mirror of Kalandra | 41,323.6 |
-| Hinekora's Lock | 16,436.0 |
-| Arjun's Medal | 2,964.1 |
-| The Trialmaster's Reliquary Key | 1,114.1 |
-| Zarokh's Reliquary Key: Against the Darkness | 835.6 |
-| Dialla's Desire | 647.9 |
-| Hedgewitch Assandra's Rune of Wisdom | 593.0 |
-| Ratha's Assault | 574.1 |
-| Atalui's Bloodletting | 400.0 |
-| Uul-Netol's Embrace | 371.4 |
+| Mirror of Kalandra | 41,562.6 |
+| Hinekora's Lock | 16,415.8 |
+| Arjun's Medal | 2,953.6 |
+| The Trialmaster's Reliquary Key | 1,124.2 |
+| Zarokh's Reliquary Key: Against the Darkness | 814.8 |
+| Dialla's Desire | 634.9 |
+| Hedgewitch Assandra's Rune of Wisdom | 593.9 |
+| Ratha's Assault | 572.3 |
+| Atalui's Bloodletting | 413.1 |
+| Uul-Netol's Embrace | 372.3 |
 
 
 ![Market Movers Chart](charts/market_movers.png)
