@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-26 05:55:49.755038` |
-| Total Price Entries in DB | `584,120` |
+| Last Successful Run (UTC) | `2025-10-26 06:34:53.285950` |
+| Total Price Entries in DB | `584,514` |
 
 <!-- END_MAINTENANCE -->
 
@@ -45,7 +45,7 @@
 | The Trialmaster's Reliquary Key | 1,127.7 |
 | Zarokh's Reliquary Key: Against the Darkness | 766.9 |
 | Dialla's Desire | 677.3 |
-| Hedgewitch Assandra's Rune of Wisdom | 554.5 |
+| Hedgewitch Assandra's Rune of Wisdom | 546.6 |
 | Ratha's Assault | 413.0 |
 
 
