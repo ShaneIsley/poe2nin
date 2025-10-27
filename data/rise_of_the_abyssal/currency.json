@@ -29,17 +29,17 @@
             },
             "rate": {
                 "divine": 2668.25,
-                "exalted": 18.29360299965913,
-                "chaos": 115.18260869565218
+                "exalted": 18.99322362052275,
+                "chaos": 105.25179856115108
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1778.8333333333333,
-                "exalted": 26833.666666666668,
-                "chaos": 2207.6666666666665
+                "exalted": 26160,
+                "chaos": 2438.3333333333335
             },
-            "primaryValue": 3.5793843776209175e-05,
-            "volumePrimaryValue": 0.9604800726095384,
+            "primaryValue": 3.432660545721974e-05,
+            "volumePrimaryValue": 0.8979839987608684,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -50,16 +50,16 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 1527.1876795403766,
-                "chaos": 52.90512580421059
+                "divine": 1533.8060981419724,
+                "chaos": 53.769373227617336
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3987232.5,
-                "chaos": 583843.3333333334
+                "divine": 4292612,
+                "chaos": 619387.3333333334
             },
-            "primaryValue": 0.0006547983678737905,
-            "volumePrimaryValue": 2610.8333333333335,
+            "primaryValue": 0.000651972893582431,
+            "volumePrimaryValue": 2798.6666666666665,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -70,18 +70,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 3.2068981003278396,
-                "exalted": 0.0025935006823484645,
-                "chaos": 0.1266457977613356
+                "divine": 3.225096639904847,
+                "exalted": 0.00257257194902214,
+                "chaos": 0.1258751717626824
             },
             "sparklines": {},
             "volumes": {
-                "divine": 11901.333333333334,
-                "exalted": 1049.6666666666667,
-                "chaos": 2225.1666666666665
+                "divine": 12653.666666666666,
+                "exalted": 1108.1666666666667,
+                "chaos": 2244.3333333333335
             },
-            "primaryValue": 0.3118278064082456,
-            "volumePrimaryValue": 3711.1666666666665,
+            "primaryValue": 0.3100682279181265,
+            "volumePrimaryValue": 3923.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -93,17 +93,17 @@
             },
             "rate": {
                 "divine": 116.57142857142857,
-                "exalted": 19.01965601965602,
-                "chaos": 7.530434782608696
+                "exalted": 20.203728362183757,
+                "chaos": 7.4033613445378155
             },
             "sparklines": {},
             "volumes": {
                 "divine": 136,
-                "exalted": 2580.3333333333335,
-                "chaos": 144.33333333333334
+                "exalted": 2528.8333333333335,
+                "chaos": 146.83333333333334
             },
-            "primaryValue": 3.442745584868011e-05,
-            "volumePrimaryValue": 0.08883431190821091,
+            "primaryValue": 3.226992968301626e-05,
+            "volumePrimaryValue": 0.08160527384673429,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -114,16 +114,298 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 28.734357526122565,
-                "exalted": 0.018901760175389516
+                "divine": 29.283545938963346,
+                "exalted": 0.018597947864610297
             },
             "sparklines": {},
             "volumes": {
-                "divine": 423951.5,
-                "exalted": 11035.666666666666
+                "divine": 453382.5,
+                "exalted": 11519.333333333334
             },
-            "primaryValue": 0.03480154373004145,
-            "volumePrimaryValue": 14754.166666666666,
+            "primaryValue": 0.03414886988359719,
+            "volumePrimaryValue": 15482.5,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "aug",
+                "name": "Orb of Augmentation",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 1,
+                "exalted": 39.32142857142857,
+                "chaos": 251
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 0.6666666666666666,
+                "exalted": 14313,
+                "chaos": 669.3333333333334
+            },
+            "primaryValue": 1.65806003817512e-05,
+            "volumePrimaryValue": 0.23731813326400492,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "bauble",
+                "name": "Glassblower's Bauble",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 336.625,
+                "exalted": 2.8138232720909886,
+                "chaos": 6.813008130081301
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 448.8333333333333,
+                "exalted": 2680.1666666666665,
+                "chaos": 139.66666666666666
+            },
+            "primaryValue": 0.00023170356861038454,
+            "volumePrimaryValue": 0.6210041811372656,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "chance",
+                "name": "Orb of Chance",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 362.5135135135135,
+                "exalted": 0.28886168910648713,
+                "chaos": 19.976
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 4471,
+                "exalted": 3028.6666666666665,
+                "chaos": 1248.5
+            },
+            "primaryValue": 0.002758517855811526,
+            "volumePrimaryValue": 12.333333333333334,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "etcher",
+                "name": "Arcanist's Etcher",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 510.6666666666667,
+                "exalted": 4.19908651262762,
+                "chaos": 82.66666666666667
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 510.6666666666667,
+                "exalted": 5209.666666666667,
+                "chaos": 1653.3333333333333
+            },
+            "primaryValue": 0.0001552654110892449,
+            "volumePrimaryValue": 0.8088810366379362,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "fracturing-orb",
+                "name": "Fracturing Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRnJhY3R1cmluZ09yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8b85ed1dc2/FracturingOrb.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 2.7369774919614147,
+                "exalted": 0.002904015509989485,
+                "chaos": 0.10597584233947871
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 709.3333333333334,
+                "exalted": 235.66666666666666,
+                "chaos": 277.8333333333333
+            },
+            "primaryValue": 0.3653665413533835,
+            "volumePrimaryValue": 259.1666666666667,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "greater-regal-orb",
+                "name": "Greater Regal Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 509.22222222222223,
+                "exalted": 2.2613579000504798,
+                "chaos": 38.34177215189873
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 763.8333333333334,
+                "exalted": 2986.5,
+                "chaos": 504.8333333333333
+            },
+            "primaryValue": 0.0002883103526283377,
+            "volumePrimaryValue": 0.8610388681245307,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "perfect-chaos-orb",
+                "name": "Perfect Chaos Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 0.4428885545654438,
+                "exalted": 0.0003706937620638375,
+                "chaos": 0.017144973806290018
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 637.8333333333334,
+                "exalted": 42.666666666666664,
+                "chaos": 162
+            },
+            "primaryValue": 2.2579043637313823,
+            "volumePrimaryValue": 1440.1666666666667,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "perfect-exalted-orb",
+                "name": "Perfect Exalted Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 0.4762449528936743,
+                "exalted": 0.00043434790447624197,
+                "chaos": 0.017938586144530942
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2359,
+                "exalted": 167.83333333333334,
+                "chaos": 608.3333333333334
+            },
+            "primaryValue": 2.099759785219726,
+            "volumePrimaryValue": 4953.333333333333,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "perfect-jewellers-orb",
+                "name": "Perfect Jeweller's Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ac6398e6a0/CurrencyRerollSocketNumbers03.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 48.086776859504134,
+                "exalted": 0.04287945584142692,
+                "chaos": 1.5220632081097198
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1939.5,
+                "exalted": 1908,
+                "chaos": 850.8333333333334
+            },
+            "primaryValue": 0.02079573773309272,
+            "volumePrimaryValue": 40.333333333333336,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "perfect-regal-orb",
+                "name": "Perfect Regal Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 52.33576642335766,
+                "exalted": 0.05852789117429281,
+                "chaos": 2.246987951807229
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1195,
+                "exalted": 1488.6666666666667,
+                "chaos": 808.1666666666666
+            },
+            "primaryValue": 0.011139524771888535,
+            "volumePrimaryValue": 16.583039210418065,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "regal",
+                "name": "Regal Orb",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 2000,
+                "exalted": 37.44219977553311,
+                "chaos": 76.96153846153847
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1333.3333333333333,
+                "exalted": 5560.166666666667,
+                "chaos": 333.5
+            },
+            "primaryValue": 1.7412782835704747e-05,
+            "volumePrimaryValue": 0.09681797469699102,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "scrap",
+                "name": "Armourer's Scrap",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 1026.875,
+                "exalted": 14.177746931618936,
+                "chaos": 115.70430107526882
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1369.1666666666667,
+                "exalted": 32344.166666666668,
+                "chaos": 7173.666666666667
+            },
+            "primaryValue": 4.5985648969965306e-05,
+            "volumePrimaryValue": 1.4873674945593862,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "hinekoras-lock",
+                "name": "Hinekora's Lock",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGluZWtvcmFzTG9jayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab2163ae06/HinekorasLock.png",
+                "category": "Currency"
+            },
+            "rate": {
+                "divine": 0.0015708568650185137
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 14
+            },
+            "primaryValue": 636.5952380952381,
+            "volumePrimaryValue": 8912.333333333334,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -142,289 +424,9 @@
                 "exalted": 10.833333333333334,
                 "chaos": 5.166666666666667
             },
-            "primaryValue": 0.00017125495775160675,
-            "volumePrimaryValue": 0.001855262042309073,
+            "primaryValue": 0.00017051598755232812,
+            "volumePrimaryValue": 0.001847256531816888,
             "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "aug",
-                "name": "Orb of Augmentation",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "exalted": 38.32433590402742,
-                "chaos": 251
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 14908.166666666666,
-                "chaos": 167.33333333333334
-            },
-            "primaryValue": 1.7085706834256693e-05,
-            "volumePrimaryValue": 0.2547165651029045,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "bauble",
-                "name": "Glassblower's Bauble",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 332.3333333333333,
-                "exalted": 3.791395592864638,
-                "chaos": 6.737373737373737
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 332.3333333333333,
-                "exalted": 3011,
-                "chaos": 111.16666666666667
-            },
-            "primaryValue": 0.00017270642216974492,
-            "volumePrimaryValue": 0.5200190371531019,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "chance",
-                "name": "Orb of Chance",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 339,
-                "exalted": 0.28426548532552803,
-                "chaos": 18.64156626506024
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 3898.5,
-                "exalted": 2994.5,
-                "chaos": 1031.5
-            },
-            "primaryValue": 0.0029498525073746312,
-            "volumePrimaryValue": 11.5,
-            "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "etcher",
-                "name": "Arcanist's Etcher",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 508.2,
-                "exalted": 3.99009900990099,
-                "chaos": 82.04032258064517
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 847,
-                "exalted": 4970.333333333333,
-                "chaos": 1695.5
-            },
-            "primaryValue": 0.0001641057944299078,
-            "volumePrimaryValue": 0.8156605002481183,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "fracturing-orb",
-                "name": "Fracturing Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRnJhY3R1cmluZ09yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8b85ed1dc2/FracturingOrb.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 2.732358550540369,
-                "exalted": 0.0028944846516428097,
-                "chaos": 0.10570558644426793
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 716.3333333333334,
-                "exalted": 222.5,
-                "chaos": 266.1666666666667
-            },
-            "primaryValue": 0.36598417868776173,
-            "volumePrimaryValue": 262.1666666666667,
-            "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "greater-regal-orb",
-                "name": "Greater Regal Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 495,
-                "exalted": 2.024377176533619,
-                "chaos": 34.0875
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 660,
-                "exalted": 2519,
-                "chaos": 454.5
-            },
-            "primaryValue": 0.00032345670335753076,
-            "volumePrimaryValue": 0.8147874357576199,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "perfect-chaos-orb",
-                "name": "Perfect Chaos Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 0.4422016048144433,
-                "exalted": 0.0003700384750848191,
-                "chaos": 0.01735668174262631
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 587.8333333333334,
-                "exalted": 41.5,
-                "chaos": 149.66666666666666
-            },
-            "primaryValue": 2.2614119648426425,
-            "volumePrimaryValue": 1329.3333333333333,
-            "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "perfect-exalted-orb",
-                "name": "Perfect Exalted Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 0.4720727143111745,
-                "exalted": 0.00043448274312724234,
-                "chaos": 0.018236029415743593
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2207.3333333333335,
-                "exalted": 161.16666666666666,
-                "chaos": 561.6666666666666
-            },
-            "primaryValue": 2.118317728782845,
-            "volumePrimaryValue": 4675.833333333333,
-            "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "perfect-jewellers-orb",
-                "name": "Perfect Jeweller's Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ac6398e6a0/CurrencyRerollSocketNumbers03.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 46.74409448818898,
-                "exalted": 0.03926558210175828,
-                "chaos": 1.4718417047184171
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 1978.8333333333333,
-                "exalted": 1792.5,
-                "chaos": 805.8333333333334
-            },
-            "primaryValue": 0.021393076728712206,
-            "volumePrimaryValue": 42.333333333333336,
-            "maxVolumeCurrency": "divine"
-        },
-        {
-            "item": {
-                "id": "perfect-regal-orb",
-                "name": "Perfect Regal Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 51.368,
-                "exalted": 0.057279420538051753,
-                "chaos": 2.2465397923875434
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 1070.1666666666667,
-                "exalted": 1360.1666666666667,
-                "chaos": 865.6666666666666
-            },
-            "primaryValue": 0.011431651398058332,
-            "volumePrimaryValue": 15.548951176592341,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "regal",
-                "name": "Regal Orb",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 3500,
-                "exalted": 43.04096385542169,
-                "chaos": 67.5
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2333.3333333333335,
-                "exalted": 5954,
-                "chaos": 315
-            },
-            "primaryValue": 1.521337603110643e-05,
-            "volumePrimaryValue": 0.09058044088920768,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "scrap",
-                "name": "Armourer's Scrap",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 1025.1666666666667,
-                "exalted": 13.549692731510913,
-                "chaos": 115.68563685636856
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 1025.1666666666667,
-                "exalted": 31970.5,
-                "chaos": 7114.666666666667
-            },
-            "primaryValue": 4.832569865964588e-05,
-            "volumePrimaryValue": 1.5449967489982086,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "hinekoras-lock",
-                "name": "Hinekora's Lock",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGluZWtvcmFzTG9jayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab2163ae06/HinekorasLock.png",
-                "category": "Currency"
-            },
-            "rate": {
-                "divine": 0.0015728834886555778
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 13.333333333333334
-            },
-            "primaryValue": 635.775,
-            "volumePrimaryValue": 8477.0,
-            "maxVolumeCurrency": "divine"
         },
         {
             "item": {
@@ -434,16 +436,14 @@
                 "category": "Currency"
             },
             "rate": {
-                "exalted": 3.386138613861386,
-                "chaos": 5
+                "exalted": 4.132231404958677
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 57,
-                "chaos": 0.8333333333333334
+                "exalted": 83.33333333333333
             },
-            "primaryValue": 0.00019337612618494982,
-            "volumePrimaryValue": 0.01102243919254214,
+            "primaryValue": 0.00015777744024694833,
+            "volumePrimaryValue": 0.013148120020579027,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -460,8 +460,8 @@
             "volumes": {
                 "exalted": 198.33333333333334
             },
-            "primaryValue": 7.703510210279889e-06,
-            "volumePrimaryValue": 0.0015278628583721779,
+            "primaryValue": 7.670269336263895e-06,
+            "volumePrimaryValue": 0.0015212700850256726,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -472,18 +472,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 288.85185185185185,
-                "exalted": 0.9338067548328445,
-                "chaos": 11.973765432098766
+                "divine": 320.7142857142857,
+                "exalted": 1.1334077758603187,
+                "chaos": 12.879336349924586
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1299.8333333333333,
-                "exalted": 9073.333333333334,
-                "chaos": 1293.1666666666667
+                "divine": 1122.5,
+                "exalted": 9304.333333333334,
+                "chaos": 1423.1666666666667
             },
-            "primaryValue": 0.0007012139979550719,
-            "volumePrimaryValue": 6.362348341445685,
+            "primaryValue": 0.0005752324163186086,
+            "volumePrimaryValue": 5.352154145567107,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -494,18 +494,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 8.88830170550084,
-                "exalted": 0.009698664427141372,
-                "chaos": 0.34924948781201653
+                "divine": 8.962206776715899,
+                "exalted": 0.009980854651916995,
+                "chaos": 0.34683563400467676
             },
             "sparklines": {},
             "volumes": {
-                "divine": 6167,
-                "exalted": 1389.6666666666667,
-                "chaos": 1392.1666666666667
+                "divine": 6877,
+                "exalted": 1487.5,
+                "chaos": 1532.6666666666667
             },
-            "primaryValue": 0.11250743203070104,
-            "volumePrimaryValue": 693.8333333333334,
+            "primaryValue": 0.11157966167417964,
+            "volumePrimaryValue": 767.3333333333334,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -516,18 +516,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 374.75,
-                "exalted": 0.39258444972749607,
-                "chaos": 20.801339285714285
+                "divine": 387.1034482758621,
+                "exalted": 0.39061682818028,
+                "chaos": 21.130938586326767
             },
             "sparklines": {},
             "volumes": {
-                "divine": 9493.666666666666,
-                "exalted": 9880.5,
-                "chaos": 3106.3333333333335
+                "divine": 9355,
+                "exalted": 10580.833333333334,
+                "chaos": 3039.3333333333335
             },
-            "primaryValue": 0.0016679172298553967,
-            "volumePrimaryValue": 16.479856189586247,
+            "primaryValue": 0.0016690855246039948,
+            "volumePrimaryValue": 17.6603157549141,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -539,17 +539,17 @@
             },
             "rate": {
                 "divine": 480.6666666666667,
-                "exalted": 19.456338028169014,
-                "chaos": 12.973684210526315
+                "exalted": 18.77936962750716,
+                "chaos": 13.542857142857143
             },
             "sparklines": {},
             "volumes": {
                 "divine": 240.33333333333334,
-                "exalted": 1151.1666666666667,
-                "chaos": 82.16666666666667
+                "exalted": 1092.3333333333333,
+                "chaos": 79
             },
-            "primaryValue": 3.3654759026378405e-05,
-            "volumePrimaryValue": 0.03874223676586594,
+            "primaryValue": 3.4717506844715964e-05,
+            "volumePrimaryValue": 0.037923089976711406,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -560,16 +560,16 @@
                 "category": "Currency"
             },
             "rate": {
-                "exalted": 129.32,
-                "chaos": 812
+                "exalted": 103.23356009070295,
+                "chaos": 937.1428571428571
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6466,
-                "chaos": 1353.3333333333333
+                "exalted": 7587.666666666667,
+                "chaos": 1093.3333333333333
             },
-            "primaryValue": 5.063395977990956e-06,
-            "volumePrimaryValue": 0.032739918393689525,
+            "primaryValue": 6.3155130270582105e-06,
+            "volumePrimaryValue": 0.04792000767830869,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -580,16 +580,16 @@
                 "category": "Currency"
             },
             "rate": {
-                "exalted": 277.09615384615387,
+                "exalted": 288.5806451612903,
                 "chaos": 400
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4803,
-                "chaos": 266.6666666666667
+                "exalted": 4473,
+                "chaos": 133.33333333333334
             },
-            "primaryValue": 2.3630727413031514e-06,
-            "volumePrimaryValue": 0.011349838376479035,
+            "primaryValue": 2.259239850330356e-06,
+            "volumePrimaryValue": 0.010105579850527681,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -600,14 +600,14 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 0.0005900245165359457
+                "divine": 0.0005919993035302312
             },
             "sparklines": {},
             "volumes": {
-                "divine": 9.666666666666666
+                "divine": 11.333333333333334
             },
-            "primaryValue": 1694.844827586207,
-            "volumePrimaryValue": 16383.5,
+            "primaryValue": 1689.1911764705883,
+            "volumePrimaryValue": 19144.166666666668,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -618,18 +618,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 636.0126582278481,
-                "exalted": 0.9817102473498234,
-                "chaos": 18.905525846702318
+                "divine": 680.9411764705883,
+                "exalted": 1.0317055441749818,
+                "chaos": 19.269537480063796
             },
             "sparklines": {},
             "volumes": {
-                "divine": 8374.166666666666,
-                "exalted": 11576,
-                "chaos": 1767.6666666666667
+                "divine": 9646.666666666666,
+                "exalted": 13010.666666666666,
+                "chaos": 2013.6666666666667
             },
-            "primaryValue": 0.000666997588791043,
-            "volumePrimaryValue": 7.721164087845112,
+            "primaryValue": 0.0006319369875091547,
+            "volumePrimaryValue": 8.221921498819109,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -640,18 +640,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 579.0625,
-                "exalted": 15.302625061911838,
-                "chaos": 7.6
+                "divine": 570.7058823529412,
+                "exalted": 18.599942971200456,
+                "chaos": 7.673469387755102
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3088.3333333333335,
-                "exalted": 10298.666666666666,
-                "chaos": 221.66666666666666
+                "divine": 3234,
+                "exalted": 10871.666666666666,
+                "chaos": 250.66666666666666
             },
-            "primaryValue": 4.27899373620269e-05,
-            "volumePrimaryValue": 0.440679301579061,
+            "primaryValue": 3.5052413579542937e-05,
+            "volumePrimaryValue": 0.381078156298931,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -668,8 +668,8 @@
             "volumes": {
                 "exalted": 2.5
             },
-            "primaryValue": 0.0001309596735747581,
-            "volumePrimaryValue": 0.00032739918393689526,
+            "primaryValue": 0.00013039457871648623,
+            "volumePrimaryValue": 0.0003259864467912155,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -680,16 +680,16 @@
                 "category": "Currency"
             },
             "rate": {
-                "exalted": 6.305905447407165,
+                "exalted": 6.758471521268926,
                 "chaos": 200
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6424.666666666667,
-                "chaos": 133.33333333333334
+                "exalted": 6249.333333333333,
+                "chaos": 533.3333333333334
             },
-            "primaryValue": 0.00010383891311643876,
-            "volumePrimaryValue": 0.6671304038020802,
+            "primaryValue": 9.646750622987326e-05,
+            "volumePrimaryValue": 0.6028576022658879,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -700,18 +700,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 500.79824561403507,
-                "exalted": 0.2951950198659428,
-                "chaos": 28.788841807909606
+                "divine": 484.7,
+                "exalted": 0.2690210073809717,
+                "chaos": 28.351606805293006
             },
             "sparklines": {},
             "volumes": {
-                "divine": 9515.166666666666,
-                "exalted": 12977.166666666666,
-                "chaos": 6794.166666666667
+                "divine": 9694,
+                "exalted": 13819.833333333334,
+                "chaos": 7499
             },
-            "primaryValue": 0.0022181890743656675,
-            "volumePrimaryValue": 28.785809316222327,
+            "primaryValue": 0.0024235017924051764,
+            "volumePrimaryValue": 33.49239085407414,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -722,18 +722,18 @@
                 "category": "Currency"
             },
             "rate": {
-                "divine": 875.5,
-                "exalted": 12.923257301215093,
-                "chaos": 44.91803278688525
+                "divine": 967.3333333333334,
+                "exalted": 15.76395289298515,
+                "chaos": 46.47008547008547
             },
             "sparklines": {},
             "volumes": {
-                "divine": 583.6666666666666,
-                "exalted": 10103.833333333334,
-                "chaos": 913.3333333333334
+                "divine": 483.6666666666667,
+                "exalted": 10262.333333333334,
+                "chaos": 906.1666666666666
             },
-            "primaryValue": 5.0668214105140806e-05,
-            "volumePrimaryValue": 0.5119431906159919,
+            "primaryValue": 4.135846497438815e-05,
+            "volumePrimaryValue": 0.42443435372216265,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -744,16 +744,16 @@
                 "category": "Currency"
             },
             "rate": {
-                "exalted": 40.473245057137675,
-                "chaos": 1377
+                "exalted": 38.67950865438303,
+                "chaos": 1377.125
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 37188.166666666664,
-                "chaos": 3672
+                "exalted": 34637.5,
+                "chaos": 3672.3333333333335
             },
-            "primaryValue": 1.6178548741258226e-05,
-            "volumePrimaryValue": 0.6016505670147012,
+            "primaryValue": 1.685576979294311e-05,
+            "volumePrimaryValue": 0.5838417262030671,
             "maxVolumeCurrency": "exalted"
         }
     ]
