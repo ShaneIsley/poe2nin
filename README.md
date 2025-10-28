@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-28 05:45:04.954645` |
-| Total Price Entries in DB | `626,078` |
+| Last Successful Run (UTC) | `2025-10-28 05:57:54.077547` |
+| Total Price Entries in DB | `626,475` |
 
 <!-- END_MAINTENANCE -->
 
@@ -43,7 +43,7 @@
 | Uhtred's Augury | 3,016.2 |
 | Arjun's Medal | 2,949.4 |
 | The Trialmaster's Reliquary Key | 1,644.5 |
-| Zarokh's Reliquary Key: Against the Darkness | 764.5 |
+| Zarokh's Reliquary Key: Against the Darkness | 820.2 |
 | Dialla's Desire | 738.0 |
 | Ratha's Assault | 682.8 |
 | Hedgewitch Assandra's Rune of Wisdom | 603.3 |
