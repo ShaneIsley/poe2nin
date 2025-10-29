@@ -3,8 +3,8 @@
 <!-- START_MAINTENANCE -->
 | Metric | Value |
 |:---|:---|
-| Last Successful Run (UTC) | `2025-10-29 16:35:05.224332` |
-| Total Price Entries in DB | `654,040` |
+| Last Successful Run (UTC) | `2025-10-29 16:59:40.188234` |
+| Total Price Entries in DB | `654,432` |
 
 <!-- END_MAINTENANCE -->
 
@@ -37,8 +37,8 @@
 ### Top 10 Most Valuable Items (Overall)
 | Item | Imputed Chaos Value |
 | :--- | :--- |
-| Mirror of Kalandra | 53,877.1 |
-| Hinekora's Lock | 20,486.8 |
+| Mirror of Kalandra | 53,985.7 |
+| Hinekora's Lock | 20,289.3 |
 | Azmeri Reliquary Key | 7,134.9 |
 | Arjun's Medal | 3,270.1 |
 | Uhtred's Augury | 3,183.1 |
