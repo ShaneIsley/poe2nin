@@ -4,19 +4,22 @@
             "id": "divine",
             "name": "Divine Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "divine-orb"
         },
         {
             "id": "exalted",
             "name": "Exalted Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "exalted-orb"
         },
         {
             "id": "chaos",
             "name": "Chaos Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "chaos-orb"
         }
     ],
     "items": [
@@ -25,17 +28,18 @@
                 "id": "ahns-citadel",
                 "name": "Ahn's Citadel",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBaG5DaGlzZWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5e34f72a34/LineageAhnChisel.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "ahns-citadel"
             },
             "rate": {
-                "exalted": 0.7777777777777778
+                "exalted": 0.7778
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.1666666666666667
+                "exalted": 1.17
             },
-            "primaryValue": 0.0007201268054723919,
-            "volumePrimaryValue": 0.0008401479397177905,
+            "primaryValue": 0.00073,
+            "volumePrimaryValue": 0.0008516,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -43,21 +47,20 @@
                 "id": "ailiths-chimes",
                 "name": "Ailith's Chimes",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL01vbmFzdGljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/795375ce2d/Monastic.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "ailiths-chimes"
             },
             "rate": {
-                "divine": 7,
-                "exalted": 0.0390260173448966,
-                "chaos": 1.0555555555555556
+                "exalted": 0.03942,
+                "chaos": 1.04
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.1666666666666667,
-                "exalted": 19.5,
-                "chaos": 3.1666666666666665
+                "exalted": 20.67,
+                "chaos": 4.5
             },
-            "primaryValue": 0.014351928907543795,
-            "volumePrimaryValue": 0.27986261369710397,
+            "primaryValue": 0.0144,
+            "volumePrimaryValue": 0.2977,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -65,19 +68,20 @@
                 "id": "arbiters-ignition",
                 "name": "Arbiter's Ignition",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBcmJpdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/52bc86c140/LineageArbiter.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "arbiters-ignition"
             },
             "rate": {
-                "exalted": 0.05504587155963303,
-                "chaos": 0.2857142857142857
+                "exalted": 0.05556,
+                "chaos": 0.3333
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1,
-                "chaos": 0.3333333333333333
+                "exalted": 0.8333,
+                "chaos": 0.5
             },
-            "primaryValue": 0.01017512504769324,
-            "volumePrimaryValue": 0.01017512504769324,
+            "primaryValue": 0.01022,
+            "volumePrimaryValue": 0.008516,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -85,17 +89,18 @@
                 "id": "arjuns-medal",
                 "name": "Arjun's Medal",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0FtbW9Db25zZXJ2YXRpb24iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8220863d61/AmmoConservation.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "arjuns-medal"
             },
             "rate": {
-                "divine": 0.00904977375565611
+                "divine": 0.009009
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.3333333333333335
+                "divine": 3
             },
-            "primaryValue": 110.5,
-            "volumePrimaryValue": 368.3333333333333,
+            "primaryValue": 111,
+            "volumePrimaryValue": 333,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -103,41 +108,43 @@
                 "id": "atziris-allure",
                 "name": "Atziri's Allure",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBdHppcmkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/422053dc32/LineageAtziri.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "atziris-allure"
             },
             "rate": {
-                "divine": 0.47058823529411764,
-                "exalted": 0.023547880690737835,
-                "chaos": 0.011764705882352941
+                "divine": 0.4583,
+                "exalted": 0.02174,
+                "chaos": 0.01176
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.6666666666666665,
-                "exalted": 2.5,
-                "chaos": 0.16666666666666666
+                "divine": 1.83,
+                "exalted": 2.33,
+                "chaos": 0.1667
             },
-            "primaryValue": 2.125,
-            "volumePrimaryValue": 5.666666666666667,
-            "maxVolumeCurrency": "divine"
+            "primaryValue": 0.02612,
+            "volumePrimaryValue": 0.06094,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
                 "id": "arakaalis-lust",
                 "name": "Arakaali's Lust",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBcmFrYWFsaSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/be37cb2c77/LineageArakaali.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "arakaalis-lust"
             },
             "rate": {
-                "exalted": 1.2058823529411764,
+                "exalted": 1.16,
                 "chaos": 8
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6.833333333333333,
-                "chaos": 1.3333333333333333
+                "exalted": 8.5,
+                "chaos": 1.33
             },
-            "primaryValue": 0.00046447203171390045,
-            "volumePrimaryValue": 0.003173892216711653,
+            "primaryValue": 0.0004898,
+            "volumePrimaryValue": 0.004164,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -145,19 +152,20 @@
                 "id": "ataluis-bloodletting",
                 "name": "Atalui's Bloodletting",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VMaWZldGFwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4d9a20ab28/LineageLifetap.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "ataluis-bloodletting"
             },
             "rate": {
-                "divine": 0.05687203791469194,
-                "chaos": 0.00202020202020202
+                "divine": 0.05674,
+                "chaos": 0.002053
             },
             "sparklines": {},
             "volumes": {
-                "divine": 92,
-                "chaos": 1.1666666666666667
+                "divine": 96.5,
+                "chaos": 1.33
             },
-            "primaryValue": 17.583333333333332,
-            "volumePrimaryValue": 1617.6666666666667,
+            "primaryValue": 17.63,
+            "volumePrimaryValue": 1701,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -165,21 +173,22 @@
                 "id": "brutus-brain",
                 "name": "Brutus' Brain",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VNZWF0c2hpZWxkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/115edf7e2f/LineageMeatshield.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "brutus-brain"
             },
             "rate": {
                 "divine": 18,
-                "exalted": 0.12481804949053857,
+                "exalted": 0.1294,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 3,
-                "exalted": 57.166666666666664,
-                "chaos": 3.5
+                "exalted": 65,
+                "chaos": 3.83
             },
-            "primaryValue": 0.004487320774236129,
-            "volumePrimaryValue": 0.25652517092716537,
+            "primaryValue": 0.004386,
+            "volumePrimaryValue": 0.2851,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -187,19 +196,20 @@
                 "id": "daressos-passion",
                 "name": "Daresso's Passion",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEYXJlc3NvIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/31805870df/LineageDaresso.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "daressos-passion"
             },
             "rate": {
-                "exalted": 2.510204081632653,
+                "exalted": 2.49,
                 "chaos": 3
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 20.5,
+                "exalted": 20.33,
                 "chaos": 0.5
             },
-            "primaryValue": 0.00022312872111746198,
-            "volumePrimaryValue": 0.00457413878290797,
+            "primaryValue": 0.000228,
+            "volumePrimaryValue": 0.004637,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -207,21 +217,22 @@
                 "id": "garukhans-resolve",
                 "name": "Garukhan's Resolve",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0dhcnVraGFuIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/392773e9fd/Garukhan.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "garukhans-resolve"
             },
             "rate": {
                 "divine": 1,
-                "exalted": 0.0034936844934157483,
-                "chaos": 0.10294117647058823
+                "exalted": 0.003226,
+                "chaos": 0.1022
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.3333333333333333,
-                "exalted": 4.333333333333333,
-                "chaos": 3.5
+                "divine": 1.5,
+                "exalted": 5.17,
+                "chaos": 3.83
             },
-            "primaryValue": 0.16031746070204608,
-            "volumePrimaryValue": 0.694708996375533,
+            "primaryValue": 0.176,
+            "volumePrimaryValue": 0.9093,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -229,19 +240,20 @@
                 "id": "ixchels-torment",
                 "name": "Ixchel's Torment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1RyaWFsbWFzdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/231195f1b3/Trialmaster.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "ixchels-torment"
             },
             "rate": {
                 "divine": 1,
-                "chaos": 0.07042253521126761
+                "chaos": 0.06369
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.6666666666666666,
-                "chaos": 1.6666666666666667
+                "divine": 0.8333,
+                "chaos": 1.67
             },
-            "primaryValue": 0.4804673882213609,
-            "volumePrimaryValue": 0.8007789803689348,
+            "primaryValue": 0.5329,
+            "volumePrimaryValue": 0.8881,
             "maxVolumeCurrency": "chaos"
         },
         {
@@ -249,19 +261,20 @@
                 "id": "kalisas-crescendo",
                 "name": "Kalisa's Crescendo",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLYWxpc2FDaG9ydXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1d60b0db2f/LineageKalisaChorus.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "kalisas-crescendo"
             },
             "rate": {
-                "exalted": 1,
+                "exalted": 0.8462,
                 "chaos": 0.2
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.1666666666666665,
-                "chaos": 0.3333333333333333
+                "exalted": 1.83,
+                "chaos": 0.1667
             },
-            "primaryValue": 0.000560098626478527,
-            "volumePrimaryValue": 0.0012135470240368085,
+            "primaryValue": 0.000671,
+            "volumePrimaryValue": 0.00123,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -269,19 +282,20 @@
                 "id": "paquates-pact",
                 "name": "Paquate's Pact",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1BhcXVhdGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/48c3b0fca2/Paquate.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "paquates-pact"
             },
             "rate": {
-                "exalted": 0.9733333333333334,
+                "exalted": 0.9799,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 24.333333333333332,
-                "chaos": 0.16666666666666666
+                "exalted": 24.33,
+                "chaos": 0.1667
             },
-            "primaryValue": 0.0005754437943272537,
-            "volumePrimaryValue": 0.014002465661963176,
+            "primaryValue": 0.0005794,
+            "volumePrimaryValue": 0.0141,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -289,21 +303,22 @@
                 "id": "pietys-mercy",
                 "name": "Piety's Mercy",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VNZXJjeSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/38123ca95d/LineageMercy.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "pietys-mercy"
             },
             "rate": {
                 "divine": 1,
-                "exalted": 0.04569563443492452,
+                "exalted": 0.04704,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1,
-                "exalted": 18.666666666666668,
+                "divine": 0.6667,
+                "exalted": 19.33,
                 "chaos": 3.5
             },
-            "primaryValue": 0.012257158334811337,
-            "volumePrimaryValue": 0.22880028891647827,
+            "primaryValue": 0.01207,
+            "volumePrimaryValue": 0.2333,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -311,21 +326,22 @@
                 "id": "rakiatas-flow",
                 "name": "Rakiata's Flow",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1Jha2lhdGEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/20a70b7bd3/Rakiata.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "rakiatas-flow"
             },
             "rate": {
-                "divine": 0.07266253461690624,
-                "exalted": 0.00011028195419622836,
-                "chaos": 0.002470098803952158
+                "divine": 0.07307,
+                "exalted": 0.0001087,
+                "chaos": 0.002451
             },
             "sparklines": {},
             "volumes": {
-                "divine": 91.83333333333333,
+                "divine": 97,
                 "exalted": 0.5,
-                "chaos": 3.1666666666666665
+                "chaos": 3.5
             },
-            "primaryValue": 13.762250453720508,
-            "volumePrimaryValue": 1263.8333333333333,
+            "primaryValue": 13.69,
+            "volumePrimaryValue": 1328,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -333,21 +349,22 @@
                 "id": "rigwalds-ferocity",
                 "name": "Rigwald's Ferocity",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1JpZ3dhbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a053a2b077/Rigwald.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "rigwalds-ferocity"
             },
             "rate": {
-                "divine": 3.0526315789473686,
-                "exalted": 0.0037772439144403602,
-                "chaos": 0.12568306010928962
+                "divine": 3.06,
+                "exalted": 0.00369,
+                "chaos": 0.1242
             },
             "sparklines": {},
             "volumes": {
-                "divine": 9.666666666666666,
-                "exalted": 43.5,
-                "chaos": 19.166666666666668
+                "divine": 9.17,
+                "exalted": 47.33,
+                "chaos": 22.5
             },
-            "primaryValue": 0.14828235590962935,
-            "volumePrimaryValue": 6.450282482068877,
+            "primaryValue": 0.1538,
+            "volumePrimaryValue": 7.28,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -355,21 +372,20 @@
                 "id": "siones-temper",
                 "name": "Sione's Temper",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1dpbGRzaGFyZHMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6d700adf17/Wildshards.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "siones-temper"
             },
             "rate": {
-                "divine": 22,
-                "exalted": 0.25806451612903225,
-                "chaos": 1.125
+                "exalted": 0.2975,
+                "chaos": 1.17
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.6666666666666665,
-                "exalted": 10.666666666666666,
-                "chaos": 1.5
+                "exalted": 12,
+                "chaos": 1.17
             },
-            "primaryValue": 0.002170382177604292,
-            "volumePrimaryValue": 0.023150743227779116,
+            "primaryValue": 0.001908,
+            "volumePrimaryValue": 0.0229,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -377,21 +393,22 @@
                 "id": "uhtreds-exodus",
                 "name": "Uhtred's Exodus",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VVaHRyZWRMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b286006915/LineageUhtredLesser.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "uhtreds-exodus"
             },
             "rate": {
                 "divine": 9,
-                "exalted": 0.023713284828887092,
-                "chaos": 0.8314606741573034
+                "exalted": 0.02253,
+                "chaos": 0.7935
             },
             "sparklines": {},
             "volumes": {
                 "divine": 4.5,
-                "exalted": 29.333333333333332,
-                "chaos": 12.333333333333334
+                "exalted": 29.83,
+                "chaos": 12.17
             },
-            "primaryValue": 0.023619613668884248,
-            "volumePrimaryValue": 0.6928420009539379,
+            "primaryValue": 0.0252,
+            "volumePrimaryValue": 0.7519,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -399,19 +416,20 @@
                 "id": "uul-netols-embrace",
                 "name": "Uul-Netol's Embrace",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VVdWxOZXRvbCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/751151f142/LineageUulNetol.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "uul-netols-embrace"
             },
             "rate": {
-                "divine": 0.06846846846846846,
-                "chaos": 0.002857142857142857
+                "divine": 0.06832,
+                "chaos": 0.002857
             },
             "sparklines": {},
             "volumes": {
-                "divine": 19,
-                "chaos": 0.16666666666666666
+                "divine": 18.83,
+                "chaos": 0.1667
             },
-            "primaryValue": 14.605263157894736,
-            "volumePrimaryValue": 277.5,
+            "primaryValue": 14.64,
+            "volumePrimaryValue": 275.7,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -419,19 +437,22 @@
                 "id": "vilentas-propulsion",
                 "name": "Vilenta's Propulsion",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VWaWxlbnRhIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/abda900f3c/LineageVilenta.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "vilentas-propulsion"
             },
             "rate": {
-                "exalted": 1.0833333333333333,
-                "chaos": 4
+                "divine": 15,
+                "exalted": 1.09,
+                "chaos": 3
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6.5,
-                "chaos": 0.6666666666666666
+                "divine": 2.5,
+                "exalted": 6,
+                "chaos": 1.5
             },
-            "primaryValue": 0.0005170141167494095,
-            "volumePrimaryValue": 0.003360591758871162,
+            "primaryValue": 0.0005204,
+            "volumePrimaryValue": 0.003123,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -439,21 +460,22 @@
                 "id": "xophs-pyre",
                 "name": "Xoph's Pyre",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VYb3BoIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/09f4b817dc/LineageXoph.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "xophs-pyre"
             },
             "rate": {
                 "divine": 2,
-                "exalted": 0.030712530712530713,
+                "exalted": 0.02519,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.3333333333333333,
-                "exalted": 4.166666666666667,
-                "chaos": 1.1666666666666667
+                "divine": 0.3333,
+                "exalted": 5.5,
+                "chaos": 1.17
             },
-            "primaryValue": 0.01823681127814084,
-            "volumePrimaryValue": 0.07598671365892017,
+            "primaryValue": 0.02254,
+            "volumePrimaryValue": 0.124,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -461,21 +483,22 @@
                 "id": "diallas-desire",
                 "name": "Dialla's Desire",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0RpYWxsYSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1b959c86b4/Dialla.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "diallas-desire"
             },
             "rate": {
-                "divine": 0.03787128712871287,
-                "exalted": 6.4279745452208e-05,
-                "chaos": 0.001339712918660287
+                "divine": 0.03824,
+                "exalted": 6.428e-05,
+                "chaos": 0.001328
             },
             "sparklines": {},
             "volumes": {
-                "divine": 51,
-                "exalted": 0.3333333333333333,
-                "chaos": 1.1666666666666667
+                "divine": 55.5,
+                "exalted": 0.3333,
+                "chaos": 2
             },
-            "primaryValue": 26.405228758169933,
-            "volumePrimaryValue": 1346.6666666666667,
+            "primaryValue": 26.15,
+            "volumePrimaryValue": 1452,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -483,17 +506,18 @@
                 "id": "rathas-assault",
                 "name": "Ratha's Assault",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0F6YWRpYW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a77457eef2/Azadian.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "rathas-assault"
             },
             "rate": {
-                "divine": 0.029535864978902954
+                "divine": 0.02941
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.1666666666666667
+                "divine": 1.33
             },
-            "primaryValue": 33.857142857142854,
-            "volumePrimaryValue": 39.5,
+            "primaryValue": 34,
+            "volumePrimaryValue": 45.33,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -501,19 +525,20 @@
                 "id": "doedres-undoing",
                 "name": "Doedre's Undoing",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEb2VkcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/83dad35313/LineageDoedre.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "doedres-undoing"
             },
             "rate": {
-                "exalted": 0.14189189189189189,
+                "exalted": 0.1396,
                 "chaos": 1.75
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 14,
-                "chaos": 1.1666666666666667
+                "exalted": 16.33,
+                "chaos": 1.17
             },
-            "primaryValue": 0.003947361748515333,
-            "volumePrimaryValue": 0.05526306447921466,
+            "primaryValue": 0.004067,
+            "volumePrimaryValue": 0.06643,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -521,19 +546,20 @@
                 "id": "einhars-beastrite",
                 "name": "Einhar's Beastrite",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VFaW5oYXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/aec9088873/LineageEinhar.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "einhars-beastrite"
             },
             "rate": {
-                "exalted": 0.06666666666666667,
+                "exalted": 0.06667,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.1666666666666667,
-                "chaos": 0.16666666666666666
+                "exalted": 1.17,
+                "chaos": 0.1667
             },
-            "primaryValue": 0.008401479397177905,
-            "volumePrimaryValue": 0.009801725963374223,
+            "primaryValue": 0.008516,
+            "volumePrimaryValue": 0.009936,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -541,19 +567,20 @@
                 "id": "eshs-radiance",
                 "name": "Esh's Radiance",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VFc2giLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2bdbf8be07/LineageEsh.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "eshs-radiance"
             },
             "rate": {
-                "exalted": 0.015218918286115664,
-                "chaos": 0.33962264150943394
+                "exalted": 0.01462,
+                "chaos": 0.3396
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 10.833333333333334,
+                "exalted": 11.83,
                 "chaos": 3
             },
-            "primaryValue": 0.036802788210612135,
-            "volumePrimaryValue": 0.3986968722816315,
+            "primaryValue": 0.03882,
+            "volumePrimaryValue": 0.4594,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -561,17 +588,18 @@
                 "id": "kulemaks-dominion",
                 "name": "Kulemak's Dominion",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLdWxlbWFrU3BpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7f63599d16/LineageKulemakSpire.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "kulemaks-dominion"
             },
             "rate": {
-                "exalted": 0.0950920245398773
+                "exalted": 0.09184
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 5.166666666666667
+                "exalted": 6
             },
-            "primaryValue": 0.005890069426838704,
-            "volumePrimaryValue": 0.030432025371999967,
+            "primaryValue": 0.006182,
+            "volumePrimaryValue": 0.03709,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -579,17 +607,18 @@
                 "id": "romiras-requital",
                 "name": "Romira's Requital",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VSb21pcmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/62c07d95f0/LineageRomira.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "romiras-requital"
             },
             "rate": {
-                "exalted": 1.126984126984127
+                "exalted": 0.9841
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 11.833333333333334
+                "exalted": 10.33
             },
-            "primaryValue": 0.0004969889220865803,
-            "volumePrimaryValue": 0.005881035578024533,
+            "primaryValue": 0.0005769,
+            "volumePrimaryValue": 0.005961,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -597,17 +626,18 @@
                 "id": "varashtas-blessing",
                 "name": "Varashta's Blessing",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEamlubiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/62882cee00/LineageDjinn.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "varashtas-blessing"
             },
             "rate": {
                 "exalted": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.3333333333333335
+                "exalted": 2.33
             },
-            "primaryValue": 0.000560098626478527,
-            "volumePrimaryValue": 0.001306896795116563,
+            "primaryValue": 0.0005678,
+            "volumePrimaryValue": 0.001325,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -615,19 +645,20 @@
                 "id": "kaoms-madness",
                 "name": "Kaom's Madness",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLYW9tIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/82eacd9fdc/LineageKaom.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "kaoms-madness"
             },
             "rate": {
-                "exalted": 0.5882352941176471,
+                "exalted": 0.5882,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.6666666666666667,
-                "chaos": 0.16666666666666666
+                "exalted": 1.67,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.000952167665013496,
-            "volumePrimaryValue": 0.0015869461083558266,
+            "primaryValue": 0.0009652,
+            "volumePrimaryValue": 0.001609,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -635,17 +666,18 @@
                 "id": "kurgals-leash",
                 "name": "Kurgal's Leash",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0FieXNzS3VyZ2FsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3fbc251a84/AbyssKurgal.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "kurgals-leash"
             },
             "rate": {
-                "exalted": 0.9644670050761421
+                "exalted": 0.9786
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 31.666666666666668
+                "exalted": 45.83
             },
-            "primaryValue": 0.0005807338390329991,
-            "volumePrimaryValue": 0.018389904902711637,
+            "primaryValue": 0.0005801,
+            "volumePrimaryValue": 0.02659,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -653,17 +685,18 @@
                 "id": "tacatis-ire",
                 "name": "Tacati's Ire",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VUYWNhdGkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d5ded1baa6/LineageTacati.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "tacatis-ire"
             },
             "rate": {
-                "exalted": 2
+                "exalted": 3.25
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1
+                "exalted": 2.17
             },
-            "primaryValue": 0.0002800493132392635,
-            "volumePrimaryValue": 0.0002800493132392635,
+            "primaryValue": 0.0001747,
+            "volumePrimaryValue": 0.0003785,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -671,17 +704,18 @@
                 "id": "tawhoas-tending",
                 "name": "Tawhoa's Tending",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1R1a29oYW1hIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8b469f3f5e/Tukohama.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "tawhoas-tending"
             },
             "rate": {
-                "exalted": 1.0909090909090908
+                "exalted": 1.07
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2
+                "exalted": 2.5
             },
-            "primaryValue": 0.0005134237409386498,
-            "volumePrimaryValue": 0.0010268474818772996,
+            "primaryValue": 0.0005299,
+            "volumePrimaryValue": 0.001325,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -689,21 +723,22 @@
                 "id": "tecrods-revenge",
                 "name": "Tecrod's Revenge",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VUZWNyb2QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/783b026592/LineageTecrod.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "tecrods-revenge"
             },
             "rate": {
                 "divine": 6,
-                "exalted": 0.4375,
+                "exalted": 0.3636,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1,
-                "exalted": 10.5,
-                "chaos": 0.16666666666666666
+                "exalted": 16,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.001280225431950919,
-            "volumePrimaryValue": 0.013442367035484648,
+            "primaryValue": 0.001561,
+            "volumePrimaryValue": 0.02498,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -711,19 +746,20 @@
                 "id": "tuls-stillness",
                 "name": "Tul's Stillness",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VUdWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cff647542b/LineageTul.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "tuls-stillness"
             },
             "rate": {
-                "exalted": 0.04454203262233375,
+                "exalted": 0.04654,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 11.833333333333334,
-                "chaos": 1.6666666666666667
+                "exalted": 12.67,
+                "chaos": 2
             },
-            "primaryValue": 0.01257460860009538,
-            "volumePrimaryValue": 0.14879953510112867,
+            "primaryValue": 0.0122,
+            "volumePrimaryValue": 0.1545,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -731,17 +767,18 @@
                 "id": "uhtreds-augury",
                 "name": "Uhtred's Augury",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VVaHRyZWRHcmVhdGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/207f49bf94/LineageUhtredGreater.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "uhtreds-augury"
             },
             "rate": {
-                "divine": 0.00903471231573942
+                "divine": 0.009255
             },
             "sparklines": {},
             "volumes": {
-                "divine": 12.666666666666666
+                "divine": 15
             },
-            "primaryValue": 110.6842105263158,
-            "volumePrimaryValue": 1402.0,
+            "primaryValue": 108.0,
+            "volumePrimaryValue": 1621,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -749,19 +786,20 @@
                 "id": "uhtreds-omen",
                 "name": "Uhtred's Omen",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VVaHRyZWRTdGFuZGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2e603483a5/LineageUhtredStandard.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "uhtreds-omen"
             },
             "rate": {
-                "divine": 0.11606354810238305,
-                "chaos": 0.004889975550122249
+                "divine": 0.1163,
+                "chaos": 0.00489
             },
             "sparklines": {},
             "volumes": {
-                "divine": 43.833333333333336,
-                "chaos": 0.6666666666666666
+                "divine": 49.67,
+                "chaos": 0.6667
             },
-            "primaryValue": 8.615969581749049,
-            "volumePrimaryValue": 377.6666666666667,
+            "primaryValue": 8.6,
+            "volumePrimaryValue": 427.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -769,19 +807,22 @@
                 "id": "uruks-smelting",
                 "name": "Uruk's Smelting",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VBcm1vdXJCcmVhayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/821e3c1334/LineageArmourBreak.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "uruks-smelting"
             },
             "rate": {
-                "exalted": 0.9811320754716981,
-                "chaos": 3
+                "divine": 1,
+                "exalted": 0.9256,
+                "chaos": 2.6
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 17.333333333333332,
-                "chaos": 1.5
+                "divine": 0.1667,
+                "exalted": 18.67,
+                "chaos": 2.17
             },
-            "primaryValue": 0.0005708697539108064,
-            "volumePrimaryValue": 0.009895075734453977,
+            "primaryValue": 0.0006134,
+            "volumePrimaryValue": 0.01145,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -789,19 +830,20 @@
                 "id": "zarokhs-refrain",
                 "name": "Zarokh's Refrain",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL1phcm9raCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/78c9566961/Zarokh.png",
-                "category": "LineageSupportGems"
+                "category": "LineageSupportGems",
+                "detailsId": "zarokhs-refrain"
             },
             "rate": {
-                "exalted": 0.028930817610062894,
+                "exalted": 0.02388,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 3.8333333333333335,
-                "chaos": 1.3333333333333333
+                "exalted": 4.17,
+                "chaos": 1.5
             },
-            "primaryValue": 0.01935993078480126,
-            "volumePrimaryValue": 0.07421306800840483,
+            "primaryValue": 0.02378,
+            "volumePrimaryValue": 0.09907,
             "maxVolumeCurrency": "exalted"
         }
     ]

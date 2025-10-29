@@ -4,19 +4,22 @@
             "id": "divine",
             "name": "Divine Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "divine-orb"
         },
         {
             "id": "exalted",
             "name": "Exalted Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "exalted-orb"
         },
         {
             "id": "chaos",
             "name": "Chaos Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "chaos-orb"
         }
     ],
     "items": [
@@ -25,21 +28,22 @@
                 "id": "ancient-crisis-fragment",
                 "name": "Ancient Crisis Fragment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "ancient-crisis-fragment"
             },
             "rate": {
-                "divine": 3.8091603053435112,
-                "exalted": 0.004523119129060824,
-                "chaos": 0.1905781584582441
+                "divine": 3.92,
+                "exalted": 0.004822,
+                "chaos": 0.1817
             },
             "sparklines": {},
             "volumes": {
-                "divine": 166.33333333333334,
-                "exalted": 86.83333333333333,
-                "chaos": 148.33333333333334
+                "divine": 149.5,
+                "exalted": 96.17,
+                "chaos": 145
             },
-            "primaryValue": 0.2625250501002004,
-            "volumePrimaryValue": 43.666666666666664,
+            "primaryValue": 0.2553,
+            "volumePrimaryValue": 38.17,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -47,21 +51,22 @@
                 "id": "cowardly-fate",
                 "name": "Cowardly Fate",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "cowardly-fate"
             },
             "rate": {
-                "divine": 10,
-                "exalted": 0.007924267404137637,
-                "chaos": 0.3626373626373626
+                "divine": 7.67,
+                "exalted": 0.007881,
+                "chaos": 0.346
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.6666666666666667,
-                "exalted": 24.833333333333332,
-                "chaos": 11
+                "divine": 3.83,
+                "exalted": 30.33,
+                "chaos": 12.17
             },
-            "primaryValue": 0.07068143942064258,
-            "volumePrimaryValue": 1.7552557456126239,
+            "primaryValue": 0.07204,
+            "volumePrimaryValue": 2.19,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -69,21 +74,22 @@
                 "id": "deadly-fate",
                 "name": "Deadly Fate",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "deadly-fate"
             },
             "rate": {
-                "divine": 8,
-                "exalted": 0.00807332478510709,
-                "chaos": 0.30124223602484473
+                "divine": 7.67,
+                "exalted": 0.007786,
+                "chaos": 0.2924
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.6666666666666665,
-                "exalted": 28.333333333333332,
-                "chaos": 16.166666666666668
+                "divine": 3.83,
+                "exalted": 29.33,
+                "chaos": 18.67
             },
-            "primaryValue": 0.06937645163387261,
-            "volumePrimaryValue": 1.9656661296263904,
+            "primaryValue": 0.07292,
+            "volumePrimaryValue": 2.14,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -91,21 +97,22 @@
                 "id": "primary-calamity-fragment",
                 "name": "Primary Calamity Fragment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9VYmVyUGlubmFjbGVLZXkxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/fc0875d40b/UberPinnacleKey1.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "primary-calamity-fragment"
             },
             "rate": {
-                "divine": 0.4272606543522878,
-                "exalted": 0.0004112333793175859,
-                "chaos": 0.017446465073127315
+                "divine": 0.44,
+                "exalted": 0.0004349,
+                "chaos": 0.01874
             },
             "sparklines": {},
             "volumes": {
-                "divine": 589.8333333333334,
-                "exalted": 23.5,
-                "chaos": 385.5
+                "divine": 739.3,
+                "exalted": 23.83,
+                "chaos": 536.7
             },
-            "primaryValue": 2.3404916643119527,
-            "volumePrimaryValue": 1380.5,
+            "primaryValue": 2.27,
+            "volumePrimaryValue": 1680,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -113,21 +120,22 @@
                 "id": "runic-splinter",
                 "name": "Runic Splinter",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9FeHBlZGl0aW9uU3BsaW50ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4768efb2c6/ExpeditionSplinter.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "runic-splinter"
             },
             "rate": {
-                "divine": 72.47950365610458,
-                "exalted": 0.052215584719824404,
-                "chaos": 2.659510130027215
+                "divine": 71.67,
+                "exalted": 0.05338,
+                "chaos": 2.61
             },
             "sparklines": {},
             "volumes": {
-                "divine": 54516.666666666664,
-                "exalted": 1708.8333333333333,
-                "chaos": 7329.166666666667
+                "divine": 60528,
+                "exalted": 1882,
+                "chaos": 8367
             },
-            "primaryValue": 0.01379700397431978,
-            "volumePrimaryValue": 752.1666666666666,
+            "primaryValue": 0.01395,
+            "volumePrimaryValue": 844.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -135,21 +143,22 @@
                 "id": "secondary-calamity-fragment",
                 "name": "Secondary Calamity Fragment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9VYmVyUGlubmFjbGVLZXkyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/0fec2b1925/UberPinnacleKey2.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "secondary-calamity-fragment"
             },
             "rate": {
-                "divine": 0.6627571620842145,
-                "exalted": 0.0008220128182623848,
-                "chaos": 0.02684522416193374
+                "divine": 0.6774,
+                "exalted": 0.0008681,
+                "chaos": 0.0285
             },
             "sparklines": {},
             "volumes": {
-                "divine": 574.5,
-                "exalted": 32,
-                "chaos": 363.1666666666667
+                "divine": 688.8,
+                "exalted": 34.5,
+                "chaos": 490
             },
-            "primaryValue": 1.5088482738613287,
-            "volumePrimaryValue": 866.8333333333334,
+            "primaryValue": 1.48,
+            "volumePrimaryValue": 1017,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -157,21 +166,22 @@
                 "id": "tertiary-calamity-fragment",
                 "name": "Tertiary Calamity Fragment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9VYmVyUGlubmFjbGVLZXkzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/29665daa60/UberPinnacleKey3.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "tertiary-calamity-fragment"
             },
             "rate": {
-                "divine": 0.6486805829066562,
-                "exalted": 0.0008820055910184922,
-                "chaos": 0.025858550200227256
+                "divine": 0.6639,
+                "exalted": 0.0009027,
+                "chaos": 0.02754
             },
             "sparklines": {},
             "volumes": {
-                "divine": 549,
-                "exalted": 39.333333333333336,
-                "chaos": 390.6666666666667
+                "divine": 623.2,
+                "exalted": 41.83,
+                "chaos": 518.8
             },
-            "primaryValue": 1.5415907710989678,
-            "volumePrimaryValue": 846.3333333333334,
+            "primaryValue": 1.51,
+            "volumePrimaryValue": 938.7,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -179,21 +189,22 @@
                 "id": "twilight-reliquary-key",
                 "name": "Twilight Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5V29ybGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/27f2d492e7/TwilightOrderReliquaryKeyWorld.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "twilight-reliquary-key"
             },
             "rate": {
-                "divine": 236,
-                "exalted": 0.6277610441767069,
-                "chaos": 18
+                "divine": 180.5,
+                "exalted": 0.6363,
+                "chaos": 11.71
             },
             "sparklines": {},
             "volumes": {
-                "divine": 157.33333333333334,
-                "exalted": 833.6666666666666,
-                "chaos": 18
+                "divine": 60.17,
+                "exalted": 834.3,
+                "chaos": 33.17
             },
-            "primaryValue": 0.0008922162846423237,
-            "volumePrimaryValue": 0.7438109759634839,
+            "primaryValue": 0.0008922,
+            "volumePrimaryValue": 0.7444,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -201,21 +212,22 @@
                 "id": "weathered-crisis-fragment",
                 "name": "Weathered Crisis Fragment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "weathered-crisis-fragment"
             },
             "rate": {
-                "divine": 1.9267399267399268,
-                "exalted": 0.0024661742235311816,
-                "chaos": 0.06694229415904293
+                "divine": 2.05,
+                "exalted": 0.002432,
+                "chaos": 0.06457
             },
             "sparklines": {},
             "volumes": {
-                "divine": 175.33333333333334,
-                "exalted": 103.83333333333333,
-                "chaos": 126.83333333333333
+                "divine": 171.5,
+                "exalted": 115.3,
+                "chaos": 135.8
             },
-            "primaryValue": 0.5190114068441065,
-            "volumePrimaryValue": 91.0,
+            "primaryValue": 0.4879,
+            "volumePrimaryValue": 83.67,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -223,17 +235,18 @@
                 "id": "against-the-darkness",
                 "name": "Zarokh's Reliquary Key: Against the Darkness",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5U2FuY3R1bTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a9e91de8f5/TwilightOrderReliquaryKeySanctum2.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "zarokhs-reliquary-key:-against-the-darkness"
             },
             "rate": {
-                "divine": 0.02608695652173913
+                "divine": 0.024
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.5
             },
-            "primaryValue": 38.333333333333336,
-            "volumePrimaryValue": 19.166666666666668,
+            "primaryValue": 41.67,
+            "volumePrimaryValue": 20.83,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -241,17 +254,18 @@
                 "id": "olroths-reliquary-key",
                 "name": "Olroth's Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5RXhwZWRpdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0433c7beb8/TwilightOrderReliquaryKeyExpedition.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "olroths-reliquary-key"
             },
             "rate": {
-                "divine": 0.14130434782608695
+                "divine": 0.1518
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.1666666666666665
+                "divine": 2.83
             },
-            "primaryValue": 7.076923076923077,
-            "volumePrimaryValue": 15.333333333333334,
+            "primaryValue": 6.59,
+            "volumePrimaryValue": 18.67,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -259,19 +273,20 @@
                 "id": "tangmazus-reliquary-key",
                 "name": "Tangmazu's Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5RGVsaXJpdW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1a87e735c6/TwilightOrderReliquaryKeyDelirium.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "tangmazus-reliquary-key"
             },
             "rate": {
-                "divine": 0.308411214953271,
-                "exalted": 0.0005758157389635317
+                "divine": 0.3056,
+                "exalted": 0.0005758
             },
             "sparklines": {},
             "volumes": {
-                "divine": 22,
+                "divine": 30,
                 "exalted": 0.5
             },
-            "primaryValue": 3.242424242424242,
-            "volumePrimaryValue": 71.33333333333333,
+            "primaryValue": 3.27,
+            "volumePrimaryValue": 98.17,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -279,21 +294,22 @@
                 "id": "faded-crisis-fragment",
                 "name": "Faded Crisis Fragment",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "faded-crisis-fragment"
             },
             "rate": {
-                "divine": 7.795620437956204,
-                "exalted": 0.007359178592281676,
-                "chaos": 0.2337317397078353
+                "divine": 7.89,
+                "exalted": 0.007278,
+                "chaos": 0.237
             },
             "sparklines": {},
             "volumes": {
-                "divine": 178,
-                "exalted": 111.33333333333333,
-                "chaos": 146.66666666666666
+                "divine": 169.7,
+                "exalted": 121.8,
+                "chaos": 140.3
             },
-            "primaryValue": 0.12827715355805244,
-            "volumePrimaryValue": 22.833333333333332,
+            "primaryValue": 0.1267,
+            "volumePrimaryValue": 21.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -301,17 +317,18 @@
                 "id": "rite-of-passage",
                 "name": "Azmeri Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5QXptZXJpIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf47ea370f/TwilightOrderReliquaryKeyAzmeri.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "azmeri-reliquary-key"
             },
             "rate": {
-                "divine": 0.004128819157720892
+                "divine": 0.004129
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.8333333333333334
+                "divine": 0.8333
             },
             "primaryValue": 242.2,
-            "volumePrimaryValue": 201.83333333333334,
+            "volumePrimaryValue": 201.8,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -319,19 +336,20 @@
                 "id": "ritualistic-reliquary-key",
                 "name": "Ritualistic Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5Uml0dWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d4d4229ab8/TwilightOrderReliquaryKeyRitual.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "ritualistic-reliquary-key"
             },
             "rate": {
-                "divine": 11,
-                "exalted": 0.03691683569979716
+                "divine": 11.75,
+                "exalted": 0.03042
             },
             "sparklines": {},
             "volumes": {
-                "divine": 7.333333333333333,
-                "exalted": 15.166666666666666
+                "divine": 7.83,
+                "exalted": 19
             },
-            "primaryValue": 0.01517190235461065,
-            "volumePrimaryValue": 0.23010718571159486,
+            "primaryValue": 0.01866,
+            "volumePrimaryValue": 0.3546,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -339,17 +357,18 @@
                 "id": "the-arbiters-reliquary-key",
                 "name": "The Arbiter's Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5UGlubmFjbGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c2e7758a33/TwilightOrderReliquaryKeyPinnacle.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "the-arbiters-reliquary-key"
             },
             "rate": {
-                "divine": 0.14678899082568808
+                "divine": 0.1475
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.6666666666666665
+                "divine": 4.5
             },
-            "primaryValue": 6.8125,
-            "volumePrimaryValue": 18.166666666666668,
+            "primaryValue": 6.78,
+            "volumePrimaryValue": 30.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -357,14 +376,15 @@
                 "id": "the-trialmasters-reliquary-key",
                 "name": "The Trialmaster's Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5VWx0aW1hdHVtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/92ccd5ad96/TwilightOrderReliquaryKeyUltimatum.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "the-trialmasters-reliquary-key"
             },
             "rate": {
-                "divine": 0.014492753623188406
+                "divine": 0.01449
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.16666666666666666
+                "divine": 0.1667
             },
             "primaryValue": 69,
             "volumePrimaryValue": 11.5,
@@ -375,21 +395,22 @@
                 "id": "victorious-fate",
                 "name": "Victorious Fate",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0270951a73/TrialmasterKey3.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "victorious-fate"
             },
             "rate": {
-                "divine": 9,
-                "exalted": 0.011651708392379154,
-                "chaos": 0.4180790960451977
+                "divine": 8.5,
+                "exalted": 0.01127,
+                "chaos": 0.4171
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.5,
-                "exalted": 24.666666666666668,
-                "chaos": 12.333333333333334
+                "divine": 2.83,
+                "exalted": 27.67,
+                "chaos": 13.83
             },
-            "primaryValue": 0.04807008617250169,
-            "volumePrimaryValue": 1.1857287922550417,
+            "primaryValue": 0.05037,
+            "volumePrimaryValue": 1.39,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -397,19 +418,20 @@
                 "id": "xeshts-reliquary-key",
                 "name": "Xesht's Reliquary Key",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9Ud2lsaWdodE9yZGVyUmVsaXF1YXJ5S2V5QnJlYWNoIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/866c9d5c45/TwilightOrderReliquaryKeyBreach.png",
-                "category": "Fragments"
+                "category": "Fragments",
+                "detailsId": "xeshts-reliquary-key"
             },
             "rate": {
-                "divine": 2.6666666666666665,
-                "exalted": 0.0046315789473684215
+                "divine": 2.5,
+                "exalted": 0.00464
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.3333333333333333,
-                "exalted": 5.5
+                "divine": 1.67,
+                "exalted": 4.5
             },
-            "primaryValue": 0.12093038526240923,
-            "volumePrimaryValue": 0.6651171189432509,
+            "primaryValue": 0.1224,
+            "volumePrimaryValue": 0.5506,
             "maxVolumeCurrency": "exalted"
         }
     ]

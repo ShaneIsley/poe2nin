@@ -4,19 +4,22 @@
             "id": "divine",
             "name": "Divine Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "divine-orb"
         },
         {
             "id": "exalted",
             "name": "Exalted Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "exalted-orb"
         },
         {
             "id": "chaos",
             "name": "Chaos Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "chaos-orb"
         }
     ],
     "items": [
@@ -25,21 +28,22 @@
                 "id": "black-scythe-artifact",
                 "name": "Black Scythe Artifact",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2260f34070/Rune6.png",
-                "category": "Expedition"
+                "category": "Expedition",
+                "detailsId": "black-scythe-artifact"
             },
             "rate": {
-                "divine": 725.4166666666666,
-                "exalted": 2.8370904215201542,
-                "chaos": 39.630379746835445
+                "divine": 725.4,
+                "exalted": 3.07,
+                "chaos": 40.85
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1450.8333333333333,
-                "exalted": 11285,
-                "chaos": 2609
+                "divine": 1451,
+                "exalted": 12131,
+                "chaos": 2860
             },
-            "primaryValue": 0.00019742008299418882,
-            "volumePrimaryValue": 2.227885636589421,
+            "primaryValue": 0.0001851,
+            "volumePrimaryValue": 2.25,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -47,21 +51,22 @@
                 "id": "broken-circle-artifact",
                 "name": "Broken Circle Artifact",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/46b487f53f/Rune16.png",
-                "category": "Expedition"
+                "category": "Expedition",
+                "detailsId": "broken-circle-artifact"
             },
             "rate": {
-                "divine": 660.6666666666666,
-                "exalted": 3.580179465266756,
-                "chaos": 44.686440677966104
+                "divine": 660.7,
+                "exalted": 4.18,
+                "chaos": 46.62
             },
             "sparklines": {},
             "volumes": {
-                "divine": 330.3333333333333,
-                "exalted": 19550.166666666668,
-                "chaos": 878.8333333333334
+                "divine": 330.3,
+                "exalted": 20287,
+                "chaos": 1088
             },
-            "primaryValue": 0.00015644428775494208,
-            "volumePrimaryValue": 3.0585118996570766,
+            "primaryValue": 0.0001359,
+            "volumePrimaryValue": 2.76,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -69,19 +74,20 @@
                 "id": "sun-artifact",
                 "name": "Sun Artifact",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ca2335fdef/Rune17.png",
-                "category": "Expedition"
+                "category": "Expedition",
+                "detailsId": "sun-artifact"
             },
             "rate": {
-                "exalted": 5.994756390648897,
-                "chaos": 143.40625
+                "exalted": 6.04,
+                "chaos": 137.6
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4573,
-                "chaos": 764.8333333333334
+                "exalted": 4764,
+                "chaos": 710.8
             },
-            "primaryValue": 9.34314240612369e-05,
-            "volumePrimaryValue": 0.42726190223203636,
+            "primaryValue": 9.404e-05,
+            "volumePrimaryValue": 0.448,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -89,21 +95,22 @@
                 "id": "exotic-coinage",
                 "name": "Exotic Coinage",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9CYXJ0ZXJSZWZyZXNoQ3VycmVuY3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8a4fe1f468/BarterRefreshCurrency.png",
-                "category": "Expedition"
+                "category": "Expedition",
+                "detailsId": "exotic-coinage"
             },
             "rate": {
-                "divine": 272.41379310344826,
-                "exalted": 0.23786531130876748,
-                "chaos": 17.333333333333332
+                "divine": 270.3,
+                "exalted": 0.2355,
+                "chaos": 19.3
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1316.6666666666667,
-                "exalted": 3276,
-                "chaos": 962
+                "divine": 1442,
+                "exalted": 3562,
+                "chaos": 846
             },
-            "primaryValue": 0.0023546881358899614,
-            "volumePrimaryValue": 7.713958333175513,
+            "primaryValue": 0.002411,
+            "volumePrimaryValue": 8.59,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -111,21 +118,22 @@
                 "id": "order-artifact",
                 "name": "Order Artifact",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9SdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/47a41c9782/Rune13.png",
-                "category": "Expedition"
+                "category": "Expedition",
+                "detailsId": "order-artifact"
             },
             "rate": {
                 "divine": 1220,
-                "exalted": 7.154248442825244,
-                "chaos": 91.17037037037036
+                "exalted": 6.87,
+                "chaos": 91.99
             },
             "sparklines": {},
             "volumes": {
-                "divine": 203.33333333333334,
-                "exalted": 20291.833333333332,
-                "chaos": 2051.3333333333335
+                "divine": 203.3,
+                "exalted": 21640,
+                "chaos": 2070
             },
-            "primaryValue": 7.828895389287622e-05,
-            "volumePrimaryValue": 1.588626404235262,
+            "primaryValue": 8.267e-05,
+            "volumePrimaryValue": 1.79,
             "maxVolumeCurrency": "exalted"
         }
     ]

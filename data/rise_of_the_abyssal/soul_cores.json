@@ -4,19 +4,22 @@
             "id": "divine",
             "name": "Divine Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "divine-orb"
         },
         {
             "id": "exalted",
             "name": "Exalted Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "exalted-orb"
         },
         {
             "id": "chaos",
             "name": "Chaos Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "chaos-orb"
         }
     ],
     "items": [
@@ -25,19 +28,20 @@
                 "id": "atmohuas-soul-core-of-retreat",
                 "name": "Atmohua's Soul Core of Retreat",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRW5lcmd5U2hpZWxkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/10e16bc3ea/NewSoulCoreEnergyShield.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "atmohuas-soul-core-of-retreat"
             },
             "rate": {
-                "exalted": 0.014798435108011567,
-                "chaos": 0.34375
+                "exalted": 0.01521,
+                "chaos": 0.3239
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 14.5,
-                "chaos": 3.6666666666666665
+                "exalted": 14.67,
+                "chaos": 3.83
             },
-            "primaryValue": 0.03784850373640529,
-            "volumePrimaryValue": 0.5488033041778767,
+            "primaryValue": 0.03733,
+            "volumePrimaryValue": 0.5475,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -45,19 +49,22 @@
                 "id": "citaqualotls-soul-core-of-foulness",
                 "name": "Citaqualotl's Soul Core of Foulness",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlQ2hhb3MyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/002059f8f5/NewSoulCoreChaos2.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "citaqualotls-soul-core-of-foulness"
             },
             "rate": {
-                "exalted": 0.11636363636363636,
+                "divine": 2,
+                "exalted": 0.1025,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 5.333333333333333,
-                "chaos": 0.16666666666666666
+                "divine": 1.67,
+                "exalted": 4.83,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.004813347571299842,
-            "volumePrimaryValue": 0.025671187046932487,
+            "primaryValue": 0.005541,
+            "volumePrimaryValue": 0.02678,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -65,21 +72,22 @@
                 "id": "quipolatls-soul-core-of-flow",
                 "name": "Quipolatl's Soul Core of Flow",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlVGltZUNvb2xkb3duIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dab6d943f3/NewSoulCoreTimeCooldown.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "quipolatls-soul-core-of-flow"
             },
             "rate": {
-                "divine": 2,
-                "exalted": 0.023625624716038164,
-                "chaos": 0.3333333333333333
+                "divine": 2.67,
+                "exalted": 0.02269,
+                "chaos": 0.3594
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.3333333333333333,
-                "exalted": 8.666666666666666,
-                "chaos": 2.1666666666666665
+                "divine": 1.33,
+                "exalted": 11.33,
+                "chaos": 3.83
             },
-            "primaryValue": 0.023707251478446885,
-            "volumePrimaryValue": 0.20546284614653965,
+            "primaryValue": 0.02502,
+            "volumePrimaryValue": 0.2836,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -87,65 +95,68 @@
                 "id": "soul-core-of-azcapa",
                 "name": "Soul Core of Azcapa",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVdlYWx0aFJhcml0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6a69033a04/GreaterSoulCoreWealthRarity.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-azcapa"
             },
             "rate": {
-                "divine": 3.6153846153846154,
-                "exalted": 0.0027909738717339667,
-                "chaos": 0.12189616252821671
+                "divine": 3.95,
+                "exalted": 0.002626,
+                "chaos": 0.1178
             },
             "sparklines": {},
             "volumes": {
-                "divine": 7.833333333333333,
-                "exalted": 7.833333333333333,
-                "chaos": 9
+                "divine": 12.5,
+                "exalted": 9.67,
+                "chaos": 8.17
             },
-            "primaryValue": 0.27757831635636787,
-            "volumePrimaryValue": 2.498204847207311,
-            "maxVolumeCurrency": "chaos"
+            "primaryValue": 0.2533,
+            "volumePrimaryValue": 3.17,
+            "maxVolumeCurrency": "divine"
         },
         {
             "item": {
                 "id": "soul-core-of-citaqualotl",
                 "name": "Soul Core of Citaqualotl",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUVsZW1lbnRhbFJlc2lzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b8926e8826/GreaterSoulCoreElementalResist.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-citaqualotl"
             },
             "rate": {
-                "divine": 6.7894736842105265,
-                "exalted": 0.006606289932386328,
-                "chaos": 0.23983315954118875
+                "divine": 6.9,
+                "exalted": 0.006773,
+                "chaos": 0.2368
             },
             "sparklines": {},
             "volumes": {
-                "divine": 21.5,
-                "exalted": 35.5,
-                "chaos": 38.333333333333336
+                "divine": 23,
+                "exalted": 39.83,
+                "chaos": 39.5
             },
-            "primaryValue": 0.14108028943793174,
-            "volumePrimaryValue": 5.408077761787384,
-            "maxVolumeCurrency": "chaos"
+            "primaryValue": 0.08382,
+            "volumePrimaryValue": 3.34,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
                 "id": "soul-core-of-jiquani",
                 "name": "Soul Core of Jiquani",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb83a9f337/GreaterSoulCoreLife.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-jiquani"
             },
             "rate": {
-                "divine": 0.1548791405550582,
-                "exalted": 0.0002325311010347634,
-                "chaos": 0.005529225908372828
+                "divine": 0.1545,
+                "exalted": 0.000229,
+                "chaos": 0.005509
             },
             "sparklines": {},
             "volumes": {
-                "divine": 57.666666666666664,
-                "exalted": 0.3333333333333333,
-                "chaos": 3.5
+                "divine": 59.17,
+                "exalted": 0.5,
+                "chaos": 3.17
             },
-            "primaryValue": 6.456647398843931,
-            "volumePrimaryValue": 372.3333333333333,
+            "primaryValue": 6.47,
+            "volumePrimaryValue": 383.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -153,21 +164,22 @@
                 "id": "soul-core-of-opiloti",
                 "name": "Soul Core of Opiloti",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVBoeXNpY2FsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/366f87b8f2/GreaterSoulCorePhysical.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-opiloti"
             },
             "rate": {
-                "divine": 8.0625,
-                "exalted": 0.011268659819535115,
-                "chaos": 0.45016077170418006
+                "divine": 8.28,
+                "exalted": 0.01166,
+                "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "divine": 21.5,
-                "exalted": 45.166666666666664,
-                "chaos": 23.333333333333332
+                "divine": 24.83,
+                "exalted": 50.33,
+                "chaos": 23.5
             },
-            "primaryValue": 0.04970410283462028,
-            "volumePrimaryValue": 2.244968644697016,
+            "primaryValue": 0.04868,
+            "volumePrimaryValue": 2.45,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -175,21 +187,22 @@
                 "id": "soul-core-of-puhuarte",
                 "name": "Soul Core of Puhuarte",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUZpcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6390ebeaa6/GreaterSoulCoreFire.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-puhuarte"
             },
             "rate": {
                 "divine": 10,
-                "exalted": 0.012648809523809524,
-                "chaos": 0.5714285714285714
+                "exalted": 0.01482,
+                "chaos": 0.6977
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5,
+                "divine": 3.33,
                 "exalted": 8.5,
-                "chaos": 4.666666666666667
+                "chaos": 5
             },
-            "primaryValue": 0.044280738469831785,
-            "volumePrimaryValue": 0.37638627699357013,
+            "primaryValue": 0.03832,
+            "volumePrimaryValue": 0.3257,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -197,21 +210,22 @@
                 "id": "soul-core-of-tacati",
                 "name": "Soul Core of Tacati",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNoYW9zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cd9c4fb0a7/GreaterSoulCoreChaos.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-tacati"
             },
             "rate": {
-                "divine": 5.486486486486487,
-                "exalted": 0.0038644625688780557,
-                "chaos": 0.18788215675375208
+                "divine": 5.42,
+                "exalted": 0.003736,
+                "chaos": 0.1815
             },
             "sparklines": {},
             "volumes": {
-                "divine": 67.66666666666667,
-                "exalted": 61.833333333333336,
-                "chaos": 56.333333333333336
+                "divine": 70.5,
+                "exalted": 64.67,
+                "chaos": 60
             },
-            "primaryValue": 0.18226600985221675,
-            "volumePrimaryValue": 12.333333333333334,
+            "primaryValue": 0.1844,
+            "volumePrimaryValue": 13.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -219,21 +233,22 @@
                 "id": "soul-core-of-ticaba",
                 "name": "Soul Core of Ticaba",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b453416064/GreaterSoulCoreCrit.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-ticaba"
             },
             "rate": {
-                "divine": 6.636363636363637,
-                "exalted": 0.00991150442477876,
-                "chaos": 0.3787878787878788
+                "divine": 6.64,
+                "exalted": 0.01016,
+                "chaos": 0.3488
             },
             "sparklines": {},
             "volumes": {
-                "divine": 12.166666666666666,
-                "exalted": 9.333333333333334,
-                "chaos": 4.166666666666667
+                "divine": 12.17,
+                "exalted": 10.33,
+                "chaos": 5
             },
-            "primaryValue": 0.1506849315068493,
-            "volumePrimaryValue": 1.8333333333333333,
+            "primaryValue": 0.1507,
+            "volumePrimaryValue": 1.83,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -241,21 +256,22 @@
                 "id": "soul-core-of-topotante",
                 "name": "Soul Core of Topotante",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVRyaUVsZW1lbnQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ae7a949b3a/GreaterSoulCoreTriElement.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-topotante"
             },
             "rate": {
-                "divine": 6.625,
-                "exalted": 0.010932944606413994,
-                "chaos": 0.3569553805774278
+                "divine": 6.88,
+                "exalted": 0.01117,
+                "chaos": 0.3866
             },
             "sparklines": {},
             "volumes": {
-                "divine": 26.5,
-                "exalted": 52.5,
-                "chaos": 22.666666666666668
+                "divine": 29.83,
+                "exalted": 56.17,
+                "chaos": 22.17
             },
-            "primaryValue": 0.05123035436856927,
-            "volumePrimaryValue": 2.6895936043498865,
+            "primaryValue": 0.05085,
+            "volumePrimaryValue": 2.86,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -263,61 +279,83 @@
                 "id": "soul-core-of-zantipi",
                 "name": "Soul Core of Zantipi",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZWludCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bf932f7001/GreaterSoulCoreint.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-zantipi"
             },
             "rate": {
-                "divine": 5.444444444444445,
-                "exalted": 0.008611410118406888,
-                "chaos": 0.6363636363636364
+                "divine": 5.2,
+                "exalted": 0.007634,
+                "chaos": 0.4706
             },
             "sparklines": {},
             "volumes": {
-                "divine": 8.166666666666666,
-                "exalted": 2.6666666666666665,
-                "chaos": 1.1666666666666667
+                "divine": 8.67,
+                "exalted": 3,
+                "chaos": 1.33
             },
-            "primaryValue": 0.1836734693877551,
-            "volumePrimaryValue": 1.5,
+            "primaryValue": 0.1923,
+            "volumePrimaryValue": 1.67,
             "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "topotantes-soul-core-of-dampening",
+                "name": "Topotante's Soul Core of Dampening",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3657368a8c/NewSoulCoreFire.png",
+                "category": "Ultimatum",
+                "detailsId": "topotantes-soul-core-of-dampening"
+            },
+            "rate": {
+                "exalted": 0.0554,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 3.33,
+                "chaos": 0.1667
+            },
+            "primaryValue": 0.01025,
+            "volumePrimaryValue": 0.03416,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
                 "id": "xopecs-soul-core-of-power",
                 "name": "Xopec's Soul Core of Power",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlUG93ZXJDaGFyZ2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/083d39a63b/NewSoulCorePowerCharge.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "xopecs-soul-core-of-power"
             },
             "rate": {
-                "divine": 9,
-                "exalted": 0.0297029702970297,
-                "chaos": 0.11864406779661017
+                "exalted": 0.03266,
+                "chaos": 0.125
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.5,
-                "exalted": 1.5,
-                "chaos": 1.1666666666666667
+                "exalted": 2.17,
+                "chaos": 1
             },
-            "primaryValue": 0.1111111111111111,
-            "volumePrimaryValue": 0.16666666666666666,
-            "maxVolumeCurrency": "divine"
+            "primaryValue": 0.01738,
+            "volumePrimaryValue": 0.03766,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
                 "id": "cholotls-soul-core-of-war",
                 "name": "Cholotl's Soul Core of War",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlUHJvamVjdGlsZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dfc35bed7f/NewSoulCoreProjectile.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "cholotls-soul-core-of-war"
             },
             "rate": {
-                "exalted": 0.09302325581395349
+                "exalted": 0.09244
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6
+                "exalted": 5.5
             },
-            "primaryValue": 0.006021060234644165,
-            "volumePrimaryValue": 0.036126361407864994,
+            "primaryValue": 0.006142,
+            "volumePrimaryValue": 0.03378,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -325,21 +363,22 @@
                 "id": "estazuntis-soul-core-of-convalescence",
                 "name": "Estazunti's Soul Core of Convalescence",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlVGltZVNsb3ciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c32a5b3a47/NewSoulCoreTimeSlow.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "estazuntis-soul-core-of-convalescence"
             },
             "rate": {
-                "divine": 8.5,
-                "exalted": 0.009268136784915308,
-                "chaos": 0.21739130434782608
+                "divine": 5.75,
+                "exalted": 0.008819,
+                "chaos": 0.2125
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.8333333333333335,
-                "exalted": 9.666666666666666,
-                "chaos": 2.5
+                "divine": 3.83,
+                "exalted": 9.5,
+                "chaos": 2.83
             },
-            "primaryValue": 0.060432710422459,
-            "volumePrimaryValue": 0.5841828674171037,
+            "primaryValue": 0.06438,
+            "volumePrimaryValue": 0.6116,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -347,17 +386,18 @@
                 "id": "guatelitzis-soul-core-of-endurance",
                 "name": "Guatelitzi's Soul Core of Endurance",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRW5kdXJhbmNlQ2hhcmdlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8da8c1e799/NewSoulCoreEnduranceCharge.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "guatelitzis-soul-core-of-endurance"
             },
             "rate": {
-                "exalted": 0.043478260869565216
+                "exalted": 0.06122
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.3333333333333333
+                "exalted": 0.5
             },
-            "primaryValue": 0.012882268409006121,
-            "volumePrimaryValue": 0.004294089469668707,
+            "primaryValue": 0.009273,
+            "volumePrimaryValue": 0.004637,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -365,19 +405,20 @@
                 "id": "hayoxis-soul-core-of-heatproofing",
                 "name": "Hayoxi's Soul Core of Heatproofing",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlSWNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d8455bff0/NewSoulCoreIce.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "hayoxis-soul-core-of-heatproofing"
             },
             "rate": {
-                "exalted": 0.04619565217391304,
+                "exalted": 0.04657,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.8333333333333335,
-                "chaos": 0.3333333333333333
+                "exalted": 3.17,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.012124487914358703,
-            "volumePrimaryValue": 0.034352715757349654,
+            "primaryValue": 0.01219,
+            "volumePrimaryValue": 0.03861,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -385,21 +426,22 @@
                 "id": "opilotis-soul-core-of-assault",
                 "name": "Opiloti's Soul Core of Assault",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRnJlbnp5Q2hhcmdlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ce5c1bdfdc/NewSoulCoreFrenzyCharge.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "opilotis-soul-core-of-assault"
             },
             "rate": {
                 "divine": 6,
                 "exalted": 1,
-                "chaos": 0.11538461538461539
+                "chaos": 0.1034
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2,
-                "exalted": 1.6666666666666667,
-                "chaos": 0.5
+                "exalted": 1.67,
+                "chaos": 1
             },
-            "primaryValue": 0.16666666666666666,
-            "volumePrimaryValue": 0.3333333333333333,
+            "primaryValue": 0.1667,
+            "volumePrimaryValue": 0.3333,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -407,19 +449,20 @@
                 "id": "soul-core-of-atmohua",
                 "name": "Soul Core of Atmohua",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVN0cmVuZ3RoIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1b37135049/GreaterSoulCoreStrength.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-atmohua"
             },
             "rate": {
-                "exalted": 0.014242555028053518,
-                "chaos": 0.25
+                "exalted": 0.01553,
+                "chaos": 0.1111
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 5.5,
-                "chaos": 0.16666666666666666
+                "exalted": 5.83,
+                "chaos": 1.33
             },
-            "primaryValue": 0.039325712653052944,
-            "volumePrimaryValue": 0.21629141959179118,
+            "primaryValue": 0.03656,
+            "volumePrimaryValue": 0.2133,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -427,20 +470,21 @@
                 "id": "soul-core-of-cholotl",
                 "name": "Soul Core of Cholotl",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZURleCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c732c8a579/GreaterSoulCoreDex.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-cholotl"
             },
             "rate": {
                 "divine": 6,
-                "exalted": 0.009829430471234461,
-                "chaos": 0.3958333333333333
+                "exalted": 0.01022,
+                "chaos": 0.3936
             },
             "sparklines": {},
             "volumes": {
                 "divine": 9,
-                "exalted": 5.666666666666667,
-                "chaos": 6.333333333333333
+                "exalted": 6.17,
+                "chaos": 6.17
             },
-            "primaryValue": 0.16666666666666666,
+            "primaryValue": 0.1667,
             "volumePrimaryValue": 1.5,
             "maxVolumeCurrency": "divine"
         },
@@ -449,21 +493,22 @@
                 "id": "soul-core-of-quipolatl",
                 "name": "Soul Core of Quipolatl",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZVNwZWVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d4967ad0f1/GreaterSoulCoreSpeed.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-quipolatl"
             },
             "rate": {
-                "divine": 4.357142857142857,
-                "exalted": 0.004327083102185732,
-                "chaos": 0.1452513966480447
+                "divine": 4.47,
+                "exalted": 0.00398,
+                "chaos": 0.1418
             },
             "sparklines": {},
             "volumes": {
-                "divine": 10.166666666666666,
-                "exalted": 6.5,
-                "chaos": 8.666666666666666
+                "divine": 11.17,
+                "exalted": 7.33,
+                "chaos": 9.83
             },
-            "primaryValue": 0.22950819672131148,
-            "volumePrimaryValue": 2.3333333333333335,
+            "primaryValue": 0.2239,
+            "volumePrimaryValue": 2.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -471,21 +516,22 @@
                 "id": "soul-core-of-tzamoto",
                 "name": "Soul Core of Tzamoto",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNvbGQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d437c04d5e/GreaterSoulCoreCold.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-tzamoto"
             },
             "rate": {
                 "divine": 10,
-                "exalted": 0.01144114411441144,
-                "chaos": 0.8
+                "exalted": 0.01175,
+                "chaos": 0.7727
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.3333333333333335,
-                "exalted": 8.666666666666666,
-                "chaos": 3.3333333333333335
+                "divine": 3.33,
+                "exalted": 10.5,
+                "chaos": 2.83
             },
-            "primaryValue": 0.04895477417970972,
-            "volumePrimaryValue": 0.4242747095574842,
+            "primaryValue": 0.0483,
+            "volumePrimaryValue": 0.5072,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -493,21 +539,22 @@
                 "id": "soul-core-of-xopec",
                 "name": "Soul Core of Xopec",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUxpZ2h0bmluZyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3dffadfa9a/GreaterSoulCoreLightning.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-xopec"
             },
             "rate": {
                 "divine": 7.75,
-                "exalted": 0.013927576601671309,
-                "chaos": 0.7105263157894737
+                "exalted": 0.01463,
+                "chaos": 0.75
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5.166666666666667,
-                "exalted": 4.166666666666667,
+                "divine": 5.17,
+                "exalted": 4.33,
                 "chaos": 4.5
             },
-            "primaryValue": 0.12903225806451613,
-            "volumePrimaryValue": 0.6666666666666666,
+            "primaryValue": 0.129,
+            "volumePrimaryValue": 0.6667,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -515,20 +562,21 @@
                 "id": "soul-core-of-zalatl",
                 "name": "Soul Core of Zalatl",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZU1hbmEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1437190de2/GreaterSoulCoreMana.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "soul-core-of-zalatl"
             },
             "rate": {
-                "divine": 4.666666666666667,
-                "exalted": 0.00893225230177271,
-                "chaos": 0.32456140350877194
+                "divine": 5,
+                "exalted": 0.009007,
+                "chaos": 0.3333
             },
             "sparklines": {},
             "volumes": {
-                "divine": 11.666666666666666,
-                "exalted": 10.833333333333334,
-                "chaos": 6.166666666666667
+                "divine": 12.5,
+                "exalted": 11.83,
+                "chaos": 7
             },
-            "primaryValue": 0.21428571428571427,
+            "primaryValue": 0.2,
             "volumePrimaryValue": 2.5,
             "maxVolumeCurrency": "divine"
         },
@@ -537,39 +585,18 @@
                 "id": "tacatis-soul-core-of-affliction",
                 "name": "Tacati's Soul Core of Affliction",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlQ2hhb3MxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/276b585906/NewSoulCoreChaos1.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "tacatis-soul-core-of-affliction"
             },
             "rate": {
-                "exalted": 0.12048192771084337,
-                "chaos": 2
+                "exalted": 0.1209
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.6666666666666667,
-                "chaos": 0.3333333333333333
+                "exalted": 1.83
             },
-            "primaryValue": 0.004648818599771774,
-            "volumePrimaryValue": 0.0077480309996196236,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "topotantes-soul-core-of-dampening",
-                "name": "Topotante's Soul Core of Dampening",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlRmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3657368a8c/NewSoulCoreFire.png",
-                "category": "Ultimatum"
-            },
-            "rate": {
-                "exalted": 0.05555555555555555,
-                "chaos": 0.5
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 3.1666666666666665,
-                "chaos": 0.16666666666666666
-            },
-            "primaryValue": 0.010081775276613487,
-            "volumePrimaryValue": 0.03192562170927604,
+            "primaryValue": 0.004697,
+            "volumePrimaryValue": 0.008611,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -577,21 +604,22 @@
                 "id": "tzamotos-soul-core-of-ferocity",
                 "name": "Tzamoto's Soul Core of Ferocity",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlUmFnZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7bbacc1706/NewSoulCoreRage.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "tzamotos-soul-core-of-ferocity"
             },
             "rate": {
                 "divine": 2,
-                "exalted": 0.012032770097286226,
-                "chaos": 0.13259668508287292
+                "exalted": 0.01371,
+                "chaos": 0.1371
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1,
-                "exalted": 7.833333333333333,
-                "chaos": 8
+                "divine": 1.33,
+                "exalted": 8.33,
+                "chaos": 8.5
             },
-            "primaryValue": 0.25517780888517116,
-            "volumePrimaryValue": 2.0414224710813693,
+            "primaryValue": 0.2476,
+            "volumePrimaryValue": 2.1,
             "maxVolumeCurrency": "chaos"
         },
         {
@@ -599,21 +627,22 @@
                 "id": "uromotis-soul-core-of-attenuation",
                 "name": "Uromoti's Soul Core of Attenuation",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlQ3Vyc2VzMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/25919ac93d/NewSoulCoreCurses2.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "uromotis-soul-core-of-attenuation"
             },
             "rate": {
                 "divine": 3,
-                "exalted": 0.14925373134328357,
-                "chaos": 0.18181818181818182
+                "exalted": 0.09091,
+                "chaos": 0.1818
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.5,
-                "exalted": 1.6666666666666667,
-                "chaos": 0.3333333333333333
+                "exalted": 2.5,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.003752660797406131,
-            "volumePrimaryValue": 0.006254434662343551,
+            "primaryValue": 0.006245,
+            "volumePrimaryValue": 0.01561,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -621,17 +650,18 @@
                 "id": "xipocados-soul-core-of-dominion",
                 "name": "Xipocado's Soul Core of Dominion",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlTWluaW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b1e7975db2/NewSoulCoreMinion.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "xipocados-soul-core-of-dominion"
             },
             "rate": {
-                "exalted": 0.7142857142857143
+                "exalted": 2.33
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.5
+                "exalted": 1.17
             },
-            "primaryValue": 0.0007841380770699378,
-            "volumePrimaryValue": 0.0019603451926748445,
+            "primaryValue": 0.0002433,
+            "volumePrimaryValue": 0.0002839,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -639,19 +669,20 @@
                 "id": "zalatls-soul-core-of-insulation",
                 "name": "Zalatl's Soul Core of Insulation",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL05ld1NvdWxDb3JlTGlnaHRuaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/80c455f775/NewSoulCoreLightning.png",
-                "category": "Ultimatum"
+                "category": "Ultimatum",
+                "detailsId": "zalatls-soul-core-of-insulation"
             },
             "rate": {
-                "exalted": 0.10810810810810811,
-                "chaos": 0.6666666666666666
+                "exalted": 0.06696,
+                "chaos": 0.6667
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 3.3333333333333335,
-                "chaos": 0.3333333333333333
+                "exalted": 2.5,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.005180912294926375,
-            "volumePrimaryValue": 0.017269707649754582,
+            "primaryValue": 0.008479,
+            "volumePrimaryValue": 0.0212,
             "maxVolumeCurrency": "exalted"
         }
     ]

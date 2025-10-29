@@ -4,19 +4,22 @@
             "id": "divine",
             "name": "Divine Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "divine-orb"
         },
         {
             "id": "exalted",
             "name": "Exalted Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "exalted-orb"
         },
         {
             "id": "chaos",
             "name": "Chaos Orb",
             "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-            "category": "Currency"
+            "category": "Currency",
+            "detailsId": "chaos-orb"
         }
     ],
     "items": [
@@ -25,21 +28,22 @@
                 "id": "concentrated-liquid-isolation",
                 "name": "Concentrated Liquid Isolation",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvQ29uY2VudHJhdGVkRGlzdGlsbGVkSXNvbGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/44ca2d19b9/ConcentratedDistilledIsolation.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "concentrated-liquid-isolation"
             },
             "rate": {
-                "divine": 5.643356643356643,
-                "exalted": 0.00604350696300022,
-                "chaos": 0.18890772584160814
+                "divine": 5.92,
+                "exalted": 0.005948,
+                "chaos": 0.1882
             },
             "sparklines": {},
             "volumes": {
-                "divine": 538,
-                "exalted": 384.5,
+                "divine": 660.8,
+                "exalted": 394,
                 "chaos": 130
             },
-            "primaryValue": 0.1771995043370508,
-            "volumePrimaryValue": 95.33333333333333,
+            "primaryValue": 0.169,
+            "volumePrimaryValue": 111.7,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -47,21 +51,22 @@
                 "id": "concentrated-liquid-suffering",
                 "name": "Concentrated Liquid Suffering",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvQ29uY2VudHJhdGVkRGlzdGlsbGVkU3VmZmVyaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/10b12c3875/ConcentratedDistilledSuffering.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "concentrated-liquid-suffering"
             },
             "rate": {
-                "divine": 23.535211267605632,
-                "exalted": 0.019500426036379803,
-                "chaos": 0.6229802513464991
+                "divine": 24.11,
+                "exalted": 0.01975,
+                "chaos": 0.6302
             },
             "sparklines": {},
             "volumes": {
-                "divine": 557,
-                "exalted": 701.8333333333334,
-                "chaos": 173.5
+                "divine": 530.5,
+                "exalted": 621.5,
+                "chaos": 183.5
             },
-            "primaryValue": 0.028722378958983386,
-            "volumePrimaryValue": 20.158322966046505,
+            "primaryValue": 0.02875,
+            "volumePrimaryValue": 17.87,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -69,21 +74,22 @@
                 "id": "diluted-liquid-ire",
                 "name": "Diluted Liquid Ire",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlsdXRlZERpc3RpbGxlZElyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/623d6e522b/DilutedDistilledIre.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "diluted-liquid-ire"
             },
             "rate": {
-                "divine": 4965.333333333333,
-                "exalted": 14.701580396695535,
-                "chaos": 256.99
+                "divine": 5565,
+                "exalted": 14.75,
+                "chaos": 273.9
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2482.6666666666665,
-                "exalted": 122792.5,
-                "chaos": 8566.333333333334
+                "divine": 2783,
+                "exalted": 126579,
+                "chaos": 12098
             },
-            "primaryValue": 3.809785148026807e-05,
-            "volumePrimaryValue": 4.678130427890817,
+            "primaryValue": 3.848e-05,
+            "volumePrimaryValue": 4.87,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -91,21 +97,22 @@
                 "id": "liquid-despair",
                 "name": "Liquid Despair",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGVzcGFpciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c676bf7dae/DistilledDespair.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "liquid-despair"
             },
             "rate": {
-                "divine": 183.43478260869566,
-                "exalted": 0.17687333586915177,
-                "chaos": 7.917948717948718
+                "divine": 203.2,
+                "exalted": 0.1824,
+                "chaos": 6.92
             },
             "sparklines": {},
             "volumes": {
-                "divine": 703.1666666666666,
-                "exalted": 3487.5,
-                "chaos": 257.3333333333333
+                "divine": 812.8,
+                "exalted": 3626,
+                "chaos": 315.8
             },
-            "primaryValue": 0.003166665137660317,
-            "volumePrimaryValue": 11.043744667590357,
+            "primaryValue": 0.003112,
+            "volumePrimaryValue": 11.28,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -113,21 +120,22 @@
                 "id": "liquid-envy",
                 "name": "Liquid Envy",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRW52eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/abf219916e/DistilledEnvy.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "liquid-envy"
             },
             "rate": {
-                "divine": 123.39213349225268,
-                "exalted": 0.15327373728266974,
-                "chaos": 4.295282224094356
+                "divine": 123.5,
+                "exalted": 0.1507,
+                "chaos": 4.16
             },
             "sparklines": {},
             "volumes": {
-                "divine": 17254.333333333332,
-                "exalted": 14734,
-                "chaos": 1699.5
+                "divine": 16427,
+                "exalted": 14223,
+                "chaos": 1878
             },
-            "primaryValue": 0.008104244344415895,
-            "volumePrimaryValue": 139.83333333333334,
+            "primaryValue": 0.008096,
+            "volumePrimaryValue": 133.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -135,21 +143,22 @@
                 "id": "liquid-paranoia",
                 "name": "Liquid Paranoia",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkUGFyYW5vaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/279e807e8f/DistilledParanoia.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "liquid-paranoia"
             },
             "rate": {
-                "divine": 199.30156472261734,
-                "exalted": 0.248543981572369,
-                "chaos": 6.503754693366709
+                "divine": 203.5,
+                "exalted": 0.2456,
+                "chaos": 6.53
             },
             "sparklines": {},
             "volumes": {
-                "divine": 23351.5,
-                "exalted": 25320.666666666668,
-                "chaos": 3464.3333333333335
+                "divine": 18585,
+                "exalted": 26000,
+                "chaos": 3749
             },
-            "primaryValue": 0.002253519167654607,
-            "volumePrimaryValue": 57.06060767112642,
+            "primaryValue": 0.002311,
+            "volumePrimaryValue": 60.1,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -157,21 +166,22 @@
                 "id": "concentrated-liquid-fear",
                 "name": "Concentrated Liquid Fear",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvQ29uY2VudHJhdGVkRGlzdGlsbGVkRmVhciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c3300fcdf/ConcentratedDistilledFear.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "concentrated-liquid-fear"
             },
             "rate": {
-                "divine": 40.377990430622006,
-                "exalted": 0.030728862973760932,
-                "chaos": 1.1038401253918495
+                "divine": 41.38,
+                "exalted": 0.03182,
+                "chaos": 1.12
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1406.5,
-                "exalted": 1493.1666666666667,
-                "chaos": 469.5
+                "divine": 1441,
+                "exalted": 1515,
+                "chaos": 462.7
             },
-            "primaryValue": 0.018227118489766107,
-            "volumePrimaryValue": 27.216125758302425,
+            "primaryValue": 0.01784,
+            "volumePrimaryValue": 27.03,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -179,21 +189,22 @@
                 "id": "diluted-liquid-greed",
                 "name": "Diluted Liquid Greed",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlsdXRlZERpc3RpbGxlZEdyZWVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ddec210bbb/DilutedDistilledGreed.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "diluted-liquid-greed"
             },
             "rate": {
-                "divine": 1463.3023255813953,
-                "exalted": 2.325272516243284,
-                "chaos": 68.26822157434403
+                "divine": 1496,
+                "exalted": 2.7,
+                "chaos": 60.05
             },
             "sparklines": {},
             "volumes": {
-                "divine": 10487,
-                "exalted": 32388.333333333332,
-                "chaos": 3902.6666666666665
+                "divine": 9224,
+                "exalted": 32962,
+                "chaos": 3693
             },
-            "primaryValue": 0.0002408744018457775,
-            "volumePrimaryValue": 7.801520418448323,
+            "primaryValue": 0.0002099,
+            "volumePrimaryValue": 6.92,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -201,21 +212,22 @@
                 "id": "diluted-liquid-guilt",
                 "name": "Diluted Liquid Guilt",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlsdXRlZERpc3RpbGxlZEd1aWx0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ddbd513a9b/DilutedDistilledGuilt.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "diluted-liquid-guilt"
             },
             "rate": {
-                "divine": 386.8221859706362,
-                "exalted": 0.31275331829126574,
-                "chaos": 9.043816200563896
+                "divine": 409.1,
+                "exalted": 0.3231,
+                "chaos": 8.99
             },
             "sparklines": {},
             "volumes": {
-                "divine": 39520.333333333336,
-                "exalted": 52973.166666666664,
-                "chaos": 19780.333333333332
+                "divine": 39614,
+                "exalted": 52786,
+                "chaos": 19728
             },
-            "primaryValue": 0.0017908638972677813,
-            "volumePrimaryValue": 94.86773170728239,
+            "primaryValue": 0.001757,
+            "volumePrimaryValue": 92.77,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -223,21 +235,22 @@
                 "id": "liquid-disgust",
                 "name": "Liquid Disgust",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGlzZ3VzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f462426de0/DistilledDisgust.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "liquid-disgust"
             },
             "rate": {
-                "divine": 21.698060075093867,
-                "exalted": 0.019215644745666983,
-                "chaos": 0.7312173563680193
+                "divine": 22.28,
+                "exalted": 0.02032,
+                "chaos": 0.7399
             },
             "sparklines": {},
             "volumes": {
-                "divine": 11557.833333333334,
-                "exalted": 6804.5,
-                "chaos": 2123.3333333333335
+                "divine": 11154,
+                "exalted": 6947,
+                "chaos": 2055
             },
-            "primaryValue": 0.04608706937574805,
-            "volumePrimaryValue": 532.6666666666666,
+            "primaryValue": 0.04489,
+            "volumePrimaryValue": 500.7,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -245,21 +258,22 @@
                 "id": "simulacrum-splinter",
                 "name": "Simulacrum Splinter",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81906b3522/DeliriumSplinter.png",
-                "category": "Delirium"
+                "category": "Delirium",
+                "detailsId": "simulacrum-splinter"
             },
             "rate": {
-                "divine": 299.3763503407013,
-                "exalted": 0.20868767098657104,
-                "chaos": 11.592970953724175
+                "divine": 298.5,
+                "exalted": 0.2219,
+                "chaos": 11.48
             },
             "sparklines": {},
             "volumes": {
-                "divine": 600449.1666666666,
-                "exalted": 190345.83333333334,
-                "chaos": 101376.66666666667
+                "divine": 621255,
+                "exalted": 226204,
+                "chaos": 100528
             },
-            "primaryValue": 0.003340277209144821,
-            "volumePrimaryValue": 2005.6666666666667,
+            "primaryValue": 0.00335,
+            "volumePrimaryValue": 2081,
             "maxVolumeCurrency": "divine"
         }
     ]
