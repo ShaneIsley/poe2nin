@@ -25,6 +25,29 @@
     "items": [
         {
             "item": {
+                "id": "uncut-skill-gem-12",
+                "name": "Uncut Skill Gem (Level 12)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
+                "category": "UncutGems",
+                "detailsId": "uncut-skill-gem-(level-12)"
+            },
+            "rate": {
+                "divine": 16,
+                "exalted": 0.9892,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 2.67,
+                "exalted": 45.67,
+                "chaos": 0.1667
+            },
+            "primaryValue": 0.000587,
+            "volumePrimaryValue": 0.02681,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
                 "id": "uncut-skill-gem-14",
                 "name": "Uncut Skill Gem (Level 14)",
                 "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
@@ -32,16 +55,18 @@
                 "detailsId": "uncut-skill-gem-(level-14)"
             },
             "rate": {
-                "exalted": 0.2897,
-                "chaos": 1.54
+                "divine": 30,
+                "exalted": 0.2964,
+                "chaos": 1.46
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 92.5,
-                "chaos": 6.17
+                "divine": 5,
+                "exalted": 84.33,
+                "chaos": 5.83
             },
-            "primaryValue": 0.002019,
-            "volumePrimaryValue": 0.1867,
+            "primaryValue": 0.001959,
+            "volumePrimaryValue": 0.1652,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -53,16 +78,16 @@
                 "detailsId": "uncut-skill-gem-(level-15)"
             },
             "rate": {
-                "exalted": 0.2928,
-                "chaos": 1
+                "exalted": 0.3151,
+                "chaos": 1.05
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 38.17,
-                "chaos": 3.5
+                "exalted": 40.33,
+                "chaos": 3.67
             },
-            "primaryValue": 0.001997,
-            "volumePrimaryValue": 0.07621,
+            "primaryValue": 0.001843,
+            "volumePrimaryValue": 0.07432,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -75,17 +100,17 @@
             },
             "rate": {
                 "divine": 50,
-                "exalted": 0.8739,
-                "chaos": 2.24
+                "exalted": 0.4761,
+                "chaos": 2.48
             },
             "sparklines": {},
             "volumes": {
                 "divine": 8.33,
-                "exalted": 121.3,
-                "chaos": 9.33
+                "exalted": 122.8,
+                "chaos": 8.67
             },
-            "primaryValue": 0.0006691,
-            "volumePrimaryValue": 0.08118,
+            "primaryValue": 0.00122,
+            "volumePrimaryValue": 0.1498,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -97,18 +122,18 @@
                 "detailsId": "uncut-skill-gem-(level-19)"
             },
             "rate": {
-                "divine": 21.82,
-                "exalted": 0.2602,
-                "chaos": 1.87
+                "divine": 18.75,
+                "exalted": 0.271,
+                "chaos": 1.21
             },
             "sparklines": {},
             "volumes": {
-                "divine": 61.83,
-                "exalted": 400.5,
-                "chaos": 67.67
+                "divine": 50,
+                "exalted": 396.5,
+                "chaos": 45.83
             },
-            "primaryValue": 0.002247,
-            "volumePrimaryValue": 0.8999,
+            "primaryValue": 0.002143,
+            "volumePrimaryValue": 0.8497,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -120,18 +145,16 @@
                 "detailsId": "uncut-skill-gem-(level-6)"
             },
             "rate": {
-                "divine": 5,
-                "exalted": 0.08149,
+                "exalted": 0.1084,
                 "chaos": 0.125
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.8333,
-                "exalted": 11.67,
+                "exalted": 13.5,
                 "chaos": 0.1667
             },
-            "primaryValue": 0.007175,
-            "volumePrimaryValue": 0.08371,
+            "primaryValue": 0.005355,
+            "volumePrimaryValue": 0.07229,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -144,17 +167,17 @@
             },
             "rate": {
                 "divine": 8,
-                "exalted": 0.01696,
+                "exalted": 0.01735,
                 "chaos": 0.125
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.67,
-                "exalted": 18.33,
-                "chaos": 0.1667
+                "exalted": 18.17,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.03448,
-            "volumePrimaryValue": 0.6322,
+            "primaryValue": 0.03347,
+            "volumePrimaryValue": 0.608,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -166,16 +189,16 @@
                 "detailsId": "uncut-skill-gem-(level-8)"
             },
             "rate": {
-                "exalted": 0.03904,
+                "exalted": 0.03304,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 17.33,
-                "chaos": 0.8333
+                "exalted": 15.17,
+                "chaos": 0.6667
             },
-            "primaryValue": 0.01498,
-            "volumePrimaryValue": 0.2596,
+            "primaryValue": 0.01757,
+            "volumePrimaryValue": 0.2665,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -187,16 +210,16 @@
                 "detailsId": "uncut-skill-gem-(level-9)"
             },
             "rate": {
-                "exalted": 0.05813,
+                "exalted": 0.05233,
                 "chaos": 0.6667
             },
             "sparklines": {},
             "volumes": {
                 "exalted": 35.5,
-                "chaos": 5.67
+                "chaos": 5
             },
-            "primaryValue": 0.01006,
-            "volumePrimaryValue": 0.3571,
+            "primaryValue": 0.01109,
+            "volumePrimaryValue": 0.3939,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -208,16 +231,39 @@
                 "detailsId": "uncut-spirit-gem-(level-12)"
             },
             "rate": {
-                "exalted": 0.05243,
+                "exalted": 0.04058,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 24.5,
-                "chaos": 3.83
+                "exalted": 25,
+                "chaos": 3.5
             },
-            "primaryValue": 0.01115,
-            "volumePrimaryValue": 0.2733,
+            "primaryValue": 0.01431,
+            "volumePrimaryValue": 0.3577,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "uncut-spirit-gem-15",
+                "name": "Uncut Spirit Gem (Level 15)",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
+                "category": "UncutGems",
+                "detailsId": "uncut-spirit-gem-(level-15)"
+            },
+            "rate": {
+                "divine": 3.9,
+                "exalted": 0.007728,
+                "chaos": 0.1429
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 6.5,
+                "exalted": 14.67,
+                "chaos": 0.6667
+            },
+            "primaryValue": 0.07513,
+            "volumePrimaryValue": 1.1,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -229,18 +275,18 @@
                 "detailsId": "uncut-spirit-gem-(level-18)"
             },
             "rate": {
-                "divine": 20,
-                "exalted": 0.09023,
-                "chaos": 1.13
+                "divine": 18.77,
+                "exalted": 0.0852,
+                "chaos": 1.1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 40,
-                "exalted": 344.5,
-                "chaos": 43
+                "divine": 40.67,
+                "exalted": 315,
+                "chaos": 36.83
             },
-            "primaryValue": 0.006481,
-            "volumePrimaryValue": 2.23,
+            "primaryValue": 0.006815,
+            "volumePrimaryValue": 2.15,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -252,18 +298,18 @@
                 "detailsId": "uncut-spirit-gem-(level-19)"
             },
             "rate": {
-                "divine": 26,
-                "exalted": 0.04334,
-                "chaos": 1.08
+                "divine": 25.08,
+                "exalted": 0.04306,
+                "chaos": 0.9167
             },
             "sparklines": {},
             "volumes": {
-                "divine": 56.33,
-                "exalted": 260.5,
-                "chaos": 86.33
+                "divine": 50.17,
+                "exalted": 254.2,
+                "chaos": 67.83
             },
-            "primaryValue": 0.01349,
-            "volumePrimaryValue": 3.51,
+            "primaryValue": 0.01348,
+            "volumePrimaryValue": 3.43,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -276,17 +322,17 @@
             },
             "rate": {
                 "divine": 4.25,
-                "exalted": 0.005334,
-                "chaos": 0.1294
+                "exalted": 0.005817,
+                "chaos": 0.1298
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.83,
-                "exalted": 12.5,
+                "exalted": 10.83,
                 "chaos": 6.17
             },
-            "primaryValue": 0.1096,
-            "volumePrimaryValue": 1.37,
+            "primaryValue": 0.09982,
+            "volumePrimaryValue": 1.08,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -298,18 +344,16 @@
                 "detailsId": "uncut-spirit-gem-(level-5)"
             },
             "rate": {
-                "divine": 4,
-                "exalted": 0.0116,
-                "chaos": 0.3659
+                "exalted": 0.01332,
+                "chaos": 0.3636
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.6667,
-                "exalted": 17.17,
-                "chaos": 2.5
+                "exalted": 12.5,
+                "chaos": 2.67
             },
-            "primaryValue": 0.05043,
-            "volumePrimaryValue": 0.8657,
+            "primaryValue": 0.04359,
+            "volumePrimaryValue": 0.5449,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -322,38 +366,17 @@
             },
             "rate": {
                 "divine": 5,
-                "exalted": 0.009911,
-                "chaos": 0.2857
+                "exalted": 0.009148,
+                "chaos": 0.25
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.8333,
-                "exalted": 6.83,
-                "chaos": 0.6667
+                "exalted": 6.33,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.059,
-            "volumePrimaryValue": 0.4032,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-skill-gem-12",
-                "name": "Uncut Skill Gem (Level 12)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/97f0ceba15/UncutSkillGem.png",
-                "category": "UncutGems",
-                "detailsId": "uncut-skill-gem-(level-12)"
-            },
-            "rate": {
-                "divine": 16,
-                "exalted": 0.9076
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 2.67,
-                "exalted": 47.5
-            },
-            "primaryValue": 0.0006442,
-            "volumePrimaryValue": 0.0306,
+            "primaryValue": 0.06347,
+            "volumePrimaryValue": 0.402,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -366,38 +389,15 @@
             },
             "rate": {
                 "divine": 7.5,
-                "exalted": 0.01479
+                "exalted": 0.01712
             },
             "sparklines": {},
             "volumes": {
                 "divine": 5,
-                "exalted": 10.83
+                "exalted": 10
             },
-            "primaryValue": 0.03954,
-            "volumePrimaryValue": 0.4283,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "uncut-spirit-gem-15",
-                "name": "Uncut Spirit Gem (Level 15)",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9VbmN1dFNraWxsR2VtQnVmZiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab25e9aa3b/UncutSkillGemBuff.png",
-                "category": "UncutGems",
-                "detailsId": "uncut-spirit-gem-(level-15)"
-            },
-            "rate": {
-                "divine": 4,
-                "exalted": 0.007192,
-                "chaos": 0.06667
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 7.33,
-                "exalted": 14.83,
-                "chaos": 0.1667
-            },
-            "primaryValue": 0.0813,
-            "volumePrimaryValue": 1.21,
+            "primaryValue": 0.03391,
+            "volumePrimaryValue": 0.3391,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -409,18 +409,16 @@
                 "detailsId": "uncut-skill-gem-(level-10)"
             },
             "rate": {
-                "divine": 18,
-                "exalted": 0.05056,
-                "chaos": 1
+                "divine": 6,
+                "exalted": 0.04895
             },
             "sparklines": {},
             "volumes": {
-                "divine": 6,
-                "exalted": 17.33,
-                "chaos": 0.3333
+                "divine": 1,
+                "exalted": 19.33
             },
-            "primaryValue": 0.01157,
-            "volumePrimaryValue": 0.2005,
+            "primaryValue": 0.01186,
+            "volumePrimaryValue": 0.2294,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -432,16 +430,14 @@
                 "detailsId": "uncut-skill-gem-(level-11)"
             },
             "rate": {
-                "divine": 10,
-                "exalted": 0.07236
+                "exalted": 0.08166
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.67,
-                "exalted": 33.17
+                "exalted": 26.5
             },
-            "primaryValue": 0.00808,
-            "volumePrimaryValue": 0.268,
+            "primaryValue": 0.00711,
+            "volumePrimaryValue": 0.1884,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -453,16 +449,16 @@
                 "detailsId": "uncut-skill-gem-(level-13)"
             },
             "rate": {
-                "exalted": 0.1967,
+                "exalted": 0.8385,
                 "chaos": 0.6667
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 16,
+                "exalted": 22.5,
                 "chaos": 1
             },
-            "primaryValue": 0.002972,
-            "volumePrimaryValue": 0.04756,
+            "primaryValue": 0.0006925,
+            "volumePrimaryValue": 0.01558,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -475,17 +471,17 @@
             },
             "rate": {
                 "divine": 4.5,
-                "exalted": 0.364,
-                "chaos": 1.68
+                "exalted": 0.3897,
+                "chaos": 1.63
             },
             "sparklines": {},
             "volumes": {
                 "divine": 3,
-                "exalted": 50.17,
-                "chaos": 7
+                "exalted": 51.5,
+                "chaos": 7.33
             },
-            "primaryValue": 0.001607,
-            "volumePrimaryValue": 0.0806,
+            "primaryValue": 0.00149,
+            "volumePrimaryValue": 0.07674,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -497,18 +493,18 @@
                 "detailsId": "uncut-skill-gem-(level-18)"
             },
             "rate": {
-                "divine": 31.38,
-                "exalted": 0.7442,
-                "chaos": 5.05
+                "divine": 35.57,
+                "exalted": 0.7334,
+                "chaos": 4.07
             },
             "sparklines": {},
             "volumes": {
-                "divine": 41.83,
-                "exalted": 409.2,
-                "chaos": 46.33
+                "divine": 41.5,
+                "exalted": 394.7,
+                "chaos": 38
             },
-            "primaryValue": 0.0007858,
-            "volumePrimaryValue": 0.3215,
+            "primaryValue": 0.0007918,
+            "volumePrimaryValue": 0.3125,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -521,17 +517,17 @@
             },
             "rate": {
                 "divine": 1,
-                "exalted": 0.01835,
-                "chaos": 0.1064
+                "exalted": 0.01807,
+                "chaos": 0.125
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.67,
-                "exalted": 7.33,
-                "chaos": 0.8333
+                "exalted": 7.17,
+                "chaos": 1
             },
-            "primaryValue": 0.03187,
-            "volumePrimaryValue": 0.2337,
+            "primaryValue": 0.03214,
+            "volumePrimaryValue": 0.2303,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -543,18 +539,18 @@
                 "detailsId": "uncut-skill-gem-(level-20)"
             },
             "rate": {
-                "divine": 14.11,
-                "exalted": 0.01529,
-                "chaos": 0.3412
+                "divine": 12.38,
+                "exalted": 0.01528,
+                "chaos": 0.3477
             },
             "sparklines": {},
             "volumes": {
-                "divine": 218.7,
-                "exalted": 427.8,
-                "chaos": 163.8
+                "divine": 167.2,
+                "exalted": 410.7,
+                "chaos": 159.7
             },
-            "primaryValue": 0.03825,
-            "volumePrimaryValue": 16.37,
+            "primaryValue": 0.03801,
+            "volumePrimaryValue": 15.61,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -567,17 +563,17 @@
             },
             "rate": {
                 "divine": 5,
-                "exalted": 0.2425,
+                "exalted": 0.2571,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.8333,
-                "exalted": 25.5,
+                "exalted": 27,
                 "chaos": 0.3333
             },
-            "primaryValue": 0.002412,
-            "volumePrimaryValue": 0.06149,
+            "primaryValue": 0.002258,
+            "volumePrimaryValue": 0.06097,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -589,16 +585,16 @@
                 "detailsId": "uncut-skill-gem-(level-3)"
             },
             "rate": {
-                "exalted": 0.06914,
+                "exalted": 0.07972,
                 "chaos": 4
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 15.83,
+                "exalted": 19,
                 "chaos": 1.33
             },
-            "primaryValue": 0.008457,
-            "volumePrimaryValue": 0.1339,
+            "primaryValue": 0.007284,
+            "volumePrimaryValue": 0.1384,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -610,16 +606,16 @@
                 "detailsId": "uncut-skill-gem-(level-4)"
             },
             "rate": {
-                "exalted": 0.05662,
-                "chaos": 1.67
+                "exalted": 0.0554,
+                "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 13.83,
-                "chaos": 1.67
+                "exalted": 12.83,
+                "chaos": 0.8333
             },
-            "primaryValue": 0.01033,
-            "volumePrimaryValue": 0.1429,
+            "primaryValue": 0.01048,
+            "volumePrimaryValue": 0.1345,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -632,17 +628,17 @@
             },
             "rate": {
                 "divine": 4,
-                "exalted": 0.01869,
-                "chaos": 0.3548
+                "exalted": 0.02028,
+                "chaos": 0.3793
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.67,
-                "exalted": 14.33,
+                "exalted": 14,
                 "chaos": 1.83
             },
-            "primaryValue": 0.03128,
-            "volumePrimaryValue": 0.4484,
+            "primaryValue": 0.02864,
+            "volumePrimaryValue": 0.4009,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -655,17 +651,17 @@
             },
             "rate": {
                 "divine": 4,
-                "exalted": 0.02528,
-                "chaos": 0.2353
+                "exalted": 0.02509,
+                "chaos": 0.2188
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.6667,
-                "exalted": 17.83,
-                "chaos": 0.6667
+                "exalted": 18.33,
+                "chaos": 1.17
             },
-            "primaryValue": 0.02313,
-            "volumePrimaryValue": 0.4125,
+            "primaryValue": 0.02315,
+            "volumePrimaryValue": 0.4244,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -677,18 +673,16 @@
                 "detailsId": "uncut-spirit-gem-(level-13)"
             },
             "rate": {
-                "divine": 10,
-                "exalted": 0.03761,
-                "chaos": 0.4182
+                "exalted": 0.02648,
+                "chaos": 0.5238
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.67,
-                "exalted": 14.17,
-                "chaos": 3.83
+                "exalted": 17.33,
+                "chaos": 1.83
             },
-            "primaryValue": 0.01555,
-            "volumePrimaryValue": 0.2202,
+            "primaryValue": 0.02193,
+            "volumePrimaryValue": 0.3801,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -700,18 +694,18 @@
                 "detailsId": "uncut-spirit-gem-(level-14)"
             },
             "rate": {
-                "divine": 3.14,
-                "exalted": 0.007636,
-                "chaos": 0.1681
+                "divine": 3.09,
+                "exalted": 0.007976,
+                "chaos": 0.148
             },
             "sparklines": {},
             "volumes": {
-                "divine": 14.67,
-                "exalted": 41.5,
-                "chaos": 10
+                "divine": 11.83,
+                "exalted": 40.5,
+                "chaos": 11
             },
-            "primaryValue": 0.07657,
-            "volumePrimaryValue": 3.18,
+            "primaryValue": 0.0728,
+            "volumePrimaryValue": 2.95,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -724,17 +718,17 @@
             },
             "rate": {
                 "divine": 4.27,
-                "exalted": 0.01126,
-                "chaos": 0.2222
+                "exalted": 0.01215,
+                "chaos": 0.2124
             },
             "sparklines": {},
             "volumes": {
                 "divine": 7.83,
-                "exalted": 18,
-                "chaos": 3.67
+                "exalted": 17.5,
+                "chaos": 4
             },
-            "primaryValue": 0.05193,
-            "volumePrimaryValue": 0.9347,
+            "primaryValue": 0.04777,
+            "volumePrimaryValue": 0.836,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -746,18 +740,18 @@
                 "detailsId": "uncut-spirit-gem-(level-17)"
             },
             "rate": {
-                "divine": 13,
-                "exalted": 0.0449,
-                "chaos": 0.5161
+                "divine": 7.5,
+                "exalted": 0.03942,
+                "chaos": 0.4593
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.17,
-                "exalted": 60.33,
-                "chaos": 10.67
+                "divine": 2.5,
+                "exalted": 51.5,
+                "chaos": 10.33
             },
-            "primaryValue": 0.01302,
-            "volumePrimaryValue": 0.7857,
+            "primaryValue": 0.01473,
+            "volumePrimaryValue": 0.7586,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -769,18 +763,18 @@
                 "detailsId": "uncut-spirit-gem-(level-20)"
             },
             "rate": {
-                "divine": 0.367,
-                "exalted": 0.0003651,
-                "chaos": 0.01352
+                "divine": 0.3681,
+                "exalted": 0.000371,
+                "chaos": 0.01378
             },
             "sparklines": {},
             "volumes": {
-                "divine": 144,
-                "exalted": 15.5,
-                "chaos": 34.67
+                "divine": 124.8,
+                "exalted": 14.67,
+                "chaos": 31.83
             },
             "primaryValue": 2.72,
-            "volumePrimaryValue": 392.3,
+            "volumePrimaryValue": 339.2,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -793,17 +787,17 @@
             },
             "rate": {
                 "divine": 4.5,
-                "exalted": 0.00825,
+                "exalted": 0.007727,
                 "chaos": 0.24
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.5,
-                "exalted": 10.33,
+                "exalted": 9.83,
                 "chaos": 1
             },
-            "primaryValue": 0.07087,
-            "volumePrimaryValue": 0.7324,
+            "primaryValue": 0.07515,
+            "volumePrimaryValue": 0.739,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -815,18 +809,18 @@
                 "detailsId": "uncut-spirit-gem-(level-8)"
             },
             "rate": {
-                "divine": 0.5833,
-                "exalted": 0.001615,
-                "chaos": 0.025
+                "divine": 0.5893,
+                "exalted": 0.001552,
+                "chaos": 0.02797
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5.83,
-                "exalted": 0.8333,
-                "chaos": 1.67
+                "divine": 5.5,
+                "exalted": 1.33,
+                "chaos": 1.33
             },
-            "primaryValue": 1.71,
-            "volumePrimaryValue": 10.0,
+            "primaryValue": 1.7,
+            "volumePrimaryValue": 9.33,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -839,17 +833,17 @@
             },
             "rate": {
                 "divine": 1.07,
-                "exalted": 0.002699,
-                "chaos": 0.05325
+                "exalted": 0.002791,
+                "chaos": 0.04268
             },
             "sparklines": {},
             "volumes": {
-                "divine": 4.83,
-                "exalted": 3.5,
-                "chaos": 1.5
+                "divine": 5,
+                "exalted": 4,
+                "chaos": 1.17
             },
-            "primaryValue": 0.931,
-            "volumePrimaryValue": 4.5,
+            "primaryValue": 0.9333,
+            "volumePrimaryValue": 4.67,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -861,14 +855,14 @@
                 "detailsId": "uncut-support-gem-(level-1)"
             },
             "rate": {
-                "exalted": 0.1419
+                "exalted": 0.1076
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 18
+                "exalted": 12
             },
-            "primaryValue": 0.00412,
-            "volumePrimaryValue": 0.07416,
+            "primaryValue": 0.005395,
+            "volumePrimaryValue": 0.06474,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -880,14 +874,14 @@
                 "detailsId": "uncut-support-gem-(level-2)"
             },
             "rate": {
-                "exalted": 0.1311
+                "exalted": 0.1058
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4
+                "exalted": 3.67
             },
-            "primaryValue": 0.004459,
-            "volumePrimaryValue": 0.01783,
+            "primaryValue": 0.00549,
+            "volumePrimaryValue": 0.02013,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -899,14 +893,16 @@
                 "detailsId": "uncut-support-gem-(level-3)"
             },
             "rate": {
-                "exalted": 0.1055
+                "exalted": 0.09328,
+                "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 27.33
+                "exalted": 28,
+                "chaos": 0.1667
             },
-            "primaryValue": 0.005544,
-            "volumePrimaryValue": 0.1515,
+            "primaryValue": 0.006225,
+            "volumePrimaryValue": 0.1743,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -919,17 +915,17 @@
             },
             "rate": {
                 "divine": 5,
-                "exalted": 0.1086,
+                "exalted": 0.07613,
                 "chaos": 1.77
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.67,
-                "exalted": 24.67,
+                "exalted": 29.67,
                 "chaos": 3.83
             },
-            "primaryValue": 0.005385,
-            "volumePrimaryValue": 0.1328,
+            "primaryValue": 0.007627,
+            "volumePrimaryValue": 0.2263,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -941,18 +937,18 @@
                 "detailsId": "uncut-support-gem-(level-5)"
             },
             "rate": {
-                "divine": 141.9,
-                "exalted": 0.1761,
-                "chaos": 6.43
+                "divine": 137.2,
+                "exalted": 0.177,
+                "chaos": 6.36
             },
             "sparklines": {},
             "volumes": {
-                "divine": 591.2,
-                "exalted": 2852,
-                "chaos": 904.5
+                "divine": 571.5,
+                "exalted": 2762,
+                "chaos": 821.8
             },
-            "primaryValue": 0.00332,
-            "volumePrimaryValue": 9.47,
+            "primaryValue": 0.003281,
+            "volumePrimaryValue": 9.06,
             "maxVolumeCurrency": "exalted"
         }
     ]
