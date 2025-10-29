@@ -32,18 +32,18 @@
                 "detailsId": "kulemaks-invitation"
             },
             "rate": {
-                "divine": 12.74,
-                "exalted": 0.01947,
-                "chaos": 0.9758
+                "divine": 12.3,
+                "exalted": 0.02034,
+                "chaos": 0.8107
             },
             "sparklines": {},
             "volumes": {
-                "divine": 626.3,
-                "exalted": 1428,
-                "chaos": 376.5
+                "divine": 733.8,
+                "exalted": 1389,
+                "chaos": 399.8
             },
-            "primaryValue": 0.02917,
-            "volumePrimaryValue": 41.65,
+            "primaryValue": 0.02854,
+            "volumePrimaryValue": 39.64,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -56,17 +56,17 @@
             },
             "rate": {
                 "divine": 0.1476,
-                "exalted": 0.0001571,
-                "chaos": 0.005469
+                "exalted": 0.0001605,
+                "chaos": 0.00547
             },
             "sparklines": {},
             "volumes": {
-                "divine": 178.5,
+                "divine": 172.8,
                 "exalted": 4.67,
-                "chaos": 37.83
+                "chaos": 41
             },
-            "primaryValue": 6.78,
-            "volumePrimaryValue": 1210,
+            "primaryValue": 6.77,
+            "volumePrimaryValue": 1171,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -78,18 +78,18 @@
                 "detailsId": "ancient-jawbone"
             },
             "rate": {
-                "divine": 0.2227,
-                "exalted": 0.0002346,
-                "chaos": 0.007998
+                "divine": 0.2244,
+                "exalted": 0.0002208,
+                "chaos": 0.007911
             },
             "sparklines": {},
             "volumes": {
-                "divine": 743.7,
-                "exalted": 29.67,
-                "chaos": 174.3
+                "divine": 822.5,
+                "exalted": 26.5,
+                "chaos": 198.7
             },
-            "primaryValue": 4.49,
-            "volumePrimaryValue": 3339,
+            "primaryValue": 4.46,
+            "volumePrimaryValue": 3665,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -101,19 +101,40 @@
                 "detailsId": "ancient-rib"
             },
             "rate": {
-                "divine": 0.5561,
-                "exalted": 0.0005858,
-                "chaos": 0.02004
+                "divine": 0.5587,
+                "exalted": 0.0006054,
+                "chaos": 0.01973
             },
             "sparklines": {},
             "volumes": {
-                "divine": 479.3,
-                "exalted": 29.33,
-                "chaos": 146.5
+                "divine": 510.5,
+                "exalted": 38,
+                "chaos": 165.5
             },
-            "primaryValue": 1.8,
-            "volumePrimaryValue": 862.0,
+            "primaryValue": 1.79,
+            "volumePrimaryValue": 913.7,
             "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "gnawed-jawbone",
+                "name": "Gnawed Jawbone",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6d343a5e8d/GnawedJawbone.png",
+                "category": "Abyss",
+                "detailsId": "gnawed-jawbone"
+            },
+            "rate": {
+                "exalted": 0.1961,
+                "chaos": 5
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 20.17,
+                "chaos": 0.8333
+            },
+            "primaryValue": 0.002961,
+            "volumePrimaryValue": 0.05971,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
@@ -124,18 +145,18 @@
                 "detailsId": "preserved-cranium"
             },
             "rate": {
-                "divine": 81.96,
-                "exalted": 0.06049,
-                "chaos": 1.97
+                "divine": 75.41,
+                "exalted": 0.06397,
+                "chaos": 2.03
             },
             "sparklines": {},
             "volumes": {
-                "divine": 997.2,
-                "exalted": 956.5,
-                "chaos": 359.7
+                "divine": 1018,
+                "exalted": 965,
+                "chaos": 380.5
             },
-            "primaryValue": 0.0122,
-            "volumePrimaryValue": 12.17,
+            "primaryValue": 0.01326,
+            "volumePrimaryValue": 13.5,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -147,18 +168,18 @@
                 "detailsId": "preserved-jawbone"
             },
             "rate": {
-                "divine": 164,
-                "exalted": 2.55,
-                "chaos": 10.34
+                "divine": 174,
+                "exalted": 2.64,
+                "chaos": 10.27
             },
             "sparklines": {},
             "volumes": {
-                "divine": 136.7,
-                "exalted": 1147,
-                "chaos": 208.5
+                "divine": 145,
+                "exalted": 1238,
+                "chaos": 265.3
             },
-            "primaryValue": 0.0002229,
-            "volumePrimaryValue": 0.2556,
+            "primaryValue": 0.0002197,
+            "volumePrimaryValue": 0.2719,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -170,18 +191,18 @@
                 "detailsId": "preserved-vertebrae"
             },
             "rate": {
-                "divine": 136.2,
-                "exalted": 0.06525,
-                "chaos": 2.47
+                "divine": 126.2,
+                "exalted": 0.0652,
+                "chaos": 2.41
             },
             "sparklines": {},
             "volumes": {
-                "divine": 11986,
-                "exalted": 11440,
-                "chaos": 5355
+                "divine": 11777,
+                "exalted": 10630,
+                "chaos": 5573
             },
-            "primaryValue": 0.007342,
-            "volumePrimaryValue": 88.0,
+            "primaryValue": 0.007925,
+            "volumePrimaryValue": 93.33,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -193,33 +214,16 @@
                 "detailsId": "gnawed-collarbone"
             },
             "rate": {
-                "exalted": 0.1425
+                "divine": 25,
+                "exalted": 0.1333
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 18
+                "divine": 4.17,
+                "exalted": 17.83
             },
-            "primaryValue": 0.003985,
-            "volumePrimaryValue": 0.07173,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "gnawed-jawbone",
-                "name": "Gnawed Jawbone",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQWJ5c3MvR25hd2VkSmF3Ym9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6d343a5e8d/GnawedJawbone.png",
-                "category": "Abyss",
-                "detailsId": "gnawed-jawbone"
-            },
-            "rate": {
-                "exalted": 0.1813
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 15.17
-            },
-            "primaryValue": 0.003132,
-            "volumePrimaryValue": 0.0475,
+            "primaryValue": 0.004357,
+            "volumePrimaryValue": 0.0777,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -231,14 +235,14 @@
                 "detailsId": "gnawed-rib"
             },
             "rate": {
-                "exalted": 0.1353
+                "exalted": 0.1339
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 3
+                "exalted": 2.5
             },
-            "primaryValue": 0.004195,
-            "volumePrimaryValue": 0.01259,
+            "primaryValue": 0.004335,
+            "volumePrimaryValue": 0.01084,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -250,18 +254,18 @@
                 "detailsId": "preserved-collarbone"
             },
             "rate": {
-                "divine": 268.4,
-                "exalted": 0.8466,
-                "chaos": 15.47
+                "divine": 290.9,
+                "exalted": 0.6289,
+                "chaos": 14.04
             },
             "sparklines": {},
             "volumes": {
-                "divine": 715.7,
-                "exalted": 1607,
-                "chaos": 654.8
+                "divine": 581.8,
+                "exalted": 1602,
+                "chaos": 592
             },
-            "primaryValue": 0.0006706,
-            "volumePrimaryValue": 1.08,
+            "primaryValue": 0.0009232,
+            "volumePrimaryValue": 1.48,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -273,18 +277,18 @@
                 "detailsId": "preserved-rib"
             },
             "rate": {
-                "divine": 244,
-                "exalted": 3.71,
-                "chaos": 4.57
+                "divine": 255.2,
+                "exalted": 3.65,
+                "chaos": 4.42
             },
             "sparklines": {},
             "volumes": {
-                "divine": 162.7,
-                "exalted": 1934,
-                "chaos": 122.7
+                "divine": 255.2,
+                "exalted": 2135,
+                "chaos": 129.7
             },
-            "primaryValue": 0.000153,
-            "volumePrimaryValue": 0.2959,
+            "primaryValue": 0.000159,
+            "volumePrimaryValue": 0.3394,
             "maxVolumeCurrency": "exalted"
         }
     ]
