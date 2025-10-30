@@ -33,15 +33,17 @@
             },
             "rate": {
                 "divine": 3,
-                "exalted": 0.1434
+                "exalted": 0.1435,
+                "chaos": 0.3333
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.5,
-                "exalted": 6
+                "exalted": 5.5,
+                "chaos": 0.3333
             },
-            "primaryValue": 0.00372,
-            "volumePrimaryValue": 0.02232,
+            "primaryValue": 0.003689,
+            "volumePrimaryValue": 0.02029,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -53,18 +55,16 @@
                 "detailsId": "bear-talisman"
             },
             "rate": {
-                "divine": 9,
-                "exalted": 0.08275,
+                "exalted": 0.1341,
                 "chaos": 0.3333
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3,
-                "exalted": 11.83,
-                "chaos": 1.17
+                "exalted": 10.17,
+                "chaos": 0.6667
             },
-            "primaryValue": 0.006447,
-            "volumePrimaryValue": 0.07629,
+            "primaryValue": 0.003948,
+            "volumePrimaryValue": 0.04014,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -76,18 +76,16 @@
                 "detailsId": "boar-talisman"
             },
             "rate": {
-                "divine": 14,
-                "exalted": 0.8217,
-                "chaos": 5.5
+                "exalted": 0.75,
+                "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 2.33,
-                "exalted": 17.67,
-                "chaos": 1.83
+                "exalted": 11.5,
+                "chaos": 0.1667
             },
-            "primaryValue": 0.0006492,
-            "volumePrimaryValue": 0.01147,
+            "primaryValue": 0.0007058,
+            "volumePrimaryValue": 0.008117,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -99,19 +97,17 @@
                 "detailsId": "owl-talisman"
             },
             "rate": {
-                "divine": 150,
-                "exalted": 0.2099,
+                "exalted": 0.2571,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 25,
-                "exalted": 6.33,
+                "exalted": 1.5,
                 "chaos": 0.3333
             },
-            "primaryValue": 0.006667,
-            "volumePrimaryValue": 0.1667,
-            "maxVolumeCurrency": "divine"
+            "primaryValue": 0.002059,
+            "volumePrimaryValue": 0.003088,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
@@ -122,16 +118,16 @@
                 "detailsId": "primate-talisman"
             },
             "rate": {
-                "exalted": 0.3579,
-                "chaos": 0.06667
+                "exalted": 0.3833,
+                "chaos": 0.05
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 76.83,
+                "exalted": 72.5,
                 "chaos": 0.3333
             },
-            "primaryValue": 0.001491,
-            "volumePrimaryValue": 0.1145,
+            "primaryValue": 0.001381,
+            "volumePrimaryValue": 0.1001,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -144,14 +140,14 @@
             },
             "rate": {
                 "divine": 80,
-                "exalted": 0.7407,
-                "chaos": 2.5
+                "exalted": 0.6757,
+                "chaos": 2
             },
             "sparklines": {},
             "volumes": {
                 "divine": 13.33,
-                "exalted": 10,
-                "chaos": 0.8333
+                "exalted": 12.5,
+                "chaos": 0.3333
             },
             "primaryValue": 0.0125,
             "volumePrimaryValue": 0.1667,
@@ -167,17 +163,17 @@
             },
             "rate": {
                 "divine": 11,
-                "exalted": 0.01445,
+                "exalted": 0.01544,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.67,
-                "exalted": 14.17,
-                "chaos": 3.67
+                "divine": 1.83,
+                "exalted": 16.17,
+                "chaos": 4.33
             },
-            "primaryValue": 0.03692,
-            "volumePrimaryValue": 0.523,
+            "primaryValue": 0.03429,
+            "volumePrimaryValue": 0.5543,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -190,17 +186,17 @@
             },
             "rate": {
                 "divine": 6,
-                "exalted": 0.0317,
-                "chaos": 0.03974
+                "exalted": 0.02684,
+                "chaos": 0.03333
             },
             "sparklines": {},
             "volumes": {
-                "divine": 6,
-                "exalted": 28.33,
-                "chaos": 1
+                "divine": 7,
+                "exalted": 23.67,
+                "chaos": 0.8333
             },
-            "primaryValue": 0.01683,
-            "volumePrimaryValue": 0.4768,
+            "primaryValue": 0.01972,
+            "volumePrimaryValue": 0.4667,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -212,18 +208,18 @@
                 "detailsId": "talisman-of-ralakesh"
             },
             "rate": {
-                "divine": 48.5,
-                "exalted": 0.0403,
-                "chaos": 1.62
+                "divine": 18,
+                "exalted": 0.043,
+                "chaos": 1.69
             },
             "sparklines": {},
             "volumes": {
-                "divine": 16.17,
-                "exalted": 42.83,
-                "chaos": 20
+                "divine": 3,
+                "exalted": 49.67,
+                "chaos": 18.33
             },
-            "primaryValue": 0.01324,
-            "volumePrimaryValue": 0.567,
+            "primaryValue": 0.01231,
+            "volumePrimaryValue": 0.6115,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -235,18 +231,16 @@
                 "detailsId": "wolf-talisman"
             },
             "rate": {
-                "divine": 4,
-                "exalted": 0.1754,
+                "exalted": 0.1636,
                 "chaos": 2
             },
             "sparklines": {},
             "volumes": {
-                "divine": 0.6667,
-                "exalted": 1.67,
+                "exalted": 1.5,
                 "chaos": 0.3333
             },
-            "primaryValue": 0.003041,
-            "volumePrimaryValue": 0.005068,
+            "primaryValue": 0.003235,
+            "volumePrimaryValue": 0.004852,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -258,17 +252,15 @@
                 "detailsId": "talisman-of-maxarius"
             },
             "rate": {
-                "divine": 10,
                 "exalted": 0.102
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3.33,
                 "exalted": 0.8333
             },
-            "primaryValue": 0.1,
-            "volumePrimaryValue": 0.3333,
-            "maxVolumeCurrency": "divine"
+            "primaryValue": 0.005188,
+            "volumePrimaryValue": 0.004323,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
@@ -279,18 +271,18 @@
                 "detailsId": "fox-talisman"
             },
             "rate": {
-                "divine": 18,
-                "exalted": 0.09098,
+                "divine": 17,
+                "exalted": 0.1007,
                 "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "divine": 3,
-                "exalted": 19.33,
-                "chaos": 1.5
+                "divine": 2.83,
+                "exalted": 22,
+                "chaos": 1.17
             },
-            "primaryValue": 0.005864,
-            "volumePrimaryValue": 0.1134,
+            "primaryValue": 0.005257,
+            "volumePrimaryValue": 0.1157,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -302,19 +294,17 @@
                 "detailsId": "ox-talisman"
             },
             "rate": {
-                "divine": 60,
-                "exalted": 0.09618,
+                "exalted": 0.1122,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "divine": 20,
-                "exalted": 13.83,
+                "exalted": 15.67,
                 "chaos": 0.1667
             },
-            "primaryValue": 0.01667,
-            "volumePrimaryValue": 0.3333,
-            "maxVolumeCurrency": "divine"
+            "primaryValue": 0.004719,
+            "volumePrimaryValue": 0.07393,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
@@ -325,18 +315,18 @@
                 "detailsId": "rabbit-talisman"
             },
             "rate": {
-                "divine": 15.33,
-                "exalted": 0.02686,
-                "chaos": 0.8722
+                "divine": 15,
+                "exalted": 0.02636,
+                "chaos": 0.98
             },
             "sparklines": {},
             "volumes": {
-                "divine": 15.33,
-                "exalted": 71.17,
-                "chaos": 19.33
+                "divine": 2.5,
+                "exalted": 69,
+                "chaos": 24.5
             },
-            "primaryValue": 0.01986,
-            "volumePrimaryValue": 1.41,
+            "primaryValue": 0.02008,
+            "volumePrimaryValue": 1.39,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -349,18 +339,18 @@
             },
             "rate": {
                 "divine": 5,
-                "exalted": 0.1067,
+                "exalted": 0.119,
                 "chaos": 0.3182
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.8333,
-                "exalted": 1.33,
+                "exalted": 0.8333,
                 "chaos": 1.17
             },
-            "primaryValue": 0.005001,
-            "volumePrimaryValue": 0.006669,
-            "maxVolumeCurrency": "exalted"
+            "primaryValue": 0.106,
+            "volumePrimaryValue": 0.1236,
+            "maxVolumeCurrency": "chaos"
         },
         {
             "item": {
@@ -371,17 +361,15 @@
                 "detailsId": "talisman-of-grold"
             },
             "rate": {
-                "divine": 8,
                 "exalted": 0.5
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.33,
                 "exalted": 0.6667
             },
-            "primaryValue": 0.125,
-            "volumePrimaryValue": 0.1667,
-            "maxVolumeCurrency": "divine"
+            "primaryValue": 0.001059,
+            "volumePrimaryValue": 0.0007058,
+            "maxVolumeCurrency": "exalted"
         },
         {
             "item": {
@@ -392,18 +380,18 @@
                 "detailsId": "talisman-of-sirrius"
             },
             "rate": {
-                "divine": 0.767,
-                "exalted": 0.0004913,
-                "chaos": 0.02384
+                "divine": 0.8067,
+                "exalted": 0.0004871,
+                "chaos": 0.02449
             },
             "sparklines": {},
             "volumes": {
-                "divine": 135.5,
-                "exalted": 6.17,
-                "chaos": 36.17
+                "divine": 176,
+                "exalted": 7.33,
+                "chaos": 40
             },
-            "primaryValue": 1.3,
-            "volumePrimaryValue": 176.7,
+            "primaryValue": 1.24,
+            "volumePrimaryValue": 218.2,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -416,17 +404,17 @@
             },
             "rate": {
                 "divine": 11,
-                "exalted": 0.4058,
+                "exalted": 0.4198,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.83,
-                "exalted": 4.67,
-                "chaos": 3.5
+                "exalted": 5.67,
+                "chaos": 4.17
             },
-            "primaryValue": 0.001315,
-            "volumePrimaryValue": 0.006135,
+            "primaryValue": 0.001261,
+            "volumePrimaryValue": 0.007146,
             "maxVolumeCurrency": "exalted"
         }
     ]
