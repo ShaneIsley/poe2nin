@@ -32,16 +32,16 @@
                 "detailsId": "ahns-citadel"
             },
             "rate": {
-                "exalted": 0.5833,
+                "exalted": 0.5455,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 1.17,
+                "exalted": 1,
                 "chaos": 0.3333
             },
-            "primaryValue": 0.0009275,
-            "volumePrimaryValue": 0.001082,
+            "primaryValue": 0.000978,
+            "volumePrimaryValue": 0.000978,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -54,17 +54,17 @@
             },
             "rate": {
                 "divine": 4,
-                "exalted": 0.03521,
+                "exalted": 0.03549,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.33,
-                "exalted": 15.33,
-                "chaos": 4.17
+                "exalted": 15.67,
+                "chaos": 4
             },
-            "primaryValue": 0.01537,
-            "volumePrimaryValue": 0.2356,
+            "primaryValue": 0.01503,
+            "volumePrimaryValue": 0.2355,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -76,16 +76,14 @@
                 "detailsId": "arbiters-ignition"
             },
             "rate": {
-                "exalted": 0.05,
-                "chaos": 0.25
+                "exalted": 0.06
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.5,
-                "chaos": 0.1667
+                "exalted": 0.5
             },
-            "primaryValue": 0.01082,
-            "volumePrimaryValue": 0.005411,
+            "primaryValue": 0.008891,
+            "volumePrimaryValue": 0.004446,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -126,8 +124,8 @@
                 "exalted": 2.67,
                 "chaos": 0.1667
             },
-            "primaryValue": 0.01948,
-            "volumePrimaryValue": 0.05194,
+            "primaryValue": 0.01921,
+            "volumePrimaryValue": 0.05121,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -144,11 +142,11 @@
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.33,
+                "exalted": 2,
                 "chaos": 0.8333
             },
-            "primaryValue": 0.0005411,
-            "volumePrimaryValue": 0.001262,
+            "primaryValue": 0.0005335,
+            "volumePrimaryValue": 0.001067,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -160,16 +158,16 @@
                 "detailsId": "ataluis-bloodletting"
             },
             "rate": {
-                "divine": 0.05406,
-                "chaos": 0.001975
+                "divine": 0.05383,
+                "chaos": 0.001946
             },
             "sparklines": {},
             "volumes": {
-                "divine": 49.17,
-                "chaos": 0.6667
+                "divine": 45.33,
+                "chaos": 0.8333
             },
-            "primaryValue": 18.5,
-            "volumePrimaryValue": 909.5,
+            "primaryValue": 18.58,
+            "volumePrimaryValue": 842.2,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -182,17 +180,17 @@
             },
             "rate": {
                 "divine": 17.67,
-                "exalted": 0.1202,
+                "exalted": 0.1418,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 8.83,
-                "exalted": 35,
+                "exalted": 40.17,
                 "chaos": 2
             },
-            "primaryValue": 0.004501,
-            "volumePrimaryValue": 0.1575,
+            "primaryValue": 0.003761,
+            "volumePrimaryValue": 0.1511,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -205,17 +203,17 @@
             },
             "rate": {
                 "divine": 1,
-                "exalted": 0.003545,
+                "exalted": 0.002845,
                 "chaos": 0.105
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.5,
-                "exalted": 3.83,
-                "chaos": 3.83
+                "divine": 1.17,
+                "exalted": 3.67,
+                "chaos": 3.5
             },
-            "primaryValue": 0.1526,
-            "volumePrimaryValue": 0.5851,
+            "primaryValue": 0.1875,
+            "volumePrimaryValue": 0.6877,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -228,17 +226,38 @@
             },
             "rate": {
                 "divine": 1,
-                "exalted": 0.00116,
-                "chaos": 0.1111
+                "exalted": 0.001274,
+                "chaos": 0.03846
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.6667,
-                "exalted": 0.8333,
+                "exalted": 1,
+                "chaos": 0.3333
+            },
+            "primaryValue": 0.4189,
+            "volumePrimaryValue": 0.4189,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "kalisas-crescendo",
+                "name": "Kalisa's Crescendo",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLYWxpc2FDaG9ydXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1d60b0db2f/LineageKalisaChorus.png",
+                "category": "LineageSupportGems",
+                "detailsId": "kalisas-crescendo"
+            },
+            "rate": {
+                "exalted": 0.1481,
+                "chaos": 0.3333
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 2,
                 "chaos": 0.1667
             },
-            "primaryValue": 0.4664,
-            "volumePrimaryValue": 0.3887,
+            "primaryValue": 0.003601,
+            "volumePrimaryValue": 0.007202,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -250,16 +269,16 @@
                 "detailsId": "paquates-pact"
             },
             "rate": {
-                "exalted": 0.9333,
+                "exalted": 0.9355,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.67,
+                "exalted": 4.83,
                 "chaos": 0.1667
             },
-            "primaryValue": 0.0005797,
-            "volumePrimaryValue": 0.002705,
+            "primaryValue": 0.0005703,
+            "volumePrimaryValue": 0.002756,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -271,16 +290,16 @@
                 "detailsId": "pietys-mercy"
             },
             "rate": {
-                "exalted": 0.0454,
-                "chaos": 1
+                "exalted": 0.03756,
+                "chaos": 0.7778
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 13.33,
-                "chaos": 1.67
+                "exalted": 11.5,
+                "chaos": 2.33
             },
-            "primaryValue": 0.01192,
-            "volumePrimaryValue": 0.1589,
+            "primaryValue": 0.0142,
+            "volumePrimaryValue": 0.1633,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -292,16 +311,16 @@
                 "detailsId": "rakiatas-flow"
             },
             "rate": {
-                "divine": 0.07844,
-                "chaos": 0.002794
+                "divine": 0.07911,
+                "chaos": 0.002813
             },
             "sparklines": {},
             "volumes": {
-                "divine": 70.33,
-                "chaos": 2.67
+                "divine": 74.83,
+                "chaos": 2.5
             },
-            "primaryValue": 12.75,
-            "volumePrimaryValue": 896.7,
+            "primaryValue": 12.64,
+            "volumePrimaryValue": 946.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -313,18 +332,18 @@
                 "detailsId": "rigwalds-ferocity"
             },
             "rate": {
-                "divine": 2.38,
-                "exalted": 0.003941,
-                "chaos": 0.1495
+                "divine": 2.45,
+                "exalted": 0.004279,
+                "chaos": 0.1433
             },
             "sparklines": {},
             "volumes": {
-                "divine": 5.17,
-                "exalted": 21.67,
-                "chaos": 18.17
+                "divine": 4.5,
+                "exalted": 22.5,
+                "chaos": 17.17
             },
-            "primaryValue": 0.1373,
-            "volumePrimaryValue": 2.97,
+            "primaryValue": 0.1247,
+            "volumePrimaryValue": 2.81,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -336,16 +355,16 @@
                 "detailsId": "siones-temper"
             },
             "rate": {
-                "exalted": 0.1351,
-                "chaos": 2
+                "exalted": 0.1489,
+                "chaos": 1.8
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 10.33,
-                "chaos": 2.33
+                "exalted": 10.5,
+                "chaos": 1.5
             },
-            "primaryValue": 0.004006,
-            "volumePrimaryValue": 0.04139,
+            "primaryValue": 0.003582,
+            "volumePrimaryValue": 0.03761,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -358,17 +377,17 @@
             },
             "rate": {
                 "divine": 9,
-                "exalted": 0.02257,
-                "chaos": 0.4253
+                "exalted": 0.023,
+                "chaos": 0.5
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.5,
-                "exalted": 21.17,
-                "chaos": 6.17
+                "exalted": 18.83,
+                "chaos": 4.83
             },
-            "primaryValue": 0.02397,
-            "volumePrimaryValue": 0.5074,
+            "primaryValue": 0.02319,
+            "volumePrimaryValue": 0.4368,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -380,16 +399,16 @@
                 "detailsId": "uul-netols-embrace"
             },
             "rate": {
-                "divine": 0.0689,
+                "divine": 0.06897,
                 "chaos": 0.004975
             },
             "sparklines": {},
             "volumes": {
-                "divine": 18.17,
+                "divine": 18,
                 "chaos": 0.1667
             },
-            "primaryValue": 14.51,
-            "volumePrimaryValue": 263.7,
+            "primaryValue": 14.5,
+            "volumePrimaryValue": 261.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -401,16 +420,16 @@
                 "detailsId": "vilentas-propulsion"
             },
             "rate": {
-                "exalted": 1.32,
+                "exalted": 1.36,
                 "chaos": 3.5
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 6.17,
+                "exalted": 5.67,
                 "chaos": 1.17
             },
-            "primaryValue": 0.0004095,
-            "volumePrimaryValue": 0.002525,
+            "primaryValue": 0.0003923,
+            "volumePrimaryValue": 0.002223,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -422,16 +441,16 @@
                 "detailsId": "xophs-pyre"
             },
             "rate": {
-                "exalted": 0.01872,
-                "chaos": 0.6
+                "exalted": 0.02056,
+                "chaos": 0.5455
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.83,
-                "chaos": 1.5
+                "exalted": 4.5,
+                "chaos": 1
             },
-            "primaryValue": 0.0289,
-            "volumePrimaryValue": 0.1397,
+            "primaryValue": 0.02594,
+            "volumePrimaryValue": 0.1167,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -444,15 +463,15 @@
             },
             "rate": {
                 "divine": 1,
-                "exalted": 3.96
+                "exalted": 3.6
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.1667,
-                "exalted": 15.83
+                "exalted": 12
             },
-            "primaryValue": 0.0001367,
-            "volumePrimaryValue": 0.002164,
+            "primaryValue": 0.0001482,
+            "volumePrimaryValue": 0.001778,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -464,18 +483,18 @@
                 "detailsId": "diallas-desire"
             },
             "rate": {
-                "divine": 0.04143,
-                "exalted": 5.554e-05,
+                "divine": 0.04185,
+                "exalted": 5.471e-05,
                 "chaos": 0.001538
             },
             "sparklines": {},
             "volumes": {
-                "divine": 31.5,
-                "exalted": 0.1667,
-                "chaos": 0.1667
+                "divine": 32,
+                "exalted": 0.3333,
+                "chaos": 0.3333
             },
-            "primaryValue": 24.14,
-            "volumePrimaryValue": 760.3,
+            "primaryValue": 23.9,
+            "volumePrimaryValue": 764.7,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -487,14 +506,14 @@
                 "detailsId": "rathas-assault"
             },
             "rate": {
-                "divine": 0.03333
+                "divine": 0.03315
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1
             },
-            "primaryValue": 30,
-            "volumePrimaryValue": 30,
+            "primaryValue": 30.17,
+            "volumePrimaryValue": 30.17,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -506,16 +525,16 @@
                 "detailsId": "doedres-undoing"
             },
             "rate": {
-                "exalted": 0.06813,
+                "exalted": 0.06818,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.67,
-                "chaos": 0.3333
+                "exalted": 5,
+                "chaos": 1
             },
-            "primaryValue": 0.007942,
-            "volumePrimaryValue": 0.03706,
+            "primaryValue": 0.007824,
+            "volumePrimaryValue": 0.03912,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -527,14 +546,14 @@
                 "detailsId": "einhars-beastrite"
             },
             "rate": {
-                "exalted": 0.03
+                "exalted": 0.025
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.5
+                "exalted": 0.3333
             },
-            "primaryValue": 0.01804,
-            "volumePrimaryValue": 0.009018,
+            "primaryValue": 0.02134,
+            "volumePrimaryValue": 0.007113,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -547,17 +566,17 @@
             },
             "rate": {
                 "divine": 6,
-                "exalted": 0.008815,
-                "chaos": 0.23
+                "exalted": 0.008822,
+                "chaos": 0.2245
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1,
-                "exalted": 11,
-                "chaos": 3.83
+                "exalted": 10.33,
+                "chaos": 3.67
             },
-            "primaryValue": 0.06138,
-            "volumePrimaryValue": 0.6752,
+            "primaryValue": 0.06047,
+            "volumePrimaryValue": 0.6249,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -569,14 +588,14 @@
                 "detailsId": "kulemaks-dominion"
             },
             "rate": {
-                "exalted": 0.06512
+                "exalted": 0.05906
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.33
+                "exalted": 2.5
             },
-            "primaryValue": 0.008309,
-            "volumePrimaryValue": 0.01939,
+            "primaryValue": 0.009034,
+            "volumePrimaryValue": 0.02258,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -588,54 +607,14 @@
                 "detailsId": "romiras-requital"
             },
             "rate": {
-                "exalted": 1.37
+                "exalted": 1.47
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.33
+                "exalted": 3.67
             },
-            "primaryValue": 0.0003954,
-            "volumePrimaryValue": 0.001713,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "varashtas-blessing",
-                "name": "Varashta's Blessing",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEamlubiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/62882cee00/LineageDjinn.png",
-                "category": "LineageSupportGems",
-                "detailsId": "varashtas-blessing"
-            },
-            "rate": {
-                "exalted": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 0.3333
-            },
-            "primaryValue": 0.0005411,
-            "volumePrimaryValue": 0.0001804,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "kalisas-crescendo",
-                "name": "Kalisa's Crescendo",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VLYWxpc2FDaG9ydXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1d60b0db2f/LineageKalisaChorus.png",
-                "category": "LineageSupportGems",
-                "detailsId": "kalisas-crescendo"
-            },
-            "rate": {
-                "exalted": 0.1429,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 2,
-                "chaos": 0.1667
-            },
-            "primaryValue": 0.003787,
-            "volumePrimaryValue": 0.007575,
+            "primaryValue": 0.0003637,
+            "volumePrimaryValue": 0.001334,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -647,16 +626,16 @@
                 "detailsId": "kaoms-madness"
             },
             "rate": {
-                "exalted": 0.3333,
+                "exalted": 0.3265,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.83,
+                "exalted": 2.67,
                 "chaos": 0.8333
             },
-            "primaryValue": 0.001623,
-            "volumePrimaryValue": 0.004599,
+            "primaryValue": 0.001634,
+            "volumePrimaryValue": 0.004357,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -668,14 +647,14 @@
                 "detailsId": "kurgals-leash"
             },
             "rate": {
-                "exalted": 0.9773
+                "exalted": 0.964
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 21.5
+                "exalted": 22.33
             },
-            "primaryValue": 0.0005536,
-            "volumePrimaryValue": 0.0119,
+            "primaryValue": 0.0005534,
+            "volumePrimaryValue": 0.01236,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -688,12 +667,12 @@
             },
             "rate": {
                 "divine": 9,
-                "exalted": 2
+                "exalted": 1.5
             },
             "sparklines": {},
             "volumes": {
                 "divine": 1.5,
-                "exalted": 0.3333
+                "exalted": 0.5
             },
             "primaryValue": 0.1111,
             "volumePrimaryValue": 0.1667,
@@ -714,11 +693,11 @@
             "sparklines": {},
             "volumes": {
                 "divine": 1,
-                "exalted": 1.67
+                "exalted": 0.6667
             },
-            "primaryValue": 0.0005411,
-            "volumePrimaryValue": 0.0009018,
-            "maxVolumeCurrency": "exalted"
+            "primaryValue": 0.1667,
+            "volumePrimaryValue": 0.1667,
+            "maxVolumeCurrency": "divine"
         },
         {
             "item": {
@@ -729,16 +708,16 @@
                 "detailsId": "tecrods-revenge"
             },
             "rate": {
-                "exalted": 0.07781,
+                "exalted": 0.07514,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4.5,
-                "chaos": 0.6667
+                "exalted": 4.33,
+                "chaos": 0.5
             },
-            "primaryValue": 0.006954,
-            "volumePrimaryValue": 0.03129,
+            "primaryValue": 0.007099,
+            "volumePrimaryValue": 0.03076,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -750,16 +729,16 @@
                 "detailsId": "tuls-stillness"
             },
             "rate": {
-                "exalted": 0.1043,
-                "chaos": 0.5385
+                "exalted": 0.1018,
+                "chaos": 0.6154
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 13.83,
-                "chaos": 1.17
+                "exalted": 13.5,
+                "chaos": 1.33
             },
-            "primaryValue": 0.005189,
-            "volumePrimaryValue": 0.07178,
+            "primaryValue": 0.005243,
+            "volumePrimaryValue": 0.07078,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -771,14 +750,14 @@
                 "detailsId": "uhtreds-augury"
             },
             "rate": {
-                "divine": 0.01046
+                "divine": 0.01015
             },
             "sparklines": {},
             "volumes": {
-                "divine": 12.83
+                "divine": 15.83
             },
-            "primaryValue": 95.61,
-            "volumePrimaryValue": 1227,
+            "primaryValue": 98.48,
+            "volumePrimaryValue": 1559,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -790,16 +769,16 @@
                 "detailsId": "uhtreds-omen"
             },
             "rate": {
-                "divine": 0.1174,
-                "chaos": 0.004796
+                "divine": 0.1168,
+                "chaos": 0.004808
             },
             "sparklines": {},
             "volumes": {
-                "divine": 29.17,
-                "chaos": 0.6667
+                "divine": 30.5,
+                "chaos": 0.5
             },
-            "primaryValue": 8.51,
-            "volumePrimaryValue": 248.3,
+            "primaryValue": 8.56,
+            "volumePrimaryValue": 261.2,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -811,16 +790,16 @@
                 "detailsId": "uruks-smelting"
             },
             "rate": {
-                "exalted": 1,
-                "chaos": 1.25
+                "exalted": 1.02,
+                "chaos": 1.17
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 11.17,
-                "chaos": 1.67
+                "exalted": 8.33,
+                "chaos": 1.17
             },
-            "primaryValue": 0.0005411,
-            "volumePrimaryValue": 0.006042,
+            "primaryValue": 0.0005228,
+            "volumePrimaryValue": 0.004357,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -833,17 +812,36 @@
             },
             "rate": {
                 "divine": 2,
-                "exalted": 0.02449,
+                "exalted": 0.02536,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
                 "divine": 0.3333,
-                "exalted": 3.83,
-                "chaos": 1.33
+                "exalted": 4.67,
+                "chaos": 1.5
             },
-            "primaryValue": 0.02209,
-            "volumePrimaryValue": 0.08468,
+            "primaryValue": 0.02103,
+            "volumePrimaryValue": 0.09816,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "varashtas-blessing",
+                "name": "Varashta's Blessing",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9MaW5lYWdlL0xpbmVhZ2VEamlubiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/62882cee00/LineageDjinn.png",
+                "category": "LineageSupportGems",
+                "detailsId": "varashtas-blessing"
+            },
+            "rate": {
+                "exalted": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "exalted": 0.3333
+            },
+            "primaryValue": 0.0005335,
+            "volumePrimaryValue": 0.0001778,
             "maxVolumeCurrency": "exalted"
         }
     ]
