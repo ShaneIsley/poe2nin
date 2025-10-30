@@ -32,18 +32,16 @@
                 "detailsId": "cat-talisman"
             },
             "rate": {
-                "divine": 3,
-                "exalted": 0.1569,
-                "chaos": 0.2
+                "divine": 4.5,
+                "exalted": 0.1528
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1,
-                "exalted": 11.17,
-                "chaos": 0.1667
+                "divine": 1.5,
+                "exalted": 11.33
             },
-            "primaryValue": 0.003611,
-            "volumePrimaryValue": 0.04032,
+            "primaryValue": 0.003619,
+            "volumePrimaryValue": 0.04101,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -55,173 +53,18 @@
                 "detailsId": "bear-talisman"
             },
             "rate": {
-                "divine": 10,
-                "exalted": 0.07188,
-                "chaos": 0.3415
+                "divine": 9.33,
+                "exalted": 0.07547,
+                "chaos": 0.3429
             },
             "sparklines": {},
             "volumes": {
-                "divine": 1.67,
-                "exalted": 19.17,
-                "chaos": 2.33
+                "divine": 4.67,
+                "exalted": 18,
+                "chaos": 2
             },
-            "primaryValue": 0.007883,
-            "volumePrimaryValue": 0.1511,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "owl-talisman",
-                "name": "Owl Talisman",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dfe1212549/AzmeriSocketableOwl.png",
-                "category": "Talismans",
-                "detailsId": "owl-talisman"
-            },
-            "rate": {
-                "exalted": 0.2603,
-                "chaos": 0.5
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 3.17,
-                "chaos": 0.3333
-            },
-            "primaryValue": 0.002177,
-            "volumePrimaryValue": 0.006893,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "primate-talisman",
-                "name": "Primate Talisman",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/77a4554895/AzmeriSocketableMonkey.png",
-                "category": "Talismans",
-                "detailsId": "primate-talisman"
-            },
-            "rate": {
-                "divine": 4,
-                "exalted": 0.2387,
-                "chaos": 0.1935
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 1.33,
-                "exalted": 36.83,
-                "chaos": 1
-            },
-            "primaryValue": 0.002374,
-            "volumePrimaryValue": 0.08744,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "stag-talisman",
-                "name": "Stag Talisman",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a0668f95a/AzmeriSocketableStag.png",
-                "category": "Talismans",
-                "detailsId": "stag-talisman"
-            },
-            "rate": {
-                "exalted": 0.5065,
-                "chaos": 3
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 6.5,
-                "chaos": 1
-            },
-            "primaryValue": 0.001119,
-            "volumePrimaryValue": 0.007271,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "talisman-of-eeshta",
-                "name": "Talisman of Eeshta",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8965465ce6/AzmeriSocketableOwlSpecial.png",
-                "category": "Talismans",
-                "detailsId": "talisman-of-eeshta"
-            },
-            "rate": {
-                "divine": 11,
-                "exalted": 0.01369,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 1.83,
-                "exalted": 15.67,
-                "chaos": 6.67
-            },
-            "primaryValue": 0.04138,
-            "volumePrimaryValue": 0.6483,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "talisman-of-egrin",
-                "name": "Talisman of Egrin",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/16657ca6fc/AzmeriSocketableCatSpecial.png",
-                "category": "Talismans",
-                "detailsId": "talisman-of-egrin"
-            },
-            "rate": {
-                "divine": 6,
-                "exalted": 0.01109,
-                "chaos": 0.1186
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 4,
-                "exalted": 11.5,
-                "chaos": 2.33
-            },
-            "primaryValue": 0.0511,
-            "volumePrimaryValue": 0.5876,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "talisman-of-maxarius",
-                "name": "Talisman of Maxarius",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWdTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f012409342/AzmeriSocketableStagSpecial.png",
-                "category": "Talismans",
-                "detailsId": "talisman-of-maxarius"
-            },
-            "rate": {
-                "exalted": 0.1061,
-                "chaos": 1
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 1.17,
-                "chaos": 0.1667
-            },
-            "primaryValue": 0.005342,
-            "volumePrimaryValue": 0.006232,
-            "maxVolumeCurrency": "exalted"
-        },
-        {
-            "item": {
-                "id": "talisman-of-ralakesh",
-                "name": "Talisman of Ralakesh",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleVNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8ffc9986a0/AzmeriSocketableMonkeySpecial.png",
-                "category": "Talismans",
-                "detailsId": "talisman-of-ralakesh"
-            },
-            "rate": {
-                "divine": 20,
-                "exalted": 0.02441,
-                "chaos": 1.03
-            },
-            "sparklines": {},
-            "volumes": {
-                "divine": 3.33,
-                "exalted": 45.17,
-                "chaos": 19.5
-            },
-            "primaryValue": 0.02321,
-            "volumePrimaryValue": 1.05,
+            "primaryValue": 0.007327,
+            "volumePrimaryValue": 0.1319,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -234,15 +77,199 @@
             },
             "rate": {
                 "divine": 14,
-                "exalted": 2.25
+                "exalted": 0.5556,
+                "chaos": 10
             },
             "sparklines": {},
             "volumes": {
                 "divine": 2.33,
-                "exalted": 18
+                "exalted": 7.5,
+                "chaos": 1.67
             },
-            "primaryValue": 0.0002518,
-            "volumePrimaryValue": 0.004532,
+            "primaryValue": 0.0009953,
+            "volumePrimaryValue": 0.007465,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "owl-talisman",
+                "name": "Owl Talisman",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dfe1212549/AzmeriSocketableOwl.png",
+                "category": "Talismans",
+                "detailsId": "owl-talisman"
+            },
+            "rate": {
+                "divine": 150,
+                "exalted": 0.2207,
+                "chaos": 0.5
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 25,
+                "exalted": 8.17,
+                "chaos": 0.3333
+            },
+            "primaryValue": 0.006667,
+            "volumePrimaryValue": 0.1667,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "primate-talisman",
+                "name": "Primate Talisman",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/77a4554895/AzmeriSocketableMonkey.png",
+                "category": "Talismans",
+                "detailsId": "primate-talisman"
+            },
+            "rate": {
+                "divine": 4,
+                "exalted": 0.2122,
+                "chaos": 0.1389
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 1.33,
+                "exalted": 31.83,
+                "chaos": 0.8333
+            },
+            "primaryValue": 0.002606,
+            "volumePrimaryValue": 0.08294,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "stag-talisman",
+                "name": "Stag Talisman",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a0668f95a/AzmeriSocketableStag.png",
+                "category": "Talismans",
+                "detailsId": "stag-talisman"
+            },
+            "rate": {
+                "divine": 81,
+                "exalted": 0.5114,
+                "chaos": 3
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 13.5,
+                "exalted": 7.5,
+                "chaos": 1
+            },
+            "primaryValue": 0.01235,
+            "volumePrimaryValue": 0.1667,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "talisman-of-eeshta",
+                "name": "Talisman of Eeshta",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8965465ce6/AzmeriSocketableOwlSpecial.png",
+                "category": "Talismans",
+                "detailsId": "talisman-of-eeshta"
+            },
+            "rate": {
+                "divine": 11,
+                "exalted": 0.013,
+                "chaos": 0.98
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 5.5,
+                "exalted": 16.83,
+                "chaos": 8.17
+            },
+            "primaryValue": 0.04254,
+            "volumePrimaryValue": 0.7161,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "talisman-of-egrin",
+                "name": "Talisman of Egrin",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZUNhdFNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/16657ca6fc/AzmeriSocketableCatSpecial.png",
+                "category": "Talismans",
+                "detailsId": "talisman-of-egrin"
+            },
+            "rate": {
+                "divine": 6,
+                "exalted": 0.02596,
+                "chaos": 0.1193
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 6,
+                "exalted": 27.5,
+                "chaos": 2.17
+            },
+            "primaryValue": 0.0213,
+            "volumePrimaryValue": 0.5858,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "talisman-of-maxarius",
+                "name": "Talisman of Maxarius",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVN0YWdTcGVjaWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f012409342/AzmeriSocketableStagSpecial.png",
+                "category": "Talismans",
+                "detailsId": "talisman-of-maxarius"
+            },
+            "rate": {
+                "divine": 10,
+                "exalted": 0.1,
+                "chaos": 1
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 3.33,
+                "exalted": 1.5,
+                "chaos": 0.1667
+            },
+            "primaryValue": 0.1,
+            "volumePrimaryValue": 0.3333,
+            "maxVolumeCurrency": "divine"
+        },
+        {
+            "item": {
+                "id": "talisman-of-ralakesh",
+                "name": "Talisman of Ralakesh",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU1vbmtleVNwZWNpYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8ffc9986a0/AzmeriSocketableMonkeySpecial.png",
+                "category": "Talismans",
+                "detailsId": "talisman-of-ralakesh"
+            },
+            "rate": {
+                "divine": 39.33,
+                "exalted": 0.02243,
+                "chaos": 0.6279
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 19.67,
+                "exalted": 43,
+                "chaos": 9
+            },
+            "primaryValue": 0.02466,
+            "volumePrimaryValue": 1.06,
+            "maxVolumeCurrency": "exalted"
+        },
+        {
+            "item": {
+                "id": "wolf-talisman",
+                "name": "Wolf Talisman",
+                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVdvbGYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c0deeb6d94/AzmeriSocketableWolf.png",
+                "category": "Talismans",
+                "detailsId": "wolf-talisman"
+            },
+            "rate": {
+                "divine": 4,
+                "exalted": 0.6
+            },
+            "sparklines": {},
+            "volumes": {
+                "divine": 0.6667,
+                "exalted": 2
+            },
+            "primaryValue": 0.0009216,
+            "volumePrimaryValue": 0.001843,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -254,16 +281,18 @@
                 "detailsId": "fox-talisman"
             },
             "rate": {
-                "exalted": 0.06465,
-                "chaos": 0.3704
+                "divine": 18,
+                "exalted": 0.06362,
+                "chaos": 0.6
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 18.17,
-                "chaos": 3.33
+                "divine": 3,
+                "exalted": 19.5,
+                "chaos": 1.5
             },
-            "primaryValue": 0.008763,
-            "volumePrimaryValue": 0.1592,
+            "primaryValue": 0.008691,
+            "volumePrimaryValue": 0.1695,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -275,15 +304,17 @@
                 "detailsId": "ox-talisman"
             },
             "rate": {
-                "exalted": 0.5746
+                "divine": 60,
+                "exalted": 0.1119
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 39.17
+                "divine": 20,
+                "exalted": 16
             },
-            "primaryValue": 0.0009861,
-            "volumePrimaryValue": 0.03862,
-            "maxVolumeCurrency": "exalted"
+            "primaryValue": 0.01667,
+            "volumePrimaryValue": 0.3333,
+            "maxVolumeCurrency": "divine"
         },
         {
             "item": {
@@ -294,18 +325,18 @@
                 "detailsId": "rabbit-talisman"
             },
             "rate": {
-                "divine": 16,
-                "exalted": 0.03872,
-                "chaos": 0.7308
+                "divine": 15.7,
+                "exalted": 0.03797,
+                "chaos": 0.6667
             },
             "sparklines": {},
             "volumes": {
-                "divine": 13.33,
-                "exalted": 70.83,
-                "chaos": 12.67
+                "divine": 26.17,
+                "exalted": 69.83,
+                "chaos": 11.67
             },
-            "primaryValue": 0.01463,
-            "volumePrimaryValue": 1.04,
+            "primaryValue": 0.01456,
+            "volumePrimaryValue": 1.02,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -317,16 +348,16 @@
                 "detailsId": "serpent-talisman"
             },
             "rate": {
-                "exalted": 0.1106,
-                "chaos": 0.5
+                "exalted": 0.1023,
+                "chaos": 0.5455
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 4,
-                "chaos": 0.8333
+                "exalted": 4.5,
+                "chaos": 1
             },
-            "primaryValue": 0.005123,
-            "volumePrimaryValue": 0.02049,
+            "primaryValue": 0.005407,
+            "volumePrimaryValue": 0.02433,
             "maxVolumeCurrency": "exalted"
         },
         {
@@ -338,15 +369,17 @@
                 "detailsId": "talisman-of-grold"
             },
             "rate": {
+                "divine": 8,
                 "exalted": 0.25
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 0.3333
+                "divine": 1.33,
+                "exalted": 0.1667
             },
-            "primaryValue": 0.002266,
-            "volumePrimaryValue": 0.0007554,
-            "maxVolumeCurrency": "exalted"
+            "primaryValue": 0.125,
+            "volumePrimaryValue": 0.1667,
+            "maxVolumeCurrency": "divine"
         },
         {
             "item": {
@@ -357,18 +390,18 @@
                 "detailsId": "talisman-of-sirrius"
             },
             "rate": {
-                "divine": 0.7251,
-                "exalted": 0.0005315,
-                "chaos": 0.0234
+                "divine": 0.7257,
+                "exalted": 0.000472,
+                "chaos": 0.02316
             },
             "sparklines": {},
             "volumes": {
-                "divine": 193.8,
-                "exalted": 4.17,
-                "chaos": 42.5
+                "divine": 186.5,
+                "exalted": 3.67,
+                "chaos": 37.5
             },
             "primaryValue": 1.38,
-            "volumePrimaryValue": 267.3,
+            "volumePrimaryValue": 257.0,
             "maxVolumeCurrency": "divine"
         },
         {
@@ -380,36 +413,19 @@
                 "detailsId": "talisman-of-thruldana"
             },
             "rate": {
-                "exalted": 0.4412,
+                "divine": 13.5,
+                "exalted": 0.5,
                 "chaos": 1
             },
             "sparklines": {},
             "volumes": {
-                "exalted": 2.5,
-                "chaos": 4
+                "divine": 4.5,
+                "exalted": 2.83,
+                "chaos": 5.17
             },
-            "primaryValue": 0.0345,
-            "volumePrimaryValue": 0.138,
+            "primaryValue": 0.03443,
+            "volumePrimaryValue": 0.1779,
             "maxVolumeCurrency": "chaos"
-        },
-        {
-            "item": {
-                "id": "wolf-talisman",
-                "name": "Wolf Talisman",
-                "image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZVdvbGYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c0deeb6d94/AzmeriSocketableWolf.png",
-                "category": "Talismans",
-                "detailsId": "wolf-talisman"
-            },
-            "rate": {
-                "exalted": 0.6111
-            },
-            "sparklines": {},
-            "volumes": {
-                "exalted": 1.83
-            },
-            "primaryValue": 0.0009271,
-            "volumePrimaryValue": 0.0017,
-            "maxVolumeCurrency": "exalted"
         }
     ]
 }
