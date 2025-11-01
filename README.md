@@ -48,6 +48,4 @@
 | Hedgewitch Assandra's Rune of Wisdom | 557.1 |
 | Atalui's Bloodletting | 513.1 |
 
-
-![Market Movers Chart](charts/market_movers.png)
 <!-- END_ANALYSIS -->
