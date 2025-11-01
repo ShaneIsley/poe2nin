@@ -34,18 +34,5 @@
 <!-- END_ANALYSIS -->
 
 <!-- START_ANALYSIS -->
-### Top 10 Most Valuable Items (Overall)
-| Item | Imputed Chaos Value |
-| :--- | :--- |
-| Mirror of Kalandra | 54,104.3 |
-| Hinekora's Lock | 19,616.4 |
-| Arjun's Medal | 3,422.6 |
-| Uhtred's Augury | 2,948.3 |
-| The Trialmaster's Reliquary Key | 2,075.6 |
-| Zarokh's Reliquary Key: Against the Darkness | 1,483.0 |
-| Ratha's Assault | 897.2 |
-| Dialla's Desire | 650.2 |
-| Hedgewitch Assandra's Rune of Wisdom | 557.1 |
-| Atalui's Bloodletting | 513.1 |
-
+Database is empty or has no recent data.
 <!-- END_ANALYSIS -->
